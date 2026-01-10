@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://archi.constructionveranda.com/sitemap.xml

@@ -1,0 +1,214 @@
+{
+  "overview": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Komplettlosungen fur Ihren Aussenbereich",
+    "description": "Von bioklimatischen Pergolen bis zu Aluminium-Wintergarten - wir bieten hochwertige Konstruktionen, die Ihren Aussenbereich verwandeln."
+  },
+  "pergola": {
+    "title": "Bioklimatische Pergola",
+    "subtitle": "Die ultimative Losung fur Ihre Terrasse",
+    "description": "Unsere bioklimatischen Pergolen verbinden Funktionalitat mit Eleganz. Die verstellbaren Aluminium-Lamellen geben Ihnen volle Kontrolle uber Sonnenlicht und Beluftung.",
+    "features": {
+      "title": "Eigenschaften",
+      "items": [
+        "Verstellbare Lamellen (0-135°)",
+        "Integrierte LED-Beleuchtung",
+        "Optional: Screens und Glaswande",
+        "Motorisierung mit Fernbedienung",
+        "Regensensor automatisches Schliessen",
+        "Pulverbeschichteter Aluminiumrahmen"
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile",
+      "items": [
+        "Geniessen Sie Ihre Terrasse das ganze Jahr uber",
+        "Perfekter Schutz vor Sonne und Regen",
+        "Erhoht den Wert Ihrer Immobilie",
+        "Minimaler Wartungsaufwand",
+        "15 Jahre Garantie auf die Konstruktion"
+      ]
+    }
+  },
+  "veranda": {
+    "title": "Aluminium-Wintergarten",
+    "subtitle": "Erweitern Sie Ihren Wohnraum",
+    "description": "Ein Wintergarten ist die perfekte Erweiterung Ihres Hauses. Unsere Aluminium-Wintergarten bieten ausgezeichnete Isolierung und zeitloses Design.",
+    "features": {
+      "title": "Eigenschaften",
+      "items": [
+        "Thermisch getrennte Aluminiumprofile",
+        "Doppel- oder Dreifachverglasung",
+        "Integrierter Sonnenschutz optional",
+        "Verschiedene Dachoptionen",
+        "Vollstandig massgeschneidert",
+        "RAL-Farben nach Wahl"
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile",
+      "items": [
+        "Zusatzlicher Wohnraum das ganze Jahr uber",
+        "Ausgezeichnete Warmeisolierung",
+        "Naturliches Licht in Ihrem Zuhause",
+        "Wertsteigerung Ihrer Immobilie",
+        "Energieeffiziente Losung"
+      ]
+    }
+  },
+  "carport": {
+    "title": "Aluminium-Carport",
+    "subtitle": "Schutz mit Stil",
+    "description": "Schutzen Sie Ihre Fahrzeuge mit einem langlebigen und stilvollen Aluminium-Carport. Vollstandig massgeschneidert fur Ihre Situation.",
+    "features": {
+      "title": "Eigenschaften",
+      "items": [
+        "Robuster Aluminiumrahmen",
+        "Verschiedene Dachoptionen",
+        "Optional: Seitenwande und Stauraum",
+        "Integrierte Beleuchtung moglich",
+        "Korrosionsbestandig",
+        "Schnelle Installation"
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile",
+      "items": [
+        "Schutz vor Witterung",
+        "Erhoht den Immobilienwert",
+        "Minimale Wartung",
+        "Langlebige Investition",
+        "Anpassbar an Ihr Zuhause"
+      ]
+    }
+  },
+  "window": {
+    "title": "Aluminium-Fenster",
+    "subtitle": "Moderne Fensterlösungen",
+    "description": "Hochwertige Aluminium-Fenster mit ausgezeichneter Isolierung. Elegantes Design kombiniert mit energieeffizienter Technologie.",
+    "features": {
+      "title": "Eigenschaften",
+      "items": [
+        "Thermisch getrennte Profile",
+        "Doppel- oder Dreifachverglasung",
+        "Verschiedene Öffnungsmechanismen",
+        "RAL-Farben nach Wahl",
+        "Optionales Sicherheitsglas",
+        "Schalldämmung"
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile",
+      "items": [
+        "Ausgezeichnete Wärmedämmung",
+        "Reduzierte Energiekosten",
+        "Erhöhte Sicherheit",
+        "Minimale Wartung",
+        "Lange Lebensdauer"
+      ]
+    }
+  },
+  "shutter": {
+    "title": "Rollläden",
+    "subtitle": "Sicherheit und Komfort",
+    "description": "Elektrische und manuelle Rollläden für optimalen Schutz und Privatsphäre. Steuerung per Schalter, Fernbedienung oder Smartphone.",
+    "features": {
+      "title": "Eigenschaften",
+      "items": [
+        "Elektrisch oder manuell",
+        "Isolierte Lamellen",
+        "Smart-Home-Integration",
+        "Verschiedene Farben verfügbar",
+        "Windbeständig bis 120 km/h",
+        "Leise Motoren"
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile",
+      "items": [
+        "Erhöhter Einbruchschutz",
+        "Bessere Wärmedämmung",
+        "Verdunkelung für optimalen Schlaf",
+        "Wetterschutz",
+        "Wertsteigerung Ihrer Immobilie"
+      ]
+    }
+  },
+  "garage": {
+    "title": "Garagentore",
+    "subtitle": "Sicher und komfortabel",
+    "description": "Sektional- und Schwingtore mit elektrischem Antrieb. Sicher, isoliert und mit elegantem Design.",
+    "features": {
+      "title": "Eigenschaften",
+      "items": [
+        "Sektional oder Schwingtor",
+        "Elektrischer Antrieb",
+        "Isolierte Paneele",
+        "Verschiedene Designs und Farben",
+        "Sicherheitssensoren",
+        "Fernbedienung inklusive"
+      ]
+    },
+    "benefits": {
+      "title": "Vorteile",
+      "items": [
+        "Platzsparendes Design",
+        "Erhöhte Sicherheit",
+        "Ausgezeichnete Isolierung",
+        "Leise und zuverlässig",
+        "Lange Lebensdauer"
+      ]
+    }
+  },
+  "process": {
+    "title": "Unser Arbeitsprozess",
+    "steps": [
+      {
+        "title": "Kostenlose Beratung",
+        "description": "Wir besuchen Sie, um Ihre Wunsche zu besprechen und die Situation zu beurteilen."
+      },
+      {
+        "title": "Design & Angebot",
+        "description": "Sie erhalten ein detailliertes Angebot mit 3D-Visualisierung Ihres Projekts."
+      },
+      {
+        "title": "Produktion",
+        "description": "Ihre Konstruktion wird in unserer Werkstatt massgeschneidert hergestellt."
+      },
+      {
+        "title": "Installation",
+        "description": "Unser erfahrenes Team installiert Ihr Projekt fachkundig und sauber."
+      }
+    ]
+  },
+  "meta": {
+    "overview": {
+      "title": "Leistungen - Pergola, Wintergarten & Carport",
+      "description": "Entdecken Sie unsere Leistungen: bioklimatische Pergolen, Aluminium-Wintergarten und Carports. Qualitat und Handwerkskunst fur Ihren Aussenbereich."
+    },
+    "pergola": {
+      "title": "Bioklimatische Pergola",
+      "description": "Bioklimatische Pergola mit verstellbaren Lamellen. Geniessen Sie Ihre Terrasse das ganze Jahr mit optimalem Schutz vor Sonne und Regen."
+    },
+    "veranda": {
+      "title": "Aluminium-Wintergarten",
+      "description": "Massgeschneiderter Aluminium-Wintergarten. Erweitern Sie Ihren Wohnraum mit einem eleganten und energieeffizienten Wintergarten. Fordern Sie ein kostenloses Angebot an."
+    },
+    "carport": {
+      "title": "Aluminium-Carport",
+      "description": "Langlebiger massgeschneiderter Aluminium-Carport. Schutzen Sie Ihre Fahrzeuge mit Stil. Korrosionsbestandig und wartungsarm."
+    },
+    "window": {
+      "title": "Aluminium-Fenster",
+      "description": "Hochwertige Aluminium-Fenster mit ausgezeichneter Isolierung. Elegantes Design und energieeffiziente Technologie für Ihr Zuhause."
+    },
+    "shutter": {
+      "title": "Rollläden",
+      "description": "Elektrische und manuelle Rollläden für optimale Sicherheit und Komfort. Steuerung per Fernbedienung oder Smartphone."
+    },
+    "garage": {
+      "title": "Garagentore",
+      "description": "Sektional- und Schwingtore mit elektrischem Antrieb. Sicher, isoliert und mit modernem Design."
+    }
+  }
+}

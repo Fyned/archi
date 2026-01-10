@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm ls:*)",
+      "Bash(curl:*)",
+      "Bash(ren:*)",
+      "Bash(powershell -Command \"Rename-Item -Path ''C:\\\\Projects\\\\Archi Construction Veranda\\\\public\\\\Yatay \\(Horizontal\\) Versiyon [Navbar için].png'' -NewName ''logo-horizontal.png''\")",
+      "Bash(powershell -Command \"Rename-Item -Path ''C:\\\\Projects\\\\Archi Construction Veranda\\\\public\\\\Favicon \\(Tarayıcı Sekme İkonu\\).png'' -NewName ''favicon.png''\")",
+      "Bash(powershell -Command \"Rename-Item -LiteralPath ''C:\\\\Projects\\\\Archi Construction Veranda\\\\public\\\\Negatif \\(BeyazAçık Renk\\).png'' -NewName ''logo-white.png''\")",
+      "Bash(powershell -Command \"Rename-Item -LiteralPath ''C:\\\\Projects\\\\Archi Construction Veranda\\\\public\\\\Dikey \\(Stacked\\) Versiyon.png'' -NewName ''logo-stacked.png''\")",
+      "Bash(powershell -Command \"Rename-Item -LiteralPath ''C:\\\\Projects\\\\Archi Construction Veranda\\\\public\\\\Sadece Sembol \\(Logomark Icon\\).png'' -NewName ''logo-icon.png''\")",
+      "Bash(powershell -Command \"Get-ChildItem ''C:\\\\Projects\\\\Archi Construction Veranda\\\\public'' -Filter ''*.png'' | Select-Object Name\")",
+      "Bash(powershell -Command \"Get-ChildItem ''C:\\\\Projects\\\\Archi Construction Veranda\\\\public'' -Filter ''Yatay*'' | Rename-Item -NewName ''logo-horizontal.png''\")",
+      "Bash(mkdir:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(dir /s /b *.tsx *.ts *.json)",
+      "Bash(cat:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

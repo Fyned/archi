@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkimizda",
+    "services": "Hizmetler",
+    "projects": "Projeler",
+    "blog": "Blog",
+    "contact": "Iletisim",
+    "quote": "Teklif Al"
+  },
+  "services_menu": {
+    "pergola": "Pergola",
+    "veranda": "Veranda",
+    "carport": "Carport",
+    "window": "Pencere",
+    "shutter": "Panjur",
+    "garage": "Garaj Kapisi",
+    "all": "Tum Hizmetler"
+  },
+  "cta": {
+    "get_quote": "Ucretsiz Teklif",
+    "contact_us": "Bize Ulasin",
+    "view_projects": "Projeleri Gor",
+    "learn_more": "Daha Fazla",
+    "call_now": "Hemen Ara",
+    "whatsapp": "WhatsApp",
+    "ready_title": "Baslamaya hazir misiniz?",
+    "ready_description": "Bugun ucretsiz teklif isteyin ve sizin icin neler yapabilecegimizi kesfedin.",
+    "request_quote": "Ucretsiz Teklif Isteyin"
+  },
+  "footer": {
+    "company": "Archi Construction & Veranda",
+    "tagline": "Belcika ve cevresinde pergola, veranda ve carport uzmaniniz.",
+    "quick_links": "Hizli Baglantilar",
+    "services": "Hizmetlerimiz",
+    "contact": "Iletisim",
+    "follow_us": "Bizi Takip Edin",
+    "privacy": "Gizlilik Politikasi",
+    "terms": "Kullanim Sartlari",
+    "copyright": "© {year} Archi Construction & Veranda. Tum haklari saklidir."
+  },
+  "contact_info": {
+    "phone": "Telefon",
+    "email": "E-posta",
+    "address": "Adres",
+    "hours": "Calisma Saatleri",
+    "hours_weekday": "Pzt - Cum: 08:00 - 18:00",
+    "hours_weekend": "Cmt: 09:00 - 13:00"
+  },
+  "form": {
+    "name": "Ad Soyad",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "message": "Mesaj",
+    "submit": "Gonder",
+    "sending": "Gonderiliyor...",
+    "success": "Mesaj basariyla gonderildi!",
+    "error": "Bir hata olustu. Lutfen tekrar deneyin."
+  },
+  "trust": {
+    "years": "Yillik Deneyim",
+    "projects": "Tamamlanan Proje",
+    "warranty": "Yil Garanti",
+    "satisfaction": "Musteri Memnuniyeti"
+  },
+  "meta": {
+    "title_suffix": " | Archi Construction & Veranda",
+    "default_description": "Biyoklimatik pergola, veranda ve carport uzmani. Belcika ve 500km cevresinde kalite ve isclik."
+  },
+  "service_detail": {
+    "gallery": "Ornekler",
+    "interested": "{{service}} ile ilgileniyor musunuz?",
+    "interested_description": "Bugun ucretsiz teklif isteyin. Projenizi gorusmek icin sizi yuksek olmadan ziyaret ediyoruz.",
+    "contact": "Iletisime gecin"
+  }
+}

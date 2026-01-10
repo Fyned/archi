@@ -1,0 +1,56 @@
+{
+  "title": "Onze Projecten",
+  "subtitle": "Ontdek onze realisaties en laat u inspireren",
+  "filters": {
+    "all": "Alle projecten",
+    "pergola": "Pergola's",
+    "veranda": "Veranda's",
+    "carport": "Carports",
+    "window": "Ramen",
+    "shutter": "Rolluiken",
+    "garage": "Garagepoorten"
+  },
+  "projects": {
+    "veranda_led": "Veranda met LED Verlichting",
+    "veranda_rooftop": "Dakveranda met Panoramisch Uitzicht",
+    "veranda_garden": "Tuinveranda met Glazen Dak",
+    "veranda_glass": "Glazen Veranda met Schuifpanelen",
+    "veranda_showroom": "Showroom Veranda",
+    "pergola_showroom": "Bioklimatische Pergola met LED",
+    "pergola_deck": "Pergola op Houten Terras",
+    "pergola_modern": "Moderne Aluminium Pergola",
+    "window_system": "Aluminium Raamsysteem",
+    "location_brussels": "Brussel, België",
+    "location_antwerp": "Antwerpen, België",
+    "location_ghent": "Gent, België",
+    "location_bruges": "Brugge, België",
+    "location_leuven": "Leuven, België",
+    "location_liege": "Luik, België",
+    "location_mechelen": "Mechelen, België",
+    "location_hasselt": "Hasselt, België",
+    "location_kortrijk": "Kortrijk, België"
+  },
+  "cta": {
+    "title": "Wilt u ook zo'n project?",
+    "description": "Neem contact met ons op voor een vrijblijvend adviesgesprek. Wij helpen u graag bij het realiseren van uw droomproject."
+  },
+  "project": {
+    "location": "Locatie",
+    "completed": "Afgerond",
+    "category": "Type",
+    "view_details": "Bekijk details",
+    "before_after": "Voor & Na",
+    "gallery": "Fotogalerij",
+    "testimonial": "Klantervaring",
+    "specifications": "Specificaties",
+    "related": "Gerelateerde projecten"
+  },
+  "empty": {
+    "title": "Geen projecten gevonden",
+    "description": "Pas uw filters aan om meer projecten te zien."
+  },
+  "meta": {
+    "title": "Projecten & Realisaties",
+    "description": "Bekijk onze gerealiseerde projecten: pergola's, veranda's en carports. Inspiratie voor uw eigen buitenproject."
+  }
+}

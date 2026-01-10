@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "title": "Creëer uw droomterras",
+    "subtitle": "Specialist in bioklimatische pergola's, veranda's en carports",
+    "description": "Transformeer uw buitenruimte met onze hoogwaardige aluminium constructies. Belgisch vakmanschap, 15 jaar garantie.",
+    "cta_primary": "Gratis offerte aanvragen",
+    "cta_secondary": "Bekijk onze projecten"
+  },
+  "services": {
+    "title": "Onze Diensten",
+    "subtitle": "Ontdek onze complete range van buitenconstructies",
+    "pergola": {
+      "title": "Bioklimatische Pergola",
+      "description": "Verstelbare lamellen voor optimale bescherming tegen zon en regen. Creëer de perfecte sfeer het hele jaar door."
+    },
+    "veranda": {
+      "title": "Aluminium Veranda",
+      "description": "Verleng uw leefruimte met een elegante veranda. Modern design, uitstekende isolatie."
+    },
+    "carport": {
+      "title": "Carport",
+      "description": "Bescherm uw voertuigen met stijl. Duurzame aluminium carports op maat gemaakt."
+    }
+  },
+  "why_us": {
+    "title": "Waarom Archi Construction?",
+    "subtitle": "Wij onderscheiden ons door kwaliteit, vakmanschap en service",
+    "quality": {
+      "title": "Premium Kwaliteit",
+      "description": "Wij gebruiken alleen hoogwaardige Belgische en Europese materialen."
+    },
+    "warranty": {
+      "title": "15 Jaar Garantie",
+      "description": "Volledig vertrouwen in onze constructies met uitgebreide garantie."
+    },
+    "custom": {
+      "title": "Op Maat Gemaakt",
+      "description": "Elk project wordt aangepast aan uw wensen en architectuur."
+    },
+    "service": {
+      "title": "Persoonlijke Service",
+      "description": "Van eerste contact tot nazorg, wij staan voor u klaar."
+    }
+  },
+  "projects": {
+    "title": "Recente Projecten",
+    "subtitle": "Ontdek enkele van onze meest recente realisaties",
+    "view_all": "Bekijk alle projecten"
+  },
+  "testimonials": {
+    "title": "Wat Onze Klanten Zeggen",
+    "subtitle": "Ontdek de ervaringen van tevreden klanten"
+  },
+  "cta_section": {
+    "title": "Klaar om uw project te starten?",
+    "description": "Vraag vandaag nog een gratis offerte aan en ontdek de mogelijkheden voor uw terras.",
+    "button": "Gratis offerte aanvragen"
+  },
+  "meta": {
+    "title": "Pergola, Veranda & Carport Specialist",
+    "description": "Archi Construction & Véranda - Uw specialist voor bioklimatische pergola's, aluminium veranda's en carports in België. Vraag een gratis offerte aan."
+  }
+}

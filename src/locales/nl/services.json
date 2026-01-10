@@ -1,0 +1,214 @@
+{
+  "overview": {
+    "title": "Onze Diensten",
+    "subtitle": "Complete oplossingen voor uw buitenruimte",
+    "description": "Van bioklimatische pergola's tot aluminium veranda's - wij bieden hoogwaardige constructies die uw buitenruimte transformeren."
+  },
+  "pergola": {
+    "title": "Bioklimatische Pergola",
+    "subtitle": "De ultieme oplossing voor uw terras",
+    "description": "Onze bioklimatische pergola's combineren functionaliteit met elegantie. De verstelbare aluminium lamellen bieden u volledige controle over zonlicht en ventilatie.",
+    "features": {
+      "title": "Kenmerken",
+      "items": [
+        "Verstelbare lamellen (0-135°)",
+        "Geïntegreerde LED-verlichting",
+        "Optioneel: screens en glazen wanden",
+        "Motorisatie met afstandsbediening",
+        "Regensensor automatisch sluiten",
+        "Gepoedercoat aluminium frame"
+      ]
+    },
+    "benefits": {
+      "title": "Voordelen",
+      "items": [
+        "Geniet het hele jaar door van uw terras",
+        "Perfecte bescherming tegen zon en regen",
+        "Verhoogt de waarde van uw woning",
+        "Minimaal onderhoud vereist",
+        "15 jaar garantie op constructie"
+      ]
+    }
+  },
+  "veranda": {
+    "title": "Aluminium Veranda",
+    "subtitle": "Verleng uw leefruimte",
+    "description": "Een veranda is de perfecte uitbreiding van uw woning. Onze aluminium veranda's bieden uitstekende isolatie en een tijdloos design.",
+    "features": {
+      "title": "Kenmerken",
+      "items": [
+        "Thermisch onderbroken aluminium profielen",
+        "Dubbel of drievoudig glas",
+        "Ingebouwde zonwering optioneel",
+        "Diverse dakopties",
+        "Volledig maatwerk",
+        "RAL kleuren naar keuze"
+      ]
+    },
+    "benefits": {
+      "title": "Voordelen",
+      "items": [
+        "Extra leefruimte het hele jaar door",
+        "Uitstekende warmte-isolatie",
+        "Natuurlijk licht in uw woning",
+        "Waardestijging van uw eigendom",
+        "Energiezuinige oplossing"
+      ]
+    }
+  },
+  "carport": {
+    "title": "Aluminium Carport",
+    "subtitle": "Bescherming met stijl",
+    "description": "Bescherm uw voertuigen met een duurzame en stijlvolle aluminium carport. Volledig op maat gemaakt voor uw situatie.",
+    "features": {
+      "title": "Kenmerken",
+      "items": [
+        "Robuust aluminium frame",
+        "Verschillende dakopties",
+        "Optioneel: zijwanden en opbergruimte",
+        "Geïntegreerde verlichting mogelijk",
+        "Corrosiebestendig",
+        "Snelle installatie"
+      ]
+    },
+    "benefits": {
+      "title": "Voordelen",
+      "items": [
+        "Bescherming tegen weer en wind",
+        "Verhoogt waarde van uw eigendom",
+        "Minimaal onderhoud",
+        "Duurzame investering",
+        "Aanpasbaar aan uw woning"
+      ]
+    }
+  },
+  "window": {
+    "title": "Aluminium Ramen",
+    "subtitle": "Moderne raamoplossingen",
+    "description": "Hoogwaardige aluminium ramen met uitstekende isolatie. Stijlvol design gecombineerd met energiezuinige technologie.",
+    "features": {
+      "title": "Kenmerken",
+      "items": [
+        "Thermisch onderbroken profielen",
+        "Dubbel of drievoudig glas",
+        "Diverse openingsmechanismen",
+        "RAL kleuren naar keuze",
+        "Inbraakwerend glas optioneel",
+        "Geluiddempend"
+      ]
+    },
+    "benefits": {
+      "title": "Voordelen",
+      "items": [
+        "Uitstekende warmte-isolatie",
+        "Lagere energiekosten",
+        "Verhoogde veiligheid",
+        "Minimaal onderhoud",
+        "Lange levensduur"
+      ]
+    }
+  },
+  "shutter": {
+    "title": "Rolluiken",
+    "subtitle": "Veiligheid en comfort",
+    "description": "Elektrische en handmatige rolluiken voor optimale bescherming en privacy. Bediening via schakelaar, afstandsbediening of smartphone.",
+    "features": {
+      "title": "Kenmerken",
+      "items": [
+        "Elektrisch of handmatig",
+        "Geïsoleerde lamellen",
+        "Domotica-integratie mogelijk",
+        "Diverse kleuren beschikbaar",
+        "Windvast tot 120 km/u",
+        "Stille motoren"
+      ]
+    },
+    "benefits": {
+      "title": "Voordelen",
+      "items": [
+        "Verhoogde inbraakbeveiliging",
+        "Betere warmte-isolatie",
+        "Verduistering voor optimaal slaapcomfort",
+        "Bescherming tegen weer en wind",
+        "Waardestijging van uw woning"
+      ]
+    }
+  },
+  "garage": {
+    "title": "Garagepoorten",
+    "subtitle": "Veilig en comfortabel",
+    "description": "Sectionele en kantelgaragepoorten met elektrische bediening. Veilig, geïsoleerd en stijlvol ontworpen.",
+    "features": {
+      "title": "Kenmerken",
+      "items": [
+        "Sectioneel of kantelend",
+        "Elektrische aandrijving",
+        "Geïsoleerde panelen",
+        "Diverse designs en kleuren",
+        "Veiligheidssensoren",
+        "Afstandsbediening inbegrepen"
+      ]
+    },
+    "benefits": {
+      "title": "Voordelen",
+      "items": [
+        "Ruimtebesparend ontwerp",
+        "Verhoogde veiligheid",
+        "Uitstekende isolatie",
+        "Stil en betrouwbaar",
+        "Lange levensduur"
+      ]
+    }
+  },
+  "process": {
+    "title": "Ons Werkproces",
+    "steps": [
+      {
+        "title": "Gratis Adviesgesprek",
+        "description": "Wij komen bij u langs om uw wensen te bespreken en de situatie te bekijken."
+      },
+      {
+        "title": "Ontwerp & Offerte",
+        "description": "U ontvangt een gedetailleerde offerte met 3D-visualisatie van uw project."
+      },
+      {
+        "title": "Productie",
+        "description": "Uw constructie wordt op maat geproduceerd in onze werkplaats."
+      },
+      {
+        "title": "Installatie",
+        "description": "Ons ervaren team installeert uw project vakkundig en netjes."
+      }
+    ]
+  },
+  "meta": {
+    "overview": {
+      "title": "Diensten - Pergola, Veranda & Carport",
+      "description": "Ontdek onze diensten: bioklimatische pergola's, aluminium veranda's en carports. Kwaliteit en vakmanschap voor uw buitenruimte."
+    },
+    "pergola": {
+      "title": "Bioklimatische Pergola",
+      "description": "Bioklimatische pergola met verstelbare lamellen. Geniet het hele jaar van uw terras met optimale bescherming tegen zon en regen."
+    },
+    "veranda": {
+      "title": "Aluminium Veranda",
+      "description": "Aluminium veranda op maat. Verleng uw leefruimte met een elegante en energiezuinige veranda. Vraag een gratis offerte aan."
+    },
+    "carport": {
+      "title": "Aluminium Carport",
+      "description": "Duurzame aluminium carport op maat. Bescherm uw voertuigen met stijl. Corrosiebestendig en onderhoudsarm."
+    },
+    "window": {
+      "title": "Aluminium Ramen",
+      "description": "Hoogwaardige aluminium ramen met uitstekende isolatie. Energiezuinig en stijlvol. Vraag een gratis offerte aan."
+    },
+    "shutter": {
+      "title": "Rolluiken",
+      "description": "Elektrische en handmatige rolluiken voor optimale veiligheid en comfort. Professionele installatie."
+    },
+    "garage": {
+      "title": "Garagepoorten",
+      "description": "Sectionele en kantelgaragepoorten op maat. Veilig, geïsoleerd en elektrisch bedienbaar."
+    }
+  }
+}

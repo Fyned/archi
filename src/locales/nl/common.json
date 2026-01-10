@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Over ons",
+    "services": "Diensten",
+    "projects": "Projecten",
+    "blog": "Blog",
+    "contact": "Contact",
+    "quote": "Offerte aanvragen"
+  },
+  "services_menu": {
+    "pergola": "Pergola",
+    "veranda": "Veranda",
+    "carport": "Carport",
+    "window": "Ramen",
+    "shutter": "Rolluiken",
+    "garage": "Garagepoorten",
+    "all": "Alle diensten"
+  },
+  "cta": {
+    "get_quote": "Gratis offerte",
+    "contact_us": "Contacteer ons",
+    "view_projects": "Bekijk projecten",
+    "learn_more": "Meer info",
+    "call_now": "Bel nu",
+    "whatsapp": "WhatsApp",
+    "ready_title": "Klaar om te starten?",
+    "ready_description": "Vraag vandaag nog een gratis offerte aan en ontdek wat wij voor u kunnen betekenen.",
+    "request_quote": "Gratis offerte aanvragen"
+  },
+  "footer": {
+    "company": "Archi Construction & Véranda",
+    "tagline": "Uw specialist in pergola's, veranda's en carports in België en omgeving.",
+    "quick_links": "Snelle links",
+    "services": "Onze diensten",
+    "contact": "Contact",
+    "follow_us": "Volg ons",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene voorwaarden",
+    "copyright": "© {year} Archi Construction & Véranda. Alle rechten voorbehouden."
+  },
+  "contact_info": {
+    "phone": "Telefoon",
+    "email": "E-mail",
+    "address": "Adres",
+    "hours": "Openingsuren",
+    "hours_weekday": "Ma - Vr: 08:00 - 18:00",
+    "hours_weekend": "Za: 09:00 - 13:00"
+  },
+  "form": {
+    "name": "Naam",
+    "email": "E-mail",
+    "phone": "Telefoonnummer",
+    "message": "Bericht",
+    "submit": "Versturen",
+    "sending": "Bezig met versturen...",
+    "success": "Bericht succesvol verzonden!",
+    "error": "Er is een fout opgetreden. Probeer het opnieuw."
+  },
+  "trust": {
+    "years": "Jaar ervaring",
+    "projects": "Projecten gerealiseerd",
+    "warranty": "Jaar garantie",
+    "satisfaction": "Klanttevredenheid"
+  },
+  "meta": {
+    "title_suffix": " | Archi Construction & Véranda",
+    "default_description": "Specialist in bioklimatische pergola's, veranda's en carports. Vakmanschap en kwaliteit in België en 500km omtrek."
+  },
+  "service_detail": {
+    "gallery": "Voorbeelden",
+    "interested": "Interesse in een {{service}}?",
+    "interested_description": "Vraag vandaag nog een gratis offerte aan. Wij komen vrijblijvend bij u langs om uw project te bespreken.",
+    "contact": "Contact opnemen"
+  }
+}

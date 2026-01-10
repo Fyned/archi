@@ -1,0 +1,56 @@
+{
+  "title": "Our Projects",
+  "subtitle": "Discover our realisations and get inspired",
+  "filters": {
+    "all": "All Projects",
+    "pergola": "Pergolas",
+    "veranda": "Verandas",
+    "carport": "Carports",
+    "window": "Windows",
+    "shutter": "Shutters",
+    "garage": "Garage Doors"
+  },
+  "projects": {
+    "veranda_led": "Veranda with LED Lighting",
+    "veranda_rooftop": "Rooftop Veranda with Panoramic View",
+    "veranda_garden": "Garden Veranda with Glass Roof",
+    "veranda_glass": "Glass Veranda with Sliding Panels",
+    "veranda_showroom": "Showroom Veranda",
+    "pergola_showroom": "Bioclimatic Pergola with LED",
+    "pergola_deck": "Pergola on Wooden Deck",
+    "pergola_modern": "Modern Aluminum Pergola",
+    "window_system": "Aluminum Window System",
+    "location_brussels": "Brussels, Belgium",
+    "location_antwerp": "Antwerp, Belgium",
+    "location_ghent": "Ghent, Belgium",
+    "location_bruges": "Bruges, Belgium",
+    "location_leuven": "Leuven, Belgium",
+    "location_liege": "Liège, Belgium",
+    "location_mechelen": "Mechelen, Belgium",
+    "location_hasselt": "Hasselt, Belgium",
+    "location_kortrijk": "Kortrijk, Belgium"
+  },
+  "cta": {
+    "title": "Want a project like this?",
+    "description": "Contact us for a free consultation. We are happy to help you realize your dream project."
+  },
+  "project": {
+    "location": "Location",
+    "completed": "Completed",
+    "category": "Type",
+    "view_details": "View Details",
+    "before_after": "Before & After",
+    "gallery": "Photo Gallery",
+    "testimonial": "Client Testimonial",
+    "specifications": "Specifications",
+    "related": "Related Projects"
+  },
+  "empty": {
+    "title": "No projects found",
+    "description": "Adjust your filters to see more projects."
+  },
+  "meta": {
+    "title": "Projects & Realisations",
+    "description": "View our completed projects: pergolas, verandas and carports. Inspiration for your own outdoor project."
+  }
+}

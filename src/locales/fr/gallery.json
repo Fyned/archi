@@ -1,0 +1,56 @@
+{
+  "title": "Nos Projets",
+  "subtitle": "Découvrez nos réalisations et laissez-vous inspirer",
+  "filters": {
+    "all": "Tous les projets",
+    "pergola": "Pergolas",
+    "veranda": "Vérandas",
+    "carport": "Carports",
+    "window": "Fenêtres",
+    "shutter": "Volets",
+    "garage": "Portes de garage"
+  },
+  "projects": {
+    "veranda_led": "Véranda avec éclairage LED",
+    "veranda_rooftop": "Véranda sur toit avec vue panoramique",
+    "veranda_garden": "Véranda de jardin avec toit en verre",
+    "veranda_glass": "Véranda vitrée avec panneaux coulissants",
+    "veranda_showroom": "Véranda showroom",
+    "pergola_showroom": "Pergola bioclimatique avec LED",
+    "pergola_deck": "Pergola sur terrasse en bois",
+    "pergola_modern": "Pergola aluminium moderne",
+    "window_system": "Système de fenêtres aluminium",
+    "location_brussels": "Bruxelles, Belgique",
+    "location_antwerp": "Anvers, Belgique",
+    "location_ghent": "Gand, Belgique",
+    "location_bruges": "Bruges, Belgique",
+    "location_leuven": "Louvain, Belgique",
+    "location_liege": "Liège, Belgique",
+    "location_mechelen": "Malines, Belgique",
+    "location_hasselt": "Hasselt, Belgique",
+    "location_kortrijk": "Courtrai, Belgique"
+  },
+  "cta": {
+    "title": "Vous voulez un projet comme celui-ci?",
+    "description": "Contactez-nous pour une consultation gratuite. Nous sommes heureux de vous aider à réaliser votre projet de rêve."
+  },
+  "project": {
+    "location": "Localisation",
+    "completed": "Terminé",
+    "category": "Type",
+    "view_details": "Voir les détails",
+    "before_after": "Avant & Après",
+    "gallery": "Galerie photos",
+    "testimonial": "Témoignage client",
+    "specifications": "Spécifications",
+    "related": "Projets similaires"
+  },
+  "empty": {
+    "title": "Aucun projet trouvé",
+    "description": "Ajustez vos filtres pour voir plus de projets."
+  },
+  "meta": {
+    "title": "Projets & Réalisations",
+    "description": "Découvrez nos projets réalisés: pergolas, vérandas et carports. Inspiration pour votre propre projet extérieur."
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Uber uns",
+    "services": "Leistungen",
+    "projects": "Projekte",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "quote": "Angebot anfordern"
+  },
+  "services_menu": {
+    "pergola": "Pergola",
+    "veranda": "Wintergarten",
+    "carport": "Carport",
+    "window": "Fenster",
+    "shutter": "Rollläden",
+    "garage": "Garagentore",
+    "all": "Alle Leistungen"
+  },
+  "cta": {
+    "get_quote": "Kostenloses Angebot",
+    "contact_us": "Kontaktieren Sie uns",
+    "view_projects": "Projekte ansehen",
+    "learn_more": "Mehr erfahren",
+    "call_now": "Jetzt anrufen",
+    "whatsapp": "WhatsApp",
+    "ready_title": "Bereit loszulegen?",
+    "ready_description": "Fordern Sie noch heute ein kostenloses Angebot an und entdecken Sie, was wir für Sie tun können.",
+    "request_quote": "Kostenloses Angebot anfordern"
+  },
+  "footer": {
+    "company": "Archi Construction & Veranda",
+    "tagline": "Ihr Spezialist fur Pergolen, Wintergarten und Carports in Belgien und Umgebung.",
+    "quick_links": "Schnellzugriff",
+    "services": "Unsere Leistungen",
+    "contact": "Kontakt",
+    "follow_us": "Folgen Sie uns",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "copyright": "© {year} Archi Construction & Veranda. Alle Rechte vorbehalten."
+  },
+  "contact_info": {
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "hours": "Offnungszeiten",
+    "hours_weekday": "Mo - Fr: 08:00 - 18:00",
+    "hours_weekend": "Sa: 09:00 - 13:00"
+  },
+  "form": {
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefonnummer",
+    "message": "Nachricht",
+    "submit": "Absenden",
+    "sending": "Wird gesendet...",
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+  },
+  "trust": {
+    "years": "Jahre Erfahrung",
+    "projects": "Abgeschlossene Projekte",
+    "warranty": "Jahre Garantie",
+    "satisfaction": "Kundenzufriedenheit"
+  },
+  "meta": {
+    "title_suffix": " | Archi Construction & Veranda",
+    "default_description": "Spezialist fur bioklimatische Pergolen, Wintergarten und Carports. Handwerk und Qualitat in Belgien und 500km Umkreis."
+  },
+  "service_detail": {
+    "gallery": "Beispiele",
+    "interested": "Interesse an einem {{service}}?",
+    "interested_description": "Fordern Sie noch heute ein kostenloses Angebot an. Wir besuchen Sie unverbindlich, um Ihr Projekt zu besprechen.",
+    "contact": "Kontakt aufnehmen"
+  }
+}

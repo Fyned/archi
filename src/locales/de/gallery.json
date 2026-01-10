@@ -1,0 +1,56 @@
+{
+  "title": "Unsere Projekte",
+  "subtitle": "Entdecken Sie unsere Realisierungen und lassen Sie sich inspirieren",
+  "filters": {
+    "all": "Alle Projekte",
+    "pergola": "Pergolen",
+    "veranda": "Wintergarten",
+    "carport": "Carports",
+    "window": "Fenster",
+    "shutter": "Rollläden",
+    "garage": "Garagentore"
+  },
+  "projects": {
+    "veranda_led": "Wintergarten mit LED-Beleuchtung",
+    "veranda_rooftop": "Dach-Wintergarten mit Panoramablick",
+    "veranda_garden": "Garten-Wintergarten mit Glasdach",
+    "veranda_glass": "Glas-Wintergarten mit Schiebepaneelen",
+    "veranda_showroom": "Showroom Wintergarten",
+    "pergola_showroom": "Bioklimatische Pergola mit LED",
+    "pergola_deck": "Pergola auf Holzterrasse",
+    "pergola_modern": "Moderne Aluminium-Pergola",
+    "window_system": "Aluminium-Fenstersystem",
+    "location_brussels": "Brüssel, Belgien",
+    "location_antwerp": "Antwerpen, Belgien",
+    "location_ghent": "Gent, Belgien",
+    "location_bruges": "Brügge, Belgien",
+    "location_leuven": "Löwen, Belgien",
+    "location_liege": "Lüttich, Belgien",
+    "location_mechelen": "Mechelen, Belgien",
+    "location_hasselt": "Hasselt, Belgien",
+    "location_kortrijk": "Kortrijk, Belgien"
+  },
+  "cta": {
+    "title": "Möchten Sie auch so ein Projekt?",
+    "description": "Kontaktieren Sie uns für eine kostenlose Beratung. Wir helfen Ihnen gerne, Ihr Traumprojekt zu verwirklichen."
+  },
+  "project": {
+    "location": "Standort",
+    "completed": "Abgeschlossen",
+    "category": "Typ",
+    "view_details": "Details ansehen",
+    "before_after": "Vorher & Nachher",
+    "gallery": "Fotogalerie",
+    "testimonial": "Kundenerfahrung",
+    "specifications": "Spezifikationen",
+    "related": "Ähnliche Projekte"
+  },
+  "empty": {
+    "title": "Keine Projekte gefunden",
+    "description": "Passen Sie Ihre Filter an, um mehr Projekte zu sehen."
+  },
+  "meta": {
+    "title": "Projekte & Realisierungen",
+    "description": "Sehen Sie unsere abgeschlossenen Projekte: Pergolen, Wintergarten und Carports. Inspiration für Ihr eigenes Außenprojekt."
+  }
+}
