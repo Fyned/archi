@@ -25,15 +25,18 @@ interface CardImageProps {
   src: string
   alt: string
   className?: string
+  eager?: boolean
 }
 
-export function CardImage({ src, alt, className }: CardImageProps) {
+export function CardImage({ src, alt, className, eager = false }: CardImageProps) {
   return (
     <div className={clsx('aspect-video overflow-hidden', className)}>
       <img
         src={src}
         alt={alt}
         className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+        loading={eager ? 'eager' : 'lazy'}
+        decoding="async"
       />
     </div>
   )

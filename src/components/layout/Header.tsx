@@ -70,6 +70,9 @@ export function Header() {
               src="/logo-horizontal.png"
               alt="Archi Construction & Véranda"
               className="h-12 md:h-14 w-auto"
+              width={200}
+              height={56}
+              loading="eager"
             />
           </a>
 

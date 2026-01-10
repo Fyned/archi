@@ -43,6 +43,9 @@ export function Footer() {
                 src="/logo-white.png"
                 alt="Archi Construction & Véranda"
                 className="h-28 w-auto"
+                width={150}
+                height={112}
+                loading="lazy"
               />
             </div>
             <p className="text-gray-400 mb-6">
