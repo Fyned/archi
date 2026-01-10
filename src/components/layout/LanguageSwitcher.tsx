@@ -2,15 +2,27 @@ import { useState, useRef, useEffect } from 'react'
 import { ChevronDown, Globe } from 'lucide-react'
 import { useLocalizedPath } from '@/hooks/useLocalizedPath'
 import { supportedLanguages, languageNames, type SupportedLanguage } from '@/lib/i18n/config'
+import { getLocalizedPath } from '@/lib/i18n/utils'
 import clsx from 'clsx'
 
 export function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
-  const { localizedPath, currentLocale } = useLocalizedPath()
+  const { currentLocale } = useLocalizedPath()
 
-  // Get current path without locale prefix
-  const currentPath = typeof window !== 'undefined' ? window.location.pathname : '/'
+  // Get current path without locale prefix for switching
+  const getCurrentPathWithoutLocale = (): string => {
+    const pathname = window.location.pathname
+    for (const lang of supportedLanguages) {
+      if (pathname.startsWith(`/${lang}/`)) {
+        return pathname.slice(lang.length + 1)
+      }
+      if (pathname === `/${lang}`) {
+        return '/'
+      }
+    }
+    return pathname
+  }
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -23,13 +35,11 @@ export function LanguageSwitcher() {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
-  const handleLanguageChange = async (locale: SupportedLanguage) => {
-    // First change the i18n language
-    const { default: i18n } = await import('@/lib/i18n/config')
-    await i18n.changeLanguage(locale)
-
-    // Then navigate to the new localized path
-    const newPath = localizedPath(currentPath, locale)
+  const handleLanguageChange = (locale: SupportedLanguage) => {
+    setIsOpen(false)
+    const cleanPath = getCurrentPathWithoutLocale()
+    const newPath = getLocalizedPath(cleanPath, locale)
+    // Full page navigation to ensure i18n reinitializes with correct language
     window.location.href = newPath
   }
 

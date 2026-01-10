@@ -1,6 +1,5 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
-import LanguageDetector from 'i18next-browser-languagedetector'
 
 import nlCommon from '@/locales/nl/common.json'
 import nlHome from '@/locales/nl/home.json'
@@ -99,26 +98,27 @@ const resources = {
   }
 }
 
-// Only use LanguageDetector on client side
-if (typeof window !== 'undefined') {
-  i18n.use(LanguageDetector)
+// Get language from URL path
+function getLanguageFromPath(): SupportedLanguage {
+  if (typeof window === 'undefined') return 'nl'
+  const pathParts = window.location.pathname.split('/').filter(Boolean)
+  const firstPart = pathParts[0] as SupportedLanguage
+  if (supportedLanguages.includes(firstPart)) {
+    return firstPart
+  }
+  return 'nl' // Default language
 }
 
 i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'nl', // Default language
+    lng: getLanguageFromPath(), // Detect from URL
     fallbackLng: 'nl',
     defaultNS: 'common',
     ns: ['common', 'home', 'services', 'gallery', 'privacy', 'contact'],
     interpolation: {
       escapeValue: false
-    },
-    detection: {
-      order: ['path', 'cookie', 'navigator'],
-      lookupFromPathIndex: 0,
-      caches: ['cookie']
     }
   })
 
