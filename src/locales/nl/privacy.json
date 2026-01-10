@@ -1,0 +1,31 @@
+{
+  "title": "Privacybeleid",
+  "last_updated": "Laatst bijgewerkt: Januari 2025",
+  "intro": "Bij Archi Construction & Véranda nemen we uw privacy serieus. Dit beleid legt uit hoe we uw persoonlijke informatie verzamelen, gebruiken en beschermen.",
+  "sections": {
+    "collection": {
+      "title": "Informatie die we verzamelen",
+      "content": "We verzamelen informatie die u rechtstreeks aan ons verstrekt, zoals wanneer u een offerte aanvraagt, contact met ons opneemt of zich inschrijft voor onze nieuwsbrief. Dit kan uw naam, e-mailadres, telefoonnummer en adres omvatten."
+    },
+    "use": {
+      "title": "Hoe we uw informatie gebruiken",
+      "content": "We gebruiken uw informatie om offertes te verstrekken, vragen te beantwoorden, afspraken te plannen en u updates over onze diensten te sturen. We verkopen uw persoonlijke informatie nooit aan derden."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "Onze website gebruikt cookies om uw browse-ervaring te verbeteren. U kunt cookie-instellingen beheren via uw browservoorkeuren."
+    },
+    "security": {
+      "title": "Gegevensbeveiliging",
+      "content": "We implementeren passende beveiligingsmaatregelen om uw persoonlijke informatie te beschermen tegen ongeautoriseerde toegang, wijziging of openbaarmaking."
+    },
+    "rights": {
+      "title": "Uw rechten",
+      "content": "Onder de AVG heeft u het recht om uw persoonlijke gegevens in te zien, te corrigeren of te verwijderen. Neem contact met ons op om deze rechten uit te oefenen."
+    },
+    "contact": {
+      "title": "Contact opnemen",
+      "content": "Als u vragen heeft over dit privacybeleid, neem dan contact met ons op via:"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Neem Contact Op",
+    "subtitle": "Neem contact met ons op voor een vrijblijvend adviesgesprek"
+  },
+  "info": {
+    "title": "Contactgegevens",
+    "contact_person": "Yusuf Cetin"
+  },
+  "form": {
+    "title": "Stuur ons een bericht",
+    "name_placeholder": "Uw naam",
+    "email_placeholder": "uw@email.com",
+    "phone_placeholder": "+32 XXX XX XX XX",
+    "subject_label": "Onderwerp",
+    "subject_placeholder": "Selecteer een onderwerp",
+    "subject_pergola": "Pergola",
+    "subject_veranda": "Veranda",
+    "subject_carport": "Carport",
+    "subject_window": "Ramen",
+    "subject_shutter": "Rolluiken",
+    "subject_garage": "Garagepoorten",
+    "subject_other": "Anders",
+    "message_placeholder": "Vertel ons over uw project...",
+    "success_message": "We nemen zo snel mogelijk contact met u op."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Gizlilik Politikası",
+  "last_updated": "Son güncelleme: Ocak 2025",
+  "intro": "Archi Construction & Véranda olarak gizliliğinizi ciddiye alıyoruz. Bu politika, kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.",
+  "sections": {
+    "collection": {
+      "title": "Topladığımız Bilgiler",
+      "content": "Teklif talep ettiğinizde, bizimle iletişime geçtiğinizde veya bültenimize abone olduğunuzda doğrudan bize sağladığınız bilgileri topluyoruz. Bu, adınızı, e-posta adresinizi, telefon numaranızı ve adresinizi içerebilir."
+    },
+    "use": {
+      "title": "Bilgilerinizi Nasıl Kullanıyoruz",
+      "content": "Bilgilerinizi teklif vermek, sorulara yanıt vermek, randevu planlamak ve hizmetlerimiz hakkında güncellemeler göndermek için kullanıyoruz. Kişisel bilgilerinizi asla üçüncü taraflara satmayız."
+    },
+    "cookies": {
+      "title": "Çerezler",
+      "content": "Web sitemiz, tarama deneyiminizi geliştirmek için çerezler kullanır. Tarayıcı tercihleriniz aracılığıyla çerez ayarlarını kontrol edebilirsiniz."
+    },
+    "security": {
+      "title": "Veri Güvenliği",
+      "content": "Kişisel bilgilerinizi yetkisiz erişim, değişiklik veya ifşaya karşı korumak için uygun güvenlik önlemleri uyguluyoruz."
+    },
+    "rights": {
+      "title": "Haklarınız",
+      "content": "KVKK kapsamında kişisel verilerinize erişme, düzeltme veya silme hakkına sahipsiniz. Bu hakları kullanmak için bizimle iletişime geçin."
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "content": "Bu gizlilik politikası hakkında sorularınız varsa, lütfen bize şu adresten ulaşın:"
+    }
+  }
+}

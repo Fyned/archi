@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Bize Ulasin",
+    "subtitle": "Ucretsiz danismanlik icin bizimle iletisime gecin"
+  },
+  "info": {
+    "title": "Iletisim Bilgileri",
+    "contact_person": "Yusuf Cetin"
+  },
+  "form": {
+    "title": "Bize mesaj gonderin",
+    "name_placeholder": "Adiniz",
+    "email_placeholder": "email@adresiniz.com",
+    "phone_placeholder": "+32 XXX XX XX XX",
+    "subject_label": "Konu",
+    "subject_placeholder": "Bir konu secin",
+    "subject_pergola": "Pergola",
+    "subject_veranda": "Veranda",
+    "subject_carport": "Carport",
+    "subject_window": "Pencere",
+    "subject_shutter": "Panjur",
+    "subject_garage": "Garaj Kapisi",
+    "subject_other": "Diger",
+    "message_placeholder": "Projeniz hakkinda bilgi verin...",
+    "success_message": "En kisa surede sizinle iletisime gececegiz."
+  }
+}

@@ -7,7 +7,9 @@ import {
   QuotePage,
   ServicesPage,
   ServiceDetailPage,
-  ProjectsPage
+  ProjectsPage,
+  ProjectDetailPage,
+  PrivacyPolicyPage
 } from '@/pages'
 
 export default function App() {
@@ -19,8 +21,10 @@ export default function App() {
       <Route path="/services" element={<Layout><ServicesPage /></Layout>} />
       <Route path="/services/:serviceId" element={<Layout><ServiceDetailPage /></Layout>} />
       <Route path="/projects" element={<Layout><ProjectsPage /></Layout>} />
+      <Route path="/projects/:projectId" element={<Layout><ProjectDetailPage /></Layout>} />
       <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
       <Route path="/quote" element={<Layout><QuotePage /></Layout>} />
+      <Route path="/privacy" element={<Layout><PrivacyPolicyPage /></Layout>} />
 
       {/* Localized routes */}
       <Route path="/:lang" element={<Layout><HomePage /></Layout>} />
@@ -28,8 +32,10 @@ export default function App() {
       <Route path="/:lang/services" element={<Layout><ServicesPage /></Layout>} />
       <Route path="/:lang/services/:serviceId" element={<Layout><ServiceDetailPage /></Layout>} />
       <Route path="/:lang/projects" element={<Layout><ProjectsPage /></Layout>} />
+      <Route path="/:lang/projects/:projectId" element={<Layout><ProjectDetailPage /></Layout>} />
       <Route path="/:lang/contact" element={<Layout><ContactPage /></Layout>} />
       <Route path="/:lang/quote" element={<Layout><QuotePage /></Layout>} />
+      <Route path="/:lang/privacy" element={<Layout><PrivacyPolicyPage /></Layout>} />
     </Routes>
   )
 }

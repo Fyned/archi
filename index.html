@@ -84,14 +84,44 @@
         }
       ],
       "priceRange": "$$",
-      "areaServed": {
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Belgium"
+        },
+        {
+          "@type": "Country",
+          "name": "Netherlands"
+        },
+        {
+          "@type": "Country",
+          "name": "Luxembourg"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Nord-Pas-de-Calais",
+          "containedIn": {
+            "@type": "Country",
+            "name": "France"
+          }
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Nordrhein-Westfalen",
+          "containedIn": {
+            "@type": "Country",
+            "name": "Germany"
+          }
+        }
+      ],
+      "serviceArea": {
         "@type": "GeoCircle",
         "geoMidpoint": {
           "@type": "GeoCoordinates",
           "latitude": 50.8503,
           "longitude": 4.3517
         },
-        "geoRadius": "500000"
+        "geoRadius": "500 km"
       },
       "sameAs": [
         "https://www.facebook.com/share/17aoRK7UdL/",

@@ -1,12 +1,16 @@
 {
   "nav": {
     "home": "Startseite",
-    "about": "Uber uns",
+    "about": "Über uns",
     "services": "Leistungen",
     "projects": "Projekte",
-    "blog": "Blog",
     "contact": "Kontakt",
-    "quote": "Angebot anfordern"
+    "quote": "Angebot anfordern",
+    "privacy": "Datenschutz"
+  },
+  "whatsapp": {
+    "button_text": "WhatsApp",
+    "chat_with_us": "Chatten Sie mit uns auf WhatsApp"
   },
   "services_menu": {
     "pergola": "Pergola",
@@ -30,14 +34,15 @@
   },
   "footer": {
     "company": "Archi Construction & Veranda",
-    "tagline": "Ihr Spezialist fur Pergolen, Wintergarten und Carports in Belgien und Umgebung.",
+    "tagline": "Ihr Spezialist für Pergolen, Wintergärten und Carports in Belgien und Umgebung.",
     "quick_links": "Schnellzugriff",
     "services": "Unsere Leistungen",
     "contact": "Kontakt",
     "follow_us": "Folgen Sie uns",
     "privacy": "Datenschutz",
     "terms": "AGB",
-    "copyright": "© {year} Archi Construction & Veranda. Alle Rechte vorbehalten."
+    "copyright": "© {year} Archi Construction & Veranda. Alle Rechte vorbehalten.",
+    "location": "Belgien und Umgebung"
   },
   "contact_info": {
     "phone": "Telefon",

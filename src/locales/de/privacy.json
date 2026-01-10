@@ -1,0 +1,31 @@
+{
+  "title": "Datenschutzrichtlinie",
+  "last_updated": "Zuletzt aktualisiert: Januar 2025",
+  "intro": "Bei Archi Construction & Véranda nehmen wir Ihre Privatsphäre ernst. Diese Richtlinie erklärt, wie wir Ihre persönlichen Daten erfassen, verwenden und schützen.",
+  "sections": {
+    "collection": {
+      "title": "Informationen, die wir erfassen",
+      "content": "Wir erfassen Informationen, die Sie uns direkt zur Verfügung stellen, z.B. wenn Sie ein Angebot anfordern, uns kontaktieren oder sich für unseren Newsletter anmelden. Dies kann Ihren Namen, Ihre E-Mail-Adresse, Telefonnummer und Adresse umfassen."
+    },
+    "use": {
+      "title": "Wie wir Ihre Informationen verwenden",
+      "content": "Wir verwenden Ihre Informationen, um Angebote zu erstellen, Anfragen zu beantworten, Termine zu planen und Ihnen Updates über unsere Dienstleistungen zu senden. Wir verkaufen Ihre persönlichen Daten niemals an Dritte."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "Unsere Website verwendet Cookies, um Ihr Surferlebnis zu verbessern. Sie können die Cookie-Einstellungen über Ihre Browsereinstellungen steuern."
+    },
+    "security": {
+      "title": "Datensicherheit",
+      "content": "Wir implementieren angemessene Sicherheitsmaßnahmen, um Ihre persönlichen Daten vor unbefugtem Zugriff, Änderung oder Offenlegung zu schützen."
+    },
+    "rights": {
+      "title": "Ihre Rechte",
+      "content": "Gemäß der DSGVO haben Sie das Recht, auf Ihre persönlichen Daten zuzugreifen, diese zu korrigieren oder zu löschen. Kontaktieren Sie uns, um diese Rechte auszuüben."
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:"
+    }
+  }
+}

@@ -31,7 +31,6 @@ export function Header() {
       ]
     },
     { key: 'projects', href: '/projects' },
-    { key: 'blog', href: '/blog' },
     { key: 'contact', href: '/contact' },
   ]
 
@@ -52,7 +51,7 @@ export function Header() {
               rel="noopener noreferrer"
             >
               <MessageCircle size={16} />
-              <span>WhatsApp</span>
+              <span>{t('whatsapp.button_text')}</span>
             </a>
           </div>
           <div className="hidden md:flex items-center gap-4">

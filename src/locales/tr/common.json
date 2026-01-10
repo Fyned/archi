@@ -1,12 +1,16 @@
 {
   "nav": {
     "home": "Ana Sayfa",
-    "about": "Hakkimizda",
+    "about": "Hakkımızda",
     "services": "Hizmetler",
     "projects": "Projeler",
-    "blog": "Blog",
-    "contact": "Iletisim",
-    "quote": "Teklif Al"
+    "contact": "İletişim",
+    "quote": "Teklif Al",
+    "privacy": "Gizlilik Politikası"
+  },
+  "whatsapp": {
+    "button_text": "WhatsApp",
+    "chat_with_us": "WhatsApp üzerinden bizimle sohbet edin"
   },
   "services_menu": {
     "pergola": "Pergola",
@@ -30,14 +34,15 @@
   },
   "footer": {
     "company": "Archi Construction & Veranda",
-    "tagline": "Belcika ve cevresinde pergola, veranda ve carport uzmaniniz.",
-    "quick_links": "Hizli Baglantilar",
+    "tagline": "Belçika ve çevresinde pergola, veranda ve carport uzmanınız.",
+    "quick_links": "Hızlı Bağlantılar",
     "services": "Hizmetlerimiz",
-    "contact": "Iletisim",
+    "contact": "İletişim",
     "follow_us": "Bizi Takip Edin",
-    "privacy": "Gizlilik Politikasi",
-    "terms": "Kullanim Sartlari",
-    "copyright": "© {year} Archi Construction & Veranda. Tum haklari saklidir."
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "copyright": "© {year} Archi Construction & Veranda. Tüm hakları saklıdır.",
+    "location": "Belçika ve çevresi"
   },
   "contact_info": {
     "phone": "Telefon",

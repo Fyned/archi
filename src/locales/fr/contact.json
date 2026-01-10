@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Contactez-nous",
+    "subtitle": "Contactez-nous pour un conseil gratuit et sans engagement"
+  },
+  "info": {
+    "title": "Coordonnees",
+    "contact_person": "Yusuf Cetin"
+  },
+  "form": {
+    "title": "Envoyez-nous un message",
+    "name_placeholder": "Votre nom",
+    "email_placeholder": "votre@email.com",
+    "phone_placeholder": "+32 XXX XX XX XX",
+    "subject_label": "Sujet",
+    "subject_placeholder": "Selectionnez un sujet",
+    "subject_pergola": "Pergola",
+    "subject_veranda": "Veranda",
+    "subject_carport": "Carport",
+    "subject_window": "Fenetres",
+    "subject_shutter": "Volets",
+    "subject_garage": "Portes de garage",
+    "subject_other": "Autre",
+    "message_placeholder": "Parlez-nous de votre projet...",
+    "success_message": "Nous vous contacterons dans les plus brefs delais."
+  }
+}
