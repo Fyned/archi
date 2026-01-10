@@ -1,0 +1,214 @@
+{
+  "overview": {
+    "title": "Nos Services",
+    "subtitle": "Solutions complètes pour votre espace extérieur",
+    "description": "Des pergolas bioclimatiques aux vérandas en aluminium - nous proposons des constructions de haute qualité qui transforment votre espace extérieur."
+  },
+  "pergola": {
+    "title": "Pergola Bioclimatique",
+    "subtitle": "La solution ultime pour votre terrasse",
+    "description": "Nos pergolas bioclimatiques allient fonctionnalité et élégance. Les lames en aluminium orientables vous offrent un contrôle total sur la lumière et la ventilation.",
+    "features": {
+      "title": "Caractéristiques",
+      "items": [
+        "Lames orientables (0-135°)",
+        "Éclairage LED intégré",
+        "En option: screens et parois vitrées",
+        "Motorisation avec télécommande",
+        "Capteur de pluie fermeture automatique",
+        "Cadre en aluminium thermolaqué"
+      ]
+    },
+    "benefits": {
+      "title": "Avantages",
+      "items": [
+        "Profitez de votre terrasse toute l'année",
+        "Protection parfaite contre le soleil et la pluie",
+        "Augmente la valeur de votre propriété",
+        "Entretien minimal requis",
+        "Garantie 15 ans sur la construction"
+      ]
+    }
+  },
+  "veranda": {
+    "title": "Véranda Aluminium",
+    "subtitle": "Agrandissez votre espace de vie",
+    "description": "Une véranda est l'extension parfaite de votre maison. Nos vérandas en aluminium offrent une excellente isolation et un design intemporel.",
+    "features": {
+      "title": "Caractéristiques",
+      "items": [
+        "Profilés aluminium à rupture thermique",
+        "Double ou triple vitrage",
+        "Protection solaire intégrée en option",
+        "Diverses options de toiture",
+        "Entièrement sur mesure",
+        "Couleurs RAL au choix"
+      ]
+    },
+    "benefits": {
+      "title": "Avantages",
+      "items": [
+        "Espace de vie supplémentaire toute l'année",
+        "Excellente isolation thermique",
+        "Lumière naturelle dans votre maison",
+        "Plus-value pour votre propriété",
+        "Solution économe en énergie"
+      ]
+    }
+  },
+  "carport": {
+    "title": "Carport Aluminium",
+    "subtitle": "Protection avec style",
+    "description": "Protégez vos véhicules avec un carport en aluminium durable et élégant. Entièrement sur mesure pour votre situation.",
+    "features": {
+      "title": "Caractéristiques",
+      "items": [
+        "Cadre en aluminium robuste",
+        "Différentes options de toiture",
+        "En option: parois latérales et rangement",
+        "Éclairage intégré possible",
+        "Résistant à la corrosion",
+        "Installation rapide"
+      ]
+    },
+    "benefits": {
+      "title": "Avantages",
+      "items": [
+        "Protection contre les intempéries",
+        "Augmente la valeur de votre propriété",
+        "Entretien minimal",
+        "Investissement durable",
+        "Adaptable à votre maison"
+      ]
+    }
+  },
+  "window": {
+    "title": "Fenêtres Aluminium",
+    "subtitle": "Solutions de fenêtres modernes",
+    "description": "Fenêtres en aluminium de haute qualité avec excellente isolation. Design élégant combiné à une technologie économe en énergie.",
+    "features": {
+      "title": "Caractéristiques",
+      "items": [
+        "Profilés à rupture thermique",
+        "Double ou triple vitrage",
+        "Divers mécanismes d'ouverture",
+        "Couleurs RAL au choix",
+        "Vitrage de sécurité en option",
+        "Isolation acoustique"
+      ]
+    },
+    "benefits": {
+      "title": "Avantages",
+      "items": [
+        "Excellente isolation thermique",
+        "Réduction des coûts énergétiques",
+        "Sécurité accrue",
+        "Entretien minimal",
+        "Longue durée de vie"
+      ]
+    }
+  },
+  "shutter": {
+    "title": "Volets Roulants",
+    "subtitle": "Sécurité et confort",
+    "description": "Volets roulants électriques et manuels pour une protection et une intimité optimales. Commande par interrupteur, télécommande ou smartphone.",
+    "features": {
+      "title": "Caractéristiques",
+      "items": [
+        "Électrique ou manuel",
+        "Lames isolées",
+        "Intégration domotique",
+        "Diverses couleurs disponibles",
+        "Résistant au vent jusqu'à 120 km/h",
+        "Moteurs silencieux"
+      ]
+    },
+    "benefits": {
+      "title": "Avantages",
+      "items": [
+        "Sécurité renforcée contre les effractions",
+        "Meilleure isolation thermique",
+        "Occultation pour un sommeil optimal",
+        "Protection contre les intempéries",
+        "Plus-value pour votre propriété"
+      ]
+    }
+  },
+  "garage": {
+    "title": "Portes de Garage",
+    "subtitle": "Sécurité et confort",
+    "description": "Portes de garage sectionnelles et basculantes avec commande électrique. Sûres, isolées et au design élégant.",
+    "features": {
+      "title": "Caractéristiques",
+      "items": [
+        "Sectionnelle ou basculante",
+        "Motorisation électrique",
+        "Panneaux isolés",
+        "Divers designs et couleurs",
+        "Capteurs de sécurité",
+        "Télécommande incluse"
+      ]
+    },
+    "benefits": {
+      "title": "Avantages",
+      "items": [
+        "Conception gain de place",
+        "Sécurité renforcée",
+        "Excellente isolation",
+        "Silencieuse et fiable",
+        "Longue durée de vie"
+      ]
+    }
+  },
+  "process": {
+    "title": "Notre Processus",
+    "steps": [
+      {
+        "title": "Consultation Gratuite",
+        "description": "Nous venons chez vous pour discuter de vos souhaits et examiner la situation."
+      },
+      {
+        "title": "Conception & Devis",
+        "description": "Vous recevez un devis détaillé avec visualisation 3D de votre projet."
+      },
+      {
+        "title": "Production",
+        "description": "Votre construction est fabriquée sur mesure dans notre atelier."
+      },
+      {
+        "title": "Installation",
+        "description": "Notre équipe expérimentée installe votre projet avec expertise et propreté."
+      }
+    ]
+  },
+  "meta": {
+    "overview": {
+      "title": "Services - Pergola, Véranda & Carport",
+      "description": "Découvrez nos services: pergolas bioclimatiques, vérandas en aluminium et carports. Qualité et artisanat pour votre espace extérieur."
+    },
+    "pergola": {
+      "title": "Pergola Bioclimatique",
+      "description": "Pergola bioclimatique avec lames orientables. Profitez de votre terrasse toute l'année avec une protection optimale contre le soleil et la pluie."
+    },
+    "veranda": {
+      "title": "Véranda Aluminium",
+      "description": "Véranda aluminium sur mesure. Agrandissez votre espace de vie avec une véranda élégante et économe en énergie. Demandez un devis gratuit."
+    },
+    "carport": {
+      "title": "Carport Aluminium",
+      "description": "Carport aluminium durable sur mesure. Protégez vos véhicules avec style. Résistant à la corrosion et faible entretien."
+    },
+    "window": {
+      "title": "Fenêtres Aluminium",
+      "description": "Fenêtres aluminium de haute qualité avec excellente isolation. Design élégant et technologie écoénergétique pour votre maison."
+    },
+    "shutter": {
+      "title": "Volets Roulants",
+      "description": "Volets roulants électriques et manuels pour une sécurité et un confort optimaux. Commande par télécommande ou smartphone."
+    },
+    "garage": {
+      "title": "Portes de Garage",
+      "description": "Portes de garage sectionnelles et basculantes avec motorisation électrique. Sûres, isolées et design moderne."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "title": "Erschaffen Sie Ihre Traumterrasse",
+    "subtitle": "Spezialist fur bioklimatische Pergolen, Wintergarten und Carports",
+    "description": "Verwandeln Sie Ihren Aussenbereich mit unseren hochwertigen Aluminiumkonstruktionen. Belgische Handwerkskunst, 15 Jahre Garantie.",
+    "cta_primary": "Kostenloses Angebot anfordern",
+    "cta_secondary": "Unsere Projekte ansehen"
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Entdecken Sie unser komplettes Angebot an Aussenkonstruktionen",
+    "pergola": {
+      "title": "Bioklimatische Pergola",
+      "description": "Verstellbare Lamellen fur optimalen Schutz vor Sonne und Regen. Schaffen Sie das ganze Jahr uber die perfekte Atmosphare."
+    },
+    "veranda": {
+      "title": "Aluminium-Wintergarten",
+      "description": "Erweitern Sie Ihren Wohnraum mit einem eleganten Wintergarten. Modernes Design, hervorragende Isolierung."
+    },
+    "carport": {
+      "title": "Carport",
+      "description": "Schutzen Sie Ihre Fahrzeuge mit Stil. Langlebige, massgeschneiderte Aluminium-Carports."
+    }
+  },
+  "why_us": {
+    "title": "Warum Archi Construction?",
+    "subtitle": "Wir zeichnen uns durch Qualitat, Handwerkskunst und Service aus",
+    "quality": {
+      "title": "Premium-Qualitat",
+      "description": "Wir verwenden ausschliesslich hochwertige belgische und europaische Materialien."
+    },
+    "warranty": {
+      "title": "15 Jahre Garantie",
+      "description": "Vollstes Vertrauen in unsere Konstruktionen mit erweiterter Garantie."
+    },
+    "custom": {
+      "title": "Massanfertigung",
+      "description": "Jedes Projekt wird an Ihre Wunsche und Architektur angepasst."
+    },
+    "service": {
+      "title": "Personlicher Service",
+      "description": "Vom Erstkontakt bis zur Nachbetreuung sind wir fur Sie da."
+    }
+  },
+  "projects": {
+    "title": "Aktuelle Projekte",
+    "subtitle": "Entdecken Sie einige unserer neuesten Realisierungen",
+    "view_all": "Alle Projekte ansehen"
+  },
+  "testimonials": {
+    "title": "Was unsere Kunden sagen",
+    "subtitle": "Entdecken Sie die Erfahrungen zufriedener Kunden"
+  },
+  "cta_section": {
+    "title": "Bereit, Ihr Projekt zu starten?",
+    "description": "Fordern Sie noch heute ein kostenloses Angebot an und entdecken Sie die Moglichkeiten fur Ihre Terrasse.",
+    "button": "Kostenloses Angebot anfordern"
+  },
+  "meta": {
+    "title": "Pergola, Wintergarten & Carport Spezialist",
+    "description": "Archi Construction & Veranda - Ihr Spezialist fur bioklimatische Pergolen, Aluminium-Wintergarten und Carports in Belgien. Fordern Sie ein kostenloses Angebot an."
+  }
+}

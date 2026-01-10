@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "title": "Hayalinizdeki Terasi Olusturun",
+    "subtitle": "Biyoklimatik pergola, veranda ve carport uzmani",
+    "description": "Yuksek kaliteli aluminyum yapilarimizla dis mekaninizi donusturun. Belcika isciligi, 15 yil garanti.",
+    "cta_primary": "Ucretsiz Teklif Al",
+    "cta_secondary": "Projelerimizi Gorun"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Dis mekan yapilarimizin tam yelpazesini kesfedin",
+    "pergola": {
+      "title": "Biyoklimatik Pergola",
+      "description": "Gunes ve yagmura karsi optimum koruma icin ayarlanabilir lameller. Yil boyunca mukemmel atmosfer yaratin."
+    },
+    "veranda": {
+      "title": "Aluminyum Veranda",
+      "description": "Yasam alaninizi sik bir veranda ile genisletin. Modern tasarim, mukemmel yalitim."
+    },
+    "carport": {
+      "title": "Carport",
+      "description": "Araclarinizi tarz ile koruyun. Ozel yapim dayanikli aluminyum carportlar."
+    }
+  },
+  "why_us": {
+    "title": "Neden Archi Construction?",
+    "subtitle": "Kalite, isclik ve hizmet ile one cikiyoruz",
+    "quality": {
+      "title": "Premium Kalite",
+      "description": "Sadece yuksek kaliteli Belcika ve Avrupa malzemeleri kullaniyoruz."
+    },
+    "warranty": {
+      "title": "15 Yil Garanti",
+      "description": "Genis garantili yapilarimiza tam guven."
+    },
+    "custom": {
+      "title": "Ozel Uretim",
+      "description": "Her proje isteklerinize ve mimarinize gore uyarlanir."
+    },
+    "service": {
+      "title": "Kisisel Hizmet",
+      "description": "Ilk temastan satis sonrasi hizmete, sizin icin buradayiz."
+    }
+  },
+  "projects": {
+    "title": "Son Projeler",
+    "subtitle": "En son gerceklestirmelerimizden bazlarini kesfedin",
+    "view_all": "Tum Projeleri Gor"
+  },
+  "testimonials": {
+    "title": "Musterilerimiz Ne Diyor",
+    "subtitle": "Memnun musterilerin deneyimlerini kesfedin"
+  },
+  "cta_section": {
+    "title": "Projenize Baslamaya Hazir misiniz?",
+    "description": "Bugun ucretsiz teklif isteyin ve terasiniz icin olanaklari kesfedin.",
+    "button": "Ucretsiz Teklif Al"
+  },
+  "meta": {
+    "title": "Pergola, Veranda ve Carport Uzmani",
+    "description": "Archi Construction & Veranda - Belcika'da biyoklimatik pergola, aluminyum veranda ve carport uzmaniniz. Ucretsiz teklif isteyin."
+  }
+}

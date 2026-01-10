@@ -1,0 +1,214 @@
+{
+  "overview": {
+    "title": "Our Services",
+    "subtitle": "Complete solutions for your outdoor space",
+    "description": "From bioclimatic pergolas to aluminium verandas - we offer high-quality constructions that transform your outdoor space."
+  },
+  "pergola": {
+    "title": "Bioclimatic Pergola",
+    "subtitle": "The ultimate solution for your terrace",
+    "description": "Our bioclimatic pergolas combine functionality with elegance. The adjustable aluminium louvres give you complete control over sunlight and ventilation.",
+    "features": {
+      "title": "Features",
+      "items": [
+        "Adjustable louvres (0-135°)",
+        "Integrated LED lighting",
+        "Optional: screens and glass walls",
+        "Motorisation with remote control",
+        "Rain sensor automatic closing",
+        "Powder-coated aluminium frame"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits",
+      "items": [
+        "Enjoy your terrace all year round",
+        "Perfect protection against sun and rain",
+        "Increases the value of your property",
+        "Minimal maintenance required",
+        "15-year warranty on construction"
+      ]
+    }
+  },
+  "veranda": {
+    "title": "Aluminium Veranda",
+    "subtitle": "Extend your living space",
+    "description": "A veranda is the perfect extension of your home. Our aluminium verandas offer excellent insulation and timeless design.",
+    "features": {
+      "title": "Features",
+      "items": [
+        "Thermally broken aluminium profiles",
+        "Double or triple glazing",
+        "Built-in sun protection optional",
+        "Various roof options",
+        "Fully custom made",
+        "RAL colours of your choice"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits",
+      "items": [
+        "Extra living space all year round",
+        "Excellent thermal insulation",
+        "Natural light in your home",
+        "Property value increase",
+        "Energy-efficient solution"
+      ]
+    }
+  },
+  "carport": {
+    "title": "Aluminium Carport",
+    "subtitle": "Protection with style",
+    "description": "Protect your vehicles with a durable and stylish aluminium carport. Fully custom made for your situation.",
+    "features": {
+      "title": "Features",
+      "items": [
+        "Robust aluminium frame",
+        "Various roof options",
+        "Optional: side walls and storage",
+        "Integrated lighting possible",
+        "Corrosion resistant",
+        "Quick installation"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits",
+      "items": [
+        "Protection against weather",
+        "Increases property value",
+        "Minimal maintenance",
+        "Durable investment",
+        "Adaptable to your home"
+      ]
+    }
+  },
+  "window": {
+    "title": "Aluminium Windows",
+    "subtitle": "Modern window solutions",
+    "description": "High-quality aluminium windows with excellent insulation. Stylish design combined with energy-efficient technology.",
+    "features": {
+      "title": "Features",
+      "items": [
+        "Thermally broken profiles",
+        "Double or triple glazing",
+        "Various opening mechanisms",
+        "RAL colours of your choice",
+        "Security glass optional",
+        "Sound insulating"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits",
+      "items": [
+        "Excellent thermal insulation",
+        "Lower energy costs",
+        "Increased security",
+        "Minimal maintenance",
+        "Long lifespan"
+      ]
+    }
+  },
+  "shutter": {
+    "title": "Roller Shutters",
+    "subtitle": "Security and comfort",
+    "description": "Electric and manual roller shutters for optimal protection and privacy. Control via switch, remote or smartphone.",
+    "features": {
+      "title": "Features",
+      "items": [
+        "Electric or manual",
+        "Insulated slats",
+        "Smart home integration",
+        "Various colours available",
+        "Wind resistant up to 120 km/h",
+        "Silent motors"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits",
+      "items": [
+        "Enhanced security",
+        "Better thermal insulation",
+        "Blackout for optimal sleep",
+        "Protection against weather",
+        "Property value increase"
+      ]
+    }
+  },
+  "garage": {
+    "title": "Garage Doors",
+    "subtitle": "Safe and comfortable",
+    "description": "Sectional and up-and-over garage doors with electric operation. Safe, insulated and stylishly designed.",
+    "features": {
+      "title": "Features",
+      "items": [
+        "Sectional or up-and-over",
+        "Electric drive",
+        "Insulated panels",
+        "Various designs and colours",
+        "Safety sensors",
+        "Remote control included"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits",
+      "items": [
+        "Space-saving design",
+        "Enhanced security",
+        "Excellent insulation",
+        "Quiet and reliable",
+        "Long lifespan"
+      ]
+    }
+  },
+  "process": {
+    "title": "Our Work Process",
+    "steps": [
+      {
+        "title": "Free Consultation",
+        "description": "We visit you to discuss your wishes and assess the situation."
+      },
+      {
+        "title": "Design & Quote",
+        "description": "You receive a detailed quote with 3D visualisation of your project."
+      },
+      {
+        "title": "Production",
+        "description": "Your construction is custom-made in our workshop."
+      },
+      {
+        "title": "Installation",
+        "description": "Our experienced team installs your project expertly and neatly."
+      }
+    ]
+  },
+  "meta": {
+    "overview": {
+      "title": "Services - Pergola, Veranda & Carport",
+      "description": "Discover our services: bioclimatic pergolas, aluminium verandas and carports. Quality and craftsmanship for your outdoor space."
+    },
+    "pergola": {
+      "title": "Bioclimatic Pergola",
+      "description": "Bioclimatic pergola with adjustable louvres. Enjoy your terrace all year with optimal protection against sun and rain."
+    },
+    "veranda": {
+      "title": "Aluminium Veranda",
+      "description": "Custom aluminium veranda. Extend your living space with an elegant and energy-efficient veranda. Request a free quote."
+    },
+    "carport": {
+      "title": "Aluminium Carport",
+      "description": "Durable custom aluminium carport. Protect your vehicles with style. Corrosion resistant and low maintenance."
+    },
+    "window": {
+      "title": "Aluminium Windows",
+      "description": "High-quality aluminium windows with excellent insulation. Energy-efficient and stylish. Request a free quote."
+    },
+    "shutter": {
+      "title": "Roller Shutters",
+      "description": "Electric and manual roller shutters for optimal security and comfort. Professional installation."
+    },
+    "garage": {
+      "title": "Garage Doors",
+      "description": "Custom sectional and up-and-over garage doors. Safe, insulated and electrically operated."
+    }
+  }
+}

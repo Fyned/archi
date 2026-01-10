@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "projects": "Projets",
+    "blog": "Blog",
+    "contact": "Contact",
+    "quote": "Demander un devis"
+  },
+  "services_menu": {
+    "pergola": "Pergola",
+    "veranda": "Véranda",
+    "carport": "Carport",
+    "window": "Fenêtres",
+    "shutter": "Volets",
+    "garage": "Portes de garage",
+    "all": "Tous les services"
+  },
+  "cta": {
+    "get_quote": "Devis gratuit",
+    "contact_us": "Contactez-nous",
+    "view_projects": "Voir les projets",
+    "learn_more": "En savoir plus",
+    "call_now": "Appelez maintenant",
+    "whatsapp": "WhatsApp",
+    "ready_title": "Prêt à démarrer?",
+    "ready_description": "Demandez un devis gratuit dès aujourd'hui et découvrez ce que nous pouvons faire pour vous.",
+    "request_quote": "Demander un devis gratuit"
+  },
+  "footer": {
+    "company": "Archi Construction & Véranda",
+    "tagline": "Votre spécialiste en pergolas, vérandas et carports en Belgique et environs.",
+    "quick_links": "Liens rapides",
+    "services": "Nos services",
+    "contact": "Contact",
+    "follow_us": "Suivez-nous",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "copyright": "© {year} Archi Construction & Véranda. Tous droits réservés."
+  },
+  "contact_info": {
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "address": "Adresse",
+    "hours": "Heures d'ouverture",
+    "hours_weekday": "Lun - Ven: 08:00 - 18:00",
+    "hours_weekend": "Sam: 09:00 - 13:00"
+  },
+  "form": {
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "message": "Message",
+    "submit": "Envoyer",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès!",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "trust": {
+    "years": "Années d'expérience",
+    "projects": "Projets réalisés",
+    "warranty": "Ans de garantie",
+    "satisfaction": "Satisfaction client"
+  },
+  "meta": {
+    "title_suffix": " | Archi Construction & Véranda",
+    "default_description": "Spécialiste en pergolas bioclimatiques, vérandas et carports. Artisanat et qualité en Belgique et dans un rayon de 500km."
+  },
+  "service_detail": {
+    "gallery": "Exemples",
+    "interested": "Intéressé par une {{service}}?",
+    "interested_description": "Demandez un devis gratuit dès aujourd'hui. Nous venons chez vous sans engagement pour discuter de votre projet.",
+    "contact": "Nous contacter"
+  }
+}

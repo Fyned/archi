@@ -1,0 +1,6 @@
+export { Hero } from './Hero'
+export { Services } from './Services'
+export { WhyUs } from './WhyUs'
+export { TrustBadges } from './TrustBadges'
+export { FeaturedProjects } from './FeaturedProjects'
+export { CTASection } from './CTASection'

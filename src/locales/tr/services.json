@@ -1,0 +1,214 @@
+{
+  "overview": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Dis mekaniniz icin eksiksiz cozumler",
+    "description": "Biyoklimatik pergolalardan aluminyum verandalara - dis mekaninizi donusturecek yuksek kaliteli yapilar sunuyoruz."
+  },
+  "pergola": {
+    "title": "Biyoklimatik Pergola",
+    "subtitle": "Terasiniz icin nihai cozum",
+    "description": "Biyoklimatik pergolalarimiz islevsellik ve zerafeti birlestirir. Ayarlanabilir aluminyum lameller, gunes isigi ve havalandirma uzerinde tam kontrol saglar.",
+    "features": {
+      "title": "Ozellikler",
+      "items": [
+        "Ayarlanabilir lameller (0-135°)",
+        "Entegre LED aydinlatma",
+        "Opsiyonel: storlar ve cam duvarlar",
+        "Uzaktan kumandali motorize sistem",
+        "Yagmur sensoru otomatik kapanma",
+        "Toz boyali aluminyum cerceve"
+      ]
+    },
+    "benefits": {
+      "title": "Avantajlar",
+      "items": [
+        "Yil boyunca terasinizin keyfini cikarin",
+        "Gunes ve yagmura karsi mukemmel koruma",
+        "Mulkunuzun degerini artirir",
+        "Minimum bakim gerektirir",
+        "Yapi uzerinde 15 yil garanti"
+      ]
+    }
+  },
+  "veranda": {
+    "title": "Aluminyum Veranda",
+    "subtitle": "Yasam alaninizi genisletin",
+    "description": "Veranda, evinizin mukemmel uzantisidir. Aluminyum verandalarimiz mukemmel yalitim ve zamansiz tasarim sunar.",
+    "features": {
+      "title": "Ozellikler",
+      "items": [
+        "Termal kirilmali aluminyum profiller",
+        "Cift veya uc cam",
+        "Opsiyonel yerlesik gunes korumasi",
+        "Cesitli cati secenekleri",
+        "Tamamen ozel uretim",
+        "Istediginiz RAL renkleri"
+      ]
+    },
+    "benefits": {
+      "title": "Avantajlar",
+      "items": [
+        "Yil boyunca ekstra yasam alani",
+        "Mukemmel isi yalitimi",
+        "Evinizde dogal isik",
+        "Mulk degeri artisi",
+        "Enerji verimli cozum"
+      ]
+    }
+  },
+  "carport": {
+    "title": "Aluminyum Carport",
+    "subtitle": "Tarz ile koruma",
+    "description": "Araclarinizi dayanikli ve sik bir aluminyum carport ile koruyun. Durumunuza gore tamamen ozel uretim.",
+    "features": {
+      "title": "Ozellikler",
+      "items": [
+        "Saglam aluminyum cerceve",
+        "Cesitli cati secenekleri",
+        "Opsiyonel: yan duvarlar ve depolama",
+        "Entegre aydinlatma mumkun",
+        "Korozyona dayanikli",
+        "Hizli kurulum"
+      ]
+    },
+    "benefits": {
+      "title": "Avantajlar",
+      "items": [
+        "Hava kosullarina karsi koruma",
+        "Mulk degerini artirir",
+        "Minimum bakim",
+        "Dayanikli yatirim",
+        "Evinize uyarlanabilir"
+      ]
+    }
+  },
+  "window": {
+    "title": "Aluminyum Pencereler",
+    "subtitle": "Modern pencere cozumleri",
+    "description": "Mukemmel yalitimli yuksek kaliteli aluminyum pencereler. Enerji verimli teknoloji ile zarif tasarim.",
+    "features": {
+      "title": "Ozellikler",
+      "items": [
+        "Termal kirilmali profiller",
+        "Cift veya uc cam",
+        "Cesitli acilma mekanizmalari",
+        "Istediginiz RAL renkleri",
+        "Opsiyonel guvenlik cami",
+        "Ses yalitimi"
+      ]
+    },
+    "benefits": {
+      "title": "Avantajlar",
+      "items": [
+        "Mukemmel isi yalitimi",
+        "Dusuk enerji maliyetleri",
+        "Arttirilmis guvenlik",
+        "Minimum bakim",
+        "Uzun omur"
+      ]
+    }
+  },
+  "shutter": {
+    "title": "Panjurlar",
+    "subtitle": "Guvenlik ve konfor",
+    "description": "Optimum koruma ve gizlilik icin elektrikli ve manuel panjurlar. Dugme, uzaktan kumanda veya akilli telefon ile kontrol.",
+    "features": {
+      "title": "Ozellikler",
+      "items": [
+        "Elektrikli veya manuel",
+        "Yalitimli lameller",
+        "Akilli ev entegrasyonu",
+        "Cesitli renkler mevcut",
+        "120 km/s ruzgara dayanikli",
+        "Sessiz motorlar"
+      ]
+    },
+    "benefits": {
+      "title": "Avantajlar",
+      "items": [
+        "Arttirilmis hirsizlik korunmasi",
+        "Daha iyi isi yalitimi",
+        "Optimal uyku icin karanlik",
+        "Hava kosullarindan koruma",
+        "Mulk degeri artisi"
+      ]
+    }
+  },
+  "garage": {
+    "title": "Garaj Kapilari",
+    "subtitle": "Guvenli ve konforlu",
+    "description": "Elektrikli tahrikli seksiyonel ve kaldirmali kapilar. Guvenli, yalitimli ve sik tasarimli.",
+    "features": {
+      "title": "Ozellikler",
+      "items": [
+        "Seksiyonel veya kaldirmali",
+        "Elektrikli tahrik",
+        "Yalitimli paneller",
+        "Cesitli tasarim ve renkler",
+        "Guvenlik sensorleri",
+        "Uzaktan kumanda dahil"
+      ]
+    },
+    "benefits": {
+      "title": "Avantajlar",
+      "items": [
+        "Yer tasarrufu saglayan tasarim",
+        "Arttirilmis guvenlik",
+        "Mukemmel yalitim",
+        "Sessiz ve guvenilir",
+        "Uzun omur"
+      ]
+    }
+  },
+  "process": {
+    "title": "Calisma Surecimiz",
+    "steps": [
+      {
+        "title": "Ucretsiz Danismanlik",
+        "description": "Isteklerinizi gorusmek ve durumu degerlendirmek icin sizi ziyaret ediyoruz."
+      },
+      {
+        "title": "Tasarim ve Teklif",
+        "description": "Projenizin 3D gorsellestirmesi ile detayli teklif alirsiniz."
+      },
+      {
+        "title": "Uretim",
+        "description": "Yapiniz atolyemizde ozel olarak uretilir."
+      },
+      {
+        "title": "Kurulum",
+        "description": "Deneyimli ekibimiz projenizi uzmanlik ve titizlikle kurar."
+      }
+    ]
+  },
+  "meta": {
+    "overview": {
+      "title": "Hizmetler - Pergola, Veranda ve Carport",
+      "description": "Hizmetlerimizi kesfedin: biyoklimatik pergolalar, aluminyum verandalar ve carportlar. Dis mekaniniz icin kalite ve isclik."
+    },
+    "pergola": {
+      "title": "Biyoklimatik Pergola",
+      "description": "Ayarlanabilir lamellerle biyoklimatik pergola. Gunes ve yagmura karsi optimum koruma ile yil boyunca terasinizin keyfini cikarin."
+    },
+    "veranda": {
+      "title": "Aluminyum Veranda",
+      "description": "Ozel aluminyum veranda. Sik ve enerji verimli bir veranda ile yasam alaninizi genisletin. Ucretsiz teklif isteyin."
+    },
+    "carport": {
+      "title": "Aluminyum Carport",
+      "description": "Dayanikli ozel aluminyum carport. Araclarinizi tarz ile koruyun. Korozyona dayanikli ve dusuk bakimli."
+    },
+    "window": {
+      "title": "Aluminyum Pencereler",
+      "description": "Mukemmel yalitimli yuksek kaliteli aluminyum pencereler. Eviniz icin zarif tasarim ve enerji verimli teknoloji."
+    },
+    "shutter": {
+      "title": "Panjurlar",
+      "description": "Optimum guvenlik ve konfor icin elektrikli ve manuel panjurlar. Uzaktan kumanda veya akilli telefon ile kontrol."
+    },
+    "garage": {
+      "title": "Garaj Kapilari",
+      "description": "Elektrikli tahrikli seksiyonel ve kaldirmali kapilar. Guvenli, yalitimli ve modern tasarimli."
+    }
+  }
+}
