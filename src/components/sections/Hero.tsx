@@ -1,4 +1,4 @@
-import { ArrowRight, Play } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { useTranslation } from '@/hooks/useTranslation'
 import { useLocalizedPath } from '@/hooks/useLocalizedPath'
@@ -10,24 +10,21 @@ export function Hero() {
 
   return (
     <section className="relative min-h-[90vh] flex items-center bg-gradient-to-br from-gray-900 via-gray-800 to-primary-900 overflow-hidden">
-      {/* Background video/image with parallax */}
+      {/* Background image with subtle zoom animation */}
       <motion.div
         initial={{ scale: 1.1 }}
         animate={{ scale: 1 }}
-        transition={{ duration: 1.5, ease: 'easeOut' }}
+        transition={{ duration: 20, ease: 'linear', repeat: Infinity, repeatType: 'reverse' }}
         className="absolute inset-0"
       >
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-40"
-          poster="/projects/project-veranda-led.jpg"
-        >
-          <source src="/projects/showcase-video-1.mp4" type="video/mp4" />
-        </video>
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 via-gray-900/60 to-transparent" />
+        <img
+          src="/projects/project-veranda-led.jpg"
+          alt="Archi Construction Veranda - Premium outdoor living spaces"
+          className="absolute inset-0 w-full h-full object-cover"
+          loading="eager"
+          fetchPriority="high"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/70 to-gray-900/50" />
       </motion.div>
 
       {/* Content */}
@@ -86,7 +83,6 @@ export function Hero() {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >
-              <Play size={20} className="mr-2" />
               {t('hero.cta_secondary')}
             </motion.a>
           </motion.div>

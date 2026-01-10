@@ -16,7 +16,7 @@ const serviceImages: Record<string, string[]> = {
   veranda: [
     '/projects/project-veranda-led.jpg',
     '/projects/project-veranda-rooftop.jpg',
-    '/projects/project-veranda-lounge.jpg',
+    '/projects/project-veranda-1.jpg',
     '/projects/project-veranda-glass.jpg',
     '/projects/project-veranda-showroom.jpg',
     '/projects/project-veranda-4.jpg',
@@ -144,6 +144,8 @@ export default function ServiceDetailPage() {
                   src={image}
                   alt={`${serviceTitle} example ${index + 1}`}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             ))}
