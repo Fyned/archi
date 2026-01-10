@@ -20,7 +20,11 @@
       "Bash(npm run build:*)",
       "Bash(git init:*)",
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: Complete professional site with animations and SEO\n\n- Fixed language switching system \\(useTranslation, useLocalizedPath\\)\n- Updated contact info: +32 487 72 06 29 \\(call\\), +32 493 36 50 29 \\(WhatsApp\\)\n- Added social media links \\(Facebook, Instagram\\)\n- Added 9 new project images and 2 videos\n- All 6 services displayed on homepage\n- Full SEO optimization with OG tags, Twitter cards, JSON-LD\n- Sitemap.xml with hreflang for 5 languages\n- Premium Framer Motion animations\n- .htaccess for SPA routing\n- GitHub Actions workflow for Hostinger deployment\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
     ]
   }
 }

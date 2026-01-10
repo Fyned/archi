@@ -4,9 +4,13 @@
     "about": "About Us",
     "services": "Services",
     "projects": "Projects",
-    "blog": "Blog",
     "contact": "Contact",
-    "quote": "Request Quote"
+    "quote": "Request Quote",
+    "privacy": "Privacy Policy"
+  },
+  "whatsapp": {
+    "button_text": "WhatsApp",
+    "chat_with_us": "Chat with us on WhatsApp"
   },
   "services_menu": {
     "pergola": "Pergola",
@@ -37,7 +41,8 @@
     "follow_us": "Follow Us",
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions",
-    "copyright": "© {year} Archi Construction & Véranda. All rights reserved."
+    "copyright": "© {year} Archi Construction & Véranda. All rights reserved.",
+    "location": "Belgium & surrounding areas"
   },
   "contact_info": {
     "phone": "Phone",

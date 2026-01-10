@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch for a free consultation"
+  },
+  "info": {
+    "title": "Contact Information",
+    "contact_person": "Yusuf Cetin"
+  },
+  "form": {
+    "title": "Send us a message",
+    "name_placeholder": "Your name",
+    "email_placeholder": "your@email.com",
+    "phone_placeholder": "+32 XXX XX XX XX",
+    "subject_label": "Subject",
+    "subject_placeholder": "Select a subject",
+    "subject_pergola": "Pergola",
+    "subject_veranda": "Veranda",
+    "subject_carport": "Carport",
+    "subject_window": "Windows",
+    "subject_shutter": "Shutters",
+    "subject_garage": "Garage Doors",
+    "subject_other": "Other",
+    "message_placeholder": "Tell us about your project...",
+    "success_message": "We will contact you as soon as possible."
+  }
+}

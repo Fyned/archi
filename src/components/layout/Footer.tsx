@@ -19,7 +19,6 @@ export function Footer() {
     { key: 'home', href: '/' },
     { key: 'about', href: '/about' },
     { key: 'projects', href: '/projects' },
-    { key: 'blog', href: '/blog' },
     { key: 'contact', href: '/contact' },
   ]
 
@@ -156,7 +155,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="flex-shrink-0 mt-0.5" />
                 <span>
-                  Belgium
+                  {t('footer.location')}
                 </span>
               </li>
             </ul>
@@ -180,16 +179,10 @@ export function Footer() {
             </p>
             <div className="flex gap-6 text-sm">
               <a
-                href={localizedPath('/legal/privacy')}
+                href={localizedPath('/privacy')}
                 className="hover:text-primary-400 transition-colors"
               >
                 {t('footer.privacy')}
-              </a>
-              <a
-                href={localizedPath('/legal/terms')}
-                className="hover:text-primary-400 transition-colors"
-              >
-                {t('footer.terms')}
               </a>
             </div>
           </div>

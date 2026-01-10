@@ -10,7 +10,7 @@ const PHONE_WHATSAPP = '+32 493 36 50 29'
 const EMAIL = 'info@archiconstructionveranda.be'
 
 export default function ContactPage() {
-  const { t } = useTranslation('common')
+  const { t } = useTranslation(['contact', 'common'])
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
 
@@ -18,17 +18,43 @@ export default function ContactPage() {
     e.preventDefault()
     setIsSubmitting(true)
 
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500))
+    const form = e.currentTarget
+    const formData = new FormData(form)
+
+    // Send to Formspree (free tier)
+    try {
+      const response = await fetch('https://formspree.io/f/xpwzgkqr', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+
+      if (response.ok) {
+        setIsSuccess(true)
+        form.reset()
+      }
+    } catch {
+      // Fallback: open mailto
+      const name = formData.get('name')
+      const email = formData.get('email')
+      const phone = formData.get('phone')
+      const subject = formData.get('subject')
+      const message = formData.get('message')
+
+      const mailtoBody = `Name: ${name}%0AEmail: ${email}%0APhone: ${phone}%0ASubject: ${subject}%0A%0AMessage:%0A${message}`
+      window.open(`mailto:${EMAIL}?subject=Contact from Website&body=${mailtoBody}`)
+      setIsSuccess(true)
+    }
 
     setIsSubmitting(false)
-    setIsSuccess(true)
   }
 
   return (
     <>
       <Helmet>
-        <title>{t('nav.contact')} | Archi Construction & Veranda</title>
+        <title>{t('contact:hero.title')} | Archi Construction & Veranda</title>
       </Helmet>
 
       {/* Hero Section */}
@@ -36,10 +62,10 @@ export default function ContactPage() {
         <div className="container-custom relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
-              {t('nav.contact')}
+              {t('contact:hero.title')}
             </h1>
             <p className="text-xl text-gray-300">
-              Neem contact met ons op voor een vrijblijvend adviesgesprek
+              {t('contact:hero.subtitle')}
             </p>
           </div>
         </div>
@@ -52,7 +78,7 @@ export default function ContactPage() {
             {/* Contact Info */}
             <div className="lg:col-span-1">
               <h2 className="text-2xl font-heading font-bold mb-8">
-                Contactgegevens
+                {t('contact:info.title')}
               </h2>
 
               <div className="space-y-6">
@@ -64,9 +90,9 @@ export default function ContactPage() {
                     <Phone className="text-primary-600" size={24} />
                   </div>
                   <div>
-                    <div className="font-medium text-gray-900">{t('contact_info.phone')}</div>
+                    <div className="font-medium text-gray-900">{t('common:contact_info.phone')}</div>
                     <div className="text-gray-600">{PHONE_CALL}</div>
-                    <div className="text-sm text-gray-500">Yusuf Cetin</div>
+                    <div className="text-sm text-gray-500">{t('contact:info.contact_person')}</div>
                   </div>
                 </a>
 
@@ -78,7 +104,7 @@ export default function ContactPage() {
                     <Mail className="text-primary-600" size={24} />
                   </div>
                   <div>
-                    <div className="font-medium text-gray-900">{t('contact_info.email')}</div>
+                    <div className="font-medium text-gray-900">{t('common:contact_info.email')}</div>
                     <div className="text-gray-600">{EMAIL}</div>
                   </div>
                 </a>
@@ -88,9 +114,9 @@ export default function ContactPage() {
                     <MapPin className="text-primary-600" size={24} />
                   </div>
                   <div>
-                    <div className="font-medium text-gray-900">{t('contact_info.address')}</div>
+                    <div className="font-medium text-gray-900">{t('common:contact_info.address')}</div>
                     <div className="text-gray-600">
-                      Belgium
+                      {t('common:footer.location')}
                     </div>
                   </div>
                 </div>
@@ -100,10 +126,10 @@ export default function ContactPage() {
                     <Clock className="text-primary-600" size={24} />
                   </div>
                   <div>
-                    <div className="font-medium text-gray-900">{t('contact_info.hours')}</div>
+                    <div className="font-medium text-gray-900">{t('common:contact_info.hours')}</div>
                     <div className="text-gray-600">
-                      {t('contact_info.hours_weekday')}<br />
-                      {t('contact_info.hours_weekend')}
+                      {t('common:contact_info.hours_weekday')}<br />
+                      {t('common:contact_info.hours_weekend')}
                     </div>
                   </div>
                 </div>
@@ -116,7 +142,7 @@ export default function ContactPage() {
                 >
                   <MessageCircle size={24} />
                   <div>
-                    <div className="font-medium">WhatsApp</div>
+                    <div className="font-medium">{t('common:whatsapp.button_text')}</div>
                     <div className="text-sm opacity-90">{PHONE_WHATSAPP}</div>
                   </div>
                 </a>
@@ -127,7 +153,7 @@ export default function ContactPage() {
             <div className="lg:col-span-2">
               <div className="bg-gray-50 rounded-2xl p-8">
                 <h2 className="text-2xl font-heading font-bold mb-6">
-                  Stuur ons een bericht
+                  {t('contact:form.title')}
                 </h2>
 
                 {isSuccess ? (
@@ -138,10 +164,10 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <h3 className="text-xl font-heading font-semibold mb-2">
-                      {t('form.success')}
+                      {t('common:form.success')}
                     </h3>
                     <p className="text-gray-600">
-                      We nemen zo snel mogelijk contact met u op.
+                      {t('contact:form.success_message')}
                     </p>
                   </div>
                 ) : (
@@ -149,7 +175,7 @@ export default function ContactPage() {
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
                         <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                          {t('form.name')} *
+                          {t('common:form.name')} *
                         </label>
                         <input
                           type="text"
@@ -157,12 +183,12 @@ export default function ContactPage() {
                           name="name"
                           required
                           className="input"
-                          placeholder="Uw naam"
+                          placeholder={t('contact:form.name_placeholder')}
                         />
                       </div>
                       <div>
                         <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                          {t('form.email')} *
+                          {t('common:form.email')} *
                         </label>
                         <input
                           type="email"
@@ -170,44 +196,47 @@ export default function ContactPage() {
                           name="email"
                           required
                           className="input"
-                          placeholder="uw@email.com"
+                          placeholder={t('contact:form.email_placeholder')}
                         />
                       </div>
                     </div>
 
                     <div>
                       <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                        {t('form.phone')}
+                        {t('common:form.phone')}
                       </label>
                       <input
                         type="tel"
                         id="phone"
                         name="phone"
                         className="input"
-                        placeholder="+32 XXX XX XX XX"
+                        placeholder={t('contact:form.phone_placeholder')}
                       />
                     </div>
 
                     <div>
                       <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                        Onderwerp
+                        {t('contact:form.subject_label')}
                       </label>
                       <select
                         id="subject"
                         name="subject"
                         className="input"
                       >
-                        <option value="">Selecteer een onderwerp</option>
-                        <option value="pergola">Pergola</option>
-                        <option value="veranda">Veranda</option>
-                        <option value="carport">Carport</option>
-                        <option value="other">Anders</option>
+                        <option value="">{t('contact:form.subject_placeholder')}</option>
+                        <option value="pergola">{t('contact:form.subject_pergola')}</option>
+                        <option value="veranda">{t('contact:form.subject_veranda')}</option>
+                        <option value="carport">{t('contact:form.subject_carport')}</option>
+                        <option value="window">{t('contact:form.subject_window')}</option>
+                        <option value="shutter">{t('contact:form.subject_shutter')}</option>
+                        <option value="garage">{t('contact:form.subject_garage')}</option>
+                        <option value="other">{t('contact:form.subject_other')}</option>
                       </select>
                     </div>
 
                     <div>
                       <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                        {t('form.message')} *
+                        {t('common:form.message')} *
                       </label>
                       <textarea
                         id="message"
@@ -215,7 +244,7 @@ export default function ContactPage() {
                         rows={5}
                         required
                         className="input resize-none"
-                        placeholder="Vertel ons over uw project..."
+                        placeholder={t('contact:form.message_placeholder')}
                       />
                     </div>
 
@@ -226,7 +255,7 @@ export default function ContactPage() {
                       isLoading={isSubmitting}
                       className="w-full md:w-auto"
                     >
-                      {t('form.submit')}
+                      {t('common:form.submit')}
                     </Button>
                   </form>
                 )}

@@ -1,0 +1,31 @@
+{
+  "title": "Privacy Policy",
+  "last_updated": "Last updated: January 2025",
+  "intro": "At Archi Construction & Véranda, we take your privacy seriously. This policy explains how we collect, use, and protect your personal information.",
+  "sections": {
+    "collection": {
+      "title": "Information We Collect",
+      "content": "We collect information you provide directly to us, such as when you request a quote, contact us, or subscribe to our newsletter. This may include your name, email address, phone number, and address."
+    },
+    "use": {
+      "title": "How We Use Your Information",
+      "content": "We use your information to provide quotes, respond to inquiries, schedule appointments, and send you updates about our services. We never sell your personal information to third parties."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "Our website uses cookies to improve your browsing experience. You can control cookie settings through your browser preferences."
+    },
+    "security": {
+      "title": "Data Security",
+      "content": "We implement appropriate security measures to protect your personal information from unauthorized access, alteration, or disclosure."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "content": "Under GDPR, you have the right to access, correct, or delete your personal data. Contact us to exercise these rights."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have questions about this privacy policy, please contact us at:"
+    }
+  }
+}

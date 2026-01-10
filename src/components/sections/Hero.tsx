@@ -5,7 +5,7 @@ import { useLocalizedPath } from '@/hooks/useLocalizedPath'
 import { fadeInUp, fadeInLeft, staggerContainer, PulseGlow } from '@/components/ui'
 
 export function Hero() {
-  const { t } = useTranslation('home')
+  const { t } = useTranslation(['home', 'common'])
   const { localizedPath } = useLocalizedPath()
 
   return (
@@ -98,13 +98,13 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 1 }}
           >
             {[
-              { value: '15+', label: 'Years Experience' },
-              { value: '500+', label: 'Projects Completed' },
-              { value: '15', label: 'Year Warranty' },
-              { value: '98%', label: 'Client Satisfaction' }
+              { value: '15+', labelKey: 'trust.years' },
+              { value: '500+', labelKey: 'trust.projects' },
+              { value: '15', labelKey: 'trust.warranty' },
+              { value: '98%', labelKey: 'trust.satisfaction' }
             ].map((stat, index) => (
               <motion.div
-                key={stat.label}
+                key={stat.labelKey}
                 className="text-center"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -118,7 +118,7 @@ export function Hero() {
                 >
                   {stat.value}
                 </motion.div>
-                <div className="text-sm text-gray-400">{stat.label}</div>
+                <div className="text-sm text-gray-400">{t(`common:${stat.labelKey}`)}</div>
               </motion.div>
             ))}
           </motion.div>
