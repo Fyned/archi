@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Blog - Pergola, Veranda & Carport İpuçları",
-    "description": "Biyoklimatik pergolalar, alüminyum verandalar ve carport'lar hakkında makalelerimizi ve ipuçlarımızı keşfedin. Projeniz için rehberler, trendler ve öneriler."
+    "title": "Blog - Pergola, Veranda & Carport Ipuclari",
+    "description": "Biyoklimatik pergolalar, aluminyum verandalar ve carport'lar hakkinda makalelerimizi ve ipuclarimizi kesfedin. Projeniz icin rehberler, trendler ve oneriler."
   },
   "hero": {
-    "title": "Blog & İpuçları",
-    "subtitle": "Dış mekan projeniz için pratik rehberler, trendler ve uzman tavsiyeleri"
+    "title": "Blog & Ipuclari",
+    "subtitle": "Dis mekan projeniz icin pratik rehberler, trendler ve uzman tavsiyeleri"
   },
   "categories": {
     "pergola": "Pergola",
@@ -15,35 +15,344 @@
   },
   "read_time": "dk okuma",
   "read_more": "Makaleyi oku",
+  "share": "Paylas",
+  "back_to_blog": "Bloga don",
+  "related_posts": "Ilgili makaleler",
+  "gallery_title": "Foto galeri",
+  "conclusion_title": "Sonuc",
+  "cta": {
+    "title": "Projenize baslamaya hazir misiniz?",
+    "description": "Ucretsiz ve kisisellestirilmis teklif icin bizimle iletisime gecin. Uzmanlarimiz hizmetinizde."
+  },
   "newsletter": {
     "title": "Haberdar Olun",
-    "description": "Projeniz için en son ipuçları ve özel teklifler almak için bize ulaşın.",
-    "cta": "Bize Ulaşın"
+    "description": "Projeniz icin en son ipuclari ve ozel teklifler almak icin bize ulasin.",
+    "cta": "Bize Ulasin"
   },
   "posts": {
     "pergola-bioclimatique-guide-complet": {
-      "title": "Tam Rehber: Belçika'da Biyoklimatik Pergola",
-      "excerpt": "Biyoklimatik pergolalar hakkında bilmeniz gereken her şey: çalışma prensibi, fiyatlar, kurulum ve avantajlar. Doğru seçimi yapmanız için kapsamlı rehber."
+      "title": "Tam Rehber: Belcika'da Biyoklimatik Pergola",
+      "excerpt": "Biyoklimatik pergolalar hakkinda bilmeniz gereken her sey: calisma prensibi, fiyatlar, kurulum ve avantajlar. Dogru secimi yapmaniz icin kapsamli rehber.",
+      "content": {
+        "intro": "Biyoklimatik pergola, Belcika'da nihai dis mekan yasam cozumu haline geldi. Ayarlanabilir lamellerle gunesin, yagmurun ve ruzgarin optimum korumasini sunar ve tum yil boyunca terasinizin keyfini cikarmanizi saglar. Bu kapsamli rehberde, biyoklimatik pergolaya yatirim yapmadan once bilmeniz gereken her seyi acikliyoruz.",
+        "sections": [
+          {
+            "title": "Biyoklimatik pergola nedir?",
+            "content": "Biyoklimatik pergola, catisinda ayarlanabilir lameller bulunan bir aluminyum yapidir. Bu lameller 0 ila 145 derece arasinda donebilir ve pergolanizin altindaki isik ve havalandirmayi hassas bir sekilde kontrol etmenizi saglar. Geleneksel bir pergolanin aksine, hava kosullarina gercek zamanli olarak uyum saglar.",
+            "list": [
+              "Hassas kontrol icin motorlu ayarlanabilir lameller",
+              "Tum hava kosullarina dayanikli %100 aluminyum yapi",
+              "Entegre su tahliye sistemi",
+              "LED ve isitma secenekleri mevcut",
+              "10 yila kadar uretici garantisi"
+            ]
+          },
+          {
+            "title": "Biyoklimatik pergolanin avantajlari",
+            "content": "Biyoklimatik pergolaya yatirim yapmak, geleneksel cozumlere kiyasla bircok avantaj sunar. Dis mekanlarinin kullanimini yil boyunca en ust duzeye cikarmak isteyenler icin akilli bir secimdir.",
+            "list": [
+              "Tercihinize gore ayarlanabilir gunes korumasi",
+              "Kapali pozisyonda mukemmel su gecirmezlik",
+              "Acik pozisyonda dogal havalandirma",
+              "Mulk degerinin artmasi",
+              "Aluminyumun olaganustu dayanikliligi"
+            ]
+          },
+          {
+            "title": "Belcika'da biyoklimatik pergola fiyati",
+            "content": "Biyoklimatik pergola fiyati cesitli faktorlere bagli olarak degisir: alan, secilen secenekler ve kurulum karmasikligi. Genel olarak, eksiksiz profesyonel kurulum icin metrekare basina 350 ila 600 Euro arasinda bekleyin.",
+            "list": [
+              "3x4m Pergola: 5.500 Euro'dan baslayan fiyatlarla",
+              "4x5m Pergola: 8.000 Euro'dan baslayan fiyatlarla",
+              "LED secenekleri: +500 ila 1.500 Euro",
+              "Cam duvarlar: +150 Euro/m2",
+              "Profesyonel kurulum dahil"
+            ]
+          },
+          {
+            "title": "Belcika'da kurulum ve yonetmelikler",
+            "content": "Belcika'da biyoklimatik pergola kurulumu genellikle onceden sehir planlama beyani gerektirmektedir. Kurallar bolgeye gore degisir (Valonya, Flandra, Bruksel). Ekibimiz, uyumlu bir kurulum saglamak icin tum idari islemlerde size rehberlik eder.",
+            "list": [
+              "Cogu durumda onceden beyan gerekli",
+              "Izinsiz maksimum alan: 40m2 (bolgeye gore degisir)",
+              "Mulk sinirlarina minimum mesafe",
+              "Stabilite ve guvenlik standartlarina uygunluk",
+              "Idari islemleri biz ustleniyoruz"
+            ]
+          }
+        ],
+        "conclusion": "Biyoklimatik pergola, terasinizi gercek bir yasam alanina donusturen kalici bir yatirimdir. Archi Construction & Veranda'da, uzman ekiplerimiz tarafindan kurulan ozel cozumler sunuyoruz. Ucretsiz teklif icin bizimle iletisime gecin ve projenizi nasil hayata gecirebilecegimizi kesfedin."
+      }
     },
     "veranda-aluminium-vs-pvc": {
-      "title": "Alüminyum vs PVC Veranda: Hangi Malzemeyi Seçmeli?",
-      "excerpt": "Alüminyum ve PVC verandalar arasında detaylı karşılaştırma. Her çözümün avantajlarını, dezavantajlarını ve fiyatlarını keşfedin."
+      "title": "Aluminyum vs PVC Veranda: Hangi Malzemeyi Secmeli?",
+      "excerpt": "Aluminyum ve PVC verandalar arasinda detayli karsilastirma. Her cozumun avantajlarini, dezavantajlarini ve fiyatlarini kesfedin.",
+      "content": {
+        "intro": "Evinizi bir veranda ile genisletmeyi dusunuyor musunuz? Malzeme secimi, uzantinizin dayanikliligi, estetigi ve termal performansi icin cok onemlidir. Bu makalede, en iyi secimi yapmaniza yardimci olmak icin aluminyum ve PVC verandalari ayrintili olarak karsilastiriyoruz.",
+        "sections": [
+          {
+            "title": "Aluminyum veranda: zarafet ve performans",
+            "content": "Aluminyum, modern verandalar icin premium malzemedir. Cam yuzeyini ve dogal isik girisini maksimize eden esssiz ince profiller sunar. Dogal korozyona dayanikliligi, Belcika iklimi icin ideal kilmaktadir.",
+            "list": [
+              "Maksimum isik icin ince profiller",
+              "Bakim gerektirmez",
+              "40 yili asan kullanim omru",
+              "Genis RAL renk secenegi",
+              "Termal kesme ile mukemmel isi yalitimi"
+            ]
+          },
+          {
+            "title": "PVC veranda: ekonomik ve yalitimli",
+            "content": "PVC, mukemmel fiyat-performans orani nedeniyle populer bir secim olmaya devam ediyor. Iyi termal performans sunan dogal olarak yalitici bir malzemedir. Ancak daha kalin profilleri, aluminyuma kiyasla cam yuzeyini azaltir.",
+            "list": [
+              "Daha dusuk giris fiyati",
+              "Iyi dogal isi yalitimi",
+              "Sabunlu su ile kolay bakim",
+              "Daha genis profiller, daha az isik",
+              "Daha sinirli renk secenegi"
+            ]
+          },
+          {
+            "title": "Termal performans karsilastirmasi",
+            "content": "Isi yalitimi Belcika'da onemli bir kriterdir. Termal kesmeli modern aluminyum verandalar artik PVC'ye esit hatta ustun performans elde etmektedir. Cam secimi (cift veya uc katli) yapi malzemesinden daha fazla etkiye sahiptir.",
+            "list": [
+              "Termal kesmeli aluminyum: Uw 1.2 ila 1.5",
+              "Standart PVC: Uw 1.3 ila 1.6",
+              "Her ikisi icin uc katli cam onerilir",
+              "Hava sizdirmazliginin onemi",
+              "Uzantiniz icin EPC sertifikasi"
+            ]
+          },
+          {
+            "title": "Tavsiyemiz",
+            "content": "Archi Construction & Veranda'da cogu proje icin aluminyum oneriyoruz. Baslangic yatirimi biraz daha yuksek olsa da, dayaniklilik, estetik ve mulkunuzun deger artisi bu farki fazlasiyla telafi eder. PVC, daha siki butceler icin ilginc olmaya devam ediyor.",
+            "list": [
+              "Aluminyum: ust duzey projeler icin premium secim",
+              "PVC: sinirli butceler icin ekonomik cozum",
+              "Aluminyum kurulumlarimizda 10 yil garanti",
+              "Ucretsiz karsilastirmali teklif mevcut",
+              "Projeniz icin kisisel danismanlik"
+            ]
+          }
+        ],
+        "conclusion": "Aluminyum veya PVC secin, onemli olan ozel ihtiyaclariniza gore size danismanlik yapabilecek deneyimli bir kurucu ile calismaktir. Veranda projenizin kisisellestirilmis calismasi icin Archi Construction & Veranda ile iletisime gecin."
+      }
     },
     "carport-solaire-belgique": {
-      "title": "Güneş Enerjili Carport: Belçika'da Elektrik Üretimi",
-      "excerpt": "Carport'unuzu yeşil enerji kaynağına nasıl dönüştürürsünüz? Belçika'da fotovoltaik carport'lar hakkında kapsamlı rehber."
+      "title": "Gunes Enerjili Carport: Belcika'da Elektrik Uretimi",
+      "excerpt": "Carport'unuzu yesil enerji kaynagina nasil donusturursunuz? Belcika'da fotovoltaik carport'lar hakkinda kapsamli rehber.",
+      "content": {
+        "intro": "Gunes enerjili carport iki temel islevi birlestirir: arac korumasini ve yesil elektrik uretimini. Yenilenebilir enerji tesivklerinin cazip oldugu Belcika'da, bu iki kat karli bir yatirimdir. Fotovoltaik carport'lar hakkinda bilmeniz gereken her seyi kesfedin.",
+        "sections": [
+          {
+            "title": "Gunes enerjili carport nedir?",
+            "content": "Gunes enerjili carport, catisi fotovoltaik panellerle donatilmis bir arac barinagi yapisdir. Catiya kurulan panellerin aksine, carport elektrik uretimini maksimize etmek icin optimum yonlendirme saglar.",
+            "list": [
+              "Sagalm ve dayanikli aluminyum yapi",
+              "Catiya entegre fotovoltaik paneller",
+              "Optimize edilmis guney/guneybati yonlendirmesi",
+              "Gunes, yagmur ve doluda koruma",
+              "Elektrikli arac sarj noktasi secenegi"
+            ]
+          },
+          {
+            "title": "Belcika'da uretim ve verim",
+            "content": "Belcika iklimine ragmen, gunes enerjili carport ihtiyaclarinizin onemli bir bolumunu karsilayacak kadar elektrik uretir. Cift carport (yaklasik 30m2) yilda 5.000 ila 7.000 kWh ureten 15 ila 20 panel barindirabilir.",
+            "list": [
+              "Ortalama uretim: Belcika'da 850-950 kWh/kWp/yil",
+              "Tekli carport (15m2): 2.500-3.500 kWh/yil",
+              "Cift carport (30m2): 5.000-7.000 kWh/yil",
+              "Oto tuketim veya sebekeye enjeksiyon",
+              "Bolgeye gore 6-10 yilda geri odeme"
+            ]
+          },
+          {
+            "title": "Belcika'da tesvikler ve sübvansiyonlar",
+            "content": "Gunes paneli kurulumu icin mali destek bolgeye gore degisir. 2026'da Valonya'daki yesil sertifikalar ve Flandra'daki ters donen sayac cazip tesvikler olmaya devam ediyor.",
+            "list": [
+              "Valonya: 10 yil yesil sertifikalar",
+              "Flandra: federal vergi indirimi",
+              "Bruksel: yatirim primleri",
+              "Yenileme icin %6 indirilmis KDV",
+              "Avantajli oranda yesil kredi mevcut"
+            ]
+          },
+          {
+            "title": "Elektrikli arac sarji",
+            "content": "Gunes enerjili carport ve sarj noktasi kombinasyonu, elektrikli arac sahipleri icin idealdir. Aracinizi dogrudan carport'unuz tarafindan uretilen elektrikle sarj edebilir ve karbon ayak izinizi sifira indirebilirsiniz.",
+            "list": [
+              "Secenek olarak entegre sarj noktasi",
+              "Gunes ile ucretsiz sarj",
+              "Akilli sarj yonetimi",
+              "Tum elektrikli araclarla uyumlu",
+              "RGIE standartlarina uygun kurulum"
+            ]
+          }
+        ],
+        "conclusion": "Gunes enerjili carport, arac korumasini ve yenilenebilir enerji uretimini birlestiren gelecege yonelik bir cozumdur. Archi Construction & Veranda, profesyonel kurulum ve sebeke baglantisi ile anahtar teslimi fotovoltaik carport'lar sunmaktadir. Ucretsiz karlilik calismanizi talep edin."
+      }
     },
     "entretien-pergola-aluminium": {
-      "title": "Alüminyum Pergolanızı Nasıl Bakım Yaparsınız?",
-      "excerpt": "Biyoklimatik pergolanızın bakımı için pratik ipuçları. Uzun ömür için temizlik, bakım ve koruma önerileri."
+      "title": "Aluminyum Pergolanizi Nasil Bakim Yaparsiniz?",
+      "excerpt": "Biyoklimatik pergolanizin bakimi icin pratik ipuclari. Uzun omur icin temizlik, bakim ve koruma onerileri.",
+      "content": {
+        "intro": "Aluminyum pergola, minimum bakimla onlarca yil dayanacak sekilde tasarlanmistir. Ancak birkac basit adim, yeni gorunumunu korumaya ve mekanizmalarinin duzgun calismasini saglamaya yardimci olur. Biyoklimatik pergolanizin bakimi icin uzman ipuclarimiz burada.",
+        "sections": [
+          {
+            "title": "Yapinin duzenli temizligi",
+            "content": "Toz boyali aluminyum paslanmaz ve ozel islem gerektirmez. Yilda iki kez sabunlu su ile temizlik, pergolanizin parlaklgini korumak icin yeterlidir. Kaplamaya zarar verebilecek asindirici urunlerden kacinin.",
+            "list": [
+              "Ilik sabunlu su ile temizleyin",
+              "Yumusak sunger veya mikrofiber bez",
+              "Temiz su ile durulayiin",
+              "Yumusak bezle kurulayiin",
+              "Yuksek basincli temizleyicilerden kacinin"
+            ]
+          },
+          {
+            "title": "Ayarlanabilir lamellerin bakimi",
+            "content": "Lameller, biyoklimatik pergolanizin anahtar elemanidir. Duzgun calistiklarini duzenli olarak kontrol edin ve donuslerini engelleyebilecek kir birikinimi onlemek icin temizleyin.",
+            "list": [
+              "Aylik lamel hareketini kontrol edin",
+              "Lamelleri her iki taraftan temizleyin",
+              "Contalari kontrol edin",
+              "Gerekirse mekanizmalari yaglayin",
+              "Anormal sesleri bildirin"
+            ]
+          },
+          {
+            "title": "Yagmur suyu tahliyesi",
+            "content": "Su tahliye sistemi, kurulumunuzun uzun omurlu olmasi icin onemlidir. Oluklarin ve inis borularinin yapraklar veya dokuntulerle tikanmadigini kontrol edin.",
+            "list": [
+              "Her mevsim oluklari kontrol edin",
+              "Biriken yaprak ve dokuntuları kaldirin",
+              "Su akisini kontrol edin",
+              "Baglantilari ve contalari kontrol edin",
+              "Gerekirse su ile acin"
+            ]
+          },
+          {
+            "title": "Yillik onleyici bakim",
+            "content": "Bir profesyonel tarafindan yillik bakim ziyareti oneririz. Bu muayene, potansiyel sorunlari kotulesmeden once tespit etmeye ve kurulumunuzun uzun omurlu olmasini saglamaya yardimci olur.",
+            "list": [
+              "Tam yapisal kontrol",
+              "Sabitlemelerin dogrulanmasi",
+              "Motorlu sistemlerin testi",
+              "Gerekirse programlama guncellemesi",
+              "Ayrintili muayene raporu"
+            ]
+          }
+        ],
+        "conclusion": "Duzenli bakim, biyoklimatik pergolanizin uzun omurlu olmasini garanti eder ve dis mekaninizin keyfini uzun yillar cikarmanizi saglar. Archi Construction & Veranda, tam bir huzur icin bakim sozlesmeleri sunmaktadir."
+      }
     },
     "permis-urbanisme-belgique": {
-      "title": "Belçika'da İnşaat İzni: 2026 Rehberi",
-      "excerpt": "Belçika'da pergola, veranda ve carport'lar için inşaat izinleri hakkında her şey. Bölgelere göre kurallar ve idari adımlar."
+      "title": "Belcika'da Insaat Izni: 2026 Rehberi",
+      "excerpt": "Belcika'da pergola, veranda ve carport'lar icin insaat izinleri hakkinda her sey. Bolgelere gore kurallar ve idari islemler.",
+      "content": {
+        "intro": "Pergola, veranda veya carport kurmadan once, Belcika sehir planlama yonetmeliklerini bilmek onemlidir. Kurallar bolgeye (Valonya, Flandra, Bruksel) ve yapi turune gore degisir. Bu rehber, uyumlu olmak icin izlenmesi gereken islemleri aciklar.",
+        "sections": [
+          {
+            "title": "Valonya'da yonetmelikler",
+            "content": "Valonya'da, belirli yapilar alan ve konum konusunda kesin kosullari karsilamalari halinde izinlerden muaf tutulur. 40m2'den kucuk bir pergola veya carport, belirli kosullar altinda izinden muaf olabilir.",
+            "list": [
+              "Izinsiz maks. alan: 40m2",
+              "Sadece binanin arkasinda",
+              "Minimum mesafe: sinirlardan 2m",
+              "Maksimum yukseklik: 3,5m",
+              "Onceden beyan onerilir"
+            ]
+          },
+          {
+            "title": "Flandra'da yonetmelikler",
+            "content": "Flandra, ek binalar icin ozel kurallar uygular. Ek binalarin (garaj, veranda, carport, pergola) toplam alani izinden muaf olmak icin 40m2'yi gecmemelidir.",
+            "list": [
+              "Toplam ek bina alani maks: 40m2",
+              "Cephededen maks. derinlik: 4m",
+              "Sadece yan cekilme bolgesinde",
+              "Yerel kalkinma planina uygunluk",
+              "Bazen bildirim gerekli"
+            ]
+          },
+          {
+            "title": "Bruksel'de yonetmelikler",
+            "content": "Bruksel-Baskent Bolgesi daha katıdir. Cogu yapi, insaat izni veya onceden beyan gerektirir. Her zaman belediyenizin sehir planlama departmanina danisin.",
+            "list": [
+              "Cogu durumda izin gerekli",
+              "Kucuk isler icin kucuk beyan",
+              "PRAS ve belediye yonetmeliklerine uygunluk",
+              "Isleme suresi: 30 ila 75 gun",
+              "Mimar danismanligi genellikle gerekli"
+            ]
+          },
+          {
+            "title": "Destek hizmetimiz",
+            "content": "Sehir planlama yonetmeliklerinde gezinmek karmasik olabilir. Archi Construction & Veranda tum idari islemleri sizin icin ustlenir. Fizibilite calismasindan dosya teslimine kadar her seyi biz yonetiyoruz.",
+            "list": [
+              "Ucretsiz fizibilite analizi",
+              "Tam dosyanin derlenmesi",
+              "Belediyeye teslim ve takip",
+              "Tum sorularin cevaplanmasi",
+              "Kurulum uygunlugu garantisi"
+            ]
+          }
+        ],
+        "conclusion": "Idari islemlerin projenizi yavaslatmasina izin vermeyin. Archi Construction & Veranda'da kurulumunuzun mukemmel uyumlu olmasi icin size A'dan Z'ye destek oluyoruz. Ucretsiz fizibilite calismasi icin bizimle iletisime gecin."
+      }
     },
     "tendances-outdoor-2026": {
-      "title": "2026 Dış Mekan Trendleri",
-      "excerpt": "Pergolalar, verandalar ve dış yaşam alanlarındaki son trendler. Tasarım, malzemeler ve yenilikçi teknolojiler."
+      "title": "2026 Dis Mekan Trendleri",
+      "excerpt": "Pergolalar, verandalar ve dis yasam alanlarindaki son trendler. Tasarim, malzemeler ve yenilikci teknolojiler.",
+      "content": {
+        "intro": "2026 yili, dis mekan yasaminda bir donun noktasi isaret ediyor. Guncel trendler konfor, surdurulebilirlik ve teknolojik entegrasyona oncelik veriyor. Dis yasam alanlarimizi gercek oturma odalarina donusturen yenilikleri kesfedin.",
+        "sections": [
+          {
+            "title": "Konforun hizmetinde ev otomasyonu",
+            "content": "Baglantili pergolalar ve verandalar norm haline geldi. Uzaktan kontrol, hava sensorleri, sesli asistanlarla entegrasyon: teknoloji dis mekaninizin yonetimini basitlestiriyor.",
+            "list": [
+              "Akilli telefon ve tablet uzerinden kontrol",
+              "Yagmur, ruzgar ve sicaklik sensorleri",
+              "Alexa, Google Home, Apple HomeKit ile entegrasyon",
+              "Otomatik zaman programlama",
+              "Kisisellestirilmis senaryolar (film, aksam yemegi, vb.)"
+            ]
+          },
+          {
+            "title": "Entegre LED aydinlatma",
+            "content": "Aydinlatma artik bir secenek degil, baslina bir tasarim elemanidir. Yapiya entegre LED'ler cesitli atmosferler olusturmaniza ve gunes battitktan sonra dis mekaninizin kullanimini uzatmaniza olanak tanir.",
+            "list": [
+              "Profillere gomulu LED seritler",
+              "Yogunluk ve renk varyasyonu",
+              "Vurgulama icin yonlendirilebilir spotlar",
+              "Dolayli ortam aydinlatmasi",
+              "Dusuk enerji tuketimi"
+            ]
+          },
+          {
+            "title": "Surdurulebilir ve ekolojik malzemeler",
+            "content": "Surdurulebilirlik endiselerinin merkezinde yer aliyor. Geri donusturulmus aluminyum, yuksek termal performansli camlar ve cevre dostu kaplamalar, cevre bilincli tuketicilerin beklentilerini karsilamaktadir.",
+            "list": [
+              "%100 geri donusturulebilir aluminyum",
+              "Cozucusuz boyalar",
+              "Dusuk emisyonlu camlar",
+              "Bakim gerektirmeyen kompozit ahsap",
+              "Entegre fotovoltaik cozumler"
+            ]
+          },
+          {
+            "title": "Living outdoor: ekstra oda",
+            "content": "Trend, yasam alanini genisletmek. Dis mutfak, lounge alani, spa: veranda ve pergola, entegre isitma sistemleri sayesinde yil boyunca kullanilabilen gercek ek odalar haline geliyor.",
+            "list": [
+              "Tam donatilmis dis mutfaklar",
+              "Ust duzey lounge mobilyalar",
+              "Kizilotesi veya radyant isitma",
+              "Geri cekilebilir perdeler ve duvarlar",
+              "Entegre aydinlatma ve ses"
+            ]
+          }
+        ],
+        "conclusion": "2026 trendleri tek bir hedefe yakınsiyor: konforlu, baglantili ve surdurulebilir dis mekanlar olusturmak. Archi Construction & Veranda bu yenilikleri tum projelerine entegre ediyor. Dis mekaninizi nasil donusturebilecegimizi kesfetmek icin bizimle iletisime gecin."
+      }
     }
   }
 }

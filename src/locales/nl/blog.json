@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Blog - Tips Pergola, Veranda & Carport",
-    "description": "Ontdek onze artikelen en tips over bioklimatische pergola's, aluminium veranda's en carports. Gidsen, trends en tips voor uw project."
+    "title": "Blog - Tips voor Pergola, Veranda & Carport",
+    "description": "Ontdek onze artikelen en tips over bioklimatische pergola's, aluminium veranda's en carports. Gidsen, trends en advies voor uw project."
   },
   "hero": {
-    "title": "Blog & Tips",
+    "title": "Blog & Advies",
     "subtitle": "Praktische gidsen, trends en expert tips voor uw buitenruimte project"
   },
   "categories": {
@@ -15,35 +15,344 @@
   },
   "read_time": "min leestijd",
   "read_more": "Lees artikel",
+  "share": "Delen",
+  "back_to_blog": "Terug naar blog",
+  "related_posts": "Gerelateerde artikelen",
+  "gallery_title": "Fotogalerij",
+  "conclusion_title": "Conclusie",
+  "cta": {
+    "title": "Klaar om uw project te starten?",
+    "description": "Neem contact met ons op voor een gratis en gepersonaliseerde offerte. Onze experts staan voor u klaar."
+  },
   "newsletter": {
-    "title": "Blijf Op de Hoogte",
+    "title": "Blijf Op De Hoogte",
     "description": "Neem contact met ons op voor de laatste tips en exclusieve aanbiedingen voor uw project.",
-    "cta": "Contacteer Ons"
+    "cta": "Contact Opnemen"
   },
   "posts": {
     "pergola-bioclimatique-guide-complet": {
-      "title": "Complete Gids: Bioklimatische Pergola in België",
-      "excerpt": "Alles wat u moet weten over bioklimatische pergola's: werking, prijzen, installatie en voordelen. De ultieme gids om de juiste keuze te maken."
+      "title": "Complete Gids: Bioklimatische Pergola in Belgie",
+      "excerpt": "Alles wat u moet weten over bioklimatische pergola's: werking, prijzen, installatie en voordelen. De ultieme gids voor de juiste keuze.",
+      "content": {
+        "intro": "De bioklimatische pergola is de ultieme buitenruimte-oplossing in Belgie geworden. Met zijn verstelbare lamellen biedt het optimale bescherming tegen zon, regen en wind, terwijl u het hele jaar door van uw terras kunt genieten. In deze complete gids leggen we alles uit wat u moet weten voordat u investeert in een bioklimatische pergola.",
+        "sections": [
+          {
+            "title": "Wat is een bioklimatische pergola?",
+            "content": "Een bioklimatische pergola is een aluminium constructie uitgerust met verstelbare lamellen op het dak. Deze lamellen kunnen van 0 tot 145 graden draaien, waardoor u de lichtinval en ventilatie onder uw pergola nauwkeurig kunt regelen. In tegenstelling tot een traditionele pergola past het zich in realtime aan weersomstandigheden aan.",
+            "list": [
+              "Gemotoriseerde verstelbare lamellen voor nauwkeurige controle",
+              "100% aluminium constructie bestand tegen alle weersomstandigheden",
+              "Geintegreerd waterafvoersysteem",
+              "LED en verwarmingsopties beschikbaar",
+              "Fabrieksgarantie tot 10 jaar"
+            ]
+          },
+          {
+            "title": "Voordelen van een bioklimatische pergola",
+            "content": "Investeren in een bioklimatische pergola biedt veel voordelen ten opzichte van traditionele oplossingen. Het is een slimme keuze voor wie het gebruik van hun buitenruimte het hele jaar door wil maximaliseren.",
+            "list": [
+              "Verstelbare zonwering naar wens",
+              "Perfecte waterdichtheid in gesloten positie",
+              "Natuurlijke ventilatie in open positie",
+              "Waardevermeerdering van uw woning",
+              "Uitzonderlijke duurzaamheid van aluminium"
+            ]
+          },
+          {
+            "title": "Prijs van een bioklimatische pergola in Belgie",
+            "content": "De prijs van een bioklimatische pergola varieert afhankelijk van verschillende factoren: oppervlakte, gekozen opties en complexiteit van de installatie. Reken gemiddeld op 350 tot 600 euro per vierkante meter voor een complete professionele installatie.",
+            "list": [
+              "Pergola 3x4m: vanaf 5.500 euro",
+              "Pergola 4x5m: vanaf 8.000 euro",
+              "LED opties: +500 tot 1.500 euro",
+              "Glazen wanden: +150 euro/m2",
+              "Professionele installatie inbegrepen"
+            ]
+          },
+          {
+            "title": "Installatie en regelgeving in Belgie",
+            "content": "In Belgie is de installatie van een bioklimatische pergola meestal onderworpen aan een voorafgaande stedenbouwkundige verklaring. De regels varieren per regio (Wallonie, Vlaanderen, Brussel). Ons team begeleidt u bij alle administratieve procedures om een conforme installatie te garanderen.",
+            "list": [
+              "Voorafgaande verklaring vereist in de meeste gevallen",
+              "Maximale oppervlakte zonder vergunning: 40m2 (varieert per regio)",
+              "Minimale afstand tot perceelgrenzen",
+              "Naleving van stabiliteits- en veiligheidsnormen",
+              "Wij verzorgen de administratieve procedures"
+            ]
+          }
+        ],
+        "conclusion": "De bioklimatische pergola is een duurzame investering die uw terras transformeert in een echte leefruimte. Bij Archi Construction & Veranda bieden wij oplossingen op maat, geinstalleerd door onze expert teams. Neem contact met ons op voor een gratis offerte en ontdek hoe wij uw project kunnen realiseren."
+      }
     },
     "veranda-aluminium-vs-pvc": {
       "title": "Aluminium vs PVC Veranda: Welk Materiaal Kiezen?",
-      "excerpt": "Gedetailleerde vergelijking tussen aluminium en PVC veranda's. Ontdek de voor- en nadelen en prijzen van elke oplossing."
+      "excerpt": "Gedetailleerde vergelijking tussen aluminium en PVC veranda's. Ontdek de voor- en nadelen en prijzen van elke oplossing.",
+      "content": {
+        "intro": "Overweegt u uw woning uit te breiden met een veranda? De materiaalkeuze is cruciaal voor de duurzaamheid, esthetiek en thermische prestaties van uw uitbreiding. In dit artikel vergelijken we aluminium en PVC veranda's in detail om u te helpen de beste keuze te maken.",
+        "sections": [
+          {
+            "title": "Aluminium veranda: elegantie en prestaties",
+            "content": "Aluminium is het premium materiaal voor moderne veranda's. Het biedt een ongeevenaarde slanke profilering, waardoor het glasoppervlak en de natuurlijke lichtinval worden gemaximaliseerd. De natuurlijke corrosiebestendigheid maakt het ideaal voor het Belgische klimaat.",
+            "list": [
+              "Slanke profielen voor maximale lichtinval",
+              "Geen onderhoud nodig",
+              "Levensduur van meer dan 40 jaar",
+              "Ruime keuze aan RAL kleuren",
+              "Uitstekende thermische isolatie met thermische onderbreking"
+            ]
+          },
+          {
+            "title": "PVC veranda: economisch en isolerend",
+            "content": "PVC blijft een populaire keuze vanwege de uitstekende prijs-kwaliteitverhouding. Het is een natuurlijk isolerend materiaal dat goede thermische prestaties biedt. De dikkere profielen verminderen echter het glasoppervlak in vergelijking met aluminium.",
+            "list": [
+              "Lagere instapprijs",
+              "Goede natuurlijke thermische isolatie",
+              "Eenvoudig onderhoud met zeepwater",
+              "Bredere profielen, minder licht",
+              "Beperktere kleurenkeuze"
+            ]
+          },
+          {
+            "title": "Vergelijking thermische prestaties",
+            "content": "Thermische isolatie is een essentieel criterium in Belgie. Moderne aluminium veranda's met thermische onderbreking bereiken nu prestaties die gelijkwaardig of zelfs beter zijn dan PVC. De keuze van beglazing (dubbel of drievoudig) heeft meer impact dan het constructiemateriaal.",
+            "list": [
+              "Aluminium met thermische onderbreking: Uw 1.2 tot 1.5",
+              "Standaard PVC: Uw 1.3 tot 1.6",
+              "Drievoudige beglazing aanbevolen voor beide",
+              "Belang van luchtdichtheid",
+              "EPC-certificaat voor uw uitbreiding"
+            ]
+          },
+          {
+            "title": "Onze aanbeveling",
+            "content": "Bij Archi Construction & Veranda raden wij aluminium aan voor de meeste projecten. Hoewel de initiele investering iets hoger is, compenseren de duurzaamheid, esthetiek en waardevermeerdering van uw woning dit verschil ruimschoots. PVC blijft interessant voor beperktere budgetten.",
+            "list": [
+              "Aluminium: premium keuze voor hoogwaardige projecten",
+              "PVC: economische oplossing voor beperkte budgetten",
+              "10 jaar garantie op onze aluminium installaties",
+              "Gratis vergelijkende offerte beschikbaar",
+              "Persoonlijk advies voor uw project"
+            ]
+          }
+        ],
+        "conclusion": "Of u nu kiest voor aluminium of PVC, het belangrijkste is om samen te werken met een ervaren installateur die u kan adviseren op basis van uw specifieke behoeften. Neem contact op met Archi Construction & Veranda voor een gepersonaliseerde studie van uw veranda project."
+      }
     },
     "carport-solaire-belgique": {
-      "title": "Zonne-Carport: Elektriciteit Opwekken in België",
-      "excerpt": "Hoe maakt u van uw carport een bron van groene energie? Complete gids over fotovoltaïsche carports in België."
+      "title": "Zonne-carport: Elektriciteit Produceren in Belgie",
+      "excerpt": "Hoe transformeert u uw carport in een bron van groene energie? Complete gids over fotovoltaische carports in Belgie.",
+      "content": {
+        "intro": "De zonne-carport combineert twee essentiele functies: uw voertuig beschermen tegen weersinvloeden en groene elektriciteit produceren. In Belgie, waar premies voor hernieuwbare energie aantrekkelijk zijn, is het een dubbel rendabele investering. Ontdek alles wat u moet weten over fotovoltaische carports.",
+        "sections": [
+          {
+            "title": "Wat is een zonne-carport?",
+            "content": "Een zonne-carport is een voertuigschuilplaats waarvan het dak is uitgerust met fotovoltaische panelen. In tegenstelling tot panelen op een dak, maakt de carport een optimale orientatie mogelijk om de elektriciteitsproductie te maximaliseren.",
+            "list": [
+              "Robuuste en duurzame aluminium constructie",
+              "Fotovoltaische panelen geintegreerd in het dak",
+              "Geoptimaliseerde orientatie zuid/zuidwest",
+              "Bescherming tegen zon, regen en hagel",
+              "Optie oplaadpunt elektrisch voertuig"
+            ]
+          },
+          {
+            "title": "Productie en rendement in Belgie",
+            "content": "Ondanks het Belgische klimaat produceert een zonne-carport voldoende elektriciteit om een significant deel van uw behoeften te dekken. Een dubbele carport (ongeveer 30m2) kan 15 tot 20 panelen herbergen die 5.000 tot 7.000 kWh per jaar produceren.",
+            "list": [
+              "Gemiddelde productie: 850-950 kWh/kWp/jaar in Belgie",
+              "Enkele carport (15m2): 2.500-3.500 kWh/jaar",
+              "Dubbele carport (30m2): 5.000-7.000 kWh/jaar",
+              "Eigen verbruik of netinjectie",
+              "Terugverdientijd in 6-10 jaar afhankelijk van regio"
+            ]
+          },
+          {
+            "title": "Premies en subsidies in Belgie",
+            "content": "Financiele steun voor de installatie van zonnepanelen varieert per regio. In 2026 blijven groene certificaten in Wallonie en de terugdraaiende teller in Vlaanderen aantrekkelijke stimulansen.",
+            "list": [
+              "Wallonie: groene certificaten gedurende 10 jaar",
+              "Vlaanderen: federale belastingaftrek",
+              "Brussel: investeringspremies",
+              "Verlaagd BTW-tarief van 6% voor renovatie",
+              "Groene lening tegen voordelig tarief beschikbaar"
+            ]
+          },
+          {
+            "title": "Opladen elektrisch voertuig",
+            "content": "De combinatie van zonne-carport en oplaadpunt is ideaal voor eigenaren van elektrische voertuigen. U kunt uw auto opladen met elektriciteit die rechtstreeks door uw carport wordt geproduceerd, waardoor uw CO2-voetafdruk tot nul wordt gereduceerd.",
+            "list": [
+              "Geintegreerd oplaadpunt als optie",
+              "Gratis opladen met de zon",
+              "Intelligent laadbeheer",
+              "Compatibel met alle elektrische voertuigen",
+              "Installatie conform AREI-normen"
+            ]
+          }
+        ],
+        "conclusion": "De zonne-carport is een toekomstgerichte oplossing die autobescherming en productie van hernieuwbare energie combineert. Archi Construction & Veranda biedt u kant-en-klare fotovoltaische carports, met professionele installatie en netaansluiting. Vraag uw gratis rendabiliteitstudie aan."
+      }
     },
     "entretien-pergola-aluminium": {
       "title": "Hoe Onderhoudt U Uw Aluminium Pergola?",
-      "excerpt": "Praktische tips voor het onderhoud van uw bioklimatische pergola. Reiniging, onderhoud en bescherming voor een lange levensduur."
+      "excerpt": "Praktische tips voor het onderhoud van uw bioklimatische pergola. Reiniging, onderhoud en bescherming voor een lange levensduur.",
+      "content": {
+        "intro": "Een aluminium pergola is ontworpen om decennia mee te gaan met minimaal onderhoud. Enkele eenvoudige handelingen helpen echter om het nieuwe uiterlijk te behouden en de goede werking van de mechanismen te verzekeren. Hier zijn onze expert tips voor het onderhoud van uw bioklimatische pergola.",
+        "sections": [
+          {
+            "title": "Regelmatige reiniging van de constructie",
+            "content": "Gepoedercoat aluminium roest niet en vereist geen speciale behandeling. Een reiniging met zeepwater twee keer per jaar is voldoende om de glans van uw pergola te behouden. Vermijd schurende producten die de afwerking kunnen beschadigen.",
+            "list": [
+              "Reinigen met lauw zeepwater",
+              "Zachte spons of microvezel doek",
+              "Afspoelen met schoon water",
+              "Drogen met een zachte doek",
+              "Hogedrukreinigers vermijden"
+            ]
+          },
+          {
+            "title": "Onderhoud van de verstelbare lamellen",
+            "content": "De lamellen zijn het belangrijkste element van uw bioklimatische pergola. Controleer regelmatig hun goede werking en maak ze schoon om ophoping van vuil te voorkomen dat hun rotatie kan belemmeren.",
+            "list": [
+              "Maandelijks beweging van lamellen controleren",
+              "Lamellen aan beide zijden reinigen",
+              "Afdichtingen controleren",
+              "Mechanismen smeren indien nodig",
+              "Abnormaal geluid melden"
+            ]
+          },
+          {
+            "title": "Afvoer van regenwater",
+            "content": "Het waterafvoersysteem is essentieel voor de duurzaamheid van uw installatie. Controleer of de goten en afvoeren niet verstopt zijn door bladeren of vuil.",
+            "list": [
+              "Goten elk seizoen inspecteren",
+              "Opgehoopte bladeren en vuil verwijderen",
+              "Waterafvoer controleren",
+              "Aansluitingen en afdichtingen controleren",
+              "Indien nodig ontstoppen met water"
+            ]
+          },
+          {
+            "title": "Jaarlijks preventief onderhoud",
+            "content": "Wij raden een jaarlijkse onderhoudsbeurt door een professional aan. Deze inspectie maakt het mogelijk om eventuele problemen te detecteren voordat ze verergeren en de levensduur van uw installatie te verzekeren.",
+            "list": [
+              "Volledige controle van de constructie",
+              "Verificatie van bevestigingen",
+              "Test van gemotoriseerde systemen",
+              "Bijwerken van programmering indien nodig",
+              "Gedetailleerd inspectierapport"
+            ]
+          }
+        ],
+        "conclusion": "Regelmatig onderhoud garandeert de levensduur van uw bioklimatische pergola en stelt u in staat om vele jaren optimaal te genieten van uw buitenruimte. Archi Construction & Veranda biedt onderhoudscontracten voor totale gemoedsrust."
+      }
     },
     "permis-urbanisme-belgique": {
-      "title": "Bouwvergunning in België: Gids 2026",
-      "excerpt": "Alles over bouwvergunningen voor pergola's, veranda's en carports in België. Regels per regio en administratieve stappen."
+      "title": "Stedenbouwkundige Vergunning in Belgie: Gids 2026",
+      "excerpt": "Alles over stedenbouwkundige vergunningen voor pergola's, veranda's en carports in Belgie. Regels per regio en administratieve procedures.",
+      "content": {
+        "intro": "Voordat u een pergola, veranda of carport installeert, is het essentieel om de Belgische stedenbouwkundige regelgeving te kennen. De regels varieren per regio (Wallonie, Vlaanderen, Brussel) en type constructie. Deze gids legt de te volgen procedures uit om in overeenstemming te zijn.",
+        "sections": [
+          {
+            "title": "Regelgeving in Wallonie",
+            "content": "In Wallonie zijn bepaalde constructies vrijgesteld van vergunning als ze precieze voorwaarden qua oppervlakte en plaatsing respecteren. Een pergola of carport van minder dan 40m2 kan vrijgesteld zijn van vergunning onder voorwaarden.",
+            "list": [
+              "Max oppervlakte zonder vergunning: 40m2",
+              "Alleen aan de achterkant van het gebouw",
+              "Minimale afstand: 2m van grenzen",
+              "Maximale hoogte: 3,5m",
+              "Voorafgaande verklaring aanbevolen"
+            ]
+          },
+          {
+            "title": "Regelgeving in Vlaanderen",
+            "content": "Vlaanderen past specifieke regels toe voor bijgebouwen. De totale oppervlakte van bijgebouwen (garage, veranda, carport, pergola) mag niet meer dan 40m2 bedragen om vrijgesteld te zijn van vergunning.",
+            "list": [
+              "Totale oppervlakte bijgebouwen max: 40m2",
+              "Max diepte: 4m vanaf gevel",
+              "Alleen in zone van zijdelingse afstand",
+              "Naleving van lokaal ruimtelijk uitvoeringsplan",
+              "Melding soms vereist"
+            ]
+          },
+          {
+            "title": "Regelgeving in Brussel",
+            "content": "Het Brussels Hoofdstedelijk Gewest is strenger. De meeste constructies vereisen een stedenbouwkundige vergunning of voorafgaande verklaring. Raadpleeg altijd de stedenbouwkundige dienst van uw gemeente.",
+            "list": [
+              "Vergunning vereist in de meeste gevallen",
+              "Kleine verklaring voor kleine werken",
+              "Naleving van GBP en gemeentelijk reglement",
+              "Verwerkingstijd: 30 tot 75 dagen",
+              "Raadpleging architect vaak vereist"
+            ]
+          },
+          {
+            "title": "Onze begeleidingsservice",
+            "content": "Navigeren door stedenbouwkundige regelgeving kan complex zijn. Archi Construction & Veranda neemt alle administratieve procedures voor u over. Van haalbaarheidstudie tot indiening van het dossier, wij regelen alles.",
+            "list": [
+              "Gratis haalbaarheidsanalyse",
+              "Samenstelling van compleet dossier",
+              "Indiening en opvolging bij gemeente",
+              "Beantwoorden van eventuele vragen",
+              "Garantie van conformiteit van installatie"
+            ]
+          }
+        ],
+        "conclusion": "Laat administratieve procedures uw project niet vertragen. Bij Archi Construction & Veranda begeleiden wij u van A tot Z zodat uw installatie perfect conform is. Neem contact met ons op voor een gratis haalbaarheidstudie."
+      }
     },
     "tendances-outdoor-2026": {
-      "title": "Buitenruimte Trends 2026",
-      "excerpt": "De laatste trends in pergola's, veranda's en buitenleefruimtes. Design, materialen en innovatieve technologieën."
+      "title": "Trends Buitenruimte Inrichting 2026",
+      "excerpt": "De laatste trends op het gebied van pergola's, veranda's en buitenleefruimtes. Design, materialen en innovatieve technologieen.",
+      "content": {
+        "intro": "Het jaar 2026 markeert een keerpunt in buitenruimte inrichting. Huidige trends geven prioriteit aan comfort, duurzaamheid en technologische integratie. Ontdek de innovaties die onze buitenleefruimtes transformeren in echte leefruimtes.",
+        "sections": [
+          {
+            "title": "Domotica in dienst van comfort",
+            "content": "Verbonden pergola's en veranda's zijn de norm geworden. Bediening op afstand, weersensoren, integratie met spraakassistenten: technologie vereenvoudigt het beheer van uw buitenruimte.",
+            "list": [
+              "Bediening via smartphone en tablet",
+              "Regen-, wind- en temperatuursensoren",
+              "Integratie met Alexa, Google Home, Apple HomeKit",
+              "Automatische tijdprogrammering",
+              "Gepersonaliseerde scenario's (film, diner, etc.)"
+            ]
+          },
+          {
+            "title": "Geintegreerde LED-verlichting",
+            "content": "Verlichting is niet langer een optie maar een volwaardig designelement. LED's geintegreerd in de constructie maken het mogelijk om gevarieerde sferen te creeren en het gebruik van uw buitenruimte na zonsondergang te verlengen.",
+            "list": [
+              "LED-strips ingebouwd in profielen",
+              "Variatie in intensiteit en kleur",
+              "Richtbare spots voor accentverlichting",
+              "Indirecte sfeerverlichting",
+              "Laag energieverbruik"
+            ]
+          },
+          {
+            "title": "Duurzame en ecologische materialen",
+            "content": "Duurzaamheid staat centraal in de zorgen. Gerecycled aluminium, hoogwaardige thermische beglazing en milieuvriendelijke afwerkingen beantwoorden aan de verwachtingen van milieubewuste consumenten.",
+            "list": [
+              "100% recyclebaar aluminium",
+              "Oplosmiddelvrije verven",
+              "Lage emissiviteit beglazing",
+              "Onderhoudsvrij composiethout",
+              "Geintegreerde fotovoltaische oplossingen"
+            ]
+          },
+          {
+            "title": "Living outdoor: de extra kamer",
+            "content": "De trend is om de leefruimte uit te breiden. Buitenkeuken, lounge salon, spa: de veranda en pergola worden echte extra kamers, het hele jaar door bruikbaar dankzij geintegreerde verwarmingssystemen.",
+            "list": [
+              "Volledig uitgeruste buitenkeukens",
+              "Hoogwaardig lounge meubilair",
+              "Infrarood of stralingswarmte",
+              "Intrekbare screens en wanden",
+              "Geintegreerde verlichting en geluid"
+            ]
+          }
+        ],
+        "conclusion": "De trends van 2026 convergeren naar een doel: comfortabele, verbonden en duurzame buitenruimtes creeren. Archi Construction & Veranda integreert deze innovaties in al zijn projecten. Neem contact met ons op om te ontdekken hoe wij uw buitenruimte kunnen transformeren."
+      }
     }
   }
 }

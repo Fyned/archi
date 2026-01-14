@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Blog - Pergola, Veranda & Carport Tips",
-    "description": "Discover our articles and tips on bioclimatic pergolas, aluminium verandas and carports. Guides, trends and tips for your project."
+    "description": "Discover our articles and tips on bioclimatic pergolas, aluminum verandas and carports. Guides, trends and advice for your project."
   },
   "hero": {
     "title": "Blog & Tips",
-    "subtitle": "Practical guides, trends and expert tips for your outdoor living project"
+    "subtitle": "Practical guides, trends and expert advice for your outdoor space project"
   },
   "categories": {
     "pergola": "Pergola",
@@ -15,6 +15,15 @@
   },
   "read_time": "min read",
   "read_more": "Read article",
+  "share": "Share",
+  "back_to_blog": "Back to blog",
+  "related_posts": "Related articles",
+  "gallery_title": "Photo gallery",
+  "conclusion_title": "Conclusion",
+  "cta": {
+    "title": "Ready to start your project?",
+    "description": "Contact us for a free and personalized quote. Our experts are at your service."
+  },
   "newsletter": {
     "title": "Stay Informed",
     "description": "Contact us to receive our latest tips and exclusive offers for your project.",
@@ -23,27 +32,327 @@
   "posts": {
     "pergola-bioclimatique-guide-complet": {
       "title": "Complete Guide: Bioclimatic Pergola in Belgium",
-      "excerpt": "Everything you need to know about bioclimatic pergolas: operation, prices, installation and benefits. The ultimate guide to making the right choice."
+      "excerpt": "Everything you need to know about bioclimatic pergolas: how they work, prices, installation and advantages. The ultimate guide to making the right choice.",
+      "content": {
+        "intro": "The bioclimatic pergola has become the ultimate outdoor living solution in Belgium. With its adjustable louvres, it offers optimal protection against sun, rain and wind, while allowing you to enjoy your terrace all year round. In this complete guide, we explain everything you need to know before investing in a bioclimatic pergola.",
+        "sections": [
+          {
+            "title": "What is a bioclimatic pergola?",
+            "content": "A bioclimatic pergola is an aluminum structure equipped with adjustable louvres on the roof. These louvres can rotate from 0 to 145 degrees, allowing you to precisely control the light and ventilation under your pergola. Unlike a traditional pergola, it adapts to weather conditions in real time.",
+            "list": [
+              "Motorized adjustable louvres for precise control",
+              "100% aluminum structure resistant to all weather conditions",
+              "Integrated water drainage system",
+              "LED and heating options available",
+              "Manufacturer warranty up to 10 years"
+            ]
+          },
+          {
+            "title": "Advantages of a bioclimatic pergola",
+            "content": "Investing in a bioclimatic pergola offers many advantages over traditional solutions. It's a smart choice for those who want to maximize the use of their outdoor space throughout the year.",
+            "list": [
+              "Adjustable sun protection to your preference",
+              "Perfect waterproofing in closed position",
+              "Natural ventilation in open position",
+              "Increased property value",
+              "Exceptional durability of aluminum"
+            ]
+          },
+          {
+            "title": "Price of a bioclimatic pergola in Belgium",
+            "content": "The price of a bioclimatic pergola varies depending on several factors: surface area, chosen options, and installation complexity. Generally, expect between 350 and 600 euros per square meter for a complete professional installation.",
+            "list": [
+              "Pergola 3x4m: from 5,500 euros",
+              "Pergola 4x5m: from 8,000 euros",
+              "LED options: +500 to 1,500 euros",
+              "Glass walls: +150 euros/m2",
+              "Professional installation included"
+            ]
+          },
+          {
+            "title": "Installation and regulations in Belgium",
+            "content": "In Belgium, installing a bioclimatic pergola is usually subject to a prior urban planning declaration. Rules vary by region (Wallonia, Flanders, Brussels). Our team guides you through all administrative procedures to ensure a compliant installation.",
+            "list": [
+              "Prior declaration required in most cases",
+              "Maximum surface without permit: 40m2 (varies by region)",
+              "Minimum distance from property boundaries",
+              "Compliance with stability and safety standards",
+              "We handle administrative procedures"
+            ]
+          }
+        ],
+        "conclusion": "The bioclimatic pergola is a lasting investment that transforms your terrace into a true living space. At Archi Construction & Veranda, we offer custom solutions, installed by our expert teams. Contact us for a free quote and discover how we can bring your project to life."
+      }
     },
     "veranda-aluminium-vs-pvc": {
-      "title": "Aluminium vs PVC Veranda: Which Material to Choose?",
-      "excerpt": "Detailed comparison between aluminium and PVC verandas. Discover the advantages, disadvantages and prices of each solution."
+      "title": "Aluminum vs PVC Veranda: Which Material to Choose?",
+      "excerpt": "Detailed comparison between aluminum and PVC verandas. Discover the advantages, disadvantages and prices of each solution.",
+      "content": {
+        "intro": "Are you considering extending your home with a veranda? The choice of material is crucial for the durability, aesthetics and thermal performance of your extension. In this article, we compare aluminum and PVC verandas in detail to help you make the best choice.",
+        "sections": [
+          {
+            "title": "Aluminum veranda: elegance and performance",
+            "content": "Aluminum is the premium material for modern verandas. It offers unmatched slim profiling, maximizing glass surface and natural light intake. Its natural corrosion resistance makes it ideal for the Belgian climate.",
+            "list": [
+              "Slim profiles for maximum light",
+              "No maintenance required",
+              "Lifespan exceeding 40 years",
+              "Wide choice of RAL colors",
+              "Excellent thermal insulation with thermal break"
+            ]
+          },
+          {
+            "title": "PVC veranda: economical and insulating",
+            "content": "PVC remains a popular choice due to its excellent value for money. It's a naturally insulating material that offers good thermal performance. However, its thicker profiles reduce glass surface compared to aluminum.",
+            "list": [
+              "Lower entry price",
+              "Good natural thermal insulation",
+              "Easy maintenance with soapy water",
+              "Wider profiles, less light",
+              "More limited color choice"
+            ]
+          },
+          {
+            "title": "Thermal performance comparison",
+            "content": "Thermal insulation is an essential criterion in Belgium. Modern aluminum verandas with thermal break now achieve equivalent or even superior performance to PVC. The choice of glazing (double or triple) has more impact than the structure material.",
+            "list": [
+              "Aluminum with thermal break: Uw 1.2 to 1.5",
+              "Standard PVC: Uw 1.3 to 1.6",
+              "Triple glazing recommended for both",
+              "Importance of air tightness",
+              "EPC certificate for your extension"
+            ]
+          },
+          {
+            "title": "Our recommendation",
+            "content": "At Archi Construction & Veranda, we recommend aluminum for most projects. Although the initial investment is slightly higher, the durability, aesthetics and value appreciation of your property more than compensate for this difference. PVC remains interesting for tighter budgets.",
+            "list": [
+              "Aluminum: premium choice for high-end projects",
+              "PVC: economical solution for limited budgets",
+              "10-year warranty on our aluminum installations",
+              "Free comparative quote available",
+              "Personalized advice for your project"
+            ]
+          }
+        ],
+        "conclusion": "Whether you choose aluminum or PVC, the key is to work with an experienced installer who can advise you based on your specific needs. Contact Archi Construction & Veranda for a personalized study of your veranda project."
+      }
     },
     "carport-solaire-belgique": {
-      "title": "Solar Carport: Generate Electricity in Belgium",
-      "excerpt": "How to turn your carport into a source of green energy? Complete guide on photovoltaic carports in Belgium."
+      "title": "Solar Carport: Producing Electricity in Belgium",
+      "excerpt": "How to transform your carport into a green energy source? Complete guide on photovoltaic carports in Belgium.",
+      "content": {
+        "intro": "The solar carport combines two essential functions: protecting your vehicle from the elements and producing green electricity. In Belgium, where renewable energy incentives are attractive, it's a doubly profitable investment. Discover everything you need to know about photovoltaic carports.",
+        "sections": [
+          {
+            "title": "What is a solar carport?",
+            "content": "A solar carport is a vehicle shelter structure whose roof is equipped with photovoltaic panels. Unlike panels installed on a roof, the carport allows optimal orientation to maximize electricity production.",
+            "list": [
+              "Robust and durable aluminum structure",
+              "Photovoltaic panels integrated into the roof",
+              "Optimized south/southwest orientation",
+              "Protection against sun, rain and hail",
+              "Electric vehicle charging point option"
+            ]
+          },
+          {
+            "title": "Production and yield in Belgium",
+            "content": "Despite the Belgian climate, a solar carport produces enough electricity to cover a significant portion of your needs. A double carport (about 30m2) can accommodate 15 to 20 panels producing 5,000 to 7,000 kWh per year.",
+            "list": [
+              "Average production: 850-950 kWh/kWp/year in Belgium",
+              "Single carport (15m2): 2,500-3,500 kWh/year",
+              "Double carport (30m2): 5,000-7,000 kWh/year",
+              "Self-consumption or grid injection",
+              "Payback in 6-10 years depending on region"
+            ]
+          },
+          {
+            "title": "Incentives and subsidies in Belgium",
+            "content": "Financial support for solar panel installation varies by region. In 2026, green certificates in Wallonia and the reversing meter in Flanders remain attractive incentives.",
+            "list": [
+              "Wallonia: green certificates for 10 years",
+              "Flanders: federal tax deduction",
+              "Brussels: investment premiums",
+              "Reduced VAT at 6% for renovation",
+              "Green loan at preferential rate available"
+            ]
+          },
+          {
+            "title": "Electric vehicle charging",
+            "content": "The combination of solar carport and charging point is ideal for electric vehicle owners. You can charge your car with electricity produced directly by your carport, reducing your carbon footprint to zero.",
+            "list": [
+              "Integrated charging point as option",
+              "Free charging with the sun",
+              "Smart charging management",
+              "Compatible with all electric vehicles",
+              "Installation compliant with RGIE standards"
+            ]
+          }
+        ],
+        "conclusion": "The solar carport is a future-proof solution that combines vehicle protection and renewable energy production. Archi Construction & Veranda offers you turnkey photovoltaic carports, with professional installation and grid connection. Request your free profitability study."
+      }
     },
     "entretien-pergola-aluminium": {
-      "title": "How to Maintain Your Aluminium Pergola?",
-      "excerpt": "Practical tips for maintaining your bioclimatic pergola. Cleaning, maintenance and protection for a long lifespan."
+      "title": "How to Maintain Your Aluminum Pergola?",
+      "excerpt": "Practical tips for maintaining your bioclimatic pergola. Cleaning, maintenance and protection for a long lifespan.",
+      "content": {
+        "intro": "An aluminum pergola is designed to last for decades with minimal maintenance. However, a few simple steps help maintain its new appearance and ensure the proper functioning of its mechanisms. Here are our expert tips for maintaining your bioclimatic pergola.",
+        "sections": [
+          {
+            "title": "Regular cleaning of the structure",
+            "content": "Powder-coated aluminum doesn't rust and requires no special treatment. Cleaning with soapy water twice a year is enough to maintain your pergola's shine. Avoid abrasive products that could damage the finish.",
+            "list": [
+              "Clean with warm soapy water",
+              "Soft sponge or microfiber cloth",
+              "Rinse with clean water",
+              "Dry with a soft cloth",
+              "Avoid high-pressure cleaners"
+            ]
+          },
+          {
+            "title": "Maintenance of adjustable louvres",
+            "content": "The louvres are the key element of your bioclimatic pergola. Regularly check their proper functioning and clean them to prevent dirt buildup that could hinder their rotation.",
+            "list": [
+              "Check louvre movement monthly",
+              "Clean louvres on both sides",
+              "Check seals",
+              "Lubricate mechanisms if necessary",
+              "Report any abnormal noise"
+            ]
+          },
+          {
+            "title": "Rainwater drainage",
+            "content": "The water drainage system is essential for the longevity of your installation. Check that gutters and downspouts are not blocked by leaves or debris.",
+            "list": [
+              "Inspect gutters each season",
+              "Remove accumulated leaves and debris",
+              "Check water flow",
+              "Check connections and seals",
+              "Unblock with water if necessary"
+            ]
+          },
+          {
+            "title": "Annual preventive maintenance",
+            "content": "We recommend an annual maintenance visit by a professional. This inspection helps detect potential problems before they worsen and ensures the longevity of your installation.",
+            "list": [
+              "Complete structural check",
+              "Verification of fixings",
+              "Test of motorized systems",
+              "Programming update if needed",
+              "Detailed inspection report"
+            ]
+          }
+        ],
+        "conclusion": "Regular maintenance guarantees the longevity of your bioclimatic pergola and allows you to fully enjoy your outdoor space for many years. Archi Construction & Veranda offers maintenance contracts for complete peace of mind."
+      }
     },
     "permis-urbanisme-belgique": {
-      "title": "Building Permit in Belgium: 2026 Guide",
-      "excerpt": "Everything about building permits for pergolas, verandas and carports in Belgium. Rules by region and administrative steps."
+      "title": "Building Permits in Belgium: 2026 Guide",
+      "excerpt": "Everything about building permits for pergolas, verandas and carports in Belgium. Rules by region and administrative procedures.",
+      "content": {
+        "intro": "Before installing a pergola, veranda or carport, it's essential to know Belgian urban planning regulations. Rules vary by region (Wallonia, Flanders, Brussels) and construction type. This guide explains the procedures to follow to be compliant.",
+        "sections": [
+          {
+            "title": "Regulations in Wallonia",
+            "content": "In Wallonia, certain constructions are exempt from permits if they meet precise conditions regarding surface area and location. A pergola or carport of less than 40m2 may be exempt from permit under certain conditions.",
+            "list": [
+              "Max surface without permit: 40m2",
+              "At the rear of the building only",
+              "Minimum distance: 2m from boundaries",
+              "Maximum height: 3.5m",
+              "Prior declaration recommended"
+            ]
+          },
+          {
+            "title": "Regulations in Flanders",
+            "content": "Flanders applies specific rules for annexes. The total surface of annexes (garage, veranda, carport, pergola) must not exceed 40m2 to be exempt from permit.",
+            "list": [
+              "Total annex surface max: 40m2",
+              "Max depth: 4m from facade",
+              "Only in side setback zone",
+              "Compliance with local development plan",
+              "Notification sometimes required"
+            ]
+          },
+          {
+            "title": "Regulations in Brussels",
+            "content": "The Brussels-Capital Region is stricter. Most constructions require a building permit or prior declaration. Always consult your municipality's urban planning department.",
+            "list": [
+              "Permit required in most cases",
+              "Small declaration for minor works",
+              "Compliance with PRAS and municipal regulations",
+              "Processing time: 30 to 75 days",
+              "Architect consultation often required"
+            ]
+          },
+          {
+            "title": "Our support service",
+            "content": "Navigating urban planning regulations can be complex. Archi Construction & Veranda handles all administrative procedures for you. From feasibility study to file submission, we manage everything.",
+            "list": [
+              "Free feasibility analysis",
+              "Compilation of complete file",
+              "Submission and follow-up with municipality",
+              "Answering any questions",
+              "Guarantee of installation compliance"
+            ]
+          }
+        ],
+        "conclusion": "Don't let administrative procedures slow down your project. At Archi Construction & Veranda, we support you from A to Z so your installation is perfectly compliant. Contact us for a free feasibility study."
+      }
     },
     "tendances-outdoor-2026": {
       "title": "Outdoor Living Trends 2026",
-      "excerpt": "The latest trends in pergolas, verandas and outdoor living spaces. Design, materials and innovative technologies."
+      "excerpt": "The latest trends in pergolas, verandas and outdoor living spaces. Design, materials and innovative technologies.",
+      "content": {
+        "intro": "The year 2026 marks a turning point in outdoor living. Current trends prioritize comfort, sustainability and technological integration. Discover the innovations transforming our outdoor living spaces into true living rooms.",
+        "sections": [
+          {
+            "title": "Home automation serving comfort",
+            "content": "Connected pergolas and verandas have become the norm. Remote control, weather sensors, integration with voice assistants: technology simplifies the management of your outdoor space.",
+            "list": [
+              "Control via smartphone and tablet",
+              "Rain, wind and temperature sensors",
+              "Integration with Alexa, Google Home, Apple HomeKit",
+              "Automatic time programming",
+              "Personalized scenarios (movie, dinner, etc.)"
+            ]
+          },
+          {
+            "title": "Integrated LED lighting",
+            "content": "Lighting is no longer an option but a design element in its own right. LEDs integrated into the structure allow you to create varied ambiances and extend the use of your outdoor space after sunset.",
+            "list": [
+              "LED strips recessed in profiles",
+              "Intensity and color variation",
+              "Directional spotlights for highlighting",
+              "Indirect ambient lighting",
+              "Low energy consumption"
+            ]
+          },
+          {
+            "title": "Sustainable and ecological materials",
+            "content": "Sustainability is at the heart of concerns. Recycled aluminum, high thermal performance glazing and eco-responsible finishes meet the expectations of environmentally conscious consumers.",
+            "list": [
+              "100% recyclable aluminum",
+              "Solvent-free paints",
+              "Low emissivity glazing",
+              "Maintenance-free composite wood",
+              "Integrated photovoltaic solutions"
+            ]
+          },
+          {
+            "title": "Living outdoor: the extra room",
+            "content": "The trend is to extend living space. Outdoor kitchen, lounge area, spa: the veranda and pergola become true additional rooms, usable year-round thanks to integrated heating systems.",
+            "list": [
+              "Fully equipped outdoor kitchens",
+              "High-end lounge furniture",
+              "Infrared or radiant heating",
+              "Retractable screens and walls",
+              "Integrated lighting and sound"
+            ]
+          }
+        ],
+        "conclusion": "2026 trends converge toward one goal: creating comfortable, connected and sustainable outdoor spaces. Archi Construction & Veranda integrates these innovations into all its projects. Contact us to discover how we can transform your outdoor space."
+      }
     }
   }
 }

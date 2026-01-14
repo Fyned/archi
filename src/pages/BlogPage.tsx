@@ -41,7 +41,7 @@ const blogPosts = [
   {
     id: 'permis-urbanisme-belgique',
     slug: 'permis-urbanisme-belgique',
-    image: '/images/veranda/veranda-garden.jpg',
+    image: '/images/veranda/veranda-garden-view.jpg',
     category: 'general',
     date: '2025-12-28',
     readTime: 7,
