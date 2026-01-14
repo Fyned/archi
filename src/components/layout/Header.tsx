@@ -31,6 +31,7 @@ export function Header() {
       ]
     },
     { key: 'projects', href: '/projects' },
+    { key: 'portfolio', href: '/portfolio' },
     { key: 'videos', href: '/videos' },
     { key: 'blog', href: '/blog' },
     { key: 'marketplace', href: '/marketplace' },

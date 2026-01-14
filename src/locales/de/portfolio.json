@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "title": "Referenzen",
+    "description": "Entdecken Sie die von Archi Construction & Veranda realisierten Wintergarten-, Pergola- und Poolhausprojekte. Premium-Qualität in Belgien und Umgebung."
+  },
+  "hero": {
+    "title": "Unsere Referenzen",
+    "subtitle": "Entdecken Sie unsere abgeschlossenen Projekte und lassen Sie sich für Ihr eigenes Projekt inspirieren"
+  },
+  "categories": {
+    "veranda": "Wintergarten",
+    "pergola": "Pergola",
+    "poolhouse": "Poolhaus"
+  },
+  "projects": {
+    "veranda_glass_roof_led": "Glasdach-Wintergarten mit LED-Beleuchtung",
+    "veranda_rooftop_terrace": "Dachterrassen-Wintergarten",
+    "veranda_newbuild": "Neubau-Wintergarten-Projekt",
+    "veranda_showroom": "Showroom-Ausstellungsmodell",
+    "veranda_3d_design": "3D-Design Wintergarten",
+    "poolhouse_modern": "Modernes Poolhaus am Schwimmbad",
+    "veranda_villa_luxury": "Luxus-Villa-Wintergarten",
+    "poolhouse_urban": "Poolhaus mit Stadtblick",
+    "pergola_veranda_combo": "Bioklimatische Pergola + Wintergarten",
+    "veranda_compact": "Kompakter Stadtwintergarten",
+    "pergola_poolside": "Lounge-Pergola am Schwimmbad"
+  },
+  "cta": {
+    "title": "Möchten Sie auch so ein Projekt?",
+    "description": "Kontaktieren Sie uns für einen kostenlosen Besuch und ein Angebot. Lassen Sie uns gemeinsam Ihr Traumprojekt verwirklichen."
+  }
+}

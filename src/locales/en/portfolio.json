@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "title": "Portfolio",
+    "description": "Discover veranda, pergola and poolhouse projects completed by Archi Construction & Veranda. Premium quality in Belgium and surrounding areas."
+  },
+  "hero": {
+    "title": "Our Portfolio",
+    "subtitle": "Discover our completed projects and get inspired for your own project"
+  },
+  "categories": {
+    "veranda": "Veranda",
+    "pergola": "Pergola",
+    "poolhouse": "Poolhouse"
+  },
+  "projects": {
+    "veranda_glass_roof_led": "Glass Roof Veranda with LED Lighting",
+    "veranda_rooftop_terrace": "Rooftop Terrace Veranda",
+    "veranda_newbuild": "New Build Veranda Project",
+    "veranda_showroom": "Showroom Display Model",
+    "veranda_3d_design": "3D Design Veranda",
+    "poolhouse_modern": "Modern Poolside Poolhouse",
+    "veranda_villa_luxury": "Luxury Villa Veranda",
+    "poolhouse_urban": "Urban View Poolhouse",
+    "pergola_veranda_combo": "Bioclimatic Pergola + Veranda",
+    "veranda_compact": "Compact Urban Veranda",
+    "pergola_poolside": "Poolside Lounge Pergola"
+  },
+  "cta": {
+    "title": "Would you like a similar project?",
+    "description": "Contact us for a free visit and quote. Let's realise your dream project together."
+  }
+}
