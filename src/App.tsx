@@ -11,7 +11,8 @@ import {
   ProjectDetailPage,
   PrivacyPolicyPage,
   VideoGalleryPage,
-  MarketplacePage
+  MarketplacePage,
+  BlogPage
 } from '@/pages'
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
       <Route path="/privacy" element={<Layout><PrivacyPolicyPage /></Layout>} />
       <Route path="/videos" element={<Layout><VideoGalleryPage /></Layout>} />
       <Route path="/marketplace" element={<Layout><MarketplacePage /></Layout>} />
+      <Route path="/blog" element={<Layout><BlogPage /></Layout>} />
 
       {/* Localized routes */}
       <Route path="/:lang" element={<Layout><HomePage /></Layout>} />
@@ -42,6 +44,7 @@ export default function App() {
       <Route path="/:lang/privacy" element={<Layout><PrivacyPolicyPage /></Layout>} />
       <Route path="/:lang/videos" element={<Layout><VideoGalleryPage /></Layout>} />
       <Route path="/:lang/marketplace" element={<Layout><MarketplacePage /></Layout>} />
+      <Route path="/:lang/blog" element={<Layout><BlogPage /></Layout>} />
     </Routes>
   )
 }

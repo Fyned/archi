@@ -28,6 +28,31 @@
         "Minimum bakım gerektirir",
         "Kalite garantili üretim"
       ]
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular - Biyoklimatik Pergola",
+      "items": [
+        {
+          "question": "Belçika'da biyoklimatik pergola fiyatı ne kadar?",
+          "answer": "Biyoklimatik pergola fiyatı, boyutlara, seçeneklere (LED, motorlu sistem, storlar) ve bitişe bağlı olarak m² başına 400€ ile 950€ arasında değişir. 15-20m²'lik standart bir pergola için kurulum dahil 8.000€ ile 15.000€ arasında bekleyebilirsiniz. Projenize özel kesin fiyat için ücretsiz teklif isteyin."
+        },
+        {
+          "question": "Belçika'da pergola için inşaat izni gerekiyor mu?",
+          "answer": "Genel olarak, 40m²'den küçük bir pergola Belçika'da izin gerektirmez, ancak belediyenize bağlı olarak ön bildirim gerekebilir. Yerel yönetiminize danışmanızı öneririz. Bu adımlarda size rehberlik edebiliriz."
+        },
+        {
+          "question": "Ayarlanabilir lameller nasıl çalışır?",
+          "answer": "Ayarlanabilir lameller, uzaktan kumanda veya akıllı telefon ile kontrol edilen elektrik motoru sayesinde 0° ile 135° arasında dönebilir. Kapalı konumda yağmura karşı koruma sağlar. Açık konumda ışık ve hava geçişine izin verir. Yağmur sensörü lamelleri otomatik olarak kapatabilir."
+        },
+        {
+          "question": "Alüminyum pergolanın ömrü ne kadar?",
+          "answer": "Toz boyalı alüminyum pergola en az 25 ila 40 yıl ömre sahiptir. Alüminyum paslanmaz, deforme olmaz ve UV'ye dayanıklıdır. Bakım, ara sıra sabunlu su ile temizleme ile sınırlıdır."
+        },
+        {
+          "question": "Mevcut bir terasa pergola kurulabilir mi?",
+          "answer": "Evet, pergolalarımız her türlü zemine kurulabilir: seramik teras, ahşap, beton veya doğrudan ayaklar üzerine. Sabitlemeyi durumunuza göre uyarlarız. Ücretsiz teknik ziyaret, en iyi çözümleri değerlendirmemizi sağlar."
+        }
+      ]
     }
   },
   "veranda": {
@@ -54,6 +79,31 @@
         "Mülk değerinde artış",
         "Enerji verimli çözüm"
       ]
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular - Alüminyum Veranda",
+      "items": [
+        {
+          "question": "Belçika'da alüminyum veranda fiyatı ne kadar?",
+          "answer": "Alüminyum veranda fiyatı m² başına 1.200€ ile 2.500€ arasında değişir. 15m²'lik bir veranda için seçeneklere (cam, çatı, bitiş) bağlı olarak 18.000€ ile 35.000€ arasında bekleyebilirsiniz. Fiyat genellikle tasarım, üretim ve kurulumu içerir. Kişiselleştirilmiş ücretsiz teklif isteyin."
+        },
+        {
+          "question": "Belçika'da veranda inşa etmek için izin gerekiyor mu?",
+          "answer": "Evet, Belçika'da veranda için genellikle imar izni gereklidir çünkü evinizin dış görünümünü değiştirir. Kurallar bölgeye göre değişir (Valonya, Flanders, Brüksel). Tüm idari adımlarda size rehberlik ediyoruz."
+        },
+        {
+          "question": "Veranda ile pergola arasındaki fark nedir?",
+          "answer": "Veranda, evin kapalı bir uzantısıdır; tamamen camlı ve yalıtımlıdır, yıl boyunca yaşam alanı olarak kullanılabilir. Pergola ise açık veya yarı açık bir yapıdır, güneş koruması ile dış mekandan keyif almak için idealdir. Her ikisi birleştirilebilir."
+        },
+        {
+          "question": "Kışın verandayı nasıl ısıtırım?",
+          "answer": "Termal kırılmalı profiller ve çift/üçlü cam sayesinde verandalarımız ısıyı iyi tutar. Merkezi ısıtma uzantısı, ısı pompası, elektrikli radyatörler veya yerden ısıtma gibi çeşitli ısıtma seçenekleri mümkündür. En iyi çözüm için danışmanlık veriyoruz."
+        },
+        {
+          "question": "Veranda inşaatı ne kadar sürer?",
+          "answer": "Proje onayı ve izin alındıktan sonra, karmaşıklığa bağlı olarak üretim için 6 ila 10 hafta ve kurulum için 1 ila 2 hafta bekleyebilirsiniz. Rahatsızlığı en aza indirmek ve kusursuz bir bitiş sağlamak için işleri planlıyoruz."
+        }
+      ]
     }
   },
   "carport": {
@@ -79,6 +129,27 @@
         "Minimum bakım",
         "Uzun ömürlü yatırım",
         "Evinize uyumlu tasarım"
+      ]
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular - Alüminyum Carport",
+      "items": [
+        {
+          "question": "Belçika'da alüminyum carport fiyatı ne kadar?",
+          "answer": "Alüminyum carport fiyatı tek araçlık model için 3.500€ ile 8.000€ arasında, çift carport için 6.000€ ile 15.000€ arasında değişir. Fiyat boyutlara, çatı tipine ve seçeneklere (LED aydınlatma, yan duvarlar) bağlıdır. Ücretsiz teklif isteyin."
+        },
+        {
+          "question": "Belçika'da carport için izin gerekiyor mu?",
+          "answer": "Genel olarak, 40m²'den küçük açık bir carport imar izni gerektirmez, ancak bildirim gerekebilir. Kurallar belediye ve bölgeye göre değişir. Her projeden önce durumunuz için geçerli düzenlemeleri kontrol ediyoruz."
+        },
+        {
+          "question": "Carport mu garaj mı: hangisini seçmeli?",
+          "answer": "Carport daha ucuz, daha hızlı kurulur ve genellikle izin gerektirmez. Yağmur, güneş ve dona karşı etkili koruma sağlar. Garaj daha fazla güvenlik ve depolama alanı sunar ancak 3 ila 4 kat daha pahalıdır. Duvarlı bir carport iyi bir uzlaşma olabilir."
+        },
+        {
+          "question": "Carport üzerine güneş paneli kurulabilir mi?",
+          "answer": "Evet, carport'larımız fotovoltaik panelleri taşıyacak şekilde tasarlanmıştır. Aracınızı korurken elektrik üretmek için mükemmel bir çözümdür. Güneş kurulumu için ortaklarımızla çalışıyoruz."
+        }
       ]
     }
   },

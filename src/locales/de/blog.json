@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Blog - Tipps zu Pergola, Wintergarten & Carport",
+    "description": "Entdecken Sie unsere Artikel und Tipps zu bioklimatischen Pergolen, Aluminium-Wintergärten und Carports. Anleitungen, Trends und Tipps für Ihr Projekt."
+  },
+  "hero": {
+    "title": "Blog & Tipps",
+    "subtitle": "Praktische Anleitungen, Trends und Expertentipps für Ihr Außenbereich-Projekt"
+  },
+  "categories": {
+    "pergola": "Pergola",
+    "veranda": "Wintergarten",
+    "carport": "Carport",
+    "general": "Allgemein"
+  },
+  "read_time": "Min. Lesezeit",
+  "read_more": "Artikel lesen",
+  "newsletter": {
+    "title": "Bleiben Sie Informiert",
+    "description": "Kontaktieren Sie uns für die neuesten Tipps und exklusive Angebote für Ihr Projekt.",
+    "cta": "Kontaktieren Sie uns"
+  },
+  "posts": {
+    "pergola-bioclimatique-guide-complet": {
+      "title": "Kompletter Leitfaden: Bioklimatische Pergola in Belgien",
+      "excerpt": "Alles, was Sie über bioklimatische Pergolen wissen müssen: Funktionsweise, Preise, Installation und Vorteile. Der ultimative Leitfaden für die richtige Wahl."
+    },
+    "veranda-aluminium-vs-pvc": {
+      "title": "Aluminium vs PVC Wintergarten: Welches Material wählen?",
+      "excerpt": "Detaillierter Vergleich zwischen Aluminium- und PVC-Wintergärten. Entdecken Sie die Vor- und Nachteile und Preise jeder Lösung."
+    },
+    "carport-solaire-belgique": {
+      "title": "Solar-Carport: Strom in Belgien erzeugen",
+      "excerpt": "Wie macht man seinen Carport zur Quelle grüner Energie? Kompletter Leitfaden zu Photovoltaik-Carports in Belgien."
+    },
+    "entretien-pergola-aluminium": {
+      "title": "Wie pflegen Sie Ihre Aluminium-Pergola?",
+      "excerpt": "Praktische Tipps zur Pflege Ihrer bioklimatischen Pergola. Reinigung, Wartung und Schutz für eine lange Lebensdauer."
+    },
+    "permis-urbanisme-belgique": {
+      "title": "Baugenehmigung in Belgien: Leitfaden 2026",
+      "excerpt": "Alles über Baugenehmigungen für Pergolen, Wintergärten und Carports in Belgien. Regeln nach Region und administrative Schritte."
+    },
+    "tendances-outdoor-2026": {
+      "title": "Außenbereich-Trends 2026",
+      "excerpt": "Die neuesten Trends bei Pergolen, Wintergärten und Außenwohnräumen. Design, Materialien und innovative Technologien."
+    }
+  }
+}

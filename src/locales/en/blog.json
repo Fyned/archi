@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Blog - Pergola, Veranda & Carport Tips",
+    "description": "Discover our articles and tips on bioclimatic pergolas, aluminium verandas and carports. Guides, trends and tips for your project."
+  },
+  "hero": {
+    "title": "Blog & Tips",
+    "subtitle": "Practical guides, trends and expert tips for your outdoor living project"
+  },
+  "categories": {
+    "pergola": "Pergola",
+    "veranda": "Veranda",
+    "carport": "Carport",
+    "general": "General"
+  },
+  "read_time": "min read",
+  "read_more": "Read article",
+  "newsletter": {
+    "title": "Stay Informed",
+    "description": "Contact us to receive our latest tips and exclusive offers for your project.",
+    "cta": "Contact Us"
+  },
+  "posts": {
+    "pergola-bioclimatique-guide-complet": {
+      "title": "Complete Guide: Bioclimatic Pergola in Belgium",
+      "excerpt": "Everything you need to know about bioclimatic pergolas: operation, prices, installation and benefits. The ultimate guide to making the right choice."
+    },
+    "veranda-aluminium-vs-pvc": {
+      "title": "Aluminium vs PVC Veranda: Which Material to Choose?",
+      "excerpt": "Detailed comparison between aluminium and PVC verandas. Discover the advantages, disadvantages and prices of each solution."
+    },
+    "carport-solaire-belgique": {
+      "title": "Solar Carport: Generate Electricity in Belgium",
+      "excerpt": "How to turn your carport into a source of green energy? Complete guide on photovoltaic carports in Belgium."
+    },
+    "entretien-pergola-aluminium": {
+      "title": "How to Maintain Your Aluminium Pergola?",
+      "excerpt": "Practical tips for maintaining your bioclimatic pergola. Cleaning, maintenance and protection for a long lifespan."
+    },
+    "permis-urbanisme-belgique": {
+      "title": "Building Permit in Belgium: 2026 Guide",
+      "excerpt": "Everything about building permits for pergolas, verandas and carports in Belgium. Rules by region and administrative steps."
+    },
+    "tendances-outdoor-2026": {
+      "title": "Outdoor Living Trends 2026",
+      "excerpt": "The latest trends in pergolas, verandas and outdoor living spaces. Design, materials and innovative technologies."
+    }
+  }
+}

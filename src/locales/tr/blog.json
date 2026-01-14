@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Blog - Pergola, Veranda & Carport İpuçları",
+    "description": "Biyoklimatik pergolalar, alüminyum verandalar ve carport'lar hakkında makalelerimizi ve ipuçlarımızı keşfedin. Projeniz için rehberler, trendler ve öneriler."
+  },
+  "hero": {
+    "title": "Blog & İpuçları",
+    "subtitle": "Dış mekan projeniz için pratik rehberler, trendler ve uzman tavsiyeleri"
+  },
+  "categories": {
+    "pergola": "Pergola",
+    "veranda": "Veranda",
+    "carport": "Carport",
+    "general": "Genel"
+  },
+  "read_time": "dk okuma",
+  "read_more": "Makaleyi oku",
+  "newsletter": {
+    "title": "Haberdar Olun",
+    "description": "Projeniz için en son ipuçları ve özel teklifler almak için bize ulaşın.",
+    "cta": "Bize Ulaşın"
+  },
+  "posts": {
+    "pergola-bioclimatique-guide-complet": {
+      "title": "Tam Rehber: Belçika'da Biyoklimatik Pergola",
+      "excerpt": "Biyoklimatik pergolalar hakkında bilmeniz gereken her şey: çalışma prensibi, fiyatlar, kurulum ve avantajlar. Doğru seçimi yapmanız için kapsamlı rehber."
+    },
+    "veranda-aluminium-vs-pvc": {
+      "title": "Alüminyum vs PVC Veranda: Hangi Malzemeyi Seçmeli?",
+      "excerpt": "Alüminyum ve PVC verandalar arasında detaylı karşılaştırma. Her çözümün avantajlarını, dezavantajlarını ve fiyatlarını keşfedin."
+    },
+    "carport-solaire-belgique": {
+      "title": "Güneş Enerjili Carport: Belçika'da Elektrik Üretimi",
+      "excerpt": "Carport'unuzu yeşil enerji kaynağına nasıl dönüştürürsünüz? Belçika'da fotovoltaik carport'lar hakkında kapsamlı rehber."
+    },
+    "entretien-pergola-aluminium": {
+      "title": "Alüminyum Pergolanızı Nasıl Bakım Yaparsınız?",
+      "excerpt": "Biyoklimatik pergolanızın bakımı için pratik ipuçları. Uzun ömür için temizlik, bakım ve koruma önerileri."
+    },
+    "permis-urbanisme-belgique": {
+      "title": "Belçika'da İnşaat İzni: 2026 Rehberi",
+      "excerpt": "Belçika'da pergola, veranda ve carport'lar için inşaat izinleri hakkında her şey. Bölgelere göre kurallar ve idari adımlar."
+    },
+    "tendances-outdoor-2026": {
+      "title": "2026 Dış Mekan Trendleri",
+      "excerpt": "Pergolalar, verandalar ve dış yaşam alanlarındaki son trendler. Tasarım, malzemeler ve yenilikçi teknolojiler."
+    }
+  }
+}

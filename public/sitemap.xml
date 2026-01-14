@@ -171,4 +171,16 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Blog Page -->
+  <url>
+    <loc>https://archi.constructionveranda.com/blog</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/blog"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/blog"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

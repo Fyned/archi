@@ -32,6 +32,7 @@ export function Header() {
     },
     { key: 'projects', href: '/projects' },
     { key: 'videos', href: '/videos' },
+    { key: 'blog', href: '/blog' },
     { key: 'marketplace', href: '/marketplace' },
     { key: 'contact', href: '/contact' },
   ]

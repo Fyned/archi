@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Blog - Conseils Pergola, Véranda & Carport",
+    "description": "Découvrez nos articles et conseils sur les pergolas bioclimatiques, vérandas aluminium et carports. Guides, tendances et astuces pour votre projet."
+  },
+  "hero": {
+    "title": "Blog & Conseils",
+    "subtitle": "Guides pratiques, tendances et conseils d'experts pour votre projet d'aménagement extérieur"
+  },
+  "categories": {
+    "pergola": "Pergola",
+    "veranda": "Véranda",
+    "carport": "Carport",
+    "general": "Général"
+  },
+  "read_time": "min de lecture",
+  "read_more": "Lire l'article",
+  "newsletter": {
+    "title": "Restez Informé",
+    "description": "Contactez-nous pour recevoir nos derniers conseils et offres exclusives pour votre projet.",
+    "cta": "Nous Contacter"
+  },
+  "posts": {
+    "pergola-bioclimatique-guide-complet": {
+      "title": "Guide Complet: Pergola Bioclimatique en Belgique",
+      "excerpt": "Tout ce que vous devez savoir sur les pergolas bioclimatiques: fonctionnement, prix, installation et avantages. Le guide ultime pour faire le bon choix."
+    },
+    "veranda-aluminium-vs-pvc": {
+      "title": "Véranda Aluminium vs PVC: Quel Matériau Choisir?",
+      "excerpt": "Comparaison détaillée entre les vérandas en aluminium et en PVC. Découvrez les avantages, inconvénients et prix de chaque solution."
+    },
+    "carport-solaire-belgique": {
+      "title": "Carport Solaire: Produire de l'Électricité en Belgique",
+      "excerpt": "Comment transformer votre carport en source d'énergie verte? Guide complet sur les carports photovoltaïques en Belgique."
+    },
+    "entretien-pergola-aluminium": {
+      "title": "Comment Entretenir Votre Pergola Aluminium?",
+      "excerpt": "Conseils pratiques pour l'entretien de votre pergola bioclimatique. Nettoyage, maintenance et protection pour une longue durée de vie."
+    },
+    "permis-urbanisme-belgique": {
+      "title": "Permis d'Urbanisme en Belgique: Guide 2026",
+      "excerpt": "Tout savoir sur les permis d'urbanisme pour pergolas, vérandas et carports en Belgique. Règles par région et démarches administratives."
+    },
+    "tendances-outdoor-2026": {
+      "title": "Tendances Aménagement Extérieur 2026",
+      "excerpt": "Les dernières tendances en matière de pergolas, vérandas et espaces de vie extérieurs. Design, matériaux et technologies innovantes."
+    }
+  }
+}
