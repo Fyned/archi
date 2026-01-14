@@ -24,6 +24,13 @@ const projects = [
     location: 'Ghent, Belgium',
     category: 'carport',
     image: '/images/carport/carport-double.jpg'
+  },
+  {
+    id: '4',
+    title: 'Modern Garage Door',
+    location: 'Leuven, Belgium',
+    category: 'garage',
+    image: '/images/garage/garage-double-modern.jpg'
   }
 ]
 
@@ -54,7 +61,7 @@ export function FeaturedProjects() {
         </div>
 
         {/* Projects grid */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {projects.map((project) => (
             <a
               key={project.id}

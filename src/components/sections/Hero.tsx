@@ -96,7 +96,8 @@ export function Hero() {
             {[
               { value: '15+', labelKey: 'trust.years' },
               { value: '500+', labelKey: 'trust.projects' },
-              { value: '98%', labelKey: 'trust.satisfaction' }
+              { value: '98%', labelKey: 'trust.satisfaction' },
+              { value: '5', labelKey: 'trust.countries' }
             ].map((stat, index) => (
               <motion.div
                 key={stat.labelKey}

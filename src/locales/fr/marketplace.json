@@ -25,6 +25,10 @@
     "contact": {
       "title": "Contact Direct",
       "description": "Contactez-nous directement via Facebook Messenger pour plus d'informations."
+    },
+    "delivery": {
+      "title": "Livraison Rapide",
+      "description": "Service de livraison et d'installation dans un rayon de 500 km."
     }
   },
   "cta": {

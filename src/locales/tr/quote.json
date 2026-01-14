@@ -136,6 +136,10 @@
     "fast": {
       "title": "Hızlı Kurulum",
       "description": "Tekliften kuruluma birkaç hafta içinde"
+    },
+    "quality": {
+      "title": "Garanti Kalite",
+      "description": "Tüm işlerimiz kalite garantisi kapsamındadır"
     }
   }
 }

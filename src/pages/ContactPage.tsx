@@ -101,9 +101,9 @@ export default function ContactPage() {
       {/* Contact Info + Form */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
+          <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Info */}
-            <div className="lg:col-span-1">
+            <div>
               <h2 className="text-2xl font-heading font-bold mb-8">
                 {t('contact:info.title')}
               </h2>
@@ -177,7 +177,7 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Form */}
-            <div className="lg:col-span-2">
+            <div>
               <div className="bg-gray-50 rounded-2xl p-8">
                 <h2 className="text-2xl font-heading font-bold mb-6">
                   {t('contact:form.title')}
