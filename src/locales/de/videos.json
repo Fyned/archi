@@ -1,0 +1,23 @@
+{
+  "title": "Video Galerie",
+  "subtitle": "Sehen Sie unsere Projekte und Showroom-Touren in Aktion",
+  "filters": {
+    "all": "Alle Videos",
+    "showroom": "Showroom",
+    "projects": "Projekte"
+  },
+  "videos": {
+    "showroom_tour": "Showroom-Tour",
+    "product_showcase": "Produktpräsentation",
+    "construction_demo": "Konstruktions-Demo",
+    "project_video": "Abgeschlossenes Projekt"
+  },
+  "cta": {
+    "title": "Gefällt Ihnen, was Sie sehen?",
+    "description": "Kontaktieren Sie uns für eine kostenlose Beratung. Wir helfen Ihnen, Ihr Traumprojekt zu verwirklichen."
+  },
+  "meta": {
+    "title": "Video Galerie",
+    "description": "Sehen Sie unsere Pergola-, Wintergarten- und Carport-Projekte im Video. Showroom-Touren und abgeschlossene Projektvideos."
+  }
+}

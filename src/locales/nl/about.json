@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Over ons",
+    "description": "Ontdek het verhaal van Archi Construction & Veranda, uw specialist in pergola's, veranda's en carports in België"
+  },
+  "hero": {
+    "title": "Over ons",
+    "subtitle": "Uw partner voor hoogwaardige buitenconstructies sinds 2009"
+  },
+  "story": {
+    "title": "Ons Verhaal",
+    "paragraphs": [
+      "Archi Construction & Veranda werd in 2009 opgericht met een duidelijke missie: het leveren van hoogwaardige buitenconstructies die het leven van onze klanten verrijken.",
+      "Wat begon als een klein familiebedrijf is uitgegroeid tot een gerenommeerde specialist in bioklimatische pergola's, aluminium veranda's en carports. Met meer dan 500 succesvolle projecten in België en omliggende landen, hebben we een solide reputatie opgebouwd.",
+      "Onze kracht ligt in de combinatie van Belgisch vakmanschap, premium materialen en persoonlijke service. Elk project wordt met dezelfde toewijding en aandacht voor detail uitgevoerd, ongeacht de omvang."
+    ],
+    "experience": "Jaar ervaring"
+  },
+  "values": {
+    "title": "Onze Waarden",
+    "subtitle": "De principes die ons werk elke dag sturen",
+    "quality": {
+      "title": "Kwaliteit",
+      "description": "Alleen de beste materialen en vakmanschap"
+    },
+    "team": {
+      "title": "Teamwork",
+      "description": "Ervaren professionals die samenwerken"
+    },
+    "mission": {
+      "title": "Missie",
+      "description": "Uw droomproject realiseren"
+    },
+    "passion": {
+      "title": "Passie",
+      "description": "Liefde voor wat we doen"
+    }
+  },
+  "stats": {
+    "projects": "Projecten Voltooid",
+    "experience": "Jaar Ervaring",
+    "satisfaction": "Tevreden Klanten"
+  },
+  "team": {
+    "title": "Ons Team",
+    "subtitle": "Maak kennis met de mensen achter Archi Construction"
+  },
+  "certifications": {
+    "title": "Certificaten & Partners"
+  }
+}

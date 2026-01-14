@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Marketplace - Producten & Aanbiedingen",
+    "description": "Ontdek onze producten en speciale aanbiedingen op Facebook Marketplace. Pergola's, veranda's, carports en meer."
+  },
+  "badge": "Facebook Marketplace",
+  "title": "Onze Marketplace",
+  "subtitle": "Ontdek onze nieuwste producten, speciale aanbiedingen en beschikbare projecten op Facebook Marketplace.",
+  "view_on_facebook": "Bekijk op Facebook",
+  "feed": {
+    "title": "Onze Publicaties",
+    "description": "Volg onze Facebook-pagina om onze laatste realisaties, speciale aanbiedingen en nieuwe producten te ontdekken."
+  },
+  "loading": "Facebook-inhoud laden...",
+  "view_directly": "Direct bekijken op Facebook",
+  "features": {
+    "products": {
+      "title": "Kwaliteitsproducten",
+      "description": "Pergola's, veranda's, carports en accessoires van hoge kwaliteit beschikbaar voor verkoop."
+    },
+    "quality": {
+      "title": "Kwaliteitsgarantie",
+      "description": "Al onze producten zijn gemaakt met premium materialen en zorgvuldige afwerking."
+    },
+    "contact": {
+      "title": "Direct Contact",
+      "description": "Neem rechtstreeks contact met ons op via Facebook Messenger voor meer informatie."
+    }
+  },
+  "cta": {
+    "title": "Iets interessants gevonden?",
+    "description": "Neem contact met ons op via Facebook of vraag een gepersonaliseerde offerte aan voor uw project."
+  }
+}

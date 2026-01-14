@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Über uns",
+    "description": "Entdecken Sie die Geschichte von Archi Construction & Veranda, Ihrem Spezialisten für Pergolen, Wintergärten und Carports in Belgien"
+  },
+  "hero": {
+    "title": "Über uns",
+    "subtitle": "Ihr Partner für hochwertige Außenkonstruktionen seit 2009"
+  },
+  "story": {
+    "title": "Unsere Geschichte",
+    "paragraphs": [
+      "Archi Construction & Veranda wurde 2009 mit einer klaren Mission gegründet: hochwertige Außenkonstruktionen zu liefern, die das Leben unserer Kunden bereichern.",
+      "Was als kleines Familienunternehmen begann, ist zu einem renommierten Spezialisten für bioklimatische Pergolen, Aluminium-Wintergärten und Carports gewachsen. Mit über 500 erfolgreichen Projekten in Belgien und den Nachbarländern haben wir einen soliden Ruf aufgebaut.",
+      "Unsere Stärke liegt in der Kombination aus belgischer Handwerkskunst, Premium-Materialien und persönlichem Service. Jedes Projekt wird mit derselben Hingabe und Liebe zum Detail ausgeführt, unabhängig von seiner Größe."
+    ],
+    "experience": "Jahre Erfahrung"
+  },
+  "values": {
+    "title": "Unsere Werte",
+    "subtitle": "Die Prinzipien, die unsere tägliche Arbeit leiten",
+    "quality": {
+      "title": "Qualität",
+      "description": "Nur die besten Materialien und Handwerkskunst"
+    },
+    "team": {
+      "title": "Teamarbeit",
+      "description": "Erfahrene Fachleute, die zusammenarbeiten"
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "Ihr Traumprojekt verwirklichen"
+    },
+    "passion": {
+      "title": "Leidenschaft",
+      "description": "Liebe zu dem, was wir tun"
+    }
+  },
+  "stats": {
+    "projects": "Abgeschlossene Projekte",
+    "experience": "Jahre Erfahrung",
+    "satisfaction": "Zufriedene Kunden"
+  },
+  "team": {
+    "title": "Unser Team",
+    "subtitle": "Lernen Sie die Menschen hinter Archi Construction kennen"
+  },
+  "certifications": {
+    "title": "Zertifikate & Partner"
+  }
+}

@@ -19,6 +19,7 @@
     "lucide-react": "^0.378.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-facebook": "^10.0.1",
     "react-helmet-async": "^2.0.4",
     "react-i18next": "^14.1.0",
     "react-router-dom": "^6.23.0"

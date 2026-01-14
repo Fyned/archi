@@ -2,7 +2,7 @@
   "hero": {
     "title": "Créez votre terrasse de rêve",
     "subtitle": "Spécialiste en pergolas bioclimatiques, vérandas et carports",
-    "description": "Transformez votre espace extérieur avec nos constructions en aluminium de haute qualité. Artisanat belge, garantie 15 ans.",
+    "description": "Transformez votre espace extérieur avec nos constructions en aluminium de haute qualité. Artisanat belge, garantie qualité.",
     "cta_primary": "Demander un devis gratuit",
     "cta_secondary": "Voir nos projets"
   },
@@ -20,6 +20,18 @@
     "carport": {
       "title": "Carport",
       "description": "Protégez vos véhicules avec style. Carports en aluminium durables sur mesure."
+    },
+    "window": {
+      "title": "Fenêtres Aluminium",
+      "description": "Fenêtres de haute qualité avec excellente isolation. Design élégant et écoénergétique."
+    },
+    "shutter": {
+      "title": "Volets Roulants",
+      "description": "Volets électriques et manuels pour sécurité et confort. Intégration domotique."
+    },
+    "garage": {
+      "title": "Portes de Garage",
+      "description": "Portes sectionnelles motorisées. Sûres, isolées et design moderne."
     }
   },
   "why_us": {
@@ -30,7 +42,7 @@
       "description": "Nous utilisons uniquement des matériaux belges et européens de haute qualité."
     },
     "warranty": {
-      "title": "Garantie 15 Ans",
+      "title": "Garantie Qualité",
       "description": "Confiance totale dans nos constructions avec une garantie étendue."
     },
     "custom": {

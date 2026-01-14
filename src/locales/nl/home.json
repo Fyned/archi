@@ -2,7 +2,7 @@
   "hero": {
     "title": "Creëer uw droomterras",
     "subtitle": "Specialist in bioklimatische pergola's, veranda's en carports",
-    "description": "Transformeer uw buitenruimte met onze hoogwaardige aluminium constructies. Belgisch vakmanschap, 15 jaar garantie.",
+    "description": "Transformeer uw buitenruimte met onze hoogwaardige aluminium constructies. Belgisch vakmanschap, kwaliteitsgarantie.",
     "cta_primary": "Gratis offerte aanvragen",
     "cta_secondary": "Bekijk onze projecten"
   },
@@ -20,6 +20,18 @@
     "carport": {
       "title": "Carport",
       "description": "Bescherm uw voertuigen met stijl. Duurzame aluminium carports op maat gemaakt."
+    },
+    "window": {
+      "title": "Aluminium Ramen",
+      "description": "Hoogwaardige ramen met uitstekende isolatie. Stijlvol design en energiezuinig."
+    },
+    "shutter": {
+      "title": "Rolluiken",
+      "description": "Elektrische en manuele rolluiken voor veiligheid en comfort. Domotica-integratie."
+    },
+    "garage": {
+      "title": "Garagepoorten",
+      "description": "Gemotoriseerde sectionaalpoorten. Veilig, geïsoleerd en modern design."
     }
   },
   "why_us": {
@@ -30,7 +42,7 @@
       "description": "Wij gebruiken alleen hoogwaardige Belgische en Europese materialen."
     },
     "warranty": {
-      "title": "15 Jaar Garantie",
+      "title": "Kwaliteitsgarantie",
       "description": "Volledig vertrouwen in onze constructies met uitgebreide garantie."
     },
     "custom": {

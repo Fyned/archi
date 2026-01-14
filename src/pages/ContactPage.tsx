@@ -1,54 +1,76 @@
 import { Helmet } from 'react-helmet-async'
 import { useTranslation } from '@/hooks/useTranslation'
-import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react'
-import { useState, type FormEvent } from 'react'
-import { Button } from '@/components/ui'
+import { Phone, Mail, MapPin, Clock, MessageCircle, Send } from 'lucide-react'
+import { useState, useRef } from 'react'
 
 // Contact constants
 const PHONE_CALL = '+32 487 72 06 29'
 const PHONE_WHATSAPP = '+32 493 36 50 29'
-const EMAIL = 'info@archiconstructionveranda.be'
+const EMAIL = 'archicv.info@gmail.com'
 
 export default function ContactPage() {
   const { t } = useTranslation(['contact', 'common'])
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [isSuccess, setIsSuccess] = useState(false)
+  const [showSendOptions, setShowSendOptions] = useState(false)
+  const formRef = useRef<HTMLFormElement>(null)
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-
-    const form = e.currentTarget
-    const formData = new FormData(form)
-
-    // Send to Formspree (free tier)
-    try {
-      const response = await fetch('https://formspree.io/f/xpwzgkqr', {
-        method: 'POST',
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
-      })
-
-      if (response.ok) {
-        setIsSuccess(true)
-        form.reset()
-      }
-    } catch {
-      // Fallback: open mailto
-      const name = formData.get('name')
-      const email = formData.get('email')
-      const phone = formData.get('phone')
-      const subject = formData.get('subject')
-      const message = formData.get('message')
-
-      const mailtoBody = `Name: ${name}%0AEmail: ${email}%0APhone: ${phone}%0ASubject: ${subject}%0A%0AMessage:%0A${message}`
-      window.open(`mailto:${EMAIL}?subject=Contact from Website&body=${mailtoBody}`)
-      setIsSuccess(true)
+  const getFormData = () => {
+    if (!formRef.current) return null
+    const formData = new FormData(formRef.current)
+    return {
+      name: formData.get('name') as string || '',
+      email: formData.get('email') as string || '',
+      phone: formData.get('phone') as string || '',
+      subject: formData.get('subject') as string || '',
+      message: formData.get('message') as string || ''
     }
+  }
 
-    setIsSubmitting(false)
+  const validateForm = () => {
+    const data = getFormData()
+    if (!data) return false
+    return data.name.trim() !== '' && data.email.trim() !== '' && data.message.trim() !== ''
+  }
+
+  const handleShowOptions = () => {
+    if (validateForm()) {
+      setShowSendOptions(true)
+    } else {
+      // Trigger HTML5 validation
+      formRef.current?.reportValidity()
+    }
+  }
+
+  const sendViaWhatsApp = () => {
+    const data = getFormData()
+    if (!data) return
+
+    const message = `*${t('contact:form.title')}*%0A%0A` +
+      `*${t('common:form.name')}:* ${data.name}%0A` +
+      `*${t('common:form.email')}:* ${data.email}%0A` +
+      `*${t('common:form.phone')}:* ${data.phone || '-'}%0A` +
+      `*${t('contact:form.subject_label')}:* ${data.subject || '-'}%0A%0A` +
+      `*${t('common:form.message')}:*%0A${data.message}`
+
+    const whatsappNumber = PHONE_WHATSAPP.replace(/\s/g, '').replace('+', '')
+    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank')
+    setShowSendOptions(false)
+  }
+
+  const sendViaEmail = () => {
+    const data = getFormData()
+    if (!data) return
+
+    const subject = encodeURIComponent(`Contact: ${data.subject || 'Website Inquiry'}`)
+    const body = encodeURIComponent(
+      `${t('common:form.name')}: ${data.name}\n` +
+      `${t('common:form.email')}: ${data.email}\n` +
+      `${t('common:form.phone')}: ${data.phone || '-'}\n` +
+      `${t('contact:form.subject_label')}: ${data.subject || '-'}\n\n` +
+      `${t('common:form.message')}:\n${data.message}`
+    )
+
+    window.open(`mailto:${EMAIL}?subject=${subject}&body=${body}`, '_blank')
+    setShowSendOptions(false)
   }
 
   return (
@@ -156,109 +178,126 @@ export default function ContactPage() {
                   {t('contact:form.title')}
                 </h2>
 
-                {isSuccess ? (
-                  <div className="text-center py-12">
-                    <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-green-100 flex items-center justify-center">
-                      <svg className="w-8 h-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <h3 className="text-xl font-heading font-semibold mb-2">
-                      {t('common:form.success')}
-                    </h3>
-                    <p className="text-gray-600">
-                      {t('contact:form.success_message')}
-                    </p>
-                  </div>
-                ) : (
-                  <form onSubmit={handleSubmit} className="space-y-6">
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div>
-                        <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                          {t('common:form.name')} *
-                        </label>
-                        <input
-                          type="text"
-                          id="name"
-                          name="name"
-                          required
-                          className="input"
-                          placeholder={t('contact:form.name_placeholder')}
-                        />
-                      </div>
-                      <div>
-                        <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                          {t('common:form.email')} *
-                        </label>
-                        <input
-                          type="email"
-                          id="email"
-                          name="email"
-                          required
-                          className="input"
-                          placeholder={t('contact:form.email_placeholder')}
-                        />
-                      </div>
-                    </div>
-
+                <form ref={formRef} className="space-y-6">
+                  <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                        {t('common:form.phone')}
+                      <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                        {t('common:form.name')} *
                       </label>
                       <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        className="input"
-                        placeholder={t('contact:form.phone_placeholder')}
-                      />
-                    </div>
-
-                    <div>
-                      <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                        {t('contact:form.subject_label')}
-                      </label>
-                      <select
-                        id="subject"
-                        name="subject"
-                        className="input"
-                      >
-                        <option value="">{t('contact:form.subject_placeholder')}</option>
-                        <option value="pergola">{t('contact:form.subject_pergola')}</option>
-                        <option value="veranda">{t('contact:form.subject_veranda')}</option>
-                        <option value="carport">{t('contact:form.subject_carport')}</option>
-                        <option value="window">{t('contact:form.subject_window')}</option>
-                        <option value="shutter">{t('contact:form.subject_shutter')}</option>
-                        <option value="garage">{t('contact:form.subject_garage')}</option>
-                        <option value="other">{t('contact:form.subject_other')}</option>
-                      </select>
-                    </div>
-
-                    <div>
-                      <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                        {t('common:form.message')} *
-                      </label>
-                      <textarea
-                        id="message"
-                        name="message"
-                        rows={5}
+                        type="text"
+                        id="name"
+                        name="name"
                         required
-                        className="input resize-none"
-                        placeholder={t('contact:form.message_placeholder')}
+                        className="input"
+                        placeholder={t('contact:form.name_placeholder')}
                       />
                     </div>
+                    <div>
+                      <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                        {t('common:form.email')} *
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        className="input"
+                        placeholder={t('contact:form.email_placeholder')}
+                      />
+                    </div>
+                  </div>
 
-                    <Button
-                      type="submit"
-                      variant="primary"
-                      size="lg"
-                      isLoading={isSubmitting}
-                      className="w-full md:w-auto"
+                  <div>
+                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                      {t('common:form.phone')}
+                    </label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      className="input"
+                      placeholder={t('contact:form.phone_placeholder')}
+                    />
+                  </div>
+
+                  <div>
+                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                      {t('contact:form.subject_label')}
+                    </label>
+                    <select
+                      id="subject"
+                      name="subject"
+                      className="input"
                     >
+                      <option value="">{t('contact:form.subject_placeholder')}</option>
+                      <option value="Pergola">Pergola</option>
+                      <option value="Veranda">Veranda</option>
+                      <option value="Carport">Carport</option>
+                      <option value="Pencere/Window">{t('common:services_menu.window')}</option>
+                      <option value="Panjur/Shutter">{t('common:services_menu.shutter')}</option>
+                      <option value="Garaj/Garage">{t('common:services_menu.garage')}</option>
+                      <option value="Diğer/Other">{t('contact:form.subject_other')}</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                      {t('common:form.message')} *
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows={5}
+                      required
+                      className="input resize-none"
+                      placeholder={t('contact:form.message_placeholder')}
+                    />
+                  </div>
+
+                  {/* Send Options */}
+                  {!showSendOptions ? (
+                    <button
+                      type="button"
+                      onClick={handleShowOptions}
+                      className="btn btn-primary w-full md:w-auto"
+                    >
+                      <Send size={20} className="mr-2" />
                       {t('common:form.submit')}
-                    </Button>
-                  </form>
-                )}
+                    </button>
+                  ) : (
+                    <div className="space-y-4">
+                      <p className="text-sm text-gray-600 font-medium">
+                        {t('contact:form.send_via')}
+                      </p>
+                      <div className="flex flex-col sm:flex-row gap-3">
+                        <button
+                          type="button"
+                          onClick={sendViaWhatsApp}
+                          className="flex-1 flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-[#25D366] text-white font-medium hover:bg-[#20bd5a] transition-colors"
+                        >
+                          <MessageCircle size={20} />
+                          WhatsApp
+                        </button>
+                        <button
+                          type="button"
+                          onClick={sendViaEmail}
+                          className="flex-1 flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-primary-600 text-white font-medium hover:bg-primary-700 transition-colors"
+                        >
+                          <Mail size={20} />
+                          E-mail
+                        </button>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => setShowSendOptions(false)}
+                        className="text-sm text-gray-500 hover:text-gray-700"
+                      >
+                        {t('contact:form.cancel')}
+                      </button>
+                    </div>
+                  )}
+                </form>
               </div>
             </div>
           </div>

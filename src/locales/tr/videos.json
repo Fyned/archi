@@ -1,0 +1,23 @@
+{
+  "title": "Video Galeri",
+  "subtitle": "Projelerimizi ve showroom turlarımızı izleyin",
+  "filters": {
+    "all": "Tüm Videolar",
+    "showroom": "Showroom",
+    "projects": "Projeler"
+  },
+  "videos": {
+    "showroom_tour": "Showroom Turu",
+    "product_showcase": "Ürün Tanıtımı",
+    "construction_demo": "Yapım Demosu",
+    "project_video": "Tamamlanan Proje"
+  },
+  "cta": {
+    "title": "Gördüklerinizi beğendiniz mi?",
+    "description": "Ücretsiz danışmanlık için bize ulaşın. Hayalinizdeki projeyi gerçekleştirmenize yardımcı oluyoruz."
+  },
+  "meta": {
+    "title": "Video Galeri",
+    "description": "Pergola, veranda ve carport projelerimizi videoda izleyin. Showroom turları ve tamamlanan proje videoları."
+  }
+}

@@ -22,6 +22,8 @@
     "subject_garage": "Garage Doors",
     "subject_other": "Other",
     "message_placeholder": "Tell us about your project...",
-    "success_message": "We will contact you as soon as possible."
+    "success_message": "We will contact you as soon as possible.",
+    "send_via": "How would you like to send your message?",
+    "cancel": "Cancel"
   }
 }

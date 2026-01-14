@@ -18,7 +18,7 @@ export function Hero() {
         className="absolute inset-0"
       >
         <img
-          src="/projects/project-veranda-led.jpg"
+          src="/images/general/hero-main.jpg"
           alt="Archi Construction Veranda - Premium outdoor living spaces"
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
@@ -96,7 +96,6 @@ export function Hero() {
             {[
               { value: '15+', labelKey: 'trust.years' },
               { value: '500+', labelKey: 'trust.projects' },
-              { value: '15', labelKey: 'trust.warranty' },
               { value: '98%', labelKey: 'trust.satisfaction' }
             ].map((stat, index) => (
               <motion.div

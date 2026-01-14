@@ -1,0 +1,23 @@
+{
+  "title": "Video Gallery",
+  "subtitle": "Watch our projects and showroom tours in action",
+  "filters": {
+    "all": "All Videos",
+    "showroom": "Showroom",
+    "projects": "Projects"
+  },
+  "videos": {
+    "showroom_tour": "Showroom Tour",
+    "product_showcase": "Product Showcase",
+    "construction_demo": "Construction Demo",
+    "project_video": "Project Completion"
+  },
+  "cta": {
+    "title": "Like what you see?",
+    "description": "Contact us for a free consultation. We will help you realize your dream project."
+  },
+  "meta": {
+    "title": "Video Gallery",
+    "description": "Watch our pergola, veranda and carport projects in video. Showroom tours and completed project videos."
+  }
+}

@@ -6,15 +6,15 @@ import { useLocalizedPath } from '@/hooks/useLocalizedPath'
 import { fadeInUp, staggerContainer } from '@/components/ui'
 import { ArrowLeft, MapPin, Calendar, CheckCircle, ArrowRight } from 'lucide-react'
 
-// Project data (same as ProjectsPage)
+// Project data with new image structure
 const projectsData = [
   {
     id: '1',
     titleKey: 'projects.veranda_led',
     category: 'veranda',
     locationKey: 'projects.location_brussels',
-    image: '/projects/project-veranda-1.jpg',
-    gallery: ['/projects/project-veranda-1.jpg', '/projects/project-veranda-2.jpg', '/projects/project-veranda-3.jpg'],
+    image: '/images/veranda/veranda-interior-living.jpg',
+    gallery: ['/images/veranda/veranda-interior-living.jpg', '/images/veranda/veranda-interior-dining.jpg', '/images/veranda/veranda-sliding-doors.jpg'],
     year: '2024',
     features: ['LED integrated lighting', 'Motorized louvers', 'Glass sliding panels', 'Remote control system']
   },
@@ -23,8 +23,8 @@ const projectsData = [
     titleKey: 'projects.veranda_rooftop',
     category: 'veranda',
     locationKey: 'projects.location_antwerp',
-    image: '/projects/project-veranda-2.jpg',
-    gallery: ['/projects/project-veranda-2.jpg', '/projects/project-veranda-1.jpg', '/projects/project-veranda-4.jpg'],
+    image: '/images/veranda/veranda-pool-house.jpg',
+    gallery: ['/images/veranda/veranda-pool-house.jpg', '/images/veranda/veranda-exterior-modern.jpg', '/images/veranda/veranda-garden-view.jpg'],
     year: '2024',
     features: ['Rooftop installation', 'Wind-resistant design', 'Rain sensors', 'Integrated gutters']
   },
@@ -33,8 +33,8 @@ const projectsData = [
     titleKey: 'projects.veranda_garden',
     category: 'veranda',
     locationKey: 'projects.location_ghent',
-    image: '/projects/project-veranda-3.jpg',
-    gallery: ['/projects/project-veranda-3.jpg', '/projects/project-veranda-5.jpg', '/projects/project-veranda-1.jpg'],
+    image: '/images/veranda/veranda-garden-view.jpg',
+    gallery: ['/images/veranda/veranda-garden-view.jpg', '/images/veranda/veranda-exterior-classic.jpg', '/images/veranda/veranda-winter-cozy.jpg'],
     year: '2024',
     features: ['Garden integration', 'Natural ventilation', 'Thermal break profiles', 'Double glazing']
   },
@@ -43,8 +43,8 @@ const projectsData = [
     titleKey: 'projects.pergola_showroom',
     category: 'pergola',
     locationKey: 'projects.location_bruges',
-    image: '/projects/project-pergola-1.jpg',
-    gallery: ['/projects/project-pergola-1.jpg', '/projects/project-pergola-2.jpg', '/projects/project-pergola-3.jpg'],
+    image: '/images/pergola/pergola-terrace-view.jpg',
+    gallery: ['/images/pergola/pergola-terrace-view.jpg', '/images/pergola/pergola-louvers-open.jpg', '/images/pergola/pergola-pool-area.jpg'],
     year: '2024',
     features: ['Showroom display', 'Bioclimatic system', 'LED lighting', 'Weather sensors']
   },
@@ -53,8 +53,8 @@ const projectsData = [
     titleKey: 'projects.pergola_deck',
     category: 'pergola',
     locationKey: 'projects.location_leuven',
-    image: '/projects/project-pergola-2.jpg',
-    gallery: ['/projects/project-pergola-2.jpg', '/projects/project-pergola-1.jpg', '/projects/project-pergola-3.jpg'],
+    image: '/images/pergola/pergola-freestanding.jpg',
+    gallery: ['/images/pergola/pergola-freestanding.jpg', '/images/pergola/pergola-attached-house.jpg', '/images/pergola/pergola-winter-rain.jpg'],
     year: '2023',
     features: ['Deck mounted', 'Retractable louvers', 'Integrated heating', 'Side screens']
   },
@@ -63,8 +63,8 @@ const projectsData = [
     titleKey: 'projects.pergola_modern',
     category: 'pergola',
     locationKey: 'projects.location_liege',
-    image: '/projects/project-pergola-3.jpg',
-    gallery: ['/projects/project-pergola-3.jpg', '/projects/project-pergola-1.jpg', '/projects/project-pergola-2.jpg'],
+    image: '/images/pergola/pergola-attached-house.jpg',
+    gallery: ['/images/pergola/pergola-attached-house.jpg', '/images/pergola/pergola-night-led.jpg', '/images/pergola/pergola-louvers-closed.jpg'],
     year: '2023',
     features: ['Modern design', 'Minimalist frame', 'Silent motors', 'App control']
   },
@@ -73,8 +73,8 @@ const projectsData = [
     titleKey: 'projects.veranda_glass',
     category: 'veranda',
     locationKey: 'projects.location_mechelen',
-    image: '/projects/project-veranda-4.jpg',
-    gallery: ['/projects/project-veranda-4.jpg', '/projects/project-veranda-1.jpg', '/projects/project-veranda-2.jpg'],
+    image: '/images/veranda/veranda-glass-roof-detail.jpg',
+    gallery: ['/images/veranda/veranda-glass-roof-detail.jpg', '/images/veranda/veranda-sliding-doors.jpg', '/images/veranda/veranda-interior-living.jpg'],
     year: '2023',
     features: ['Full glass walls', 'Frameless design', 'Underfloor heating', 'Solar control glass']
   },
@@ -83,8 +83,8 @@ const projectsData = [
     titleKey: 'projects.veranda_showroom',
     category: 'veranda',
     locationKey: 'projects.location_hasselt',
-    image: '/projects/project-veranda-5.jpg',
-    gallery: ['/projects/project-veranda-5.jpg', '/projects/project-veranda-3.jpg', '/projects/project-veranda-4.jpg'],
+    image: '/images/veranda/veranda-exterior-classic.jpg',
+    gallery: ['/images/veranda/veranda-exterior-classic.jpg', '/images/veranda/veranda-exterior-modern.jpg', '/images/veranda/veranda-hero.jpg'],
     year: '2023',
     features: ['Commercial showroom', 'Extra wide span', 'Acoustic insulation', 'Fire-rated glass']
   },
@@ -93,8 +93,8 @@ const projectsData = [
     titleKey: 'projects.window_system',
     category: 'window',
     locationKey: 'projects.location_kortrijk',
-    image: '/projects/project-window-1.jpg',
-    gallery: ['/projects/project-window-1.jpg', '/projects/project-veranda-1.jpg', '/projects/project-pergola-1.jpg'],
+    image: '/images/window/window-exterior-facade.jpg',
+    gallery: ['/images/window/window-exterior-facade.jpg', '/images/window/window-floor-ceiling.jpg', '/images/window/window-corner.jpg'],
     year: '2024',
     features: ['Triple glazing', 'Tilt and turn', 'Security locks', 'Noise reduction']
   },

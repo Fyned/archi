@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Gratis Offerte Aanvragen",
+    "description": "Vraag een vrijblijvende offerte aan voor uw pergola, veranda of carport project"
+  },
+  "hero": {
+    "title": "Vraag een gratis offerte aan",
+    "subtitle": "Vul het formulier in en ontvang binnen 24 uur een vrijblijvende offerte op maat",
+    "badge_free": "100% Vrijblijvend",
+    "badge_fast": "Reactie binnen 24 uur",
+    "badge_warranty": "Kwaliteitsgarantie"
+  },
+  "steps": {
+    "project_type": "Project Type",
+    "details": "Details",
+    "property": "Woning",
+    "contact": "Contact"
+  },
+  "step1": {
+    "title": "Welk type project heeft u in gedachten?",
+    "subtitle": "Selecteer het type constructie dat u wenst",
+    "types": {
+      "pergola": {
+        "title": "Bioklimatische Pergola",
+        "description": "Verstelbare lamellen voor optimale bescherming"
+      },
+      "veranda": {
+        "title": "Aluminium Veranda",
+        "description": "Verleng uw leefruimte met een elegante veranda"
+      },
+      "carport": {
+        "title": "Carport",
+        "description": "Bescherm uw voertuigen met stijl"
+      },
+      "other": {
+        "title": "Anders",
+        "description": "Ik heb een ander project in gedachten"
+      }
+    },
+    "next": "Volgende"
+  },
+  "step2": {
+    "title": "Vertel ons meer over uw project",
+    "subtitle": "Deze informatie helpt ons een nauwkeurige offerte op te stellen",
+    "dimensions": {
+      "label": "Geschatte afmetingen",
+      "small": "Klein (< 15m²)",
+      "medium": "Gemiddeld (15-30m²)",
+      "large": "Groot (30-50m²)",
+      "xlarge": "Zeer groot (> 50m²)",
+      "unknown": "Weet ik nog niet"
+    },
+    "budget": {
+      "label": "Geschat budget",
+      "unknown": "Weet ik nog niet"
+    },
+    "timeline": {
+      "label": "Wanneer wilt u starten?",
+      "asap": "Zo snel mogelijk",
+      "1-3months": "Binnen 1-3 maanden",
+      "3-6months": "Binnen 3-6 maanden",
+      "6months+": "Later dit jaar",
+      "planning": "Ik ben nog aan het plannen"
+    },
+    "back": "Terug",
+    "next": "Volgende"
+  },
+  "step3": {
+    "title": "Over uw woning",
+    "subtitle": "Enkele vragen over uw situatie",
+    "owner": {
+      "label": "Bent u eigenaar van de woning?",
+      "yes": "Ja, ik ben eigenaar",
+      "renter": "Nee, ik huur",
+      "buying": "Ik ben aan het kopen"
+    },
+    "design": {
+      "label": "Heeft u al een ontwerp of plan?",
+      "yes": "Ja, ik heb al een ontwerp",
+      "no": "Nee, ik heb hulp nodig",
+      "ideas": "Ik heb ideeën maar geen plan"
+    },
+    "additional": {
+      "label": "Aanvullende informatie (optioneel)",
+      "placeholder": "Vertel ons meer over uw project, speciale wensen of vragen..."
+    },
+    "back": "Terug",
+    "next": "Volgende"
+  },
+  "step4": {
+    "title": "Uw contactgegevens",
+    "subtitle": "Bijna klaar! Vul uw gegevens in en we nemen contact met u op.",
+    "name": {
+      "label": "Naam",
+      "placeholder": "Uw volledige naam"
+    },
+    "email": {
+      "label": "E-mailadres",
+      "placeholder": "uw@email.com"
+    },
+    "phone": {
+      "label": "Telefoonnummer",
+      "placeholder": "+32 XXX XX XX XX"
+    },
+    "address": {
+      "label": "Adres (optioneel)",
+      "placeholder": "Straat, huisnummer, postcode, gemeente"
+    },
+    "upload": {
+      "label": "Foto's of plannen uploaden (optioneel)",
+      "button": "Klik om bestanden te uploaden",
+      "formats": "Ondersteunde formaten: JPG, PNG, PDF (max 10MB)"
+    },
+    "privacy": "Door dit formulier te verzenden gaat u akkoord met onze",
+    "privacy_link": "privacybeleid",
+    "privacy_suffix": ". Wij gebruiken uw gegevens alleen om uw offerte aanvraag te verwerken.",
+    "back": "Terug",
+    "submit": "Offerte aanvragen",
+    "submitting": "Verzenden..."
+  },
+  "success": {
+    "title": "Bedankt voor uw aanvraag!",
+    "message": "We hebben uw offerte aanvraag ontvangen en nemen binnen 24 uur contact met u op.",
+    "button": "Terug naar home"
+  },
+  "why_us": {
+    "title": "Waarom kiezen voor Archi Construction?",
+    "advice": {
+      "title": "Gratis Advies",
+      "description": "Wij komen vrijblijvend bij u langs om uw project te bespreken"
+    },
+    "price": {
+      "title": "Beste Prijs-Kwaliteit",
+      "description": "Eerlijke prijzen voor premium kwaliteit constructies"
+    },
+    "fast": {
+      "title": "Snelle Uitvoering",
+      "description": "Van offerte tot installatie binnen enkele weken"
+    }
+  }
+}

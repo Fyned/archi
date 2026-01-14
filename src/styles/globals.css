@@ -48,4 +48,78 @@
   .input {
     @apply w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-primary-500 focus:ring-2 focus:ring-primary-200 transition-colors;
   }
+
+  /* Flowing gradient - orange to blue like water, continuous right-to-left flow */
+  .gradient-flow {
+    background: linear-gradient(
+      90deg,
+      #f97316 0%,
+      #ea580c 15%,
+      #fb923c 30%,
+      #3b82f6 50%,
+      #2563eb 65%,
+      #60a5fa 80%,
+      #f97316 100%
+    );
+    background-size: 300% 100%;
+    animation: water-flow 15s linear infinite;
+  }
+
+  .gradient-flow-text {
+    background: linear-gradient(
+      90deg,
+      #f97316 0%,
+      #ea580c 15%,
+      #fb923c 30%,
+      #3b82f6 50%,
+      #2563eb 65%,
+      #60a5fa 80%,
+      #f97316 100%
+    );
+    background-size: 300% 100%;
+    animation: water-flow 15s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .btn-gradient {
+    @apply text-white font-medium;
+    background: linear-gradient(
+      90deg,
+      #f97316 0%,
+      #ea580c 15%,
+      #fb923c 30%,
+      #3b82f6 50%,
+      #2563eb 65%,
+      #60a5fa 80%,
+      #f97316 100%
+    );
+    background-size: 300% 100%;
+    animation: water-flow 15s linear infinite;
+  }
+
+  .btn-gradient:hover {
+    filter: brightness(1.1);
+  }
+}
+
+/* Water flow animation - continuous right-to-left, GPU accelerated */
+@keyframes water-flow {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: -100% 50%;
+  }
+}
+
+/* Reduce animation for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .gradient-flow,
+  .gradient-flow-text,
+  .btn-gradient {
+    animation: none;
+    background-position: 50% 50%;
+  }
 }

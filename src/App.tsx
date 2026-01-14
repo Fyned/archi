@@ -9,7 +9,9 @@ import {
   ServiceDetailPage,
   ProjectsPage,
   ProjectDetailPage,
-  PrivacyPolicyPage
+  PrivacyPolicyPage,
+  VideoGalleryPage,
+  MarketplacePage
 } from '@/pages'
 
 export default function App() {
@@ -25,6 +27,8 @@ export default function App() {
       <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
       <Route path="/quote" element={<Layout><QuotePage /></Layout>} />
       <Route path="/privacy" element={<Layout><PrivacyPolicyPage /></Layout>} />
+      <Route path="/videos" element={<Layout><VideoGalleryPage /></Layout>} />
+      <Route path="/marketplace" element={<Layout><MarketplacePage /></Layout>} />
 
       {/* Localized routes */}
       <Route path="/:lang" element={<Layout><HomePage /></Layout>} />
@@ -36,6 +40,8 @@ export default function App() {
       <Route path="/:lang/contact" element={<Layout><ContactPage /></Layout>} />
       <Route path="/:lang/quote" element={<Layout><QuotePage /></Layout>} />
       <Route path="/:lang/privacy" element={<Layout><PrivacyPolicyPage /></Layout>} />
+      <Route path="/:lang/videos" element={<Layout><VideoGalleryPage /></Layout>} />
+      <Route path="/:lang/marketplace" element={<Layout><MarketplacePage /></Layout>} />
     </Routes>
   )
 }

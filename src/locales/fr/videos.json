@@ -1,0 +1,23 @@
+{
+  "title": "Galerie Vidéo",
+  "subtitle": "Découvrez nos projets et visites de showroom en vidéo",
+  "filters": {
+    "all": "Toutes les vidéos",
+    "showroom": "Showroom",
+    "projects": "Projets"
+  },
+  "videos": {
+    "showroom_tour": "Visite du Showroom",
+    "product_showcase": "Présentation des Produits",
+    "construction_demo": "Démonstration de Construction",
+    "project_video": "Projet Terminé"
+  },
+  "cta": {
+    "title": "Vous aimez ce que vous voyez?",
+    "description": "Contactez-nous pour une consultation gratuite. Nous vous aiderons à réaliser votre projet de rêve."
+  },
+  "meta": {
+    "title": "Galerie Vidéo",
+    "description": "Regardez nos projets de pergola, véranda et carport en vidéo. Visites de showroom et vidéos de projets réalisés."
+  }
+}

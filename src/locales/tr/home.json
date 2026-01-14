@@ -1,63 +1,75 @@
 {
   "hero": {
-    "title": "Hayalinizdeki Terasi Olusturun",
-    "subtitle": "Biyoklimatik pergola, veranda ve carport uzmani",
-    "description": "Yuksek kaliteli aluminyum yapilarimizla dis mekaninizi donusturun. Belcika isciligi, 15 yil garanti.",
-    "cta_primary": "Ucretsiz Teklif Al",
-    "cta_secondary": "Projelerimizi Gorun"
+    "title": "Hayalinizdeki Terasınızı Yaratın",
+    "subtitle": "Biyoklimatik pergola, veranda ve carport uzmanı",
+    "description": "Yüksek kaliteli alüminyum yapılarımızla dış mekanınızı dönüştürün. Belçika işçiliği, kalite garantisi.",
+    "cta_primary": "Ücretsiz Teklif Al",
+    "cta_secondary": "Projelerimizi Görün"
   },
   "services": {
     "title": "Hizmetlerimiz",
-    "subtitle": "Dis mekan yapilarimizin tam yelpazesini kesfedin",
+    "subtitle": "Dış mekan yapılarımızın tüm seçeneklerini keşfedin",
     "pergola": {
       "title": "Biyoklimatik Pergola",
-      "description": "Gunes ve yagmura karsi optimum koruma icin ayarlanabilir lameller. Yil boyunca mukemmel atmosfer yaratin."
+      "description": "Güneş ve yağmura karşı mükemmel koruma için ayarlanabilir lameller. Yıl boyunca ideal ortam yaratın."
     },
     "veranda": {
-      "title": "Aluminyum Veranda",
-      "description": "Yasam alaninizi sik bir veranda ile genisletin. Modern tasarim, mukemmel yalitim."
+      "title": "Alüminyum Veranda",
+      "description": "Yaşam alanınızı şık bir veranda ile genişletin. Modern tasarım, üstün yalıtım."
     },
     "carport": {
       "title": "Carport",
-      "description": "Araclarinizi tarz ile koruyun. Ozel yapim dayanikli aluminyum carportlar."
+      "description": "Araçlarınızı şıklıkla koruyun. Özel üretim dayanıklı alüminyum carport'lar."
+    },
+    "window": {
+      "title": "Alüminyum Pencereler",
+      "description": "Mükemmel yalıtımlı yüksek kaliteli pencereler. Enerji verimli ve şık tasarım."
+    },
+    "shutter": {
+      "title": "Panjurlar",
+      "description": "Güvenlik ve konfor için elektrikli ve manuel panjurlar. Akıllı ev entegrasyonu."
+    },
+    "garage": {
+      "title": "Garaj Kapıları",
+      "description": "Elektrikli motorlu seksiyonel kapılar. Güvenli, yalıtımlı ve şık tasarım."
     }
   },
   "why_us": {
     "title": "Neden Archi Construction?",
-    "subtitle": "Kalite, isclik ve hizmet ile one cikiyoruz",
+    "subtitle": "Kalite, işçilik ve hizmet anlayışımızla fark yaratıyoruz",
     "quality": {
       "title": "Premium Kalite",
-      "description": "Sadece yuksek kaliteli Belcika ve Avrupa malzemeleri kullaniyoruz."
+      "description": "Sadece yüksek kaliteli Belçika ve Avrupa malzemeleri kullanıyoruz."
     },
     "warranty": {
-      "title": "15 Yil Garanti",
-      "description": "Genis garantili yapilarimiza tam guven."
+      "title": "Kalite Garantisi",
+      "description": "Geniş kapsamlı garanti ile yapılarımıza tam güven."
     },
     "custom": {
-      "title": "Ozel Uretim",
-      "description": "Her proje isteklerinize ve mimarinize gore uyarlanir."
+      "title": "Özel Üretim",
+      "description": "Her proje sizin isteklerinize ve mimarinize göre tasarlanır."
     },
     "service": {
-      "title": "Kisisel Hizmet",
-      "description": "Ilk temastan satis sonrasi hizmete, sizin icin buradayiz."
+      "title": "Kişisel Hizmet",
+      "description": "İlk görüşmeden satış sonrası desteğe kadar yanınızdayız."
     }
   },
   "projects": {
     "title": "Son Projeler",
-    "subtitle": "En son gerceklestirmelerimizden bazlarini kesfedin",
-    "view_all": "Tum Projeleri Gor"
+    "subtitle": "En son tamamladığımız projelerden örnekler",
+    "view_all": "Tüm Projeleri Görün"
   },
   "testimonials": {
-    "title": "Musterilerimiz Ne Diyor",
-    "subtitle": "Memnun musterilerin deneyimlerini kesfedin"
+    "title": "Müşterilerimiz Ne Diyor",
+    "subtitle": "Memnun müşterilerimizin deneyimlerini okuyun"
   },
   "cta_section": {
-    "title": "Projenize Baslamaya Hazir misiniz?",
-    "description": "Bugun ucretsiz teklif isteyin ve terasiniz icin olanaklari kesfedin.",
-    "button": "Ucretsiz Teklif Al"
+    "title": "Projenize Başlamaya Hazır mısınız?",
+    "description": "Bugün ücretsiz teklif alın ve terasınız için olanakları keşfedin.",
+    "button": "Ücretsiz Teklif Al"
   },
   "meta": {
-    "title": "Pergola, Veranda ve Carport Uzmani",
-    "description": "Archi Construction & Veranda - Belcika'da biyoklimatik pergola, aluminyum veranda ve carport uzmaniniz. Ucretsiz teklif isteyin."
+    "title": "Pergola, Veranda ve Carport Uzmanı",
+    "description": "Archi Construction & Veranda - Belçika'da biyoklimatik pergola, alüminyum veranda ve carport uzmanınız. Ücretsiz teklif alın."
   }
 }

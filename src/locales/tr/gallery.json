@@ -1,56 +1,60 @@
 {
   "title": "Projelerimiz",
-  "subtitle": "Gerceklestirmelerimizi kesfedin ve ilham alin",
+  "subtitle": "Gerçekleştirmelerimizi keşfedin ve ilham alın",
   "filters": {
-    "all": "Tum Projeler",
+    "all": "Tüm Projeler",
     "pergola": "Pergolalar",
     "veranda": "Verandalar",
-    "carport": "Carportlar",
+    "carport": "Carport'lar",
     "window": "Pencereler",
     "shutter": "Panjurlar",
-    "garage": "Garaj Kapilari"
+    "garage": "Garaj Kapıları"
   },
   "projects": {
-    "veranda_led": "LED Aydinlatmali Veranda",
-    "veranda_rooftop": "Panoramik Manzarali Cati Verandasi",
-    "veranda_garden": "Cam Catili Bahce Verandasi",
-    "veranda_glass": "Surmeli Panelli Cam Veranda",
-    "veranda_showroom": "Showroom Verandasi",
+    "veranda_led": "LED Aydınlatmalı Veranda",
+    "veranda_rooftop": "Panoramik Manzaralı Çatı Verandası",
+    "veranda_garden": "Cam Çatılı Bahçe Verandası",
+    "veranda_glass": "Sürmeli Panelli Cam Veranda",
+    "veranda_showroom": "Showroom Verandası",
     "pergola_showroom": "LED'li Biyoklimatik Pergola",
-    "pergola_deck": "Ahsap Teras Uzerinde Pergola",
-    "pergola_modern": "Modern Aluminyum Pergola",
-    "window_system": "Aluminyum Pencere Sistemi",
-    "location_brussels": "Bruksel, Belcika",
-    "location_antwerp": "Antwerp, Belcika",
-    "location_ghent": "Gent, Belcika",
-    "location_bruges": "Brugge, Belcika",
-    "location_leuven": "Leuven, Belcika",
-    "location_liege": "Liege, Belcika",
-    "location_mechelen": "Mechelen, Belcika",
-    "location_hasselt": "Hasselt, Belcika",
-    "location_kortrijk": "Kortrijk, Belcika"
+    "pergola_deck": "Ahşap Teras Üzerinde Pergola",
+    "pergola_modern": "Modern Alüminyum Pergola",
+    "window_system": "Alüminyum Pencere Sistemi",
+    "veranda_interior": "Mobilyalı Veranda İç Mekanı",
+    "pergola_led": "LED Aydınlatmalı Pergola",
+    "garage_modern": "Modern Seksiyonel Garaj Kapısı",
+    "garage_classic": "Pencereli Klasik Garaj Kapısı",
+    "location_brussels": "Brüksel, Belçika",
+    "location_antwerp": "Antwerp, Belçika",
+    "location_ghent": "Gent, Belçika",
+    "location_bruges": "Brugge, Belçika",
+    "location_leuven": "Leuven, Belçika",
+    "location_liege": "Liège, Belçika",
+    "location_mechelen": "Mechelen, Belçika",
+    "location_hasselt": "Hasselt, Belçika",
+    "location_kortrijk": "Kortrijk, Belçika"
   },
   "cta": {
-    "title": "Siz de boyle bir proje ister misiniz?",
-    "description": "Ucretsiz danismanlik icin bize ulasin. Hayalinizdeki projeyi gerceklestirmenize yardimci olmaktan mutluluk duyariz."
+    "title": "Siz de böyle bir proje ister misiniz?",
+    "description": "Ücretsiz danışmanlık için bize ulaşın. Hayalinizdeki projeyi gerçekleştirmenize yardımcı olmaktan mutluluk duyarız."
   },
   "project": {
     "location": "Konum",
-    "completed": "Tamamlandi",
-    "category": "Tur",
-    "view_details": "Detaylari Gor",
-    "before_after": "Once ve Sonra",
-    "gallery": "Foto Galeri",
-    "testimonial": "Musteri Yorumu",
-    "specifications": "Teknik Ozellikler",
-    "related": "Ilgili Projeler"
+    "completed": "Tamamlandı",
+    "category": "Tür",
+    "view_details": "Detayları Gör",
+    "before_after": "Önce ve Sonra",
+    "gallery": "Fotoğraf Galerisi",
+    "testimonial": "Müşteri Yorumu",
+    "specifications": "Teknik Özellikler",
+    "related": "İlgili Projeler"
   },
   "empty": {
-    "title": "Proje bulunamadi",
-    "description": "Daha fazla proje gormek icin filtrelerinizi ayarlayin."
+    "title": "Proje bulunamadı",
+    "description": "Daha fazla proje görmek için filtrelerinizi ayarlayın."
   },
   "meta": {
-    "title": "Projeler ve Gerceklestirmeler",
-    "description": "Tamamlanan projelerimizi gorun: pergolalar, verandalar ve carportlar. Kendi dis mekan projeniz icin ilham."
+    "title": "Projeler ve Gerçekleştirmeler",
+    "description": "Tamamlanan projelerimizi görün: pergolalar, verandalar ve carport'lar. Kendi dış mekan projeniz için ilham."
   }
 }

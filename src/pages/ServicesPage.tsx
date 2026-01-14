@@ -7,27 +7,27 @@ import { Card, CardImage, CardContent } from '@/components/ui'
 const services = [
   {
     id: 'pergola',
-    image: '/projects/project-pergola-1.jpg',
+    image: '/images/pergola/pergola-hero.jpg',
   },
   {
     id: 'veranda',
-    image: '/projects/project-veranda-4.jpg',
+    image: '/images/veranda/veranda-hero.jpg',
   },
   {
     id: 'carport',
-    image: '/services/carport-hero.jpg',
+    image: '/images/carport/carport-hero.jpg',
   },
   {
     id: 'window',
-    image: '/services/window-hero.jpg',
+    image: '/images/window/window-hero.jpg',
   },
   {
     id: 'shutter',
-    image: '/services/shutter-hero.jpg',
+    image: '/images/shutter/shutter-hero.jpg',
   },
   {
     id: 'garage',
-    image: '/services/garage-door-hero.jpg',
+    image: '/images/garage/garage-hero.jpg',
   },
 ]
 
@@ -52,7 +52,7 @@ export default function ServicesPage() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=2000&q=80)'
+            backgroundImage: 'url(/images/general/hero-main.jpg)'
           }}
         />
         <div className="container-custom relative z-10">
@@ -114,8 +114,8 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Process Section */}
-      <section className="section bg-gray-50">
+      {/* Process Section - Modern Design */}
+      <section className="section bg-gradient-to-br from-gray-50 to-white overflow-hidden">
         <div className="container-custom">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-3xl font-heading font-bold mb-4">
@@ -123,39 +123,47 @@ export default function ServicesPage() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8">
-            {processSteps.map((step, index) => (
-              <div key={index} className="relative">
-                {/* Connector line */}
-                {index < processSteps.length - 1 && (
-                  <div className="hidden md:block absolute top-8 left-full w-full h-0.5 bg-primary-200 -translate-x-1/2" />
-                )}
+          <div className="relative">
+            {/* Background decorative line */}
+            <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-primary-200 via-primary-400 to-primary-200 transform -translate-y-1/2 rounded-full" />
 
-                <div className="text-center">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary-600 text-white flex items-center justify-center text-xl font-bold">
-                    {index + 1}
+            <div className="grid md:grid-cols-4 gap-8 relative">
+              {processSteps.map((step, index) => (
+                <div key={index} className="relative group">
+                  <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+                    {/* Step number with gradient */}
+                    <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-primary-500 to-primary-700 text-white flex items-center justify-center text-xl font-bold shadow-lg transform group-hover:scale-110 transition-transform">
+                      {index + 1}
+                    </div>
+                    <h3 className="font-heading font-semibold text-lg mb-3 text-center">{step.title}</h3>
+                    <p className="text-gray-600 text-sm text-center leading-relaxed">{step.description}</p>
                   </div>
-                  <h3 className="font-heading font-semibold mb-2">{step.title}</h3>
-                  <p className="text-gray-600 text-sm">{step.description}</p>
+
+                  {/* Arrow connector for desktop */}
+                  {index < processSteps.length - 1 && (
+                    <div className="hidden md:flex absolute top-1/2 -right-4 transform -translate-y-1/2 z-10">
+                      <ArrowRight className="text-primary-400 w-8 h-8" />
+                    </div>
+                  )}
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-primary-600">
+      <section className="section gradient-flow">
         <div className="container-custom text-center">
           <h2 className="text-3xl font-heading font-bold text-white mb-6">
             {t('cta.ready_title')}
           </h2>
-          <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
             {t('cta.ready_description')}
           </p>
           <a
             href={localizedPath('/quote')}
-            className="btn bg-white text-primary-600 hover:bg-gray-100 text-lg"
+            className="btn bg-white text-gray-900 hover:bg-gray-100 text-lg shadow-lg"
           >
             {t('cta.request_quote')}
             <ArrowRight size={20} className="ml-2" />

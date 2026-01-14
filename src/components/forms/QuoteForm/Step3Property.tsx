@@ -1,5 +1,6 @@
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 import clsx from 'clsx'
+import { useTranslation } from '@/hooks/useTranslation'
 import type { QuoteFormData } from './index'
 
 interface Step3Props {
@@ -9,29 +10,21 @@ interface Step3Props {
   onBack: () => void
 }
 
-const ownerOptions = [
-  { id: 'owner', label: 'Ja, ik ben eigenaar' },
-  { id: 'renter', label: 'Nee, ik huur' },
-  { id: 'buying', label: 'Ik ben aan het kopen' },
-]
-
-const designOptions = [
-  { id: 'yes', label: 'Ja, ik heb al een ontwerp' },
-  { id: 'no', label: 'Nee, ik heb hulp nodig' },
-  { id: 'ideas', label: 'Ik heb ideeën maar geen plan' },
-]
+const ownerIds = ['yes', 'renter', 'buying'] as const
+const designIds = ['yes', 'no', 'ideas'] as const
 
 export default function Step3Property({ formData, updateFormData, onNext, onBack }: Step3Props) {
+  const { t } = useTranslation('quote')
   const canContinue = formData.propertyOwner !== '' && formData.hasDesign !== ''
 
   return (
     <div>
       <div className="text-center mb-8">
         <h2 className="text-2xl font-heading font-bold mb-2">
-          Over uw woning
+          {t('step3.title')}
         </h2>
         <p className="text-gray-600">
-          Enkele vragen over uw situatie
+          {t('step3.subtitle')}
         </p>
       </div>
 
@@ -39,21 +32,21 @@ export default function Step3Property({ formData, updateFormData, onNext, onBack
         {/* Property Owner */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-3">
-            Bent u eigenaar van de woning?
+            {t('step3.owner.label')}
           </label>
           <div className="grid md:grid-cols-3 gap-3">
-            {ownerOptions.map((option) => (
+            {ownerIds.map((id) => (
               <button
-                key={option.id}
-                onClick={() => updateFormData({ propertyOwner: option.id })}
+                key={id}
+                onClick={() => updateFormData({ propertyOwner: id })}
                 className={clsx(
                   'px-6 py-4 rounded-lg border-2 text-sm font-medium transition-all',
-                  formData.propertyOwner === option.id
+                  formData.propertyOwner === id
                     ? 'border-primary-600 bg-primary-50 text-primary-700'
                     : 'border-gray-200 hover:border-primary-300'
                 )}
               >
-                {option.label}
+                {t(`step3.owner.${id}`)}
               </button>
             ))}
           </div>
@@ -62,21 +55,21 @@ export default function Step3Property({ formData, updateFormData, onNext, onBack
         {/* Has Design */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-3">
-            Heeft u al een ontwerp of plan?
+            {t('step3.design.label')}
           </label>
           <div className="grid md:grid-cols-3 gap-3">
-            {designOptions.map((option) => (
+            {designIds.map((id) => (
               <button
-                key={option.id}
-                onClick={() => updateFormData({ hasDesign: option.id })}
+                key={id}
+                onClick={() => updateFormData({ hasDesign: id })}
                 className={clsx(
                   'px-6 py-4 rounded-lg border-2 text-sm font-medium transition-all',
-                  formData.hasDesign === option.id
+                  formData.hasDesign === id
                     ? 'border-primary-600 bg-primary-50 text-primary-700'
                     : 'border-gray-200 hover:border-primary-300'
                 )}
               >
-                {option.label}
+                {t(`step3.design.${id}`)}
               </button>
             ))}
           </div>
@@ -85,14 +78,14 @@ export default function Step3Property({ formData, updateFormData, onNext, onBack
         {/* Additional Info */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-3">
-            Aanvullende informatie (optioneel)
+            {t('step3.additional.label')}
           </label>
           <textarea
             value={formData.additionalInfo}
             onChange={(e) => updateFormData({ additionalInfo: e.target.value })}
             rows={4}
             className="input resize-none"
-            placeholder="Vertel ons meer over uw project, speciale wensen of vragen..."
+            placeholder={t('step3.additional.placeholder')}
           />
         </div>
       </div>
@@ -103,7 +96,7 @@ export default function Step3Property({ formData, updateFormData, onNext, onBack
           className="btn btn-secondary"
         >
           <ArrowLeft size={20} className="mr-2" />
-          Terug
+          {t('step3.back')}
         </button>
         <button
           onClick={onNext}
@@ -113,7 +106,7 @@ export default function Step3Property({ formData, updateFormData, onNext, onBack
             !canContinue && 'opacity-50 cursor-not-allowed'
           )}
         >
-          Volgende
+          {t('step3.next')}
           <ArrowRight size={20} className="ml-2" />
         </button>
       </div>

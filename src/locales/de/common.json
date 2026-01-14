@@ -4,6 +4,8 @@
     "about": "Über uns",
     "services": "Leistungen",
     "projects": "Projekte",
+    "videos": "Videos",
+    "marketplace": "Marktplatz",
     "contact": "Kontakt",
     "quote": "Angebot anfordern",
     "privacy": "Datenschutz"
@@ -41,14 +43,14 @@
     "follow_us": "Folgen Sie uns",
     "privacy": "Datenschutz",
     "terms": "AGB",
-    "copyright": "© {year} Archi Construction & Veranda. Alle Rechte vorbehalten.",
+    "copyright": "© {{year}} Archi Construction & Veranda. Alle Rechte vorbehalten.",
     "location": "Belgien und Umgebung"
   },
   "contact_info": {
     "phone": "Telefon",
     "email": "E-Mail",
     "address": "Adresse",
-    "hours": "Offnungszeiten",
+    "hours": "Öffnungszeiten",
     "hours_weekday": "Mo - Fr: 08:00 - 18:00",
     "hours_weekend": "Sa: 09:00 - 13:00"
   },
@@ -65,12 +67,12 @@
   "trust": {
     "years": "Jahre Erfahrung",
     "projects": "Abgeschlossene Projekte",
-    "warranty": "Jahre Garantie",
+    "warranty": "Qualitätsgarantie",
     "satisfaction": "Kundenzufriedenheit"
   },
   "meta": {
     "title_suffix": " | Archi Construction & Veranda",
-    "default_description": "Spezialist fur bioklimatische Pergolen, Wintergarten und Carports. Handwerk und Qualitat in Belgien und 500km Umkreis."
+    "default_description": "Spezialist für bioklimatische Pergolen, Wintergärten und Carports. Handwerk und Qualität in Belgien und 500km Umkreis."
   },
   "service_detail": {
     "gallery": "Beispiele",

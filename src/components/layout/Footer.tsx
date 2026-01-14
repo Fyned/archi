@@ -5,7 +5,7 @@ import { useLocalizedPath } from '@/hooks/useLocalizedPath'
 // Contact constants
 const PHONE_CALL = '+32 487 72 06 29'
 const PHONE_WHATSAPP = '+32 493 36 50 29'
-const EMAIL = 'info@archiconstructionveranda.be'
+const EMAIL = 'archicv.info@gmail.com'
 const FACEBOOK_URL = 'https://www.facebook.com/share/17aoRK7UdL/'
 const INSTAGRAM_URL = 'https://www.instagram.com/archiconstructionveranda'
 

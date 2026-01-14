@@ -1,17 +1,17 @@
 {
   "hero": {
     "title": "Erschaffen Sie Ihre Traumterrasse",
-    "subtitle": "Spezialist fur bioklimatische Pergolen, Wintergarten und Carports",
-    "description": "Verwandeln Sie Ihren Aussenbereich mit unseren hochwertigen Aluminiumkonstruktionen. Belgische Handwerkskunst, 15 Jahre Garantie.",
+    "subtitle": "Spezialist für bioklimatische Pergolen, Wintergärten und Carports",
+    "description": "Verwandeln Sie Ihren Außenbereich mit unseren hochwertigen Aluminiumkonstruktionen. Belgische Handwerkskunst, Qualitätsgarantie.",
     "cta_primary": "Kostenloses Angebot anfordern",
     "cta_secondary": "Unsere Projekte ansehen"
   },
   "services": {
     "title": "Unsere Leistungen",
-    "subtitle": "Entdecken Sie unser komplettes Angebot an Aussenkonstruktionen",
+    "subtitle": "Entdecken Sie unser komplettes Angebot an Außenkonstruktionen",
     "pergola": {
       "title": "Bioklimatische Pergola",
-      "description": "Verstellbare Lamellen fur optimalen Schutz vor Sonne und Regen. Schaffen Sie das ganze Jahr uber die perfekte Atmosphare."
+      "description": "Verstellbare Lamellen für optimalen Schutz vor Sonne und Regen. Schaffen Sie das ganze Jahr über die perfekte Atmosphäre."
     },
     "veranda": {
       "title": "Aluminium-Wintergarten",
@@ -19,27 +19,39 @@
     },
     "carport": {
       "title": "Carport",
-      "description": "Schutzen Sie Ihre Fahrzeuge mit Stil. Langlebige, massgeschneiderte Aluminium-Carports."
+      "description": "Schützen Sie Ihre Fahrzeuge mit Stil. Langlebige, maßgeschneiderte Aluminium-Carports."
+    },
+    "window": {
+      "title": "Aluminium-Fenster",
+      "description": "Hochwertige Fenster mit ausgezeichneter Isolierung. Elegantes Design und energieeffizient."
+    },
+    "shutter": {
+      "title": "Rollläden",
+      "description": "Elektrische und manuelle Rollläden für Sicherheit und Komfort. Smart-Home-Integration."
+    },
+    "garage": {
+      "title": "Garagentore",
+      "description": "Motorisierte Sektionaltore. Sicher, isoliert und modernes Design."
     }
   },
   "why_us": {
     "title": "Warum Archi Construction?",
-    "subtitle": "Wir zeichnen uns durch Qualitat, Handwerkskunst und Service aus",
+    "subtitle": "Wir zeichnen uns durch Qualität, Handwerkskunst und Service aus",
     "quality": {
-      "title": "Premium-Qualitat",
-      "description": "Wir verwenden ausschliesslich hochwertige belgische und europaische Materialien."
+      "title": "Premium-Qualität",
+      "description": "Wir verwenden ausschließlich hochwertige belgische und europäische Materialien."
     },
     "warranty": {
-      "title": "15 Jahre Garantie",
+      "title": "Qualitätsgarantie",
       "description": "Vollstes Vertrauen in unsere Konstruktionen mit erweiterter Garantie."
     },
     "custom": {
-      "title": "Massanfertigung",
-      "description": "Jedes Projekt wird an Ihre Wunsche und Architektur angepasst."
+      "title": "Maßanfertigung",
+      "description": "Jedes Projekt wird an Ihre Wünsche und Architektur angepasst."
     },
     "service": {
-      "title": "Personlicher Service",
-      "description": "Vom Erstkontakt bis zur Nachbetreuung sind wir fur Sie da."
+      "title": "Persönlicher Service",
+      "description": "Vom Erstkontakt bis zur Nachbetreuung sind wir für Sie da."
     }
   },
   "projects": {
@@ -53,11 +65,11 @@
   },
   "cta_section": {
     "title": "Bereit, Ihr Projekt zu starten?",
-    "description": "Fordern Sie noch heute ein kostenloses Angebot an und entdecken Sie die Moglichkeiten fur Ihre Terrasse.",
+    "description": "Fordern Sie noch heute ein kostenloses Angebot an und entdecken Sie die Möglichkeiten für Ihre Terrasse.",
     "button": "Kostenloses Angebot anfordern"
   },
   "meta": {
     "title": "Pergola, Wintergarten & Carport Spezialist",
-    "description": "Archi Construction & Veranda - Ihr Spezialist fur bioklimatische Pergolen, Aluminium-Wintergarten und Carports in Belgien. Fordern Sie ein kostenloses Angebot an."
+    "description": "Archi Construction & Veranda - Ihr Spezialist für bioklimatische Pergolen, Aluminium-Wintergärten und Carports in Belgien. Fordern Sie ein kostenloses Angebot an."
   }
 }

@@ -1,11 +1,11 @@
 {
   "hero": {
     "title": "Kontaktieren Sie uns",
-    "subtitle": "Kontaktieren Sie uns fur ein unverbindliches Beratungsgesprach"
+    "subtitle": "Kontaktieren Sie uns für ein unverbindliches Beratungsgespräch"
   },
   "info": {
     "title": "Kontaktdaten",
-    "contact_person": "Yusuf Cetin"
+    "contact_person": "Yusuf Çetin"
   },
   "form": {
     "title": "Senden Sie uns eine Nachricht",
@@ -13,15 +13,17 @@
     "email_placeholder": "ihre@email.com",
     "phone_placeholder": "+32 XXX XX XX XX",
     "subject_label": "Betreff",
-    "subject_placeholder": "Wahlen Sie ein Thema",
+    "subject_placeholder": "Wählen Sie ein Thema",
     "subject_pergola": "Pergola",
     "subject_veranda": "Wintergarten",
     "subject_carport": "Carport",
     "subject_window": "Fenster",
-    "subject_shutter": "Rollladen",
+    "subject_shutter": "Rollläden",
     "subject_garage": "Garagentore",
     "subject_other": "Sonstiges",
-    "message_placeholder": "Erzahlen Sie uns von Ihrem Projekt...",
-    "success_message": "Wir werden Sie so schnell wie moglich kontaktieren."
+    "message_placeholder": "Erzählen Sie uns von Ihrem Projekt...",
+    "success_message": "Wir werden Sie so schnell wie möglich kontaktieren.",
+    "send_via": "Wie möchten Sie Ihre Nachricht senden?",
+    "cancel": "Abbrechen"
   }
 }

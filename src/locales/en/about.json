@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "About Us",
+    "description": "Discover the story of Archi Construction & Veranda, your specialist in pergolas, verandas and carports in Belgium"
+  },
+  "hero": {
+    "title": "About Us",
+    "subtitle": "Your partner for high-quality outdoor constructions since 2009"
+  },
+  "story": {
+    "title": "Our Story",
+    "paragraphs": [
+      "Archi Construction & Veranda was founded in 2009 with a clear mission: to deliver high-quality outdoor constructions that enrich the lives of our customers.",
+      "What started as a small family business has grown into a renowned specialist in bioclimatic pergolas, aluminium verandas and carports. With over 500 successful projects in Belgium and neighbouring countries, we have built a solid reputation.",
+      "Our strength lies in the combination of Belgian craftsmanship, premium materials and personal service. Every project is executed with the same dedication and attention to detail, regardless of size."
+    ],
+    "experience": "Years of experience"
+  },
+  "values": {
+    "title": "Our Values",
+    "subtitle": "The principles that guide our work every day",
+    "quality": {
+      "title": "Quality",
+      "description": "Only the best materials and craftsmanship"
+    },
+    "team": {
+      "title": "Teamwork",
+      "description": "Experienced professionals working together"
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "Realising your dream project"
+    },
+    "passion": {
+      "title": "Passion",
+      "description": "Love for what we do"
+    }
+  },
+  "stats": {
+    "projects": "Projects Completed",
+    "experience": "Years Experience",
+    "satisfaction": "Satisfied Customers"
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet the people behind Archi Construction"
+  },
+  "certifications": {
+    "title": "Certificates & Partners"
+  }
+}

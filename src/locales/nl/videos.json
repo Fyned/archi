@@ -1,0 +1,23 @@
+{
+  "title": "Video Galerij",
+  "subtitle": "Bekijk onze projecten en showroom tours in actie",
+  "filters": {
+    "all": "Alle Video's",
+    "showroom": "Showroom",
+    "projects": "Projecten"
+  },
+  "videos": {
+    "showroom_tour": "Showroom Tour",
+    "product_showcase": "Product Presentatie",
+    "construction_demo": "Constructie Demo",
+    "project_video": "Voltooid Project"
+  },
+  "cta": {
+    "title": "Bevalt wat u ziet?",
+    "description": "Neem contact met ons op voor een gratis adviesgesprek. Wij helpen u uw droomproject te realiseren."
+  },
+  "meta": {
+    "title": "Video Galerij",
+    "description": "Bekijk onze pergola, veranda en carport projecten op video. Showroom tours en voltooide project video's."
+  }
+}

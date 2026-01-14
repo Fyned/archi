@@ -1,39 +1,39 @@
 {
   "overview": {
     "title": "Unsere Leistungen",
-    "subtitle": "Komplettlosungen fur Ihren Aussenbereich",
-    "description": "Von bioklimatischen Pergolen bis zu Aluminium-Wintergarten - wir bieten hochwertige Konstruktionen, die Ihren Aussenbereich verwandeln."
+    "subtitle": "Komplettlösungen für Ihren Außenbereich",
+    "description": "Von bioklimatischen Pergolen bis zu Aluminium-Wintergärten - wir bieten hochwertige Konstruktionen, die Ihren Außenbereich verwandeln."
   },
   "pergola": {
     "title": "Bioklimatische Pergola",
-    "subtitle": "Die ultimative Losung fur Ihre Terrasse",
-    "description": "Unsere bioklimatischen Pergolen verbinden Funktionalitat mit Eleganz. Die verstellbaren Aluminium-Lamellen geben Ihnen volle Kontrolle uber Sonnenlicht und Beluftung.",
+    "subtitle": "Die ultimative Lösung für Ihre Terrasse",
+    "description": "Unsere bioklimatischen Pergolen verbinden Funktionalität mit Eleganz. Die verstellbaren Aluminium-Lamellen geben Ihnen volle Kontrolle über Sonnenlicht und Belüftung.",
     "features": {
       "title": "Eigenschaften",
       "items": [
         "Verstellbare Lamellen (0-135°)",
         "Integrierte LED-Beleuchtung",
-        "Optional: Screens und Glaswande",
+        "Optional: Screens und Glaswände",
         "Motorisierung mit Fernbedienung",
-        "Regensensor automatisches Schliessen",
+        "Regensensor automatisches Schließen",
         "Pulverbeschichteter Aluminiumrahmen"
       ]
     },
     "benefits": {
       "title": "Vorteile",
       "items": [
-        "Geniessen Sie Ihre Terrasse das ganze Jahr uber",
+        "Genießen Sie Ihre Terrasse das ganze Jahr über",
         "Perfekter Schutz vor Sonne und Regen",
-        "Erhoht den Wert Ihrer Immobilie",
+        "Erhöht den Wert Ihrer Immobilie",
         "Minimaler Wartungsaufwand",
-        "15 Jahre Garantie auf die Konstruktion"
+        "Qualitätsgarantie auf Produktion"
       ]
     }
   },
   "veranda": {
     "title": "Aluminium-Wintergarten",
     "subtitle": "Erweitern Sie Ihren Wohnraum",
-    "description": "Ein Wintergarten ist die perfekte Erweiterung Ihres Hauses. Unsere Aluminium-Wintergarten bieten ausgezeichnete Isolierung und zeitloses Design.",
+    "description": "Ein Wintergarten ist die perfekte Erweiterung Ihres Hauses. Unsere Aluminium-Wintergärten bieten ausgezeichnete Isolierung und zeitloses Design.",
     "features": {
       "title": "Eigenschaften",
       "items": [
@@ -41,33 +41,33 @@
         "Doppel- oder Dreifachverglasung",
         "Integrierter Sonnenschutz optional",
         "Verschiedene Dachoptionen",
-        "Vollstandig massgeschneidert",
+        "Vollständig maßgeschneidert",
         "RAL-Farben nach Wahl"
       ]
     },
     "benefits": {
       "title": "Vorteile",
       "items": [
-        "Zusatzlicher Wohnraum das ganze Jahr uber",
-        "Ausgezeichnete Warmeisolierung",
-        "Naturliches Licht in Ihrem Zuhause",
+        "Zusätzlicher Wohnraum das ganze Jahr über",
+        "Ausgezeichnete Wärmeisolierung",
+        "Natürliches Licht in Ihrem Zuhause",
         "Wertsteigerung Ihrer Immobilie",
-        "Energieeffiziente Losung"
+        "Energieeffiziente Lösung"
       ]
     }
   },
   "carport": {
     "title": "Aluminium-Carport",
     "subtitle": "Schutz mit Stil",
-    "description": "Schutzen Sie Ihre Fahrzeuge mit einem langlebigen und stilvollen Aluminium-Carport. Vollstandig massgeschneidert fur Ihre Situation.",
+    "description": "Schützen Sie Ihre Fahrzeuge mit einem langlebigen und stilvollen Aluminium-Carport. Vollständig maßgeschneidert für Ihre Situation.",
     "features": {
       "title": "Eigenschaften",
       "items": [
         "Robuster Aluminiumrahmen",
         "Verschiedene Dachoptionen",
-        "Optional: Seitenwande und Stauraum",
-        "Integrierte Beleuchtung moglich",
-        "Korrosionsbestandig",
+        "Optional: Seitenwände und Stauraum",
+        "Integrierte Beleuchtung möglich",
+        "Korrosionsbeständig",
         "Schnelle Installation"
       ]
     },
@@ -75,7 +75,7 @@
       "title": "Vorteile",
       "items": [
         "Schutz vor Witterung",
-        "Erhoht den Immobilienwert",
+        "Erhöht den Immobilienwert",
         "Minimale Wartung",
         "Langlebige Investition",
         "Anpassbar an Ihr Zuhause"
@@ -165,7 +165,7 @@
     "steps": [
       {
         "title": "Kostenlose Beratung",
-        "description": "Wir besuchen Sie, um Ihre Wunsche zu besprechen und die Situation zu beurteilen."
+        "description": "Wir besuchen Sie, um Ihre Wünsche zu besprechen und die Situation zu beurteilen."
       },
       {
         "title": "Design & Angebot",
@@ -173,7 +173,7 @@
       },
       {
         "title": "Produktion",
-        "description": "Ihre Konstruktion wird in unserer Werkstatt massgeschneidert hergestellt."
+        "description": "Ihre Konstruktion wird in unserer Werkstatt maßgeschneidert hergestellt."
       },
       {
         "title": "Installation",
@@ -184,19 +184,19 @@
   "meta": {
     "overview": {
       "title": "Leistungen - Pergola, Wintergarten & Carport",
-      "description": "Entdecken Sie unsere Leistungen: bioklimatische Pergolen, Aluminium-Wintergarten und Carports. Qualitat und Handwerkskunst fur Ihren Aussenbereich."
+      "description": "Entdecken Sie unsere Leistungen: bioklimatische Pergolen, Aluminium-Wintergärten und Carports. Qualität und Handwerkskunst für Ihren Außenbereich."
     },
     "pergola": {
       "title": "Bioklimatische Pergola",
-      "description": "Bioklimatische Pergola mit verstellbaren Lamellen. Geniessen Sie Ihre Terrasse das ganze Jahr mit optimalem Schutz vor Sonne und Regen."
+      "description": "Bioklimatische Pergola mit verstellbaren Lamellen. Genießen Sie Ihre Terrasse das ganze Jahr mit optimalem Schutz vor Sonne und Regen."
     },
     "veranda": {
       "title": "Aluminium-Wintergarten",
-      "description": "Massgeschneiderter Aluminium-Wintergarten. Erweitern Sie Ihren Wohnraum mit einem eleganten und energieeffizienten Wintergarten. Fordern Sie ein kostenloses Angebot an."
+      "description": "Maßgeschneiderter Aluminium-Wintergarten. Erweitern Sie Ihren Wohnraum mit einem eleganten und energieeffizienten Wintergarten. Fordern Sie ein kostenloses Angebot an."
     },
     "carport": {
       "title": "Aluminium-Carport",
-      "description": "Langlebiger massgeschneiderter Aluminium-Carport. Schutzen Sie Ihre Fahrzeuge mit Stil. Korrosionsbestandig und wartungsarm."
+      "description": "Langlebiger maßgeschneiderter Aluminium-Carport. Schützen Sie Ihre Fahrzeuge mit Stil. Korrosionsbeständig und wartungsarm."
     },
     "window": {
       "title": "Aluminium-Fenster",
