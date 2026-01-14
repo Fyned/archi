@@ -64,8 +64,8 @@ export default function AboutPage() {
                 className="rounded-xl shadow-lg"
               />
               <div className="absolute -bottom-6 -left-6 bg-primary-600 text-white p-6 rounded-xl">
-                <div className="text-4xl font-bold">15+</div>
-                <div className="text-sm">{t('about:story.experience')}</div>
+                <div className="text-4xl font-bold">✓</div>
+                <div className="text-sm">{t('about:story.team')}</div>
               </div>
             </div>
           </div>
@@ -114,12 +114,12 @@ export default function AboutPage() {
               <div className="text-primary-100">{t('about:stats.projects')}</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">15+</div>
-              <div className="text-primary-100">{t('about:stats.experience')}</div>
-            </div>
-            <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">98%</div>
               <div className="text-primary-100">{t('about:stats.satisfaction')}</div>
+            </div>
+            <div>
+              <div className="text-4xl md:text-5xl font-bold text-white mb-2">✓</div>
+              <div className="text-primary-100">{t('about:stats.team')}</div>
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">5</div>

@@ -66,11 +66,11 @@
     "error": "Une erreur s'est produite. Veuillez réessayer."
   },
   "trust": {
-    "years": "Années d'expérience",
     "projects": "Projets réalisés",
     "warranty": "Garantie Qualité",
     "satisfaction": "Satisfaction client",
-    "countries": "Pays desservis"
+    "countries": "Pays desservis",
+    "team": "Équipe professionnelle"
   },
   "meta": {
     "title_suffix": " | Archi Construction & Véranda",

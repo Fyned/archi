@@ -14,7 +14,7 @@
       "Ce qui a commencé comme une petite entreprise familiale est devenu un spécialiste renommé en pergolas bioclimatiques, vérandas en aluminium et carports. Avec plus de 500 projets réussis en Belgique et dans les pays voisins, nous avons bâti une solide réputation.",
       "Notre force réside dans la combinaison de l'artisanat belge, de matériaux premium et d'un service personnalisé. Chaque projet est réalisé avec le même dévouement et le même souci du détail, quelle que soit son envergure."
     ],
-    "experience": "Années d'expérience"
+    "team": "Équipe professionnelle"
   },
   "values": {
     "title": "Nos Valeurs",
@@ -38,8 +38,8 @@
   },
   "stats": {
     "projects": "Projets Réalisés",
-    "experience": "Années d'Expérience",
     "satisfaction": "Clients Satisfaits",
+    "team": "Équipe Professionnelle",
     "countries": "Pays Desservis"
   },
   "team": {
