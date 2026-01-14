@@ -12,6 +12,7 @@ import nlVideos from '@/locales/nl/videos.json'
 import nlAbout from '@/locales/nl/about.json'
 import nlMarketplace from '@/locales/nl/marketplace.json'
 import nlBlog from '@/locales/nl/blog.json'
+import nlPortfolio from '@/locales/nl/portfolio.json'
 
 import frCommon from '@/locales/fr/common.json'
 import frHome from '@/locales/fr/home.json'
@@ -24,6 +25,7 @@ import frVideos from '@/locales/fr/videos.json'
 import frAbout from '@/locales/fr/about.json'
 import frMarketplace from '@/locales/fr/marketplace.json'
 import frBlog from '@/locales/fr/blog.json'
+import frPortfolio from '@/locales/fr/portfolio.json'
 
 import enCommon from '@/locales/en/common.json'
 import enHome from '@/locales/en/home.json'
@@ -36,6 +38,7 @@ import enVideos from '@/locales/en/videos.json'
 import enAbout from '@/locales/en/about.json'
 import enMarketplace from '@/locales/en/marketplace.json'
 import enBlog from '@/locales/en/blog.json'
+import enPortfolio from '@/locales/en/portfolio.json'
 
 import trCommon from '@/locales/tr/common.json'
 import trHome from '@/locales/tr/home.json'
@@ -48,6 +51,7 @@ import trVideos from '@/locales/tr/videos.json'
 import trAbout from '@/locales/tr/about.json'
 import trMarketplace from '@/locales/tr/marketplace.json'
 import trBlog from '@/locales/tr/blog.json'
+import trPortfolio from '@/locales/tr/portfolio.json'
 
 import deCommon from '@/locales/de/common.json'
 import deHome from '@/locales/de/home.json'
@@ -60,6 +64,7 @@ import deVideos from '@/locales/de/videos.json'
 import deAbout from '@/locales/de/about.json'
 import deMarketplace from '@/locales/de/marketplace.json'
 import deBlog from '@/locales/de/blog.json'
+import dePortfolio from '@/locales/de/portfolio.json'
 
 // French first (default), then others
 export const supportedLanguages = ['fr', 'nl', 'en', 'tr', 'de'] as const
@@ -93,7 +98,8 @@ const resources = {
     videos: nlVideos,
     about: nlAbout,
     marketplace: nlMarketplace,
-    blog: nlBlog
+    blog: nlBlog,
+    portfolio: nlPortfolio
   },
   fr: {
     common: frCommon,
@@ -106,7 +112,8 @@ const resources = {
     videos: frVideos,
     about: frAbout,
     marketplace: frMarketplace,
-    blog: frBlog
+    blog: frBlog,
+    portfolio: frPortfolio
   },
   en: {
     common: enCommon,
@@ -119,7 +126,8 @@ const resources = {
     videos: enVideos,
     about: enAbout,
     marketplace: enMarketplace,
-    blog: enBlog
+    blog: enBlog,
+    portfolio: enPortfolio
   },
   tr: {
     common: trCommon,
@@ -132,7 +140,8 @@ const resources = {
     videos: trVideos,
     about: trAbout,
     marketplace: trMarketplace,
-    blog: trBlog
+    blog: trBlog,
+    portfolio: trPortfolio
   },
   de: {
     common: deCommon,
@@ -145,7 +154,8 @@ const resources = {
     videos: deVideos,
     about: deAbout,
     marketplace: deMarketplace,
-    blog: deBlog
+    blog: deBlog,
+    portfolio: dePortfolio
   }
 }
 
@@ -199,7 +209,7 @@ i18n
     lng: getLanguageFromPath(), // Detect from URL
     fallbackLng: 'fr',
     defaultNS: 'common',
-    ns: ['common', 'home', 'services', 'gallery', 'privacy', 'contact', 'quote', 'videos', 'about', 'marketplace', 'blog'],
+    ns: ['common', 'home', 'services', 'gallery', 'privacy', 'contact', 'quote', 'videos', 'about', 'marketplace', 'blog', 'portfolio'],
     interpolation: {
       escapeValue: false
     }
