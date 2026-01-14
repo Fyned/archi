@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Portfolio",
-    "description": "Discover veranda, pergola and poolhouse projects completed by Archi Construction & Veranda. Premium quality in Belgium and surrounding areas."
+    "title": "Our Portfolio - Verandas, Pergolas & Poolhouses",
+    "description": "Explore our completed aluminium verandas, bioclimatic pergolas and poolhouses in Belgium. Over 500 successful projects. Premium quality guaranteed."
   },
   "hero": {
     "title": "Our Portfolio",
-    "subtitle": "Discover our completed projects and get inspired for your own project"
+    "subtitle": "Discover our craftsmanship through completed projects in Belgium and surrounding areas"
   },
   "categories": {
     "veranda": "Veranda",
@@ -13,20 +13,20 @@
     "poolhouse": "Poolhouse"
   },
   "projects": {
-    "veranda_glass_roof_led": "Glass Roof Veranda with LED Lighting",
-    "veranda_rooftop_terrace": "Rooftop Terrace Veranda",
-    "veranda_newbuild": "New Build Veranda Project",
-    "veranda_showroom": "Showroom Display Model",
-    "veranda_3d_design": "3D Design Veranda",
-    "poolhouse_modern": "Modern Poolside Poolhouse",
-    "veranda_villa_luxury": "Luxury Villa Veranda",
-    "poolhouse_urban": "Urban View Poolhouse",
-    "pergola_veranda_combo": "Bioclimatic Pergola + Veranda",
-    "veranda_compact": "Compact Urban Veranda",
+    "veranda_glass_roof_led": "Glass Roof Veranda with Integrated LED Lighting",
+    "veranda_rooftop_terrace": "Rooftop Terrace Veranda with Panoramic View",
+    "veranda_newbuild": "Veranda Installation for New Construction",
+    "veranda_showroom": "Showroom Veranda Display Model",
+    "veranda_3d_design": "Custom 3D Veranda Design",
+    "poolhouse_modern": "Modern Poolhouse with Sliding Glass Panels",
+    "veranda_villa_luxury": "Luxury Villa Veranda with Cream Roof",
+    "poolhouse_urban": "Design Poolhouse in Urban Setting",
+    "pergola_veranda_combo": "Bioclimatic Pergola and Veranda Combination",
+    "veranda_compact": "Compact Veranda for Townhouse",
     "pergola_poolside": "Poolside Lounge Pergola"
   },
   "cta": {
-    "title": "Would you like a similar project?",
-    "description": "Contact us for a free visit and quote. Let's realise your dream project together."
+    "title": "Want a similar project?",
+    "description": "Contact us for a free visit and personalised quote. Our professional team will realise your dream project."
   }
 }

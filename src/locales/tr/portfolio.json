@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Yapılan İşler",
-    "description": "Archi Construction & Veranda tarafından gerçekleştirilen veranda, pergola ve poolhouse projelerini keşfedin. Belçika ve çevresinde premium kalite."
+    "title": "Yapılan İşler - Veranda, Pergola & Poolhouse Projeleri",
+    "description": "Belçika'da gerçekleştirdiğimiz alüminyum veranda, biyoklimatik pergola ve poolhouse projelerimizi keşfedin. 500'den fazla başarılı proje. Premium kalite garantisi."
   },
   "hero": {
     "title": "Yapılan İşler",
-    "subtitle": "Tamamladığımız projeleri keşfedin ve kendi projeniz için ilham alın"
+    "subtitle": "Belçika ve çevresinde tamamladığımız projelerde işçiliğimizi keşfedin"
   },
   "categories": {
     "veranda": "Veranda",
@@ -13,20 +13,20 @@
     "poolhouse": "Poolhouse"
   },
   "projects": {
-    "veranda_glass_roof_led": "LED Aydınlatmalı Cam Çatı Veranda",
-    "veranda_rooftop_terrace": "Çatı Terası Verandası",
-    "veranda_newbuild": "Yeni İnşaat Veranda Projesi",
-    "veranda_showroom": "Showroom Sergi Modeli",
-    "veranda_3d_design": "3D Tasarım Veranda",
-    "poolhouse_modern": "Modern Havuz Kenarı Poolhouse",
-    "veranda_villa_luxury": "Lüks Villa Verandası",
-    "poolhouse_urban": "Şehir Manzaralı Poolhouse",
-    "pergola_veranda_combo": "Biyoklimatik Pergola + Veranda",
-    "veranda_compact": "Kompakt Şehir Verandası",
+    "veranda_glass_roof_led": "Entegre LED Aydınlatmalı Cam Çatı Veranda",
+    "veranda_rooftop_terrace": "Panoramik Manzaralı Çatı Terası Verandası",
+    "veranda_newbuild": "Yeni İnşaat için Veranda Kurulumu",
+    "veranda_showroom": "Showroom Veranda Sergi Modeli",
+    "veranda_3d_design": "Özel Tasarım 3D Veranda Projesi",
+    "poolhouse_modern": "Sürgülü Cam Panelli Modern Poolhouse",
+    "veranda_villa_luxury": "Krem Renkli Çatılı Lüks Villa Verandası",
+    "poolhouse_urban": "Şehir Ortamında Tasarım Poolhouse",
+    "pergola_veranda_combo": "Biyoklimatik Pergola ve Veranda Kombinasyonu",
+    "veranda_compact": "Sıra Ev için Kompakt Veranda",
     "pergola_poolside": "Havuz Kenarı Lounge Pergola"
   },
   "cta": {
     "title": "Siz de böyle bir proje ister misiniz?",
-    "description": "Ücretsiz keşif ve teklif için bize ulaşın. Hayalinizdeki projeyi birlikte gerçekleştirelim."
+    "description": "Ücretsiz keşif ve kişiselleştirilmiş teklif için bize ulaşın. Profesyonel ekibimiz hayalinizdeki projeyi gerçekleştirecek."
   }
 }

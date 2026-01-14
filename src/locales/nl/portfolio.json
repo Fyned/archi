@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Realisaties",
-    "description": "Ontdek de veranda-, pergola- en poolhouseprojecten gerealiseerd door Archi Construction & Veranda. Premium kwaliteit in België en omgeving."
+    "title": "Onze Realisaties - Veranda's, Pergola's & Poolhouses",
+    "description": "Bekijk onze gerealiseerde veranda's, bioklimatische pergola's en poolhouses in België. Meer dan 500 succesvolle projecten. Premium kwaliteit gegarandeerd."
   },
   "hero": {
     "title": "Onze Realisaties",
-    "subtitle": "Ontdek onze voltooide projecten en laat u inspireren voor uw eigen project"
+    "subtitle": "Ontdek ons vakmanschap door onze voltooide projecten in België en omgeving"
   },
   "categories": {
     "veranda": "Veranda",
@@ -13,20 +13,20 @@
     "poolhouse": "Poolhouse"
   },
   "projects": {
-    "veranda_glass_roof_led": "Veranda Glazen Dak met LED",
-    "veranda_rooftop_terrace": "Veranda Dakterras",
-    "veranda_newbuild": "Veranda Nieuwbouwproject",
-    "veranda_showroom": "Showroom Tentoonstellingsmodel",
-    "veranda_3d_design": "Veranda 3D Design",
-    "poolhouse_modern": "Moderne Poolhouse aan het Zwembad",
-    "veranda_villa_luxury": "Luxe Villa Veranda",
-    "poolhouse_urban": "Poolhouse Stedelijk Uitzicht",
-    "pergola_veranda_combo": "Bioklimatische Pergola + Veranda",
-    "veranda_compact": "Compacte Stedelijke Veranda",
+    "veranda_glass_roof_led": "Veranda met Glazen Dak en Geïntegreerde LED-verlichting",
+    "veranda_rooftop_terrace": "Veranda op Dakterras met Panoramisch Uitzicht",
+    "veranda_newbuild": "Veranda Installatie voor Nieuwbouw",
+    "veranda_showroom": "Veranda Showroom Model",
+    "veranda_3d_design": "3D Ontwerp Veranda op Maat",
+    "poolhouse_modern": "Moderne Poolhouse met Schuifpanelen",
+    "veranda_villa_luxury": "Luxe Villa Veranda met Crèmekleurig Dak",
+    "poolhouse_urban": "Design Poolhouse in Stedelijke Omgeving",
+    "pergola_veranda_combo": "Combinatie Bioklimatische Pergola en Veranda",
+    "veranda_compact": "Compacte Veranda voor Rijwoning",
     "pergola_poolside": "Lounge Pergola aan het Zwembad"
   },
   "cta": {
     "title": "Wilt u ook zo'n project?",
-    "description": "Neem contact met ons op voor een gratis bezoek en offerte. Laten we samen uw droomproject realiseren."
+    "description": "Neem contact op voor een gratis bezoek en offerte op maat. Ons professioneel team realiseert uw droomproject."
   }
 }
