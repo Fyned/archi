@@ -22,6 +22,8 @@
     "subject_garage": "Garagepoorten",
     "subject_other": "Anders",
     "message_placeholder": "Vertel ons over uw project...",
-    "success_message": "We nemen zo snel mogelijk contact met u op."
+    "success_message": "We nemen zo snel mogelijk contact met u op.",
+    "send_via": "Hoe wilt u uw bericht versturen?",
+    "cancel": "Annuleren"
   }
 }

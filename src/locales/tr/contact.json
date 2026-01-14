@@ -1,27 +1,29 @@
 {
   "hero": {
-    "title": "Bize Ulasin",
-    "subtitle": "Ucretsiz danismanlik icin bizimle iletisime gecin"
+    "title": "Bize Ulaşın",
+    "subtitle": "Ücretsiz danışmanlık için bizimle iletişime geçin"
   },
   "info": {
-    "title": "Iletisim Bilgileri",
-    "contact_person": "Yusuf Cetin"
+    "title": "İletişim Bilgileri",
+    "contact_person": "Yusuf Çetin"
   },
   "form": {
-    "title": "Bize mesaj gonderin",
-    "name_placeholder": "Adiniz",
+    "title": "Bize mesaj gönderin",
+    "name_placeholder": "Adınız",
     "email_placeholder": "email@adresiniz.com",
     "phone_placeholder": "+32 XXX XX XX XX",
     "subject_label": "Konu",
-    "subject_placeholder": "Bir konu secin",
+    "subject_placeholder": "Bir konu seçin",
     "subject_pergola": "Pergola",
     "subject_veranda": "Veranda",
     "subject_carport": "Carport",
     "subject_window": "Pencere",
     "subject_shutter": "Panjur",
-    "subject_garage": "Garaj Kapisi",
-    "subject_other": "Diger",
-    "message_placeholder": "Projeniz hakkinda bilgi verin...",
-    "success_message": "En kisa surede sizinle iletisime gececegiz."
+    "subject_garage": "Garaj Kapısı",
+    "subject_other": "Diğer",
+    "message_placeholder": "Projeniz hakkında bilgi verin...",
+    "success_message": "En kısa sürede sizinle iletişime geçeceğiz.",
+    "send_via": "Mesajınızı nasıl göndermek istersiniz?",
+    "cancel": "İptal"
   }
 }

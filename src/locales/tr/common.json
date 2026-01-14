@@ -4,13 +4,15 @@
     "about": "Hakkımızda",
     "services": "Hizmetler",
     "projects": "Projeler",
+    "videos": "Videolar",
+    "marketplace": "Marketplace",
     "contact": "İletişim",
     "quote": "Teklif Al",
     "privacy": "Gizlilik Politikası"
   },
   "whatsapp": {
     "button_text": "WhatsApp",
-    "chat_with_us": "WhatsApp üzerinden bizimle sohbet edin"
+    "chat_with_us": "WhatsApp ile bize ulaşın"
   },
   "services_menu": {
     "pergola": "Pergola",
@@ -18,19 +20,19 @@
     "carport": "Carport",
     "window": "Pencere",
     "shutter": "Panjur",
-    "garage": "Garaj Kapisi",
-    "all": "Tum Hizmetler"
+    "garage": "Garaj Kapısı",
+    "all": "Tüm Hizmetler"
   },
   "cta": {
-    "get_quote": "Ucretsiz Teklif",
-    "contact_us": "Bize Ulasin",
-    "view_projects": "Projeleri Gor",
-    "learn_more": "Daha Fazla",
-    "call_now": "Hemen Ara",
+    "get_quote": "Ücretsiz Teklif",
+    "contact_us": "Bize Ulaşın",
+    "view_projects": "Projeleri Görün",
+    "learn_more": "Daha Fazla Bilgi",
+    "call_now": "Hemen Arayın",
     "whatsapp": "WhatsApp",
-    "ready_title": "Baslamaya hazir misiniz?",
-    "ready_description": "Bugun ucretsiz teklif isteyin ve sizin icin neler yapabilecegimizi kesfedin.",
-    "request_quote": "Ucretsiz Teklif Isteyin"
+    "ready_title": "Başlamaya hazır mısınız?",
+    "ready_description": "Bugün ücretsiz teklif alın ve sizin için neler yapabileceğimizi keşfedin.",
+    "request_quote": "Ücretsiz Teklif Alın"
   },
   "footer": {
     "company": "Archi Construction & Veranda",
@@ -41,41 +43,41 @@
     "follow_us": "Bizi Takip Edin",
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Şartları",
-    "copyright": "© {year} Archi Construction & Veranda. Tüm hakları saklıdır.",
+    "copyright": "© {{year}} Archi Construction & Veranda. Tüm hakları saklıdır.",
     "location": "Belçika ve çevresi"
   },
   "contact_info": {
     "phone": "Telefon",
     "email": "E-posta",
     "address": "Adres",
-    "hours": "Calisma Saatleri",
-    "hours_weekday": "Pzt - Cum: 08:00 - 18:00",
-    "hours_weekend": "Cmt: 09:00 - 13:00"
+    "hours": "Çalışma Saatleri",
+    "hours_weekday": "Pzt - Cuma: 08:00 - 18:00",
+    "hours_weekend": "Cumartesi: 09:00 - 13:00"
   },
   "form": {
     "name": "Ad Soyad",
     "email": "E-posta",
     "phone": "Telefon",
     "message": "Mesaj",
-    "submit": "Gonder",
-    "sending": "Gonderiliyor...",
-    "success": "Mesaj basariyla gonderildi!",
-    "error": "Bir hata olustu. Lutfen tekrar deneyin."
+    "submit": "Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesajınız başarıyla gönderildi!",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin."
   },
   "trust": {
-    "years": "Yillik Deneyim",
+    "years": "Yıllık Deneyim",
     "projects": "Tamamlanan Proje",
-    "warranty": "Yil Garanti",
-    "satisfaction": "Musteri Memnuniyeti"
+    "warranty": "Kalite Garantisi",
+    "satisfaction": "Müşteri Memnuniyeti"
   },
   "meta": {
     "title_suffix": " | Archi Construction & Veranda",
-    "default_description": "Biyoklimatik pergola, veranda ve carport uzmani. Belcika ve 500km cevresinde kalite ve isclik."
+    "default_description": "Biyoklimatik pergola, veranda ve carport uzmanı. Belçika ve 500 km çevresinde kalite ve işçilik garantisi."
   },
   "service_detail": {
-    "gallery": "Ornekler",
+    "gallery": "Örnekler",
     "interested": "{{service}} ile ilgileniyor musunuz?",
-    "interested_description": "Bugun ucretsiz teklif isteyin. Projenizi gorusmek icin sizi yuksek olmadan ziyaret ediyoruz.",
-    "contact": "Iletisime gecin"
+    "interested_description": "Bugün ücretsiz teklif alın. Projenizi görüşmek için sizi ücretsiz ziyaret ediyoruz.",
+    "contact": "İletişime Geçin"
   }
 }

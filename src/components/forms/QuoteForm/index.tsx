@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { Check } from 'lucide-react'
 import clsx from 'clsx'
+import { useTranslation } from '@/hooks/useTranslation'
+import { useLocalizedPath } from '@/hooks/useLocalizedPath'
 import Step1ProjectType from './Step1ProjectType'
 import Step2Details from './Step2Details'
 import Step3Property from './Step3Property'
@@ -39,18 +41,20 @@ const initialFormData: QuoteFormData = {
   address: '',
 }
 
-const steps = [
-  { id: 1, name: 'Project Type' },
-  { id: 2, name: 'Details' },
-  { id: 3, name: 'Property' },
-  { id: 4, name: 'Contact' },
-]
-
 export default function QuoteForm() {
+  const { t } = useTranslation('quote')
+  const { localizedPath } = useLocalizedPath()
   const [currentStep, setCurrentStep] = useState(1)
   const [formData, setFormData] = useState<QuoteFormData>(initialFormData)
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
+
+  const steps = [
+    { id: 1, name: t('steps.project_type') },
+    { id: 2, name: t('steps.details') },
+    { id: 3, name: t('steps.property') },
+    { id: 4, name: t('steps.contact') },
+  ]
 
   const updateFormData = (data: Partial<QuoteFormData>) => {
     setFormData(prev => ({ ...prev, ...data }))
@@ -85,16 +89,16 @@ export default function QuoteForm() {
           <Check size={40} className="text-green-600" />
         </div>
         <h2 className="text-2xl font-heading font-bold mb-4">
-          Bedankt voor uw aanvraag!
+          {t('success.title')}
         </h2>
         <p className="text-gray-600 max-w-md mx-auto mb-8">
-          We hebben uw offerte aanvraag ontvangen en nemen binnen 24 uur contact met u op.
+          {t('success.message')}
         </p>
         <a
-          href="/"
+          href={localizedPath('/')}
           className="btn btn-primary"
         >
-          Terug naar home
+          {t('success.button')}
         </a>
       </div>
     )

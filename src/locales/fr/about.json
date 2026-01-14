@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "À propos de nous",
+    "description": "Découvrez l'histoire d'Archi Construction & Véranda, votre spécialiste en pergolas, vérandas et carports en Belgique"
+  },
+  "hero": {
+    "title": "À propos de nous",
+    "subtitle": "Votre partenaire pour des constructions extérieures de haute qualité depuis 2009"
+  },
+  "story": {
+    "title": "Notre Histoire",
+    "paragraphs": [
+      "Archi Construction & Véranda a été fondée en 2009 avec une mission claire : fournir des constructions extérieures de haute qualité qui enrichissent la vie de nos clients.",
+      "Ce qui a commencé comme une petite entreprise familiale est devenu un spécialiste renommé en pergolas bioclimatiques, vérandas en aluminium et carports. Avec plus de 500 projets réussis en Belgique et dans les pays voisins, nous avons bâti une solide réputation.",
+      "Notre force réside dans la combinaison de l'artisanat belge, de matériaux premium et d'un service personnalisé. Chaque projet est réalisé avec le même dévouement et le même souci du détail, quelle que soit son envergure."
+    ],
+    "experience": "Années d'expérience"
+  },
+  "values": {
+    "title": "Nos Valeurs",
+    "subtitle": "Les principes qui guident notre travail au quotidien",
+    "quality": {
+      "title": "Qualité",
+      "description": "Uniquement les meilleurs matériaux et l'artisanat"
+    },
+    "team": {
+      "title": "Travail d'équipe",
+      "description": "Des professionnels expérimentés qui collaborent"
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "Réaliser votre projet de rêve"
+    },
+    "passion": {
+      "title": "Passion",
+      "description": "L'amour de ce que nous faisons"
+    }
+  },
+  "stats": {
+    "projects": "Projets Réalisés",
+    "experience": "Années d'Expérience",
+    "satisfaction": "Clients Satisfaits"
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "subtitle": "Découvrez les personnes derrière Archi Construction"
+  },
+  "certifications": {
+    "title": "Certificats & Partenaires"
+  }
+}

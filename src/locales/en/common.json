@@ -4,6 +4,8 @@
     "about": "About Us",
     "services": "Services",
     "projects": "Projects",
+    "videos": "Videos",
+    "marketplace": "Marketplace",
     "contact": "Contact",
     "quote": "Request Quote",
     "privacy": "Privacy Policy"
@@ -41,7 +43,7 @@
     "follow_us": "Follow Us",
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions",
-    "copyright": "© {year} Archi Construction & Véranda. All rights reserved.",
+    "copyright": "© {{year}} Archi Construction & Véranda. All rights reserved.",
     "location": "Belgium & surrounding areas"
   },
   "contact_info": {
@@ -65,7 +67,7 @@
   "trust": {
     "years": "Years Experience",
     "projects": "Projects Completed",
-    "warranty": "Year Warranty",
+    "warranty": "Quality Guarantee",
     "satisfaction": "Customer Satisfaction"
   },
   "meta": {

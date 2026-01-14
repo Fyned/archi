@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Marketplace - Ürünler & Teklifler",
+    "description": "Facebook Marketplace'te ürünlerimizi ve özel tekliflerimizi keşfedin. Pergola, veranda, carport ve daha fazlası."
+  },
+  "badge": "Facebook Marketplace",
+  "title": "Marketplace'imiz",
+  "subtitle": "Facebook Marketplace'te en yeni ürünlerimizi, özel tekliflerimizi ve mevcut projelerimizi keşfedin.",
+  "view_on_facebook": "Facebook'ta Görüntüle",
+  "feed": {
+    "title": "Paylaşımlarımız",
+    "description": "Son çalışmalarımızı, özel tekliflerimizi ve yeni ürünlerimizi görmek için Facebook sayfamızı takip edin."
+  },
+  "loading": "Facebook içeriği yükleniyor...",
+  "view_directly": "Facebook'ta doğrudan görüntüle",
+  "features": {
+    "products": {
+      "title": "Kaliteli Ürünler",
+      "description": "Satışa sunulan yüksek kaliteli pergola, veranda, carport ve aksesuarlar."
+    },
+    "quality": {
+      "title": "Kalite Garantisi",
+      "description": "Tüm ürünlerimiz premium malzemeler ve özenli işçilik ile üretilmektedir."
+    },
+    "contact": {
+      "title": "Direkt İletişim",
+      "description": "Daha fazla bilgi için Facebook Messenger üzerinden bize doğrudan ulaşın."
+    }
+  },
+  "cta": {
+    "title": "İlginizi çeken bir şey mi buldunuz?",
+    "description": "Facebook üzerinden bize ulaşın veya projeniz için kişiselleştirilmiş teklif isteyin."
+  }
+}

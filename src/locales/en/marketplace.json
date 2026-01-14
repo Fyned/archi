@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Marketplace - Products & Offers",
+    "description": "Discover our products and special offers on Facebook Marketplace. Pergolas, verandas, carports and more."
+  },
+  "badge": "Facebook Marketplace",
+  "title": "Our Marketplace",
+  "subtitle": "Discover our latest products, special offers and available projects on Facebook Marketplace.",
+  "view_on_facebook": "View on Facebook",
+  "feed": {
+    "title": "Our Posts",
+    "description": "Follow our Facebook page to discover our latest projects, special offers and new products."
+  },
+  "loading": "Loading Facebook content...",
+  "view_directly": "View directly on Facebook",
+  "features": {
+    "products": {
+      "title": "Quality Products",
+      "description": "High quality pergolas, verandas, carports and accessories available for sale."
+    },
+    "quality": {
+      "title": "Quality Guarantee",
+      "description": "All our products are made with premium materials and careful finishing."
+    },
+    "contact": {
+      "title": "Direct Contact",
+      "description": "Contact us directly via Facebook Messenger for more information."
+    }
+  },
+  "cta": {
+    "title": "Found something interesting?",
+    "description": "Contact us via Facebook or request a personalized quote for your project."
+  }
+}

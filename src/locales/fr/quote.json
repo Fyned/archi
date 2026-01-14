@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Demandez un devis gratuit",
+    "description": "Demandez un devis gratuit pour votre projet de pergola, véranda ou carport"
+  },
+  "hero": {
+    "title": "Demandez un devis gratuit",
+    "subtitle": "Remplissez le formulaire et recevez votre devis personnalisé sous 24 heures",
+    "badge_free": "100% Gratuit",
+    "badge_fast": "Réponse sous 24h",
+    "badge_warranty": "Garantie Qualité"
+  },
+  "steps": {
+    "project_type": "Type de projet",
+    "details": "Détails",
+    "property": "Propriété",
+    "contact": "Contact"
+  },
+  "step1": {
+    "title": "Quel type de projet avez-vous en tête ?",
+    "subtitle": "Sélectionnez le type de construction souhaité",
+    "types": {
+      "pergola": {
+        "title": "Pergola Bioclimatique",
+        "description": "Lames orientables pour une protection optimale"
+      },
+      "veranda": {
+        "title": "Véranda Aluminium",
+        "description": "Agrandissez votre espace de vie avec une véranda élégante"
+      },
+      "carport": {
+        "title": "Carport",
+        "description": "Protégez vos véhicules avec style"
+      },
+      "other": {
+        "title": "Autre",
+        "description": "J'ai un autre projet en tête"
+      }
+    },
+    "next": "Suivant"
+  },
+  "step2": {
+    "title": "Parlez-nous de votre projet",
+    "subtitle": "Ces informations nous aideront à établir un devis précis",
+    "dimensions": {
+      "label": "Dimensions estimées",
+      "small": "Petit (< 15m²)",
+      "medium": "Moyen (15-30m²)",
+      "large": "Grand (30-50m²)",
+      "xlarge": "Très grand (> 50m²)",
+      "unknown": "Je ne sais pas encore"
+    },
+    "budget": {
+      "label": "Budget estimé",
+      "unknown": "Je ne sais pas encore"
+    },
+    "timeline": {
+      "label": "Quand souhaitez-vous commencer ?",
+      "asap": "Dès que possible",
+      "1-3months": "Dans 1 à 3 mois",
+      "3-6months": "Dans 3 à 6 mois",
+      "6months+": "Plus tard cette année",
+      "planning": "Je suis en phase de réflexion"
+    },
+    "back": "Retour",
+    "next": "Suivant"
+  },
+  "step3": {
+    "title": "À propos de votre propriété",
+    "subtitle": "Quelques questions sur votre situation",
+    "owner": {
+      "label": "Êtes-vous propriétaire du bien ?",
+      "yes": "Oui, je suis propriétaire",
+      "renter": "Non, je suis locataire",
+      "buying": "Je suis en cours d'achat"
+    },
+    "design": {
+      "label": "Avez-vous déjà un design ou un plan ?",
+      "yes": "Oui, j'ai déjà un design",
+      "no": "Non, j'ai besoin d'aide",
+      "ideas": "J'ai des idées mais pas de plan"
+    },
+    "additional": {
+      "label": "Informations complémentaires (facultatif)",
+      "placeholder": "Décrivez votre projet, vos souhaits particuliers ou vos questions..."
+    },
+    "back": "Retour",
+    "next": "Suivant"
+  },
+  "step4": {
+    "title": "Vos coordonnées",
+    "subtitle": "Presque terminé ! Remplissez vos informations et nous vous contacterons.",
+    "name": {
+      "label": "Nom complet",
+      "placeholder": "Votre nom et prénom"
+    },
+    "email": {
+      "label": "Adresse e-mail",
+      "placeholder": "votre@email.com"
+    },
+    "phone": {
+      "label": "Numéro de téléphone",
+      "placeholder": "+32 XXX XX XX XX"
+    },
+    "address": {
+      "label": "Adresse (facultatif)",
+      "placeholder": "Rue, numéro, code postal, commune"
+    },
+    "upload": {
+      "label": "Télécharger des photos ou plans (facultatif)",
+      "button": "Cliquez pour télécharger des fichiers",
+      "formats": "Formats acceptés : JPG, PNG, PDF (max 10 Mo)"
+    },
+    "privacy": "En soumettant ce formulaire, vous acceptez notre",
+    "privacy_link": "politique de confidentialité",
+    "privacy_suffix": ". Nous utilisons vos données uniquement pour traiter votre demande de devis.",
+    "back": "Retour",
+    "submit": "Demander un devis",
+    "submitting": "Envoi en cours..."
+  },
+  "success": {
+    "title": "Merci pour votre demande !",
+    "message": "Nous avons bien reçu votre demande de devis et vous contacterons sous 24 heures.",
+    "button": "Retour à l'accueil"
+  },
+  "why_us": {
+    "title": "Pourquoi choisir Archi Construction ?",
+    "advice": {
+      "title": "Conseil Gratuit",
+      "description": "Nous venons gratuitement chez vous pour discuter de votre projet"
+    },
+    "price": {
+      "title": "Meilleur Rapport Qualité-Prix",
+      "description": "Des prix justes pour des constructions de qualité premium"
+    },
+    "fast": {
+      "title": "Exécution Rapide",
+      "description": "Du devis à l'installation en quelques semaines"
+    }
+  }
+}

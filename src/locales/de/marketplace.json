@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Marktplatz - Produkte & Angebote",
+    "description": "Entdecken Sie unsere Produkte und Sonderangebote auf Facebook Marketplace. Pergolen, Wintergärten, Carports und mehr."
+  },
+  "badge": "Facebook Marketplace",
+  "title": "Unser Marktplatz",
+  "subtitle": "Entdecken Sie unsere neuesten Produkte, Sonderangebote und verfügbaren Projekte auf Facebook Marketplace.",
+  "view_on_facebook": "Auf Facebook ansehen",
+  "feed": {
+    "title": "Unsere Beiträge",
+    "description": "Folgen Sie unserer Facebook-Seite, um unsere neuesten Projekte, Sonderangebote und neuen Produkte zu entdecken."
+  },
+  "loading": "Facebook-Inhalte werden geladen...",
+  "view_directly": "Direkt auf Facebook ansehen",
+  "features": {
+    "products": {
+      "title": "Qualitätsprodukte",
+      "description": "Hochwertige Pergolen, Wintergärten, Carports und Zubehör zum Verkauf."
+    },
+    "quality": {
+      "title": "Qualitätsgarantie",
+      "description": "Alle unsere Produkte werden mit Premium-Materialien und sorgfältiger Verarbeitung hergestellt."
+    },
+    "contact": {
+      "title": "Direkter Kontakt",
+      "description": "Kontaktieren Sie uns direkt über Facebook Messenger für weitere Informationen."
+    }
+  },
+  "cta": {
+    "title": "Etwas Interessantes gefunden?",
+    "description": "Kontaktieren Sie uns über Facebook oder fordern Sie ein personalisiertes Angebot für Ihr Projekt an."
+  }
+}

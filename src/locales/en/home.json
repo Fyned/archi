@@ -2,7 +2,7 @@
   "hero": {
     "title": "Create Your Dream Terrace",
     "subtitle": "Specialist in bioclimatic pergolas, verandas and carports",
-    "description": "Transform your outdoor space with our high-quality aluminium constructions. Belgian craftsmanship, 15-year warranty.",
+    "description": "Transform your outdoor space with our high-quality aluminium constructions. Belgian craftsmanship, quality guarantee.",
     "cta_primary": "Request Free Quote",
     "cta_secondary": "View Our Projects"
   },
@@ -20,6 +20,18 @@
     "carport": {
       "title": "Carport",
       "description": "Protect your vehicles with style. Durable custom-made aluminium carports."
+    },
+    "window": {
+      "title": "Aluminium Windows",
+      "description": "High-quality windows with excellent insulation. Elegant design and energy efficient."
+    },
+    "shutter": {
+      "title": "Roller Shutters",
+      "description": "Electric and manual shutters for security and comfort. Smart home integration."
+    },
+    "garage": {
+      "title": "Garage Doors",
+      "description": "Motorised sectional doors. Secure, insulated and modern design."
     }
   },
   "why_us": {
@@ -30,7 +42,7 @@
       "description": "We only use high-quality Belgian and European materials."
     },
     "warranty": {
-      "title": "15 Year Warranty",
+      "title": "Quality Guarantee",
       "description": "Complete confidence in our constructions with extended warranty."
     },
     "custom": {

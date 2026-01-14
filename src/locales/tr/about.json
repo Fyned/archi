@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Hakkımızda",
+    "description": "Archi Construction & Veranda'nın hikayesini keşfedin, Belçika'da pergola, veranda ve carport uzmanınız"
+  },
+  "hero": {
+    "title": "Hakkımızda",
+    "subtitle": "2009'dan bu yana yüksek kaliteli dış mekan yapıları için ortağınız"
+  },
+  "story": {
+    "title": "Hikayemiz",
+    "paragraphs": [
+      "Archi Construction & Veranda, 2009 yılında net bir misyonla kuruldu: müşterilerimizin yaşamlarını zenginleştiren yüksek kaliteli dış mekan yapıları sunmak.",
+      "Küçük bir aile şirketi olarak başlayan işimiz, biyoklimatik pergolalar, alüminyum verandalar ve carport'larda uzmanlaşmış saygın bir markaya dönüştü. Belçika ve komşu ülkelerde 500'ü aşkın başarılı proje ile sağlam bir itibar oluşturduk.",
+      "Gücümüz, Belçika işçiliği, premium malzemeler ve kişisel hizmet kombinasyonunda yatıyor. Her proje, boyutuna bakılmaksızın aynı özveri ve detaya gösterilen özenle yürütülür."
+    ],
+    "experience": "Yıllık deneyim"
+  },
+  "values": {
+    "title": "Değerlerimiz",
+    "subtitle": "Her gün çalışmamıza rehberlik eden ilkeler",
+    "quality": {
+      "title": "Kalite",
+      "description": "Sadece en iyi malzemeler ve işçilik"
+    },
+    "team": {
+      "title": "Takım Çalışması",
+      "description": "Birlikte çalışan deneyimli profesyoneller"
+    },
+    "mission": {
+      "title": "Misyon",
+      "description": "Hayalinizdeki projeyi gerçekleştirmek"
+    },
+    "passion": {
+      "title": "Tutku",
+      "description": "Yaptığımız işe olan sevgi"
+    }
+  },
+  "stats": {
+    "projects": "Tamamlanan Proje",
+    "experience": "Yıllık Deneyim",
+    "satisfaction": "Memnun Müşteri"
+  },
+  "team": {
+    "title": "Ekibimiz",
+    "subtitle": "Archi Construction'ın arkasındaki insanlarla tanışın"
+  },
+  "certifications": {
+    "title": "Sertifikalar & Ortaklar"
+  }
+}

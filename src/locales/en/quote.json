@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Get a Free Quote",
+    "description": "Request a free quote for your pergola, veranda or carport project"
+  },
+  "hero": {
+    "title": "Get a free quote",
+    "subtitle": "Fill out the form and receive your personalised quote within 24 hours",
+    "badge_free": "100% Free",
+    "badge_fast": "Response within 24h",
+    "badge_warranty": "Quality Guarantee"
+  },
+  "steps": {
+    "project_type": "Project Type",
+    "details": "Details",
+    "property": "Property",
+    "contact": "Contact"
+  },
+  "step1": {
+    "title": "What type of project do you have in mind?",
+    "subtitle": "Select the type of construction you're looking for",
+    "types": {
+      "pergola": {
+        "title": "Bioclimatic Pergola",
+        "description": "Adjustable louvres for optimal protection"
+      },
+      "veranda": {
+        "title": "Aluminium Veranda",
+        "description": "Extend your living space with an elegant veranda"
+      },
+      "carport": {
+        "title": "Carport",
+        "description": "Protect your vehicles in style"
+      },
+      "other": {
+        "title": "Other",
+        "description": "I have a different project in mind"
+      }
+    },
+    "next": "Next"
+  },
+  "step2": {
+    "title": "Tell us more about your project",
+    "subtitle": "This information will help us prepare an accurate quote",
+    "dimensions": {
+      "label": "Estimated dimensions",
+      "small": "Small (< 15m²)",
+      "medium": "Medium (15-30m²)",
+      "large": "Large (30-50m²)",
+      "xlarge": "Extra large (> 50m²)",
+      "unknown": "Not sure yet"
+    },
+    "budget": {
+      "label": "Estimated budget",
+      "unknown": "Not sure yet"
+    },
+    "timeline": {
+      "label": "When would you like to start?",
+      "asap": "As soon as possible",
+      "1-3months": "Within 1-3 months",
+      "3-6months": "Within 3-6 months",
+      "6months+": "Later this year",
+      "planning": "I'm still planning"
+    },
+    "back": "Back",
+    "next": "Next"
+  },
+  "step3": {
+    "title": "About your property",
+    "subtitle": "A few questions about your situation",
+    "owner": {
+      "label": "Are you the property owner?",
+      "yes": "Yes, I'm the owner",
+      "renter": "No, I'm renting",
+      "buying": "I'm in the process of buying"
+    },
+    "design": {
+      "label": "Do you already have a design or plan?",
+      "yes": "Yes, I have a design",
+      "no": "No, I need assistance",
+      "ideas": "I have ideas but no plan"
+    },
+    "additional": {
+      "label": "Additional information (optional)",
+      "placeholder": "Tell us more about your project, special requirements or questions..."
+    },
+    "back": "Back",
+    "next": "Next"
+  },
+  "step4": {
+    "title": "Your contact details",
+    "subtitle": "Almost done! Fill in your details and we'll be in touch.",
+    "name": {
+      "label": "Full name",
+      "placeholder": "Your full name"
+    },
+    "email": {
+      "label": "Email address",
+      "placeholder": "your@email.com"
+    },
+    "phone": {
+      "label": "Phone number",
+      "placeholder": "+32 XXX XX XX XX"
+    },
+    "address": {
+      "label": "Address (optional)",
+      "placeholder": "Street, number, postcode, city"
+    },
+    "upload": {
+      "label": "Upload photos or plans (optional)",
+      "button": "Click to upload files",
+      "formats": "Supported formats: JPG, PNG, PDF (max 10MB)"
+    },
+    "privacy": "By submitting this form, you agree to our",
+    "privacy_link": "privacy policy",
+    "privacy_suffix": ". We only use your data to process your quote request.",
+    "back": "Back",
+    "submit": "Request Quote",
+    "submitting": "Submitting..."
+  },
+  "success": {
+    "title": "Thank you for your request!",
+    "message": "We've received your quote request and will contact you within 24 hours.",
+    "button": "Back to home"
+  },
+  "why_us": {
+    "title": "Why choose Archi Construction?",
+    "advice": {
+      "title": "Free Consultation",
+      "description": "We visit you free of charge to discuss your project"
+    },
+    "price": {
+      "title": "Best Value for Money",
+      "description": "Fair prices for premium quality constructions"
+    },
+    "fast": {
+      "title": "Quick Installation",
+      "description": "From quote to installation in just a few weeks"
+    }
+  }
+}

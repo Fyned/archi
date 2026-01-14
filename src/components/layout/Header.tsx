@@ -31,13 +31,15 @@ export function Header() {
       ]
     },
     { key: 'projects', href: '/projects' },
+    { key: 'videos', href: '/videos' },
+    { key: 'marketplace', href: '/marketplace' },
     { key: 'contact', href: '/contact' },
   ]
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
-      {/* Top bar */}
-      <div className="bg-primary-600 text-white py-2">
+      {/* Top bar with flowing gradient */}
+      <div className="gradient-flow text-white py-2">
         <div className="container-custom flex justify-between items-center text-sm">
           <div className="flex items-center gap-4">
             <a href={`tel:${PHONE_CALL.replace(/\s/g, '')}`} className="flex items-center gap-2 hover:text-primary-100 transition-colors">
@@ -175,7 +177,7 @@ export function Header() {
                     <div
                       className={clsx(
                         'pl-4 space-y-2 overflow-hidden transition-all duration-300',
-                        isServicesOpen ? 'max-h-48 opacity-100' : 'max-h-0 opacity-0'
+                        isServicesOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                       )}
                     >
                       <a
