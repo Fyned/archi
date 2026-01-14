@@ -136,11 +136,11 @@ export default function PortfolioPage() {
               >
                 <Card hover>
                   <div className="relative overflow-hidden">
-                    <CardImage src={project.image} alt={t(`portfolio:${project.titleKey}`)} />
+                    <CardImage src={project.image} alt={t(project.titleKey)} />
                     {/* Category badge */}
                     <div className="absolute top-4 left-4">
                       <span className="px-3 py-1 bg-white/90 backdrop-blur-sm rounded-full text-sm font-medium shadow-sm capitalize">
-                        {t(`portfolio:categories.${project.category}`)}
+                        {t(`categories.${project.category}`)}
                       </span>
                     </div>
                     {/* Expand icon on hover */}
@@ -152,7 +152,7 @@ export default function PortfolioPage() {
                   </div>
                   <CardContent>
                     <h3 className="text-lg font-heading font-semibold group-hover:text-primary-600 transition-colors">
-                      {t(`portfolio:${project.titleKey}`)}
+                      {t(project.titleKey)}
                     </h3>
                   </CardContent>
                 </Card>
@@ -189,8 +189,8 @@ export default function PortfolioPage() {
           onClose={() => setLightboxOpen(false)}
           onNext={nextImage}
           onPrev={prevImage}
-          title={t(`portfolio:${currentProject.titleKey}`)}
-          subtitle={t(`portfolio:categories.${currentProject.category}`)}
+          title={t(currentProject.titleKey)}
+          subtitle={t(`categories.${currentProject.category}`)}
         />
       )}
     </>

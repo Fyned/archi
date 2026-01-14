@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Referenzen",
-    "description": "Entdecken Sie die von Archi Construction & Veranda realisierten Wintergarten-, Pergola- und Poolhausprojekte. Premium-Qualität in Belgien und Umgebung."
+    "title": "Unsere Referenzen - Wintergärten, Pergolen & Poolhäuser",
+    "description": "Entdecken Sie unsere realisierten Aluminium-Wintergärten, bioklimatischen Pergolen und Poolhäuser in Belgien. Über 500 erfolgreiche Projekte. Premium-Qualität garantiert."
   },
   "hero": {
     "title": "Unsere Referenzen",
-    "subtitle": "Entdecken Sie unsere abgeschlossenen Projekte und lassen Sie sich für Ihr eigenes Projekt inspirieren"
+    "subtitle": "Entdecken Sie unser Handwerk durch abgeschlossene Projekte in Belgien und Umgebung"
   },
   "categories": {
     "veranda": "Wintergarten",
@@ -13,20 +13,20 @@
     "poolhouse": "Poolhaus"
   },
   "projects": {
-    "veranda_glass_roof_led": "Glasdach-Wintergarten mit LED-Beleuchtung",
-    "veranda_rooftop_terrace": "Dachterrassen-Wintergarten",
-    "veranda_newbuild": "Neubau-Wintergarten-Projekt",
-    "veranda_showroom": "Showroom-Ausstellungsmodell",
-    "veranda_3d_design": "3D-Design Wintergarten",
-    "poolhouse_modern": "Modernes Poolhaus am Schwimmbad",
-    "veranda_villa_luxury": "Luxus-Villa-Wintergarten",
-    "poolhouse_urban": "Poolhaus mit Stadtblick",
-    "pergola_veranda_combo": "Bioklimatische Pergola + Wintergarten",
-    "veranda_compact": "Kompakter Stadtwintergarten",
-    "pergola_poolside": "Lounge-Pergola am Schwimmbad"
+    "veranda_glass_roof_led": "Glasdach-Wintergarten mit Integrierter LED-Beleuchtung",
+    "veranda_rooftop_terrace": "Dachterrassen-Wintergarten mit Panoramablick",
+    "veranda_newbuild": "Wintergarten-Installation für Neubau",
+    "veranda_showroom": "Showroom Wintergarten Ausstellungsmodell",
+    "veranda_3d_design": "Maßgeschneiderter 3D-Wintergarten-Entwurf",
+    "poolhouse_modern": "Modernes Poolhaus mit Schiebe-Glaspaneelen",
+    "veranda_villa_luxury": "Luxus-Villa-Wintergarten mit Cremefarbenem Dach",
+    "poolhouse_urban": "Design-Poolhaus in Städtischer Umgebung",
+    "pergola_veranda_combo": "Kombination Bioklimatische Pergola und Wintergarten",
+    "veranda_compact": "Kompakter Wintergarten für Reihenhaus",
+    "pergola_poolside": "Lounge-Pergola am Pool"
   },
   "cta": {
-    "title": "Möchten Sie auch so ein Projekt?",
-    "description": "Kontaktieren Sie uns für einen kostenlosen Besuch und ein Angebot. Lassen Sie uns gemeinsam Ihr Traumprojekt verwirklichen."
+    "title": "Möchten Sie ein ähnliches Projekt?",
+    "description": "Kontaktieren Sie uns für einen kostenlosen Besuch und ein individuelles Angebot. Unser professionelles Team verwirklicht Ihr Traumprojekt."
   }
 }
