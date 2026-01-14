@@ -77,6 +77,11 @@ export default function ContactPage() {
     <>
       <Helmet>
         <title>{t('contact:hero.title')} | Archi Construction & Veranda</title>
+        <meta name="description" content={t('contact:hero.subtitle')} />
+        <meta property="og:title" content={`${t('contact:hero.title')} | Archi Construction & Veranda`} />
+        <meta property="og:description" content={t('contact:hero.subtitle')} />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/general/contact-office.jpg" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       {/* Hero Section */}

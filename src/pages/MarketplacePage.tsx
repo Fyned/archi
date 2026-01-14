@@ -45,6 +45,10 @@ export default function MarketplacePage() {
       <Helmet>
         <title>{t('marketplace:meta.title')} | Archi Construction & Veranda</title>
         <meta name="description" content={t('marketplace:meta.description')} />
+        <meta property="og:title" content={`${t('marketplace:meta.title')} | Archi Construction & Veranda`} />
+        <meta property="og:description" content={t('marketplace:meta.description')} />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/general/hero-main.jpg" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       {/* Hero Section */}

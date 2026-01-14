@@ -58,6 +58,10 @@ export default function VideoGalleryPage() {
       <Helmet>
         <title>{t('videos:meta.title')} | Archi Construction & Veranda</title>
         <meta name="description" content={t('videos:meta.description')} />
+        <meta property="og:title" content={`${t('videos:meta.title')} | Archi Construction & Veranda`} />
+        <meta property="og:description" content={t('videos:meta.description')} />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/veranda/veranda-hero.jpg" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       {/* Hero Section */}

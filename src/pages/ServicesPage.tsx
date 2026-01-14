@@ -45,6 +45,11 @@ export default function ServicesPage() {
     <>
       <Helmet>
         <title>{t('nav.services')} | Archi Construction & Veranda</title>
+        <meta name="description" content={t('services:meta.description')} />
+        <meta property="og:title" content={`${t('nav.services')} | Archi Construction & Veranda`} />
+        <meta property="og:description" content={t('services:meta.description')} />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/pergola/pergola-hero.jpg" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       {/* Hero Section */}
