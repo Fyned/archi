@@ -17,6 +17,10 @@ export default function AboutPage() {
       <Helmet>
         <title>{t('about:meta.title')} | Archi Construction & Veranda</title>
         <meta name="description" content={t('about:meta.description')} />
+        <meta property="og:title" content={`${t('about:meta.title')} | Archi Construction & Veranda`} />
+        <meta property="og:description" content={t('about:meta.description')} />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/general/about-showroom.jpg" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       {/* Hero Section */}
