@@ -136,7 +136,7 @@ export default function MarketplacePage() {
       {/* Features Section */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="bg-white rounded-xl p-8 text-center shadow-sm">
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <ShoppingBag size={28} className="text-primary-600" />
@@ -172,6 +172,19 @@ export default function MarketplacePage() {
               </h3>
               <p className="text-gray-600">
                 {t('marketplace:features.contact.description')}
+              </p>
+            </div>
+            <div className="bg-white rounded-xl p-8 text-center shadow-sm">
+              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-7 h-7 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-heading font-bold mb-3">
+                {t('marketplace:features.delivery.title')}
+              </h3>
+              <p className="text-gray-600">
+                {t('marketplace:features.delivery.description')}
               </p>
             </div>
           </div>

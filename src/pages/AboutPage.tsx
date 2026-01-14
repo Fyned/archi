@@ -108,7 +108,7 @@ export default function AboutPage() {
       {/* Stats Section */}
       <section className="py-16 bg-primary-600">
         <div className="container-custom">
-          <div className="grid grid-cols-3 gap-8 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">500+</div>
               <div className="text-primary-100">{t('about:stats.projects')}</div>
@@ -120,6 +120,10 @@ export default function AboutPage() {
             <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">98%</div>
               <div className="text-primary-100">{t('about:stats.satisfaction')}</div>
+            </div>
+            <div>
+              <div className="text-4xl md:text-5xl font-bold text-white mb-2">5</div>
+              <div className="text-primary-100">{t('about:stats.countries')}</div>
             </div>
           </div>
         </div>

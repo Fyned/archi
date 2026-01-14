@@ -39,7 +39,8 @@
   "stats": {
     "projects": "Tamamlanan Proje",
     "experience": "Yıllık Deneyim",
-    "satisfaction": "Memnun Müşteri"
+    "satisfaction": "Memnun Müşteri",
+    "countries": "Hizmet Verilen Ülke"
   },
   "team": {
     "title": "Ekibimiz",

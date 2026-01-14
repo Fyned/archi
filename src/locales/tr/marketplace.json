@@ -25,6 +25,10 @@
     "contact": {
       "title": "Direkt İletişim",
       "description": "Daha fazla bilgi için Facebook Messenger üzerinden bize doğrudan ulaşın."
+    },
+    "delivery": {
+      "title": "Hızlı Teslimat",
+      "description": "500 km yarıçapında teslimat ve kurulum hizmeti."
     }
   },
   "cta": {

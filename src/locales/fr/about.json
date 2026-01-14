@@ -39,7 +39,8 @@
   "stats": {
     "projects": "Projets Réalisés",
     "experience": "Années d'Expérience",
-    "satisfaction": "Clients Satisfaits"
+    "satisfaction": "Clients Satisfaits",
+    "countries": "Pays Desservis"
   },
   "team": {
     "title": "Notre Équipe",

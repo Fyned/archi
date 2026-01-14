@@ -25,6 +25,10 @@
     "contact": {
       "title": "Direkter Kontakt",
       "description": "Kontaktieren Sie uns direkt über Facebook Messenger für weitere Informationen."
+    },
+    "delivery": {
+      "title": "Schnelle Lieferung",
+      "description": "Liefer- und Installationsservice im Umkreis von 500 km."
     }
   },
   "cta": {

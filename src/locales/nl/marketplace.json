@@ -25,6 +25,10 @@
     "contact": {
       "title": "Direct Contact",
       "description": "Neem rechtstreeks contact met ons op via Facebook Messenger voor meer informatie."
+    },
+    "delivery": {
+      "title": "Snelle Levering",
+      "description": "Leverings- en installatieservice binnen een straal van 500 km."
     }
   },
   "cta": {

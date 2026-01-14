@@ -136,6 +136,10 @@
     "fast": {
       "title": "Quick Installation",
       "description": "From quote to installation in just a few weeks"
+    },
+    "quality": {
+      "title": "Quality Guaranteed",
+      "description": "All our work is covered by a quality guarantee"
     }
   }
 }

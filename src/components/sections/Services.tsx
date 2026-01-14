@@ -55,7 +55,7 @@ export function Services() {
         </FadeInUp>
 
         {/* Services grid */}
-        <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <motion.a
               key={service.key}

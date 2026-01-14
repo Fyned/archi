@@ -136,6 +136,10 @@
     "fast": {
       "title": "Exécution Rapide",
       "description": "Du devis à l'installation en quelques semaines"
+    },
+    "quality": {
+      "title": "Qualité Garantie",
+      "description": "Tous nos travaux bénéficient d'une garantie qualité"
     }
   }
 }
