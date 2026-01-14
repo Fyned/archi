@@ -28,6 +28,31 @@
         "Entretien minimal requis",
         "Production avec garantie qualité"
       ]
+    },
+    "faq": {
+      "title": "Questions Fréquentes - Pergola Bioclimatique",
+      "items": [
+        {
+          "question": "Quel est le prix d'une pergola bioclimatique en Belgique?",
+          "answer": "Le prix d'une pergola bioclimatique varie entre 400€ et 950€ par m² selon les dimensions, les options (LED, motorisation, screens) et les finitions. Pour une pergola standard de 15-20m², comptez entre 8.000€ et 15.000€ installation comprise. Demandez un devis gratuit pour un prix précis adapté à votre projet."
+        },
+        {
+          "question": "Faut-il un permis de construire pour une pergola en Belgique?",
+          "answer": "En général, une pergola de moins de 40m² ne nécessite pas de permis en Belgique, mais une déclaration préalable peut être requise selon votre commune. Nous vous conseillons de vérifier auprès de votre administration communale. Nous pouvons vous accompagner dans ces démarches."
+        },
+        {
+          "question": "Comment fonctionnent les lames orientables?",
+          "answer": "Les lames orientables peuvent pivoter de 0° à 135° grâce à un moteur électrique commandé par télécommande ou smartphone. En position fermée, elles protègent de la pluie. Ouvertes, elles laissent passer la lumière et l'air. Un capteur de pluie peut fermer automatiquement les lames."
+        },
+        {
+          "question": "Quelle est la durée de vie d'une pergola aluminium?",
+          "answer": "Une pergola en aluminium thermolaqué a une durée de vie de 25 à 40 ans minimum. L'aluminium ne rouille pas, ne se déforme pas et résiste aux UV. L'entretien se limite à un nettoyage occasionnel à l'eau savonneuse."
+        },
+        {
+          "question": "Peut-on installer une pergola sur une terrasse existante?",
+          "answer": "Oui, nos pergolas peuvent être installées sur tout type de sol: terrasse carrelée, bois, béton ou directement sur plots. Nous adaptons la fixation selon votre situation. Une visite technique gratuite nous permet d'évaluer les meilleures solutions."
+        }
+      ]
     }
   },
   "veranda": {
@@ -54,6 +79,31 @@
         "Plus-value pour votre propriété",
         "Solution économe en énergie"
       ]
+    },
+    "faq": {
+      "title": "Questions Fréquentes - Véranda Aluminium",
+      "items": [
+        {
+          "question": "Quel est le prix d'une véranda aluminium en Belgique?",
+          "answer": "Le prix d'une véranda aluminium varie entre 1.200€ et 2.500€ par m². Pour une véranda de 15m², comptez entre 18.000€ et 35.000€ selon les options (vitrage, toiture, finitions). Le prix inclut généralement la conception, la fabrication et la pose. Demandez un devis gratuit personnalisé."
+        },
+        {
+          "question": "Faut-il un permis pour construire une véranda en Belgique?",
+          "answer": "Oui, en Belgique, un permis d'urbanisme est généralement requis pour une véranda car elle modifie l'aspect extérieur de votre habitation. Les règles varient selon les régions (Wallonie, Flandre, Bruxelles). Nous vous accompagnons dans toutes les démarches administratives."
+        },
+        {
+          "question": "Quelle est la différence entre une véranda et une pergola?",
+          "answer": "Une véranda est une extension fermée de la maison, entièrement vitrée et isolée, utilisable toute l'année comme pièce à vivre. Une pergola est une structure ouverte ou semi-ouverte, idéale pour profiter de l'extérieur avec protection solaire. Les deux peuvent être combinées."
+        },
+        {
+          "question": "Comment chauffer une véranda en hiver?",
+          "answer": "Grâce aux profilés à rupture thermique et au double/triple vitrage, nos vérandas conservent bien la chaleur. Plusieurs options de chauffage sont possibles: extension du chauffage central, pompe à chaleur, radiateurs électriques ou plancher chauffant. Nous vous conseillons la meilleure solution."
+        },
+        {
+          "question": "Quelle est la durée des travaux pour une véranda?",
+          "answer": "Après validation du projet et obtention du permis, comptez 6 à 10 semaines pour la fabrication et 1 à 2 semaines pour l'installation selon la complexité. Nous planifions les travaux pour minimiser les nuisances et garantir une finition impeccable."
+        }
+      ]
     }
   },
   "carport": {
@@ -79,6 +129,27 @@
         "Entretien minimal",
         "Investissement durable",
         "Adaptable à votre maison"
+      ]
+    },
+    "faq": {
+      "title": "Questions Fréquentes - Carport Aluminium",
+      "items": [
+        {
+          "question": "Quel est le prix d'un carport aluminium en Belgique?",
+          "answer": "Le prix d'un carport aluminium varie entre 3.500€ et 8.000€ pour un modèle simple voiture, et entre 6.000€ et 15.000€ pour un carport double. Le prix dépend des dimensions, du type de toiture et des options (éclairage LED, parois latérales). Demandez un devis gratuit."
+        },
+        {
+          "question": "Faut-il un permis pour un carport en Belgique?",
+          "answer": "En général, un carport ouvert de moins de 40m² ne nécessite pas de permis d'urbanisme, mais une déclaration peut être requise. Les règles varient selon les communes et régions. Nous vérifions la réglementation applicable à votre situation avant tout projet."
+        },
+        {
+          "question": "Carport ou garage: que choisir?",
+          "answer": "Le carport est moins coûteux, plus rapide à installer et ne nécessite souvent pas de permis. Il offre une protection efficace contre la pluie, le soleil et le gel. Le garage offre plus de sécurité et de rangement mais coûte 3 à 4 fois plus cher. Un carport avec parois peut être un bon compromis."
+        },
+        {
+          "question": "Peut-on installer des panneaux solaires sur un carport?",
+          "answer": "Oui, nos carports sont conçus pour supporter des panneaux photovoltaïques. C'est une excellente solution pour produire de l'électricité tout en protégeant votre véhicule. Nous travaillons avec des partenaires pour l'installation solaire."
+        }
       ]
     }
   },

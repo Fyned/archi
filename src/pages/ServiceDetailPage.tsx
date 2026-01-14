@@ -3,8 +3,264 @@ import { useParams } from 'react-router-dom'
 import { useState } from 'react'
 import { useTranslation } from '@/hooks/useTranslation'
 import { useLocalizedPath } from '@/hooks/useLocalizedPath'
-import { ArrowRight, Check, Expand } from 'lucide-react'
+import { ArrowRight, Check, Expand, ChevronDown, ChevronUp } from 'lucide-react'
 import { Lightbox } from '@/components/ui'
+
+// SEO-optimized image alt texts for each service
+const serviceImageAlts: Record<string, Record<string, string[]>> = {
+  pergola: {
+    fr: [
+      'Pergola bioclimatique aluminium avec lames orientables - Belgique',
+      'Pergola terrasse avec vue panoramique - Installation professionnelle',
+      'Pergola avec éclairage LED intégré de nuit',
+      'Pergola bioclimatique zone piscine - Design moderne',
+      'Pergola lames ouvertes laissant passer la lumière',
+      'Pergola adossée maison - Intégration parfaite',
+    ],
+    nl: [
+      'Bioklimatische aluminium pergola met verstelbare lamellen - België',
+      'Terras pergola met panoramisch uitzicht - Professionele installatie',
+      'Pergola met geïntegreerde LED-verlichting bij nacht',
+      'Bioklimatische pergola zwembadzone - Modern design',
+      'Pergola met open lamellen voor lichtdoorval',
+      'Aan huis bevestigde pergola - Perfecte integratie',
+    ],
+    en: [
+      'Bioclimatic aluminum pergola with adjustable louvers - Belgium',
+      'Terrace pergola with panoramic view - Professional installation',
+      'Pergola with integrated LED lighting at night',
+      'Bioclimatic pergola pool area - Modern design',
+      'Pergola with open louvers letting light through',
+      'House-attached pergola - Perfect integration',
+    ],
+    de: [
+      'Bioklimatische Aluminium-Pergola mit verstellbaren Lamellen - Belgien',
+      'Terrassen-Pergola mit Panoramablick - Professionelle Installation',
+      'Pergola mit integrierter LED-Beleuchtung bei Nacht',
+      'Bioklimatische Pergola Poolbereich - Modernes Design',
+      'Pergola mit offenen Lamellen für Lichteinfall',
+      'An Haus angebaute Pergola - Perfekte Integration',
+    ],
+    tr: [
+      'Ayarlanabilir lamelli biyoklimatik alüminyum pergola - Belçika',
+      'Panoramik manzaralı teras pergolası - Profesyonel kurulum',
+      'Gece entegre LED aydınlatmalı pergola',
+      'Havuz alanı biyoklimatik pergola - Modern tasarım',
+      'Işık geçiren açık lamelli pergola',
+      'Eve bitişik pergola - Mükemmel entegrasyon',
+    ],
+  },
+  veranda: {
+    fr: [
+      'Véranda aluminium moderne avec double vitrage - Belgique',
+      'Intérieur véranda salon lumineux et confortable',
+      'Véranda extérieur design contemporain',
+      'Véranda avec vue sur jardin - Extension maison',
+      'Véranda baies vitrées coulissantes aluminium',
+      'Véranda cosy en hiver - Isolation thermique',
+    ],
+    nl: [
+      'Moderne aluminium veranda met dubbel glas - België',
+      'Lichte en comfortabele veranda woonkamer interieur',
+      'Hedendaags design veranda buitenaanzicht',
+      'Veranda met tuinzicht - Woninguitbreiding',
+      'Veranda aluminium schuifpuien',
+      'Gezellige veranda in de winter - Thermische isolatie',
+    ],
+    en: [
+      'Modern aluminum veranda with double glazing - Belgium',
+      'Bright and comfortable veranda living room interior',
+      'Contemporary design veranda exterior view',
+      'Veranda with garden view - Home extension',
+      'Veranda aluminum sliding doors',
+      'Cozy veranda in winter - Thermal insulation',
+    ],
+    de: [
+      'Moderne Aluminium-Veranda mit Doppelverglasung - Belgien',
+      'Helles und gemütliches Veranda-Wohnzimmer-Interieur',
+      'Zeitgenössisches Design Veranda Außenansicht',
+      'Veranda mit Gartenblick - Hauserweiterung',
+      'Veranda Aluminium-Schiebetüren',
+      'Gemütliche Veranda im Winter - Wärmedämmung',
+    ],
+    tr: [
+      'Çift camlı modern alüminyum veranda - Belçika',
+      'Aydınlık ve konforlu veranda oturma odası iç mekan',
+      'Çağdaş tasarım veranda dış görünüm',
+      'Bahçe manzaralı veranda - Ev uzantısı',
+      'Veranda alüminyum sürgülü kapılar',
+      'Kışın sıcak veranda - Termal yalıtım',
+    ],
+  },
+  carport: {
+    fr: [
+      'Carport aluminium moderne design minimaliste - Belgique',
+      'Carport double voitures aluminium robuste',
+      'Carport simple moderne avec toit plat',
+      'Carport avec éclairage LED intégré',
+      'Carport avec panneaux solaires - Écologique',
+      'Carport avec portail entrée assorti',
+    ],
+    nl: [
+      'Moderne aluminium carport minimalistisch design - België',
+      'Robuuste dubbele aluminium carport',
+      'Moderne enkele carport met plat dak',
+      'Carport met geïntegreerde LED-verlichting',
+      'Carport met zonnepanelen - Ecologisch',
+      'Carport met bijpassende toegangspoort',
+    ],
+    en: [
+      'Modern aluminum carport minimalist design - Belgium',
+      'Robust double aluminum carport',
+      'Modern single carport with flat roof',
+      'Carport with integrated LED lighting',
+      'Carport with solar panels - Ecological',
+      'Carport with matching entrance gate',
+    ],
+    de: [
+      'Moderner Aluminium-Carport minimalistisches Design - Belgien',
+      'Robuster Doppel-Aluminium-Carport',
+      'Moderner Einzel-Carport mit Flachdach',
+      'Carport mit integrierter LED-Beleuchtung',
+      'Carport mit Solarpanelen - Ökologisch',
+      'Carport mit passendem Eingangstor',
+    ],
+    tr: [
+      'Minimalist tasarım modern alüminyum carport - Belçika',
+      'Sağlam çift araç alüminyum carport',
+      'Düz çatılı modern tek carport',
+      'Entegre LED aydınlatmalı carport',
+      'Güneş panelli carport - Ekolojik',
+      'Uyumlu giriş kapılı carport',
+    ],
+  },
+  window: {
+    fr: [
+      'Fenêtres aluminium thermique haute performance - Belgique',
+      'Fenêtres sol-plafond aluminium grande luminosité',
+      'Fenêtres angle aluminium design moderne',
+      'Fenêtres chambre isolation phonique',
+      'Fenêtres cuisine aluminium facile entretien',
+      'Fenêtres coulissantes aluminium gain espace',
+    ],
+    nl: [
+      'Hoogwaardige thermische aluminium ramen - België',
+      'Vloer-tot-plafond aluminium ramen veel licht',
+      'Hoek aluminium ramen modern design',
+      'Slaapkamer ramen geluidsisolatie',
+      'Keuken aluminium ramen makkelijk onderhoud',
+      'Schuiframen aluminium ruimtebesparend',
+    ],
+    en: [
+      'High-performance thermal aluminum windows - Belgium',
+      'Floor-to-ceiling aluminum windows high brightness',
+      'Corner aluminum windows modern design',
+      'Bedroom windows sound insulation',
+      'Kitchen aluminum windows easy maintenance',
+      'Sliding aluminum windows space saving',
+    ],
+    de: [
+      'Hochleistungs-Thermik-Aluminiumfenster - Belgien',
+      'Bodentiefe Aluminiumfenster hohe Helligkeit',
+      'Eck-Aluminiumfenster modernes Design',
+      'Schlafzimmerfenster Schalldämmung',
+      'Küchen-Aluminiumfenster pflegeleicht',
+      'Schiebe-Aluminiumfenster platzsparend',
+    ],
+    tr: [
+      'Yüksek performanslı termal alüminyum pencereler - Belçika',
+      'Yerden tavana alüminyum pencereler yüksek parlaklık',
+      'Köşe alüminyum pencereler modern tasarım',
+      'Yatak odası pencereleri ses yalıtımı',
+      'Mutfak alüminyum pencereler kolay bakım',
+      'Sürgülü alüminyum pencereler yer tasarrufu',
+    ],
+  },
+  shutter: {
+    fr: [
+      'Volets roulants aluminium motorisés - Belgique',
+      'Volets roulants extérieur fermés sécurité',
+      'Volets roulants position mi-hauteur',
+      'Volets roulants chambre obscurité totale',
+      'Volets roulants haute sécurité anti-effraction',
+      'Volets roulants variété couleurs RAL',
+    ],
+    nl: [
+      'Gemotoriseerde aluminium rolluiken - België',
+      'Gesloten buitenrolluiken veiligheid',
+      'Rolluiken halfhoog positie',
+      'Slaapkamer rolluiken totale verduistering',
+      'Inbraakwerende veiligheidsrolluiken',
+      'Rolluiken RAL kleurenvariatie',
+    ],
+    en: [
+      'Motorized aluminum roller shutters - Belgium',
+      'Closed exterior shutters security',
+      'Shutters half-height position',
+      'Bedroom shutters total blackout',
+      'High security anti-burglary shutters',
+      'Shutters RAL color variety',
+    ],
+    de: [
+      'Motorisierte Aluminium-Rollläden - Belgien',
+      'Geschlossene Außenrollläden Sicherheit',
+      'Rollläden halbhohe Position',
+      'Schlafzimmer-Rollläden totale Verdunkelung',
+      'Einbruchsichere Hochsicherheits-Rollläden',
+      'Rollläden RAL-Farbvielfalt',
+    ],
+    tr: [
+      'Motorlu alüminyum panjurlar - Belçika',
+      'Kapalı dış panjurlar güvenlik',
+      'Yarı yükseklik konumunda panjurlar',
+      'Yatak odası panjurları tam karartma',
+      'Hırsızlık önleyici yüksek güvenlikli panjurlar',
+      'RAL renk çeşitliliği panjurlar',
+    ],
+  },
+  garage: {
+    fr: [
+      'Porte garage sectionnelle motorisée - Belgique',
+      'Porte garage sectionnelle finition bois',
+      'Porte garage sectionnelle blanche moderne',
+      'Porte garage double contemporaine',
+      'Porte garage ouverte vue intérieur',
+      'Porte garage éclairage nuit LED',
+    ],
+    nl: [
+      'Gemotoriseerde sectionele garagepoort - België',
+      'Sectionele garagepoort houtafwerking',
+      'Moderne witte sectionele garagepoort',
+      'Hedendaagse dubbele garagepoort',
+      'Open garagepoort binnenaanzicht',
+      'Garagepoort nachtverlichting LED',
+    ],
+    en: [
+      'Motorized sectional garage door - Belgium',
+      'Sectional garage door wood finish',
+      'Modern white sectional garage door',
+      'Contemporary double garage door',
+      'Open garage door interior view',
+      'Garage door night LED lighting',
+    ],
+    de: [
+      'Motorisiertes Sektional-Garagentor - Belgien',
+      'Sektional-Garagentor Holzoptik',
+      'Modernes weißes Sektional-Garagentor',
+      'Zeitgenössisches Doppel-Garagentor',
+      'Offenes Garagentor Innenansicht',
+      'Garagentor Nacht-LED-Beleuchtung',
+    ],
+    tr: [
+      'Motorlu seksiyonel garaj kapısı - Belçika',
+      'Ahşap görünümlü seksiyonel garaj kapısı',
+      'Modern beyaz seksiyonel garaj kapısı',
+      'Çağdaş çift garaj kapısı',
+      'Açık garaj kapısı iç görünüm',
+      'Garaj kapısı gece LED aydınlatma',
+    ],
+  },
+}
 
 const serviceImages: Record<string, string[]> = {
   pergola: [
@@ -57,19 +313,65 @@ const serviceImages: Record<string, string[]> = {
   ],
 }
 
+// FAQ Component
+function FAQItem({ question, answer }: { question: string; answer: string }) {
+  const [isOpen, setIsOpen] = useState(false)
+
+  return (
+    <div className="border-b border-gray-200 last:border-b-0">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full py-4 flex items-center justify-between text-left hover:text-primary-600 transition-colors"
+      >
+        <span className="font-medium text-gray-900 pr-4">{question}</span>
+        {isOpen ? (
+          <ChevronUp size={20} className="text-primary-600 flex-shrink-0" />
+        ) : (
+          <ChevronDown size={20} className="text-gray-400 flex-shrink-0" />
+        )}
+      </button>
+      {isOpen && (
+        <div className="pb-4 text-gray-600 leading-relaxed">
+          {answer}
+        </div>
+      )}
+    </div>
+  )
+}
+
 export default function ServiceDetailPage() {
   const { serviceId } = useParams<{ serviceId: string }>()
-  const { t } = useTranslation(['services', 'common'])
+  const { t, locale } = useTranslation(['services', 'common'])
   const { localizedPath } = useLocalizedPath()
   const [lightboxOpen, setLightboxOpen] = useState(false)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   const service = serviceId || 'pergola'
   const images = serviceImages[service] || serviceImages.pergola
+  const currentLang = locale as 'fr' | 'nl' | 'en' | 'de' | 'tr'
+  const imageAlts = serviceImageAlts[service]?.[currentLang] || serviceImageAlts[service]?.['en'] || []
 
   const features = t(`services:${service}.features.items`, { returnObjects: true }) as string[]
   const benefits = t(`services:${service}.benefits.items`, { returnObjects: true }) as string[]
   const serviceTitle = t(`services:${service}.title`)
+
+  // Get FAQ items if they exist
+  const faqItems = t(`services:${service}.faq.items`, { returnObjects: true, defaultValue: [] }) as { question: string; answer: string }[]
+  const hasFaq = Array.isArray(faqItems) && faqItems.length > 0
+
+  // Generate FAQ Schema for SEO
+  const faqSchema = hasFaq ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
+  } : null
 
   const openLightbox = (index: number) => {
     setCurrentImageIndex(index)
@@ -89,6 +391,16 @@ export default function ServiceDetailPage() {
       <Helmet>
         <title>{serviceTitle} | Archi Construction & Veranda</title>
         <meta name="description" content={t(`services:meta.${service}.description`)} />
+        <meta property="og:title" content={`${serviceTitle} | Archi Construction & Veranda`} />
+        <meta property="og:description" content={t(`services:meta.${service}.description`)} />
+        <meta property="og:image" content={`https://archi.constructionveranda.com${images[0]}`} />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href={`https://archi.constructionveranda.com/${currentLang}/services/${service}`} />
+        {faqSchema && (
+          <script type="application/ld+json">
+            {JSON.stringify(faqSchema)}
+          </script>
+        )}
       </Helmet>
 
       {/* Hero Section */}
@@ -175,7 +487,7 @@ export default function ServiceDetailPage() {
               >
                 <img
                   src={image}
-                  alt={`${serviceTitle} example ${index + 1}`}
+                  alt={imageAlts[index] || `${serviceTitle} - ${t('common:service_detail.gallery')} ${index + 1}`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                   decoding="async"
@@ -202,6 +514,24 @@ export default function ServiceDetailPage() {
         onPrev={prevImage}
         title={`${serviceTitle} - ${t('common:service_detail.gallery')}`}
       />
+
+      {/* FAQ Section */}
+      {hasFaq && (
+        <section className="section bg-white">
+          <div className="container-custom">
+            <div className="max-w-3xl mx-auto">
+              <h2 className="text-2xl font-heading font-bold mb-8 text-center">
+                {t(`services:${service}.faq.title`)}
+              </h2>
+              <div className="bg-gray-50 rounded-xl p-6 md:p-8">
+                {faqItems.map((item, index) => (
+                  <FAQItem key={index} question={item.question} answer={item.answer} />
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA Section */}
       <section className="section bg-primary-600">
