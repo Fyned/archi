@@ -66,11 +66,11 @@
     "error": "Bir hata oluştu. Lütfen tekrar deneyin."
   },
   "trust": {
-    "years": "Yıllık Deneyim",
     "projects": "Tamamlanan Proje",
     "warranty": "Kalite Garantisi",
     "satisfaction": "Müşteri Memnuniyeti",
-    "countries": "Hizmet Verilen Ülke"
+    "countries": "Hizmet Verilen Ülke",
+    "team": "Profesyonel Ekip"
   },
   "meta": {
     "title_suffix": " | Archi Construction & Veranda",

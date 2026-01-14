@@ -94,10 +94,10 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 1 }}
           >
             {[
-              { value: '15+', labelKey: 'trust.years' },
               { value: '500+', labelKey: 'trust.projects' },
               { value: '98%', labelKey: 'trust.satisfaction' },
-              { value: '5', labelKey: 'trust.countries' }
+              { value: '5', labelKey: 'trust.countries' },
+              { value: '✓', labelKey: 'trust.team' }
             ].map((stat, index) => (
               <motion.div
                 key={stat.labelKey}

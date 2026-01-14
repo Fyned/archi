@@ -2,10 +2,10 @@ import { useTranslation } from '@/hooks/useTranslation'
 import { CheckCircle } from 'lucide-react'
 
 const stats = [
-  { key: 'years', value: '15+', isIcon: false },
   { key: 'projects', value: '500+', isIcon: false },
   { key: 'satisfaction', value: '98%', isIcon: false },
   { key: 'countries', value: '5', isIcon: false },
+  { key: 'team', value: '', isIcon: true },
 ]
 
 export function TrustBadges() {

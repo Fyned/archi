@@ -66,11 +66,11 @@
     "error": "Er is een fout opgetreden. Probeer het opnieuw."
   },
   "trust": {
-    "years": "Jaar ervaring",
     "projects": "Projecten gerealiseerd",
     "warranty": "Kwaliteitsgarantie",
     "satisfaction": "Klanttevredenheid",
-    "countries": "Landen bediend"
+    "countries": "Landen bediend",
+    "team": "Professioneel team"
   },
   "meta": {
     "title_suffix": " | Archi Construction & Véranda",

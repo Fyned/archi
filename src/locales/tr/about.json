@@ -14,7 +14,7 @@
       "Küçük bir aile şirketi olarak başlayan işimiz, biyoklimatik pergolalar, alüminyum verandalar ve carport'larda uzmanlaşmış saygın bir markaya dönüştü. Belçika ve komşu ülkelerde 500'ü aşkın başarılı proje ile sağlam bir itibar oluşturduk.",
       "Gücümüz, Belçika işçiliği, premium malzemeler ve kişisel hizmet kombinasyonunda yatıyor. Her proje, boyutuna bakılmaksızın aynı özveri ve detaya gösterilen özenle yürütülür."
     ],
-    "experience": "Yıllık deneyim"
+    "team": "Profesyonel Ekip"
   },
   "values": {
     "title": "Değerlerimiz",
@@ -38,8 +38,8 @@
   },
   "stats": {
     "projects": "Tamamlanan Proje",
-    "experience": "Yıllık Deneyim",
     "satisfaction": "Memnun Müşteri",
+    "team": "Profesyonel Ekip",
     "countries": "Hizmet Verilen Ülke"
   },
   "team": {

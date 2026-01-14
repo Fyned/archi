@@ -66,11 +66,11 @@
     "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
   },
   "trust": {
-    "years": "Jahre Erfahrung",
     "projects": "Abgeschlossene Projekte",
     "warranty": "Qualitätsgarantie",
     "satisfaction": "Kundenzufriedenheit",
-    "countries": "Länder bedient"
+    "countries": "Länder bedient",
+    "team": "Professionelles Team"
   },
   "meta": {
     "title_suffix": " | Archi Construction & Veranda",
