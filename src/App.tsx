@@ -12,7 +12,8 @@ import {
   PrivacyPolicyPage,
   VideoGalleryPage,
   MarketplacePage,
-  BlogPage
+  BlogPage,
+  BlogPostPage
 } from '@/pages'
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
       <Route path="/videos" element={<Layout><VideoGalleryPage /></Layout>} />
       <Route path="/marketplace" element={<Layout><MarketplacePage /></Layout>} />
       <Route path="/blog" element={<Layout><BlogPage /></Layout>} />
+      <Route path="/blog/:slug" element={<Layout><BlogPostPage /></Layout>} />
 
       {/* Localized routes */}
       <Route path="/:lang" element={<Layout><HomePage /></Layout>} />
@@ -45,6 +47,7 @@ export default function App() {
       <Route path="/:lang/videos" element={<Layout><VideoGalleryPage /></Layout>} />
       <Route path="/:lang/marketplace" element={<Layout><MarketplacePage /></Layout>} />
       <Route path="/:lang/blog" element={<Layout><BlogPage /></Layout>} />
+      <Route path="/:lang/blog/:slug" element={<Layout><BlogPostPage /></Layout>} />
     </Routes>
   )
 }

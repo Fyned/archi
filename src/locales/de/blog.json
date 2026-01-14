@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Blog - Tipps zu Pergola, Wintergarten & Carport",
-    "description": "Entdecken Sie unsere Artikel und Tipps zu bioklimatischen Pergolen, Aluminium-Wintergärten und Carports. Anleitungen, Trends und Tipps für Ihr Projekt."
+    "description": "Entdecken Sie unsere Artikel und Tipps zu bioklimatischen Pergolen, Aluminium-Wintergarten und Carports. Anleitungen, Trends und Ratschlage fur Ihr Projekt."
   },
   "hero": {
     "title": "Blog & Tipps",
-    "subtitle": "Praktische Anleitungen, Trends und Expertentipps für Ihr Außenbereich-Projekt"
+    "subtitle": "Praktische Anleitungen, Trends und Expertentipps fur Ihr Aussenbereich-Projekt"
   },
   "categories": {
     "pergola": "Pergola",
@@ -15,35 +15,344 @@
   },
   "read_time": "Min. Lesezeit",
   "read_more": "Artikel lesen",
+  "share": "Teilen",
+  "back_to_blog": "Zuruck zum Blog",
+  "related_posts": "Ahnliche Artikel",
+  "gallery_title": "Fotogalerie",
+  "conclusion_title": "Fazit",
+  "cta": {
+    "title": "Bereit, Ihr Projekt zu starten?",
+    "description": "Kontaktieren Sie uns fur ein kostenloses und personalisiertes Angebot. Unsere Experten stehen Ihnen zur Verfugung."
+  },
   "newsletter": {
     "title": "Bleiben Sie Informiert",
-    "description": "Kontaktieren Sie uns für die neuesten Tipps und exklusive Angebote für Ihr Projekt.",
+    "description": "Kontaktieren Sie uns fur die neuesten Tipps und exklusive Angebote fur Ihr Projekt.",
     "cta": "Kontaktieren Sie uns"
   },
   "posts": {
     "pergola-bioclimatique-guide-complet": {
       "title": "Kompletter Leitfaden: Bioklimatische Pergola in Belgien",
-      "excerpt": "Alles, was Sie über bioklimatische Pergolen wissen müssen: Funktionsweise, Preise, Installation und Vorteile. Der ultimative Leitfaden für die richtige Wahl."
+      "excerpt": "Alles, was Sie uber bioklimatische Pergolen wissen mussen: Funktionsweise, Preise, Installation und Vorteile. Der ultimative Leitfaden fur die richtige Wahl.",
+      "content": {
+        "intro": "Die bioklimatische Pergola ist zur ultimativen Aussenlosung in Belgien geworden. Mit ihren verstellbaren Lamellen bietet sie optimalen Schutz vor Sonne, Regen und Wind und ermoglicht es Ihnen, Ihre Terrasse das ganze Jahr uber zu geniessen. In diesem vollstandigen Leitfaden erklaren wir alles, was Sie wissen mussen, bevor Sie in eine bioklimatische Pergola investieren.",
+        "sections": [
+          {
+            "title": "Was ist eine bioklimatische Pergola?",
+            "content": "Eine bioklimatische Pergola ist eine Aluminiumkonstruktion mit verstellbaren Lamellen auf dem Dach. Diese Lamellen konnen von 0 bis 145 Grad gedreht werden, sodass Sie Licht und Beluftung unter Ihrer Pergola prazise steuern konnen. Im Gegensatz zu einer traditionellen Pergola passt sie sich in Echtzeit an die Wetterbedingungen an.",
+            "list": [
+              "Motorisierte verstellbare Lamellen fur prazise Steuerung",
+              "100% Aluminiumkonstruktion bestandig gegen alle Witterungen",
+              "Integriertes Wasserablaufsystem",
+              "LED- und Heizungsoptionen verfugbar",
+              "Herstellergarantie bis zu 10 Jahren"
+            ]
+          },
+          {
+            "title": "Vorteile einer bioklimatischen Pergola",
+            "content": "Die Investition in eine bioklimatische Pergola bietet viele Vorteile gegenuber traditionellen Losungen. Es ist eine kluge Wahl fur alle, die die Nutzung ihres Aussenbereichs das ganze Jahr uber maximieren mochten.",
+            "list": [
+              "Verstellbarer Sonnenschutz nach Ihren Wunschen",
+              "Perfekte Wasserdichtigkeit in geschlossener Position",
+              "Naturliche Beluftung in offener Position",
+              "Wertsteigerung Ihrer Immobilie",
+              "Aussergewohnliche Haltbarkeit von Aluminium"
+            ]
+          },
+          {
+            "title": "Preis einer bioklimatischen Pergola in Belgien",
+            "content": "Der Preis einer bioklimatischen Pergola variiert je nach verschiedenen Faktoren: Flache, gewahlte Optionen und Installationskomplexitat. Rechnen Sie im Durchschnitt mit 350 bis 600 Euro pro Quadratmeter fur eine vollstandige professionelle Installation.",
+            "list": [
+              "Pergola 3x4m: ab 5.500 Euro",
+              "Pergola 4x5m: ab 8.000 Euro",
+              "LED-Optionen: +500 bis 1.500 Euro",
+              "Glaswande: +150 Euro/m2",
+              "Professionelle Installation inklusive"
+            ]
+          },
+          {
+            "title": "Installation und Vorschriften in Belgien",
+            "content": "In Belgien unterliegt die Installation einer bioklimatischen Pergola in der Regel einer vorherigen stadtebaulichen Erklarung. Die Regeln variieren je nach Region (Wallonien, Flandern, Brussel). Unser Team begleitet Sie durch alle Verwaltungsverfahren, um eine konforme Installation zu gewahrleisten.",
+            "list": [
+              "Vorherige Erklarung in den meisten Fallen erforderlich",
+              "Maximale Flache ohne Genehmigung: 40m2 (variiert je nach Region)",
+              "Mindestabstand zu Grundstucksgrenzen",
+              "Einhaltung von Stabilitats- und Sicherheitsnormen",
+              "Wir ubernehmen die Verwaltungsverfahren"
+            ]
+          }
+        ],
+        "conclusion": "Die bioklimatische Pergola ist eine dauerhafte Investition, die Ihre Terrasse in einen echten Wohnraum verwandelt. Bei Archi Construction & Veranda bieten wir massgeschneiderte Losungen, installiert von unseren Expertenteams. Kontaktieren Sie uns fur ein kostenloses Angebot und entdecken Sie, wie wir Ihr Projekt verwirklichen konnen."
+      }
     },
     "veranda-aluminium-vs-pvc": {
-      "title": "Aluminium vs PVC Wintergarten: Welches Material wählen?",
-      "excerpt": "Detaillierter Vergleich zwischen Aluminium- und PVC-Wintergärten. Entdecken Sie die Vor- und Nachteile und Preise jeder Lösung."
+      "title": "Aluminium vs PVC Wintergarten: Welches Material wahlen?",
+      "excerpt": "Detaillierter Vergleich zwischen Aluminium- und PVC-Wintergarten. Entdecken Sie die Vor- und Nachteile und Preise jeder Losung.",
+      "content": {
+        "intro": "Erwagen Sie, Ihr Haus mit einem Wintergarten zu erweitern? Die Materialwahl ist entscheidend fur die Haltbarkeit, Asthetik und thermische Leistung Ihrer Erweiterung. In diesem Artikel vergleichen wir Aluminium- und PVC-Wintergarten im Detail, um Ihnen bei der besten Wahl zu helfen.",
+        "sections": [
+          {
+            "title": "Aluminium-Wintergarten: Eleganz und Leistung",
+            "content": "Aluminium ist das Premium-Material fur moderne Wintergarten. Es bietet eine ubertroffene schlanke Profilierung, die die Glasflache und den naturlichen Lichteinfall maximiert. Seine naturliche Korrosionsbestandigkeit macht es ideal fur das belgische Klima.",
+            "list": [
+              "Schlanke Profile fur maximales Licht",
+              "Keine Wartung erforderlich",
+              "Lebensdauer von uber 40 Jahren",
+              "Grosse Auswahl an RAL-Farben",
+              "Hervorragende Warmeisolierung mit thermischer Trennung"
+            ]
+          },
+          {
+            "title": "PVC-Wintergarten: wirtschaftlich und isolierend",
+            "content": "PVC bleibt aufgrund seines ausgezeichneten Preis-Leistungs-Verhaltnisses eine beliebte Wahl. Es ist ein naturlich isolierendes Material, das gute thermische Leistung bietet. Seine dickeren Profile reduzieren jedoch die Glasflache im Vergleich zu Aluminium.",
+            "list": [
+              "Niedrigerer Einstiegspreis",
+              "Gute naturliche Warmeisolierung",
+              "Einfache Wartung mit Seifenwasser",
+              "Breitere Profile, weniger Licht",
+              "Eingeschranktere Farbauswahl"
+            ]
+          },
+          {
+            "title": "Vergleich der thermischen Leistung",
+            "content": "Warmeisolierung ist ein wesentliches Kriterium in Belgien. Moderne Aluminium-Wintergarten mit thermischer Trennung erreichen heute gleichwertige oder sogar bessere Leistungen als PVC. Die Wahl der Verglasung (Doppel- oder Dreifach) hat mehr Einfluss als das Konstruktionsmaterial.",
+            "list": [
+              "Aluminium mit thermischer Trennung: Uw 1,2 bis 1,5",
+              "Standard-PVC: Uw 1,3 bis 1,6",
+              "Dreifachverglasung fur beide empfohlen",
+              "Wichtigkeit der Luftdichtheit",
+              "EPC-Zertifikat fur Ihre Erweiterung"
+            ]
+          },
+          {
+            "title": "Unsere Empfehlung",
+            "content": "Bei Archi Construction & Veranda empfehlen wir Aluminium fur die meisten Projekte. Obwohl die anfangliche Investition etwas hoher ist, kompensieren Haltbarkeit, Asthetik und Wertsteigerung Ihrer Immobilie diesen Unterschied mehr als aus. PVC bleibt interessant fur engere Budgets.",
+            "list": [
+              "Aluminium: Premium-Wahl fur hochwertige Projekte",
+              "PVC: wirtschaftliche Losung fur begrenzte Budgets",
+              "10 Jahre Garantie auf unsere Aluminium-Installationen",
+              "Kostenloses Vergleichsangebot verfugbar",
+              "Personliche Beratung fur Ihr Projekt"
+            ]
+          }
+        ],
+        "conclusion": "Ob Sie sich fur Aluminium oder PVC entscheiden, das Wichtigste ist, mit einem erfahrenen Installateur zusammenzuarbeiten, der Sie basierend auf Ihren spezifischen Bedurfnissen beraten kann. Kontaktieren Sie Archi Construction & Veranda fur eine personalisierte Studie Ihres Wintergarten-Projekts."
+      }
     },
     "carport-solaire-belgique": {
       "title": "Solar-Carport: Strom in Belgien erzeugen",
-      "excerpt": "Wie macht man seinen Carport zur Quelle grüner Energie? Kompletter Leitfaden zu Photovoltaik-Carports in Belgien."
+      "excerpt": "Wie verwandeln Sie Ihren Carport in eine Quelle gruner Energie? Kompletter Leitfaden uber Photovoltaik-Carports in Belgien.",
+      "content": {
+        "intro": "Der Solar-Carport kombiniert zwei wesentliche Funktionen: Schutz Ihres Fahrzeugs vor Witterungseinflusen und Erzeugung von grunem Strom. In Belgien, wo Anreize fur erneuerbare Energien attraktiv sind, ist es eine doppelt rentable Investition. Entdecken Sie alles, was Sie uber Photovoltaik-Carports wissen mussen.",
+        "sections": [
+          {
+            "title": "Was ist ein Solar-Carport?",
+            "content": "Ein Solar-Carport ist eine Fahrzeugunterstellstruktur, deren Dach mit Photovoltaik-Paneelen ausgestattet ist. Im Gegensatz zu Paneelen auf einem Dach ermoglicht der Carport eine optimale Ausrichtung zur Maximierung der Stromerzeugung.",
+            "list": [
+              "Robuste und langlebige Aluminiumkonstruktion",
+              "Photovoltaik-Paneele integriert ins Dach",
+              "Optimierte Sud/Sudwest-Ausrichtung",
+              "Schutz vor Sonne, Regen und Hagel",
+              "Option Ladepunkt fur Elektrofahrzeug"
+            ]
+          },
+          {
+            "title": "Produktion und Ertrag in Belgien",
+            "content": "Trotz des belgischen Klimas produziert ein Solar-Carport genug Strom, um einen erheblichen Teil Ihres Bedarfs zu decken. Ein Doppel-Carport (ca. 30m2) kann 15 bis 20 Paneele aufnehmen, die 5.000 bis 7.000 kWh pro Jahr produzieren.",
+            "list": [
+              "Durchschnittliche Produktion: 850-950 kWh/kWp/Jahr in Belgien",
+              "Einzel-Carport (15m2): 2.500-3.500 kWh/Jahr",
+              "Doppel-Carport (30m2): 5.000-7.000 kWh/Jahr",
+              "Eigenverbrauch oder Netzeinspeisung",
+              "Amortisation in 6-10 Jahren je nach Region"
+            ]
+          },
+          {
+            "title": "Forderungen und Zuschuse in Belgien",
+            "content": "Finanzielle Unterstutzung fur die Installation von Solarmodulen variiert je nach Region. Im Jahr 2026 bleiben grune Zertifikate in Wallonien und der rucklaufende Zahler in Flandern attraktive Anreize.",
+            "list": [
+              "Wallonien: grune Zertifikate fur 10 Jahre",
+              "Flandern: federale Steuerabzug",
+              "Brussel: Investitionspramien",
+              "Reduzierte MwSt. von 6% fur Renovierung",
+              "Gruner Kredit zu Vorzugszinsen verfugbar"
+            ]
+          },
+          {
+            "title": "Laden von Elektrofahrzeugen",
+            "content": "Die Kombination aus Solar-Carport und Ladepunkt ist ideal fur Besitzer von Elektrofahrzeugen. Sie konnen Ihr Auto mit Strom laden, der direkt von Ihrem Carport produziert wird, und so Ihren CO2-Fussabdruck auf null reduzieren.",
+            "list": [
+              "Integrierter Ladepunkt als Option",
+              "Kostenloses Laden mit der Sonne",
+              "Intelligentes Lademanagement",
+              "Kompatibel mit allen Elektrofahrzeugen",
+              "Installation konform mit RGIE-Normen"
+            ]
+          }
+        ],
+        "conclusion": "Der Solar-Carport ist eine zukunftssichere Losung, die Fahrzeugschutz und erneuerbare Energieerzeugung kombiniert. Archi Construction & Veranda bietet Ihnen schlusselfertige Photovoltaik-Carports mit professioneller Installation und Netzanschluss. Fordern Sie Ihre kostenlose Rentabilitatsstudie an."
+      }
     },
     "entretien-pergola-aluminium": {
       "title": "Wie pflegen Sie Ihre Aluminium-Pergola?",
-      "excerpt": "Praktische Tipps zur Pflege Ihrer bioklimatischen Pergola. Reinigung, Wartung und Schutz für eine lange Lebensdauer."
+      "excerpt": "Praktische Tipps zur Pflege Ihrer bioklimatischen Pergola. Reinigung, Wartung und Schutz fur eine lange Lebensdauer.",
+      "content": {
+        "intro": "Eine Aluminium-Pergola ist so konzipiert, dass sie Jahrzehnte mit minimalem Wartungsaufwand halt. Einige einfache Schritte helfen jedoch, ihr neues Aussehen zu erhalten und die ordnungsgemasse Funktion ihrer Mechanismen zu gewahrleisten. Hier sind unsere Expertentipps zur Pflege Ihrer bioklimatischen Pergola.",
+        "sections": [
+          {
+            "title": "Regelmassige Reinigung der Konstruktion",
+            "content": "Pulverbeschichtetes Aluminium rostet nicht und erfordert keine spezielle Behandlung. Eine Reinigung mit Seifenwasser zweimal im Jahr reicht aus, um den Glanz Ihrer Pergola zu erhalten. Vermeiden Sie abrasive Produkte, die die Oberflache beschadigen konnten.",
+            "list": [
+              "Mit warmem Seifenwasser reinigen",
+              "Weicher Schwamm oder Mikrofasertuch",
+              "Mit klarem Wasser abspulen",
+              "Mit weichem Tuch trocknen",
+              "Hochdruckreiniger vermeiden"
+            ]
+          },
+          {
+            "title": "Wartung der verstellbaren Lamellen",
+            "content": "Die Lamellen sind das Schlusselelement Ihrer bioklimatischen Pergola. Uberprufen Sie regelmassig ihre ordnungsgemasse Funktion und reinigen Sie sie, um Schmutzansammlungen zu verhindern, die ihre Rotation behindern konnten.",
+            "list": [
+              "Monatlich Lamellenbewegung prufen",
+              "Lamellen beidseitig reinigen",
+              "Dichtungen uberprufen",
+              "Mechanismen bei Bedarf schmieren",
+              "Ungewohnliche Gerausche melden"
+            ]
+          },
+          {
+            "title": "Regenwasserableitung",
+            "content": "Das Wasserablaufsystem ist fur die Langlebigkeit Ihrer Installation unerlasslich. Uberprufen Sie, ob Dachrinnen und Fallrohre nicht durch Blatter oder Schmutz verstopft sind.",
+            "list": [
+              "Dachrinnen jede Saison inspizieren",
+              "Angesammelte Blatter und Schmutz entfernen",
+              "Wasserfluss uberprufen",
+              "Anschlusse und Dichtungen prufen",
+              "Bei Bedarf mit Wasser freimachen"
+            ]
+          },
+          {
+            "title": "Jahrliche vorbeugende Wartung",
+            "content": "Wir empfehlen einen jahrlichen Wartungsbesuch durch einen Fachmann. Diese Inspektion hilft, potenzielle Probleme zu erkennen, bevor sie sich verschlimmern, und gewahrleistet die Langlebigkeit Ihrer Installation.",
+            "list": [
+              "Vollstandige Strukturprufung",
+              "Uberprufung der Befestigungen",
+              "Test der motorisierten Systeme",
+              "Programmierungsupdate bei Bedarf",
+              "Detaillierter Inspektionsbericht"
+            ]
+          }
+        ],
+        "conclusion": "Regelmassige Wartung garantiert die Langlebigkeit Ihrer bioklimatischen Pergola und ermoglicht es Ihnen, Ihren Aussenbereich viele Jahre lang voll zu geniessen. Archi Construction & Veranda bietet Wartungsvertrage fur vollstandige Sorgenfreiheit."
+      }
     },
     "permis-urbanisme-belgique": {
       "title": "Baugenehmigung in Belgien: Leitfaden 2026",
-      "excerpt": "Alles über Baugenehmigungen für Pergolen, Wintergärten und Carports in Belgien. Regeln nach Region und administrative Schritte."
+      "excerpt": "Alles uber Baugenehmigungen fur Pergolen, Wintergarten und Carports in Belgien. Regeln nach Region und Verwaltungsverfahren.",
+      "content": {
+        "intro": "Bevor Sie eine Pergola, einen Wintergarten oder Carport installieren, ist es wichtig, die belgischen Stadtebauvorschriften zu kennen. Die Regeln variieren je nach Region (Wallonien, Flandern, Brussel) und Bauart. Dieser Leitfaden erklart die zu befolgenden Verfahren, um konform zu sein.",
+        "sections": [
+          {
+            "title": "Vorschriften in Wallonien",
+            "content": "In Wallonien sind bestimmte Bauten von Genehmigungen befreit, wenn sie genaue Bedingungen hinsichtlich Flache und Standort erfullen. Eine Pergola oder ein Carport von weniger als 40m2 kann unter bestimmten Bedingungen von der Genehmigung befreit sein.",
+            "list": [
+              "Max. Flache ohne Genehmigung: 40m2",
+              "Nur an der Ruckseite des Gebaudes",
+              "Mindestabstand: 2m von Grenzen",
+              "Maximale Hohe: 3,5m",
+              "Vorherige Erklarung empfohlen"
+            ]
+          },
+          {
+            "title": "Vorschriften in Flandern",
+            "content": "Flandern wendet spezifische Regeln fur Nebengebaude an. Die Gesamtflache der Nebengebaude (Garage, Wintergarten, Carport, Pergola) darf 40m2 nicht uberschreiten, um von der Genehmigung befreit zu sein.",
+            "list": [
+              "Gesamtflache Nebengebaude max: 40m2",
+              "Max. Tiefe: 4m von Fassade",
+              "Nur in seitlicher Abstandszone",
+              "Einhaltung des lokalen Entwicklungsplans",
+              "Meldung manchmal erforderlich"
+            ]
+          },
+          {
+            "title": "Vorschriften in Brussel",
+            "content": "Die Region Brussel-Hauptstadt ist strenger. Die meisten Bauten erfordern eine Baugenehmigung oder vorherige Erklarung. Konsultieren Sie immer die Stadtplanungsabteilung Ihrer Gemeinde.",
+            "list": [
+              "Genehmigung in den meisten Fallen erforderlich",
+              "Kleine Erklarung fur geringfugige Arbeiten",
+              "Einhaltung von PRAS und Gemeindevorschriften",
+              "Bearbeitungszeit: 30 bis 75 Tage",
+              "Architektenberatung oft erforderlich"
+            ]
+          },
+          {
+            "title": "Unser Begleitservice",
+            "content": "Das Navigieren durch Stadtebauvorschriften kann komplex sein. Archi Construction & Veranda ubernimmt alle Verwaltungsverfahren fur Sie. Von der Machbarkeitsstudie bis zur Dossiereinreichung kummern wir uns um alles.",
+            "list": [
+              "Kostenlose Machbarkeitsanalyse",
+              "Zusammenstellung des vollstandigen Dossiers",
+              "Einreichung und Nachverfolgung bei Gemeinde",
+              "Beantwortung eventueller Fragen",
+              "Garantie der Installationskonformitat"
+            ]
+          }
+        ],
+        "conclusion": "Lassen Sie Verwaltungsverfahren Ihr Projekt nicht verlangsamen. Bei Archi Construction & Veranda begleiten wir Sie von A bis Z, damit Ihre Installation perfekt konform ist. Kontaktieren Sie uns fur eine kostenlose Machbarkeitsstudie."
+      }
     },
     "tendances-outdoor-2026": {
-      "title": "Außenbereich-Trends 2026",
-      "excerpt": "Die neuesten Trends bei Pergolen, Wintergärten und Außenwohnräumen. Design, Materialien und innovative Technologien."
+      "title": "Aussenbereich-Trends 2026",
+      "excerpt": "Die neuesten Trends bei Pergolen, Wintergarten und Aussenwohnraumen. Design, Materialien und innovative Technologien.",
+      "content": {
+        "intro": "Das Jahr 2026 markiert einen Wendepunkt im Aussenleben. Aktuelle Trends priorisieren Komfort, Nachhaltigkeit und technologische Integration. Entdecken Sie die Innovationen, die unsere Aussenwohnraume in echte Wohnzimmer verwandeln.",
+        "sections": [
+          {
+            "title": "Hausautomation im Dienste des Komforts",
+            "content": "Vernetzte Pergolen und Wintergarten sind zur Norm geworden. Fernsteuerung, Wettersensoren, Integration mit Sprachassistenten: Technologie vereinfacht die Verwaltung Ihres Aussenbereichs.",
+            "list": [
+              "Steuerung uber Smartphone und Tablet",
+              "Regen-, Wind- und Temperatursensoren",
+              "Integration mit Alexa, Google Home, Apple HomeKit",
+              "Automatische Zeitprogrammierung",
+              "Personalisierte Szenarien (Film, Abendessen, etc.)"
+            ]
+          },
+          {
+            "title": "Integrierte LED-Beleuchtung",
+            "content": "Beleuchtung ist nicht mehr nur eine Option, sondern ein eigenstandiges Designelement. In die Struktur integrierte LEDs ermoglichen es, vielfaltige Atmospharen zu schaffen und die Nutzung Ihres Aussenbereichs nach Sonnenuntergang zu verlangern.",
+            "list": [
+              "LED-Streifen eingelassen in Profile",
+              "Intensitats- und Farbvariation",
+              "Gerichtete Spots zur Hervorhebung",
+              "Indirekte Ambientebeleuchtung",
+              "Niedriger Energieverbrauch"
+            ]
+          },
+          {
+            "title": "Nachhaltige und okologische Materialien",
+            "content": "Nachhaltigkeit steht im Mittelpunkt der Bedenken. Recyceltes Aluminium, hochleistungsfahige Warmeschutzverglasung und umweltverantwortliche Oberflachen erfullen die Erwartungen umweltbewusster Verbraucher.",
+            "list": [
+              "100% recycelbares Aluminium",
+              "Losungsmittelfreie Farben",
+              "Niedrig-emissive Verglasung",
+              "Wartungsfreies Verbundholz",
+              "Integrierte Photovoltaik-Losungen"
+            ]
+          },
+          {
+            "title": "Living outdoor: das zusatzliche Zimmer",
+            "content": "Der Trend geht zur Erweiterung des Wohnraums. Aussenkuche, Lounge-Bereich, Spa: Der Wintergarten und die Pergola werden zu echten zusatzlichen Zimmern, ganzjahrig nutzbar dank integrierter Heizsysteme.",
+            "list": [
+              "Voll ausgestattete Aussenkuchen",
+              "Hochwertige Lounge-Mobel",
+              "Infrarot- oder Strahlungsheizung",
+              "Einziehbare Screens und Wande",
+              "Integrierte Beleuchtung und Sound"
+            ]
+          }
+        ],
+        "conclusion": "Die Trends 2026 konvergieren auf ein Ziel: komfortable, vernetzte und nachhaltige Aussenraume zu schaffen. Archi Construction & Veranda integriert diese Innovationen in alle Projekte. Kontaktieren Sie uns, um zu entdecken, wie wir Ihren Aussenbereich transformieren konnen."
+      }
     }
   }
 }
