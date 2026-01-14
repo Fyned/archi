@@ -28,6 +28,31 @@
         "Minimaal onderhoud vereist",
         "Kwaliteitsgarantie op productie"
       ]
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen - Bioklimatische Pergola",
+      "items": [
+        {
+          "question": "Wat kost een bioklimatische pergola in België?",
+          "answer": "De prijs van een bioklimatische pergola varieert tussen €400 en €950 per m² afhankelijk van afmetingen, opties (LED, motorisatie, screens) en afwerking. Voor een standaard pergola van 15-20m² rekent u tussen €8.000 en €15.000 inclusief installatie. Vraag een gratis offerte voor een exacte prijs."
+        },
+        {
+          "question": "Heb ik een bouwvergunning nodig voor een pergola in België?",
+          "answer": "Over het algemeen is voor een pergola kleiner dan 40m² geen vergunning nodig in België, maar een melding kan vereist zijn afhankelijk van uw gemeente. Wij raden u aan dit te controleren bij uw gemeentebestuur. Wij kunnen u begeleiden bij deze stappen."
+        },
+        {
+          "question": "Hoe werken verstelbare lamellen?",
+          "answer": "De verstelbare lamellen kunnen draaien van 0° tot 135° dankzij een elektrische motor die bediend wordt via afstandsbediening of smartphone. In gesloten positie beschermen ze tegen regen. Geopend laten ze licht en lucht door. Een regensensor kan de lamellen automatisch sluiten."
+        },
+        {
+          "question": "Wat is de levensduur van een aluminium pergola?",
+          "answer": "Een gepoedercoate aluminium pergola heeft een levensduur van minimaal 25 tot 40 jaar. Aluminium roest niet, vervormt niet en is UV-bestendig. Onderhoud beperkt zich tot af en toe reinigen met zeepwater."
+        },
+        {
+          "question": "Kan een pergola op een bestaand terras worden geplaatst?",
+          "answer": "Ja, onze pergola's kunnen op elk type ondergrond worden geplaatst: tegels, hout, beton of direct op plots. Wij passen de bevestiging aan uw situatie aan. Een gratis technisch bezoek stelt ons in staat de beste oplossingen te evalueren."
+        }
+      ]
     }
   },
   "veranda": {
@@ -54,6 +79,31 @@
         "Waardestijging van uw eigendom",
         "Energiezuinige oplossing"
       ]
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen - Aluminium Veranda",
+      "items": [
+        {
+          "question": "Wat kost een aluminium veranda in België?",
+          "answer": "De prijs van een aluminium veranda varieert tussen €1.200 en €2.500 per m². Voor een veranda van 15m² rekent u tussen €18.000 en €35.000 afhankelijk van opties (glas, dak, afwerking). De prijs omvat doorgaans ontwerp, productie en plaatsing. Vraag een gratis gepersonaliseerde offerte."
+        },
+        {
+          "question": "Heb ik een vergunning nodig om een veranda te bouwen in België?",
+          "answer": "Ja, in België is over het algemeen een stedenbouwkundige vergunning vereist voor een veranda omdat deze het uiterlijk van uw woning wijzigt. De regels verschillen per regio (Wallonië, Vlaanderen, Brussel). Wij begeleiden u bij alle administratieve stappen."
+        },
+        {
+          "question": "Wat is het verschil tussen een veranda en een pergola?",
+          "answer": "Een veranda is een gesloten uitbreiding van de woning, volledig beglasd en geïsoleerd, het hele jaar bruikbaar als leefruimte. Een pergola is een open of semi-open constructie, ideaal om buiten te genieten met zonbescherming. Beide kunnen worden gecombineerd."
+        },
+        {
+          "question": "Hoe verwarm ik een veranda in de winter?",
+          "answer": "Dankzij thermisch onderbroken profielen en dubbel/drievoudig glas houden onze veranda's de warmte goed vast. Verschillende verwarmingsopties zijn mogelijk: uitbreiding centrale verwarming, warmtepomp, elektrische radiatoren of vloerverwarming. Wij adviseren de beste oplossing."
+        },
+        {
+          "question": "Hoe lang duurt de bouw van een veranda?",
+          "answer": "Na goedkeuring van het project en verkrijging van de vergunning rekent u op 6 tot 10 weken voor productie en 1 tot 2 weken voor installatie afhankelijk van de complexiteit. Wij plannen de werkzaamheden om overlast te minimaliseren."
+        }
+      ]
     }
   },
   "carport": {
@@ -79,6 +129,27 @@
         "Minimaal onderhoud",
         "Duurzame investering",
         "Aanpasbaar aan uw woning"
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen - Aluminium Carport",
+      "items": [
+        {
+          "question": "Wat kost een aluminium carport in België?",
+          "answer": "De prijs van een aluminium carport varieert tussen €3.500 en €8.000 voor een enkelvoudige en tussen €6.000 en €15.000 voor een dubbele carport. De prijs hangt af van afmetingen, daktype en opties (LED-verlichting, zijwanden). Vraag een gratis offerte aan."
+        },
+        {
+          "question": "Heb ik een vergunning nodig voor een carport in België?",
+          "answer": "Over het algemeen is voor een open carport kleiner dan 40m² geen stedenbouwkundige vergunning nodig, maar een melding kan vereist zijn. De regels verschillen per gemeente en regio. Wij controleren de regelgeving voor uw situatie voordat we aan een project beginnen."
+        },
+        {
+          "question": "Carport of garage: wat kiezen?",
+          "answer": "Een carport is goedkoper, sneller te installeren en vereist vaak geen vergunning. Het biedt effectieve bescherming tegen regen, zon en vorst. Een garage biedt meer veiligheid en opbergruimte maar kost 3 tot 4 keer meer. Een carport met wanden kan een goed compromis zijn."
+        },
+        {
+          "question": "Kunnen zonnepanelen op een carport worden geïnstalleerd?",
+          "answer": "Ja, onze carports zijn ontworpen om fotovoltaïsche panelen te dragen. Het is een uitstekende oplossing om elektriciteit te produceren terwijl u uw voertuig beschermt. Wij werken samen met partners voor de zonne-installatie."
+        }
       ]
     }
   },
