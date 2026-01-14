@@ -28,6 +28,31 @@
         "Minimal maintenance required",
         "Quality guaranteed production"
       ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Bioclimatic Pergola",
+      "items": [
+        {
+          "question": "What is the price of a bioclimatic pergola in Belgium?",
+          "answer": "The price of a bioclimatic pergola ranges between €400 and €950 per m² depending on dimensions, options (LED, motorisation, screens) and finishes. For a standard pergola of 15-20m², expect between €8,000 and €15,000 including installation. Request a free quote for an exact price tailored to your project."
+        },
+        {
+          "question": "Do I need a building permit for a pergola in Belgium?",
+          "answer": "Generally, a pergola smaller than 40m² does not require a permit in Belgium, but a prior declaration may be required depending on your municipality. We advise you to check with your local administration. We can guide you through these steps."
+        },
+        {
+          "question": "How do adjustable louvres work?",
+          "answer": "The adjustable louvres can rotate from 0° to 135° thanks to an electric motor controlled by remote or smartphone. In the closed position, they protect against rain. When open, they let light and air through. A rain sensor can automatically close the louvres."
+        },
+        {
+          "question": "What is the lifespan of an aluminium pergola?",
+          "answer": "A powder-coated aluminium pergola has a lifespan of at least 25 to 40 years. Aluminium does not rust, does not warp and is UV resistant. Maintenance is limited to occasional cleaning with soapy water."
+        },
+        {
+          "question": "Can a pergola be installed on an existing terrace?",
+          "answer": "Yes, our pergolas can be installed on any type of surface: tiled terrace, wood, concrete or directly on pedestals. We adapt the fixings to your situation. A free technical visit allows us to evaluate the best solutions."
+        }
+      ]
     }
   },
   "veranda": {
@@ -54,6 +79,31 @@
         "Property value increase",
         "Energy-efficient solution"
       ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Aluminium Veranda",
+      "items": [
+        {
+          "question": "What is the price of an aluminium veranda in Belgium?",
+          "answer": "The price of an aluminium veranda ranges between €1,200 and €2,500 per m². For a 15m² veranda, expect between €18,000 and €35,000 depending on options (glazing, roof, finishes). The price usually includes design, manufacturing and installation. Request a free personalised quote."
+        },
+        {
+          "question": "Do I need a permit to build a veranda in Belgium?",
+          "answer": "Yes, in Belgium, a planning permit is generally required for a veranda as it changes the external appearance of your home. Rules vary by region (Wallonia, Flanders, Brussels). We guide you through all administrative steps."
+        },
+        {
+          "question": "What is the difference between a veranda and a pergola?",
+          "answer": "A veranda is a closed extension of the house, fully glazed and insulated, usable all year round as living space. A pergola is an open or semi-open structure, ideal for enjoying the outdoors with sun protection. Both can be combined."
+        },
+        {
+          "question": "How do I heat a veranda in winter?",
+          "answer": "Thanks to thermally broken profiles and double/triple glazing, our verandas retain heat well. Several heating options are possible: central heating extension, heat pump, electric radiators or underfloor heating. We advise the best solution."
+        },
+        {
+          "question": "How long does it take to build a veranda?",
+          "answer": "After project approval and obtaining the permit, allow 6 to 10 weeks for manufacturing and 1 to 2 weeks for installation depending on complexity. We plan the work to minimise disruption and ensure impeccable finishing."
+        }
+      ]
     }
   },
   "carport": {
@@ -79,6 +129,27 @@
         "Minimal maintenance",
         "Durable investment",
         "Adaptable to your home"
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Aluminium Carport",
+      "items": [
+        {
+          "question": "What is the price of an aluminium carport in Belgium?",
+          "answer": "The price of an aluminium carport ranges between €3,500 and €8,000 for a single car model, and between €6,000 and €15,000 for a double carport. The price depends on dimensions, roof type and options (LED lighting, side walls). Request a free quote."
+        },
+        {
+          "question": "Do I need a permit for a carport in Belgium?",
+          "answer": "Generally, an open carport smaller than 40m² does not require a planning permit, but a declaration may be required. Rules vary by municipality and region. We check the applicable regulations for your situation before any project."
+        },
+        {
+          "question": "Carport or garage: which to choose?",
+          "answer": "A carport is less expensive, quicker to install and often does not require a permit. It offers effective protection against rain, sun and frost. A garage offers more security and storage but costs 3 to 4 times more. A carport with walls can be a good compromise."
+        },
+        {
+          "question": "Can solar panels be installed on a carport?",
+          "answer": "Yes, our carports are designed to support photovoltaic panels. It's an excellent solution to produce electricity while protecting your vehicle. We work with partners for solar installation."
+        }
       ]
     }
   },

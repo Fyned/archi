@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Blog - Tips Pergola, Veranda & Carport",
+    "description": "Ontdek onze artikelen en tips over bioklimatische pergola's, aluminium veranda's en carports. Gidsen, trends en tips voor uw project."
+  },
+  "hero": {
+    "title": "Blog & Tips",
+    "subtitle": "Praktische gidsen, trends en expert tips voor uw buitenruimte project"
+  },
+  "categories": {
+    "pergola": "Pergola",
+    "veranda": "Veranda",
+    "carport": "Carport",
+    "general": "Algemeen"
+  },
+  "read_time": "min leestijd",
+  "read_more": "Lees artikel",
+  "newsletter": {
+    "title": "Blijf Op de Hoogte",
+    "description": "Neem contact met ons op voor de laatste tips en exclusieve aanbiedingen voor uw project.",
+    "cta": "Contacteer Ons"
+  },
+  "posts": {
+    "pergola-bioclimatique-guide-complet": {
+      "title": "Complete Gids: Bioklimatische Pergola in België",
+      "excerpt": "Alles wat u moet weten over bioklimatische pergola's: werking, prijzen, installatie en voordelen. De ultieme gids om de juiste keuze te maken."
+    },
+    "veranda-aluminium-vs-pvc": {
+      "title": "Aluminium vs PVC Veranda: Welk Materiaal Kiezen?",
+      "excerpt": "Gedetailleerde vergelijking tussen aluminium en PVC veranda's. Ontdek de voor- en nadelen en prijzen van elke oplossing."
+    },
+    "carport-solaire-belgique": {
+      "title": "Zonne-Carport: Elektriciteit Opwekken in België",
+      "excerpt": "Hoe maakt u van uw carport een bron van groene energie? Complete gids over fotovoltaïsche carports in België."
+    },
+    "entretien-pergola-aluminium": {
+      "title": "Hoe Onderhoudt U Uw Aluminium Pergola?",
+      "excerpt": "Praktische tips voor het onderhoud van uw bioklimatische pergola. Reiniging, onderhoud en bescherming voor een lange levensduur."
+    },
+    "permis-urbanisme-belgique": {
+      "title": "Bouwvergunning in België: Gids 2026",
+      "excerpt": "Alles over bouwvergunningen voor pergola's, veranda's en carports in België. Regels per regio en administratieve stappen."
+    },
+    "tendances-outdoor-2026": {
+      "title": "Buitenruimte Trends 2026",
+      "excerpt": "De laatste trends in pergola's, veranda's en buitenleefruimtes. Design, materialen en innovatieve technologieën."
+    }
+  }
+}
