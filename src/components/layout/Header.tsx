@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Menu, X, Phone, ChevronDown, MessageCircle } from 'lucide-react'
 import { useTranslation } from '@/hooks/useTranslation'
 import { useLocalizedPath } from '@/hooks/useLocalizedPath'
@@ -12,8 +12,34 @@ const PHONE_WHATSAPP = '+32 493 36 50 29'
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isServicesOpen, setIsServicesOpen] = useState(false)
+  const [headerHeight, setHeaderHeight] = useState(0)
+  const headerRef = useRef<HTMLElement>(null)
   const { t } = useTranslation('common')
   const { localizedPath } = useLocalizedPath()
+
+  // Calculate header height for mobile menu offset
+  useEffect(() => {
+    const updateHeight = () => {
+      if (headerRef.current) {
+        setHeaderHeight(headerRef.current.offsetHeight)
+      }
+    }
+    updateHeight()
+    window.addEventListener('resize', updateHeight)
+    return () => window.removeEventListener('resize', updateHeight)
+  }, [])
+
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [isMenuOpen])
 
   const navItems = [
     { key: 'home', href: '/' },
@@ -39,27 +65,28 @@ export function Header() {
   ]
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm">
+    <header ref={headerRef} className="sticky top-0 z-50 bg-white shadow-sm">
       {/* Top bar with flowing gradient */}
-      <div className="gradient-flow text-white py-2">
-        <div className="container-custom flex justify-between items-center text-sm">
-          <div className="flex items-center gap-4">
-            <a href={`tel:${PHONE_CALL.replace(/\s/g, '')}`} className="flex items-center gap-2 hover:text-primary-100 transition-colors">
-              <Phone size={16} />
-              <span>{PHONE_CALL}</span>
+      <div className="gradient-flow text-white py-1.5 sm:py-2">
+        <div className="container-custom flex justify-between items-center text-xs sm:text-sm">
+          <div className="flex items-center gap-2 sm:gap-4">
+            <a href={`tel:${PHONE_CALL.replace(/\s/g, '')}`} className="flex items-center gap-1.5 sm:gap-2 hover:text-primary-100 transition-colors">
+              <Phone size={14} className="sm:w-4 sm:h-4" />
+              <span className="hidden xs:inline">{PHONE_CALL}</span>
+              <span className="xs:hidden">Bel ons</span>
             </a>
             <a
               href={`https://wa.me/${PHONE_WHATSAPP.replace(/\s/g, '').replace('+', '')}`}
-              className="hidden sm:flex items-center gap-2 hover:text-primary-100 transition-colors"
+              className="flex items-center gap-1.5 sm:gap-2 hover:text-primary-100 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <MessageCircle size={16} />
-              <span>{t('whatsapp.button_text')}</span>
+              <MessageCircle size={14} className="sm:w-4 sm:h-4" />
+              <span className="hidden sm:inline">{t('whatsapp.button_text')}</span>
             </a>
           </div>
-          <div className="hidden md:flex items-center gap-4">
-            <span>{t('contact_info.hours_weekday')}</span>
+          <div className="flex items-center gap-2 sm:gap-4">
+            <span className="hidden md:inline">{t('contact_info.hours_weekday')}</span>
             <LanguageSwitcher />
           </div>
         </div>
@@ -67,32 +94,32 @@ export function Header() {
 
       {/* Main header */}
       <div className="container-custom">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <a href={localizedPath('/')} className="flex items-center">
+          <a href={localizedPath('/')} className="flex items-center flex-shrink-0">
             <img
               src="/logo-horizontal.png"
               alt="Archi Construction & Véranda"
-              className="h-12 md:h-14 w-auto"
+              className="h-10 sm:h-12 lg:h-14 w-auto"
               width={200}
               height={56}
               loading="eager"
             />
           </a>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
+          {/* Desktop Navigation - xl breakpoint for more space */}
+          <nav className="hidden xl:flex items-center gap-4 2xl:gap-6">
             {navItems.map((item) => (
               <div key={item.key} className="relative group">
                 {item.children ? (
                   <>
                     <button
-                      className="flex items-center gap-1 text-gray-600 hover:text-primary-600 transition-colors font-medium"
+                      className="flex items-center gap-1 text-gray-600 hover:text-primary-600 transition-colors font-medium text-sm 2xl:text-base whitespace-nowrap"
                       onMouseEnter={() => setIsServicesOpen(true)}
                       onMouseLeave={() => setIsServicesOpen(false)}
                     >
                       {t(`nav.${item.key}`)}
-                      <ChevronDown size={16} />
+                      <ChevronDown size={14} />
                     </button>
                     <div
                       className={clsx(
@@ -104,7 +131,7 @@ export function Header() {
                       <div className="bg-white rounded-lg shadow-lg border border-gray-100 py-2 min-w-[200px]">
                         <a
                           href={localizedPath(item.href)}
-                          className="block px-4 py-2 text-gray-600 hover:bg-primary-50 hover:text-primary-600 transition-colors"
+                          className="block px-4 py-2 text-gray-600 hover:bg-primary-50 hover:text-primary-600 transition-colors text-sm"
                         >
                           {t('services_menu.all')}
                         </a>
@@ -112,7 +139,7 @@ export function Header() {
                           <a
                             key={child.key}
                             href={localizedPath(child.href)}
-                            className="block px-4 py-2 text-gray-600 hover:bg-primary-50 hover:text-primary-600 transition-colors"
+                            className="block px-4 py-2 text-gray-600 hover:bg-primary-50 hover:text-primary-600 transition-colors text-sm"
                           >
                             {t(`services_menu.${child.key}`)}
                           </a>
@@ -123,7 +150,7 @@ export function Header() {
                 ) : (
                   <a
                     href={localizedPath(item.href)}
-                    className="text-gray-600 hover:text-primary-600 transition-colors font-medium"
+                    className="text-gray-600 hover:text-primary-600 transition-colors font-medium text-sm 2xl:text-base whitespace-nowrap"
                   >
                     {t(`nav.${item.key}`)}
                   </a>
@@ -133,10 +160,10 @@ export function Header() {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden lg:flex items-center gap-4">
+          <div className="hidden xl:flex items-center flex-shrink-0 ml-4">
             <a
               href={localizedPath('/quote')}
-              className="btn btn-primary"
+              className="btn btn-primary text-sm 2xl:text-base px-4 2xl:px-6 whitespace-nowrap"
             >
               {t('cta.get_quote')}
             </a>
@@ -144,7 +171,7 @@ export function Header() {
 
           {/* Mobile menu button */}
           <button
-            className="lg:hidden p-2 text-gray-600"
+            className="xl:hidden p-2 text-gray-600 -mr-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -156,18 +183,19 @@ export function Header() {
       {/* Mobile Navigation */}
       <div
         className={clsx(
-          'lg:hidden fixed inset-0 top-[116px] bg-white z-40 transition-transform duration-300',
+          'xl:hidden fixed inset-x-0 bottom-0 bg-white z-40 transition-transform duration-300 overflow-y-auto',
           isMenuOpen ? 'translate-x-0' : 'translate-x-full'
         )}
+        style={{ top: headerHeight }}
       >
-        <nav className="container-custom py-6">
-          <div className="flex flex-col gap-4">
+        <nav className="container-custom py-4 sm:py-6">
+          <div className="flex flex-col gap-1">
             {navItems.map((item) => (
               <div key={item.key}>
                 {item.children ? (
                   <>
                     <button
-                      className="w-full flex items-center justify-between py-3 text-lg font-medium text-gray-900"
+                      className="w-full flex items-center justify-between py-3 text-base sm:text-lg font-medium text-gray-900"
                       onClick={() => setIsServicesOpen(!isServicesOpen)}
                     >
                       {t(`nav.${item.key}`)}
@@ -178,13 +206,13 @@ export function Header() {
                     </button>
                     <div
                       className={clsx(
-                        'pl-4 space-y-2 overflow-hidden transition-all duration-300',
-                        isServicesOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                        'pl-4 space-y-1 overflow-hidden transition-all duration-300',
+                        isServicesOpen ? 'max-h-96 opacity-100 pb-2' : 'max-h-0 opacity-0'
                       )}
                     >
                       <a
                         href={localizedPath(item.href)}
-                        className="block py-2 text-gray-600"
+                        className="block py-2 text-gray-600 text-sm sm:text-base"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {t('services_menu.all')}
@@ -193,7 +221,7 @@ export function Header() {
                         <a
                           key={child.key}
                           href={localizedPath(child.href)}
-                          className="block py-2 text-gray-600"
+                          className="block py-2 text-gray-600 text-sm sm:text-base"
                           onClick={() => setIsMenuOpen(false)}
                         >
                           {t(`services_menu.${child.key}`)}
@@ -204,7 +232,7 @@ export function Header() {
                 ) : (
                   <a
                     href={localizedPath(item.href)}
-                    className="block py-3 text-lg font-medium text-gray-900"
+                    className="block py-3 text-base sm:text-lg font-medium text-gray-900"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {t(`nav.${item.key}`)}
@@ -214,18 +242,34 @@ export function Header() {
             ))}
           </div>
 
-          <div className="mt-8 pt-6 border-t border-gray-200">
+          <div className="mt-6 pt-4 border-t border-gray-200">
             <a
               href={localizedPath('/quote')}
-              className="btn btn-primary w-full justify-center"
+              className="btn btn-primary w-full justify-center text-base"
               onClick={() => setIsMenuOpen(false)}
             >
               {t('cta.get_quote')}
             </a>
           </div>
 
-          <div className="mt-6 flex justify-center">
-            <LanguageSwitcher />
+          {/* Contact info in mobile menu */}
+          <div className="mt-4 pt-4 border-t border-gray-200 space-y-3">
+            <a
+              href={`tel:${PHONE_CALL.replace(/\s/g, '')}`}
+              className="flex items-center gap-3 text-gray-600 py-2"
+            >
+              <Phone size={18} className="text-primary-600" />
+              <span>{PHONE_CALL}</span>
+            </a>
+            <a
+              href={`https://wa.me/${PHONE_WHATSAPP.replace(/\s/g, '').replace('+', '')}`}
+              className="flex items-center gap-3 text-gray-600 py-2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MessageCircle size={18} className="text-primary-600" />
+              <span>WhatsApp: {PHONE_WHATSAPP}</span>
+            </a>
           </div>
         </nav>
       </div>
