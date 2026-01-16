@@ -7,7 +7,7 @@ export function WhatsAppButton() {
   const [isHovered, setIsHovered] = useState(false)
   const { t } = useTranslation('common')
 
-  const phoneNumber = '+32XXXXXXXXX' // Replace with actual number
+  const phoneNumber = '+32 493 36 50 29'
   const defaultMessage = 'Hello! I would like more information about your services.'
 
   const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=${encodeURIComponent(defaultMessage)}`

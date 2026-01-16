@@ -271,6 +271,12 @@ export function Header() {
               <span>WhatsApp: {PHONE_WHATSAPP}</span>
             </a>
           </div>
+
+          {/* Language switcher in mobile menu */}
+          <div className="mt-4 pt-4 border-t border-gray-200">
+            <p className="text-sm text-gray-500 mb-3 text-center">{t('nav.language') || 'Language'}</p>
+            <LanguageSwitcher variant="mobile" />
+          </div>
         </nav>
       </div>
     </header>
