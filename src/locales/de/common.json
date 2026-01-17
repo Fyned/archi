@@ -10,7 +10,8 @@
     "marketplace": "Marktplatz",
     "contact": "Kontakt",
     "quote": "Angebot anfordern",
-    "privacy": "Datenschutz"
+    "privacy": "Datenschutz",
+    "language": "Sprache"
   },
   "whatsapp": {
     "button_text": "WhatsApp",
