@@ -10,7 +10,8 @@
     "marketplace": "Marketplace",
     "contact": "Contact",
     "quote": "Request Quote",
-    "privacy": "Privacy Policy"
+    "privacy": "Privacy Policy",
+    "language": "Language"
   },
   "whatsapp": {
     "button_text": "WhatsApp",

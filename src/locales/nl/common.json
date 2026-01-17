@@ -10,7 +10,8 @@
     "marketplace": "Marketplace",
     "contact": "Contact",
     "quote": "Offerte aanvragen",
-    "privacy": "Privacybeleid"
+    "privacy": "Privacybeleid",
+    "language": "Taal"
   },
   "whatsapp": {
     "button_text": "WhatsApp",

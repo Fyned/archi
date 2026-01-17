@@ -10,7 +10,8 @@
     "marketplace": "Marketplace",
     "contact": "İletişim",
     "quote": "Teklif Al",
-    "privacy": "Gizlilik Politikası"
+    "privacy": "Gizlilik Politikası",
+    "language": "Dil"
   },
   "whatsapp": {
     "button_text": "WhatsApp",

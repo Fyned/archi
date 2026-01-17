@@ -10,7 +10,8 @@
     "marketplace": "Marketplace",
     "contact": "Contact",
     "quote": "Demander un devis",
-    "privacy": "Politique de confidentialité"
+    "privacy": "Politique de confidentialité",
+    "language": "Langue"
   },
   "whatsapp": {
     "button_text": "WhatsApp",
