@@ -25,6 +25,12 @@
     'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '25881783414789462');
     fbq('track', 'PageView');
+    // Track page view on DOM ready for SPA support
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        fbq('track', 'PageView');
+      });
+    }
     </script>
     <!-- End Meta Pixel Code -->
 
