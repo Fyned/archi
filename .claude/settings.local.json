@@ -37,7 +37,8 @@
       "Bash(npx tsc:*)",
       "Bash(node:*)",
       "Bash(git reset:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(gh run list:*)"
     ]
   }
 }
