@@ -2,184 +2,380 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- Homepage -->
+  <!-- French Homepage (Default) -->
   <url>
-    <loc>https://archi.constructionveranda.com/</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/"/>
+    <loc>https://archi.constructionveranda.com/fr</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://archi.constructionveranda.com/fr"/>
+    <lastmod>2026-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- About Page -->
+  <!-- Dutch Homepage -->
   <url>
-    <loc>https://archi.constructionveranda.com/about</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/about"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/about"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/about"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/about"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/about"/>
-    <changefreq>monthly</changefreq>
+    <loc>https://archi.constructionveranda.com/nl</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://archi.constructionveranda.com/fr"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- English Homepage -->
+  <url>
+    <loc>https://archi.constructionveranda.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://archi.constructionveranda.com/fr"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- German Homepage -->
+  <url>
+    <loc>https://archi.constructionveranda.com/de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://archi.constructionveranda.com/fr"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Turkish Homepage -->
+  <url>
+    <loc>https://archi.constructionveranda.com/tr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://archi.constructionveranda.com/fr"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- SERVICES - Pergola (High Priority) -->
+  <url>
+    <loc>https://archi.constructionveranda.com/fr/services/pergola</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services/pergola"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/services/pergola"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/services/pergola"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/services/pergola"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/services/pergola"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/nl/services/pergola</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/en/services/pergola</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/de/services/pergola</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- SERVICES - Veranda (High Priority) -->
+  <url>
+    <loc>https://archi.constructionveranda.com/fr/services/veranda</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services/veranda"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/services/veranda"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/services/veranda"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/services/veranda"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/services/veranda"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/nl/services/veranda</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/en/services/veranda</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/de/services/veranda</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- SERVICES - Carport -->
+  <url>
+    <loc>https://archi.constructionveranda.com/fr/services/carport</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services/carport"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/services/carport"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/services/carport"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/services/carport"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/services/carport"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/nl/services/carport</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/en/services/carport</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/de/services/carport</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- SERVICES - Window -->
+  <url>
+    <loc>https://archi.constructionveranda.com/fr/services/window</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services/window"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/services/window"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/services/window"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/services/window"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/nl/services/window</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- SERVICES - Shutter -->
+  <url>
+    <loc>https://archi.constructionveranda.com/fr/services/shutter</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services/shutter"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/services/shutter"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/nl/services/shutter</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- SERVICES - Garage -->
+  <url>
+    <loc>https://archi.constructionveranda.com/fr/services/garage</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services/garage"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/services/garage"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/nl/services/garage</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Services Overview -->
   <url>
-    <loc>https://archi.constructionveranda.com/services</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/services"/>
+    <loc>https://archi.constructionveranda.com/fr/services</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/services"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/services"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/services"/>
     <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/services"/>
+    <lastmod>2026-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- Pergola Service -->
   <url>
-    <loc>https://archi.constructionveranda.com/services/pergola</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/services/pergola"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services/pergola"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/services/pergola"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/services/pergola"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/services/pergola"/>
+    <loc>https://archi.constructionveranda.com/nl/services</loc>
+    <lastmod>2026-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- Veranda Service -->
   <url>
-    <loc>https://archi.constructionveranda.com/services/veranda</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/services/veranda"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services/veranda"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/services/veranda"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/services/veranda"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/services/veranda"/>
+    <loc>https://archi.constructionveranda.com/en/services</loc>
+    <lastmod>2026-01-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/de/services</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
 
-  <!-- Carport Service -->
+  <!-- Projects/Portfolio -->
   <url>
-    <loc>https://archi.constructionveranda.com/services/carport</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/services/carport"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services/carport"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/services/carport"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/services/carport"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/services/carport"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Window Service -->
-  <url>
-    <loc>https://archi.constructionveranda.com/services/window</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/services/window"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services/window"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/services/window"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/services/window"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/services/window"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Shutter Service -->
-  <url>
-    <loc>https://archi.constructionveranda.com/services/shutter</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/services/shutter"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services/shutter"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/services/shutter"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/services/shutter"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/services/shutter"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Garage Service -->
-  <url>
-    <loc>https://archi.constructionveranda.com/services/garage</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/services/garage"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/services/garage"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/services/garage"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/services/garage"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/services/garage"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Projects Page -->
-  <url>
-    <loc>https://archi.constructionveranda.com/projects</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/projects"/>
+    <loc>https://archi.constructionveranda.com/fr/projects</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/projects"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/projects"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/projects"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/projects"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/projects"/>
+    <lastmod>2026-01-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/nl/projects</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Quote Page (High conversion priority) -->
+  <url>
+    <loc>https://archi.constructionveranda.com/fr/quote</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/quote"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/quote"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/quote"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/quote"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/quote"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/nl/quote</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/en/quote</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/de/quote</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <!-- Contact Page -->
   <url>
-    <loc>https://archi.constructionveranda.com/contact</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/contact"/>
+    <loc>https://archi.constructionveranda.com/fr/contact</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/contact"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/contact"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/contact"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/nl/contact</loc>
+    <lastmod>2026-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- Quote Page -->
+  <!-- About Page -->
   <url>
-    <loc>https://archi.constructionveranda.com/quote</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/quote"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/quote"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/quote"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/quote"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/quote"/>
+    <loc>https://archi.constructionveranda.com/fr/about</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/about"/>
+    <lastmod>2026-01-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/nl/about</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <!-- Videos Page -->
   <url>
-    <loc>https://archi.constructionveranda.com/videos</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/videos"/>
+    <loc>https://archi.constructionveranda.com/fr/videos</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/videos"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/videos"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/videos"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/videos"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/videos"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/nl/videos</loc>
+    <lastmod>2026-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
+  <!-- Blog Page -->
+  <url>
+    <loc>https://archi.constructionveranda.com/fr/blog</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/blog"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/blog"/>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://archi.constructionveranda.com/nl/blog</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
   <!-- Marketplace Page -->
   <url>
-    <loc>https://archi.constructionveranda.com/marketplace</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/marketplace"/>
+    <loc>https://archi.constructionveranda.com/fr/marketplace</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/marketplace"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/marketplace"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/marketplace"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/marketplace"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/nl/marketplace"/>
+    <lastmod>2026-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Blog Page -->
   <url>
-    <loc>https://archi.constructionveranda.com/blog</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://archi.constructionveranda.com/blog"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://archi.constructionveranda.com/fr/blog"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://archi.constructionveranda.com/en/blog"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://archi.constructionveranda.com/de/blog"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://archi.constructionveranda.com/tr/blog"/>
-    <changefreq>weekly</changefreq>
+    <loc>https://archi.constructionveranda.com/nl/marketplace</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
