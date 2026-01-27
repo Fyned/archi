@@ -29,7 +29,23 @@
   RewriteRule ^ %1 [R=301,L]
 
   # ===========================================
-  # 4. SPA ROUTING - SERVE INDEX.HTML
+  # 4. LANGUAGE PREFIX REDIRECT (SEO FIX)
+  # Redirect URLs without language prefix to /fr/ (default)
+  # ===========================================
+  RewriteCond %{REQUEST_URI} !^/(fr|nl|en|de|tr)(/|$)
+  RewriteCond %{REQUEST_URI} !^/assets
+  RewriteCond %{REQUEST_URI} !^/images
+  RewriteCond %{REQUEST_URI} !^/videos
+  RewriteCond %{REQUEST_URI} !^/sitemap\.xml$
+  RewriteCond %{REQUEST_URI} !^/robots\.txt$
+  RewriteCond %{REQUEST_URI} !^/favicon
+  RewriteCond %{REQUEST_URI} !^/index\.html$
+  RewriteCond %{REQUEST_URI} !^/$
+  RewriteCond %{REQUEST_URI} !\.
+  RewriteRule ^(.+)$ /fr/$1 [R=301,L]
+
+  # ===========================================
+  # 5. SPA ROUTING - SERVE INDEX.HTML
   # All non-file, non-directory requests go to index.html
   # ===========================================
 
