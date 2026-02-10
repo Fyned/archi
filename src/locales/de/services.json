@@ -154,28 +154,54 @@
     }
   },
   "window": {
-    "title": "Aluminium-Fenster",
-    "subtitle": "Moderne Fensterlösungen",
-    "description": "Hochwertige Aluminium-Fenster mit ausgezeichneter Isolierung. Elegantes Design kombiniert mit energieeffizienter Technologie.",
+    "title": "Aluminium- & PVC-Fenster",
+    "subtitle": "Komplettlösungen für Fenster",
+    "description": "Hochwertige Fenster aus Aluminium und PVC. Ob Sie die schlanken Linien von Aluminium oder das Preis-Leistungs-Verhältnis von PVC bevorzugen – wir bieten Maßanfertigung mit hervorragender Wärme- und Schalldämmung.",
     "features": {
       "title": "Eigenschaften",
       "items": [
+        "Aluminium- oder PVC-Rahmen in Topqualität",
+        "Doppel- oder Dreifach-Isolierverglasung",
         "Thermisch getrennte Profile",
-        "Doppel- oder Dreifachverglasung",
-        "Verschiedene Öffnungsmechanismen",
-        "RAL-Farben nach Wahl",
-        "Optionales Sicherheitsglas",
-        "Schalldämmung"
+        "Dreh-Kipp, Schiebe- und Festverglasungsoptionen",
+        "RAL-Farben und Holzdekor-Oberflächen",
+        "Sicherheits- und Schallschutzglas optional"
       ]
     },
     "benefits": {
       "title": "Vorteile",
       "items": [
-        "Ausgezeichnete Wärmedämmung",
-        "Reduzierte Energiekosten",
-        "Erhöhte Sicherheit",
-        "Minimale Wartung",
-        "Lange Lebensdauer"
+        "Ausgezeichnete Wärmedämmung (Uw bis 0,8)",
+        "Deutliche Senkung der Energiekosten",
+        "PVC: hervorragendes Preis-Leistungs-Verhältnis, wartungsfrei",
+        "Aluminium: schlankes Design, überlegene Haltbarkeit",
+        "Förderfähig für Energieprämien in Belgien",
+        "Lange Lebensdauer (30+ Jahre)"
+      ]
+    },
+    "faq": {
+      "title": "Häufige Fragen - Aluminium- & PVC-Fenster",
+      "items": [
+        {
+          "question": "Was kosten Aluminium- und PVC-Fenster in Belgien?",
+          "answer": "PVC-Fenster beginnen ab 250€/m² und Aluminium-Fenster ab 450€/m², inklusive Montage. Der Preis variiert je nach Verglasungstyp, Öffnungsmechanismus und Oberfläche. Energieprämien können Ihre Investition erheblich senken."
+        },
+        {
+          "question": "Aluminium oder PVC: Welche Fenster wählen?",
+          "answer": "PVC bietet ein hervorragendes Preis-Leistungs-Verhältnis mit sehr guter Dämmung und praktisch keiner Wartung. Aluminium bietet schlankere Profile für mehr Licht, überlegene Haltbarkeit und ein zeitgemäßeres Design. Wir bieten auch gemischte Aluminium-PVC-Lösungen."
+        },
+        {
+          "question": "Welche Prämien für Fensteraustausch in Belgien?",
+          "answer": "In Wallonien kann die Wohnungsprämie bis zu 70% der Kosten decken. In Brüssel sind RENOLUTION-Prämien verfügbar. In Flandern gilt die Mijn VerbouwPremie. Wir begleiten Sie bei der Antragstellung."
+        },
+        {
+          "question": "Wie lange dauert die Fenstermontage?",
+          "answer": "Der Fensteraustausch dauert in der Regel 1 bis 3 Tage je nach Anzahl. Wir arbeiten sauber und stellen sicher, dass Ihr Haus während der gesamten Arbeiten sicher und gedämmt bleibt."
+        },
+        {
+          "question": "Vergilben PVC-Fenster mit der Zeit?",
+          "answer": "Moderne PVC-Fenster sind UV-behandelt und vergilben nicht mehr. Unsere PVC-Rahmen behalten ihre Farbe über die gesamte Lebensdauer (30+ Jahre). Erhältlich in Weiß, Anthrazitgrau und vielen anderen Farben."
+        }
       ]
     }
   },
@@ -270,8 +296,8 @@
       "description": "Aluminium Carport ab €3500. Geeignet für Solaranlagen. Montage Aachen, Köln, Düsseldorf, NRW. Kostenlose Beratung."
     },
     "window": {
-      "title": "Aluminium Fenster Preis NRW | Dreifachverglasung Aachen Köln",
-      "description": "Aluminiumfenster Wärmedämmung, Dreifachverglasung. Faire Preise Aachen, Köln, Düsseldorf. Energieförderung, Fachmontage."
+      "title": "Aluminium- & PVC-Fenster Preis Belgien | Doppel- Dreifachverglasung",
+      "description": "Maßgefertigte Aluminium- und PVC-Fenster. Topqualität, Doppel- und Dreifachverglasung, Dreh-Kipp. Faire Preise, Energieprämien, kostenloser Kostenvoranschlag."
     },
     "shutter": {
       "title": "Elektrische Rollläden Preis NRW | Motorisierung Aachen Köln",

@@ -154,28 +154,54 @@
     }
   },
   "window": {
-    "title": "Aluminium Windows",
-    "subtitle": "Modern window solutions",
-    "description": "High-quality aluminium windows with excellent insulation. Stylish design combined with energy-efficient technology.",
+    "title": "Aluminium & PVC Windows",
+    "subtitle": "Complete window solutions",
+    "description": "High-quality aluminium and PVC windows. Whether you prefer the sleek lines of aluminium or the value-for-money of PVC, we offer custom-made frames with excellent thermal and acoustic insulation.",
     "features": {
       "title": "Features",
       "items": [
+        "Aluminium or PVC frames, top quality",
+        "Double or triple insulating glazing",
         "Thermally broken profiles",
-        "Double or triple glazing",
-        "Various opening mechanisms",
-        "RAL colours of your choice",
-        "Security glass optional",
-        "Sound insulating"
+        "Tilt-and-turn, sliding, and fixed options",
+        "RAL colours and wood-grain finishes",
+        "Security and acoustic glass optional"
       ]
     },
     "benefits": {
       "title": "Benefits",
       "items": [
-        "Excellent thermal insulation",
-        "Lower energy costs",
-        "Increased security",
-        "Minimal maintenance",
-        "Long lifespan"
+        "Excellent thermal insulation (Uw down to 0.8)",
+        "Significant energy cost reduction",
+        "PVC: great value for money, maintenance-free",
+        "Aluminium: sleek design, superior durability",
+        "Eligible for energy grants in Belgium",
+        "Long lifespan (30+ years)"
+      ]
+    },
+    "faq": {
+      "title": "FAQ - Aluminium & PVC Windows",
+      "items": [
+        {
+          "question": "What is the price of aluminium and PVC windows in Belgium?",
+          "answer": "PVC windows start from €250/m² and aluminium windows from €450/m², installation included. Price varies based on glazing type, opening mechanism and finishes. Energy grants can significantly reduce your investment."
+        },
+        {
+          "question": "Aluminium or PVC: which windows to choose?",
+          "answer": "PVC offers excellent value with great insulation and virtually no maintenance. Aluminium offers slimmer profiles for more light, superior durability and a more contemporary design. We also offer mixed aluminium-PVC solutions combining the best of both."
+        },
+        {
+          "question": "What grants are available for window replacement in Belgium?",
+          "answer": "In Wallonia, the Housing Grant can cover up to 70% of costs. In Brussels, RENOLUTION grants are available. In Flanders, the Mijn VerbouwPremie applies. We guide you through the process to maximise your grants."
+        },
+        {
+          "question": "How long does window installation take?",
+          "answer": "Window replacement typically takes 1 to 3 days depending on the number. We work cleanly and ensure your home stays secure and insulated throughout."
+        },
+        {
+          "question": "Do PVC windows yellow over time?",
+          "answer": "Modern PVC windows are UV-treated and no longer yellow. Our PVC frames retain their colour throughout their lifespan (30+ years). Available in white, anthracite grey, and many other colours."
+        }
       ]
     }
   },
@@ -270,8 +296,8 @@
       "description": "Custom aluminium carport in Belgium. Vehicle protection, corrosion resistant, solar panel compatible. Free quote."
     },
     "window": {
-      "title": "Aluminium Windows Belgium | High Insulation",
-      "description": "High-quality aluminium windows in Belgium. Thermal break, double/triple glazing, energy savings. Professional installation."
+      "title": "Aluminium & PVC Windows Belgium | Double Triple Glazing",
+      "description": "Custom aluminium and PVC windows in Belgium. Top-quality frames, double and triple glazing, tilt-and-turn. Competitive prices, energy grants. Free quote."
     },
     "shutter": {
       "title": "Roller Shutters Belgium | Electric & Manual",

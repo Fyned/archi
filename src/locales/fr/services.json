@@ -154,28 +154,54 @@
     }
   },
   "window": {
-    "title": "Fenêtres Aluminium",
-    "subtitle": "Solutions de fenêtres modernes",
-    "description": "Fenêtres en aluminium de haute qualité avec excellente isolation. Design élégant combiné à une technologie économe en énergie.",
+    "title": "Fenêtres Aluminium & PVC",
+    "subtitle": "Solutions complètes en menuiserie",
+    "description": "Fenêtres en aluminium et PVC de haute qualité. Que vous cherchiez la finesse de l'aluminium ou le rapport qualité-prix du PVC, nous proposons des châssis sur mesure avec excellente isolation thermique et acoustique.",
     "features": {
       "title": "Caractéristiques",
       "items": [
+        "Châssis aluminium ou PVC haute qualité",
+        "Double ou triple vitrage isolant",
         "Profilés à rupture thermique",
-        "Double ou triple vitrage",
-        "Divers mécanismes d'ouverture",
-        "Couleurs RAL au choix",
-        "Vitrage de sécurité en option",
-        "Isolation acoustique"
+        "Mécanismes: oscillo-battant, coulissant, fixe",
+        "Couleurs RAL et finitions bois",
+        "Vitrage de sécurité et acoustique en option"
       ]
     },
     "benefits": {
       "title": "Avantages",
       "items": [
-        "Excellente isolation thermique",
-        "Réduction des coûts énergétiques",
-        "Sécurité accrue",
-        "Entretien minimal",
-        "Longue durée de vie"
+        "Excellente isolation thermique (Uw jusqu'à 0,8)",
+        "Réduction significative des coûts énergétiques",
+        "PVC: excellent rapport qualité-prix, sans entretien",
+        "Aluminium: design fin et élégant, grande durabilité",
+        "Éligible aux primes énergie en Belgique",
+        "Longue durée de vie (30+ ans)"
+      ]
+    },
+    "faq": {
+      "title": "Questions Fréquentes - Fenêtres Aluminium & PVC",
+      "items": [
+        {
+          "question": "Quel est le prix des fenêtres aluminium et PVC en Belgique?",
+          "answer": "Les fenêtres PVC commencent à partir de 250€/m² et les fenêtres aluminium à partir de 450€/m², pose comprise. Le prix varie selon le type de vitrage (double ou triple), le mécanisme d'ouverture et les finitions. Des primes énergie peuvent réduire significativement votre investissement."
+        },
+        {
+          "question": "Aluminium ou PVC: quelle fenêtre choisir?",
+          "answer": "Le PVC offre un excellent rapport qualité-prix avec une très bonne isolation et un entretien quasi nul. L'aluminium offre des profilés plus fins pour plus de lumière, une durabilité supérieure et un design plus contemporain. Nous proposons aussi des solutions mixtes aluminium-PVC pour combiner les avantages."
+        },
+        {
+          "question": "Quelles primes pour le remplacement de fenêtres en Belgique?",
+          "answer": "En Wallonie, la prime Habitation peut couvrir jusqu'à 70% des coûts. À Bruxelles, les primes RENOLUTION sont disponibles. En Flandre, la Mijn VerbouwPremie s'applique. Nous vous accompagnons dans les démarches pour maximiser vos primes."
+        },
+        {
+          "question": "Combien de temps dure l'installation de nouvelles fenêtres?",
+          "answer": "Le remplacement de fenêtres prend généralement 1 à 3 jours selon le nombre. Nous travaillons proprement et veillons à ce que votre maison reste sécurisée et isolée pendant toute la durée des travaux."
+        },
+        {
+          "question": "Les fenêtres PVC jaunissent-elles avec le temps?",
+          "answer": "Les fenêtres PVC modernes sont traitées anti-UV et ne jaunissent plus. Nos châssis PVC conservent leur couleur pendant toute leur durée de vie (30+ ans). Disponibles en blanc, gris anthracite, et de nombreuses autres couleurs."
+        }
       ]
     }
   },
@@ -270,8 +296,8 @@
       "description": "Carport aluminium à partir de 3500€. Compatible panneaux solaires. Installation Bruxelles, Charleroi, Namur, Liège. Devis gratuit, pas de permis requis."
     },
     "window": {
-      "title": "Châssis Aluminium Prix Belgique | Fenêtres Triple Vitrage Bruxelles",
-      "description": "Fenêtres aluminium rupture thermique, triple vitrage. Prix compétitifs Bruxelles, Charleroi, Namur. Primes énergie, installation professionnelle."
+      "title": "Châssis Aluminium & PVC Prix Belgique | Fenêtres Double Triple Vitrage Bruxelles",
+      "description": "Fenêtres aluminium et PVC sur mesure. Châssis haute qualité, double et triple vitrage, oscillo-battant. Prix compétitifs Bruxelles, Charleroi, Namur, Liège. Primes énergie, devis gratuit."
     },
     "shutter": {
       "title": "Volets Roulants Électriques Prix Belgique | Motorisation Bruxelles",
