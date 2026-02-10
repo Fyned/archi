@@ -154,28 +154,54 @@
     }
   },
   "window": {
-    "title": "Aluminium Ramen",
-    "subtitle": "Moderne raamoplossingen",
-    "description": "Hoogwaardige aluminium ramen met uitstekende isolatie. Stijlvol design gecombineerd met energiezuinige technologie.",
+    "title": "Ramen Aluminium & PVC",
+    "subtitle": "Complete raamoplossingen op maat",
+    "description": "Hoogwaardige ramen in aluminium en PVC. Of u nu kiest voor de slanke lijnen van aluminium of de prijs-kwaliteit van PVC, wij bieden maatwerk met uitstekende thermische en akoestische isolatie.",
     "features": {
       "title": "Kenmerken",
       "items": [
+        "Aluminium of PVC kozijnen topkwaliteit",
+        "Dubbel of drievoudig isolerend glas",
         "Thermisch onderbroken profielen",
-        "Dubbel of drievoudig glas",
-        "Diverse openingsmechanismen",
-        "RAL kleuren naar keuze",
-        "Inbraakwerend glas optioneel",
-        "Geluiddempend"
+        "Draaikiep, schuif- en vast glas opties",
+        "RAL kleuren en houtnerf afwerkingen",
+        "Inbraakwerend en akoestisch glas optioneel"
       ]
     },
     "benefits": {
       "title": "Voordelen",
       "items": [
-        "Uitstekende warmte-isolatie",
-        "Lagere energiekosten",
-        "Verhoogde veiligheid",
-        "Minimaal onderhoud",
-        "Lange levensduur"
+        "Uitstekende warmte-isolatie (Uw tot 0,8)",
+        "Aanzienlijk lagere energiekosten",
+        "PVC: uitstekende prijs-kwaliteit, onderhoudsvrij",
+        "Aluminium: slank design, superieure duurzaamheid",
+        "In aanmerking voor energiepremies in België",
+        "Lange levensduur (30+ jaar)"
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen - Ramen Aluminium & PVC",
+      "items": [
+        {
+          "question": "Wat kosten aluminium en PVC ramen in België?",
+          "answer": "PVC ramen beginnen vanaf €250/m² en aluminium ramen vanaf €450/m², inclusief plaatsing. De prijs varieert op basis van glastype (dubbel of drievoudig), openingsmechanisme en afwerking. Energiepremies kunnen uw investering aanzienlijk verlagen."
+        },
+        {
+          "question": "Aluminium of PVC: welke ramen kiezen?",
+          "answer": "PVC biedt een uitstekende prijs-kwaliteitverhouding met zeer goede isolatie en vrijwel geen onderhoud. Aluminium biedt slankere profielen voor meer licht, superieure duurzaamheid en een meer eigentijds design. Wij bieden ook gemengde aluminium-PVC oplossingen."
+        },
+        {
+          "question": "Welke premies voor ramenvervanging in België?",
+          "answer": "In Wallonië kan de Woningpremie tot 70% van de kosten dekken. In Brussel zijn RENOLUTION-premies beschikbaar. In Vlaanderen geldt de Mijn VerbouwPremie. Wij begeleiden u bij de aanvraag om uw premies te maximaliseren."
+        },
+        {
+          "question": "Hoe lang duurt de installatie van nieuwe ramen?",
+          "answer": "Het vervangen van ramen duurt doorgaans 1 tot 3 dagen afhankelijk van het aantal. Wij werken netjes en zorgen ervoor dat uw woning veilig en geïsoleerd blijft tijdens de werkzaamheden."
+        },
+        {
+          "question": "Verkleuren PVC ramen na verloop van tijd?",
+          "answer": "Moderne PVC ramen zijn UV-behandeld en verkleuren niet meer. Onze PVC kozijnen behouden hun kleur gedurende hun volledige levensduur (30+ jaar). Beschikbaar in wit, antracietgrijs en vele andere kleuren."
+        }
       ]
     }
   },
@@ -270,8 +296,8 @@
       "description": "Aluminium carport vanaf €3500. Geschikt voor zonnepanelen. Installatie Antwerpen, Gent, Brussel. Gratis offerte, geen vergunning nodig."
     },
     "window": {
-      "title": "Aluminium Kozijnen Prijs België | Ramen Triple Glas Antwerpen",
-      "description": "Aluminium ramen thermische onderbreking, triple glas. Scherpe prijzen Antwerpen, Gent, Brussel. Energiepremies, vakkundige installatie."
+      "title": "Aluminium & PVC Ramen Prijs België | Kozijnen Dubbel Triple Glas",
+      "description": "Ramen aluminium en PVC op maat. Kozijnen topkwaliteit, dubbel en triple glas, draaikiep. Scherpe prijzen Antwerpen, Gent, Brussel. Energiepremies, gratis offerte."
     },
     "shutter": {
       "title": "Elektrische Rolluiken Prijs België | Screens Antwerpen Gent",
