@@ -154,28 +154,54 @@
     }
   },
   "window": {
-    "title": "Alüminyum Pencereler",
-    "subtitle": "Modern pencere çözümleri",
-    "description": "Mükemmel yalıtımlı yüksek kaliteli alüminyum pencereler. Enerji verimli teknoloji ile şık tasarım.",
+    "title": "Alüminyum & PVC Pencereler",
+    "subtitle": "Kapsamlı pencere çözümleri",
+    "description": "Yüksek kaliteli alüminyum ve PVC pencereler. İster alüminyumun ince hatlarını ister PVC'nin fiyat-performansını tercih edin, mükemmel ısı ve ses yalıtımı ile özel üretim doğrama sunuyoruz.",
     "features": {
       "title": "Özellikler",
       "items": [
+        "Üst kalite alüminyum veya PVC kasalar",
+        "Çift veya üç katlı yalıtım camı",
         "Termal kırılmalı profiller",
-        "Çift veya üç cam",
-        "Çeşitli açılma mekanizmaları",
-        "İstediğiniz RAL renkleri",
-        "Opsiyonel güvenlik camı",
-        "Ses yalıtımı"
+        "Açılım türleri: vasistas, sürgülü, sabit",
+        "RAL renkleri ve ahşap görünümlü kaplamalar",
+        "Opsiyonel güvenlik ve akustik cam"
       ]
     },
     "benefits": {
       "title": "Avantajlar",
       "items": [
-        "Mükemmel ısı yalıtımı",
-        "Düşük enerji maliyetleri",
-        "Artırılmış güvenlik",
-        "Minimum bakım",
-        "Uzun ömür"
+        "Mükemmel ısı yalıtımı (Uw 0,8'e kadar)",
+        "Enerji maliyetlerinde önemli düşüş",
+        "PVC: Mükemmel fiyat-performans, bakımsız",
+        "Alüminyum: İnce tasarım, üstün dayanıklılık",
+        "Belçika'da enerji primlerine uygun",
+        "Uzun ömür (30+ yıl)"
+      ]
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular - Alüminyum & PVC Pencereler",
+      "items": [
+        {
+          "question": "Belçika'da alüminyum ve PVC pencere fiyatları ne kadar?",
+          "answer": "PVC pencereler 250€/m²'den, alüminyum pencereler 450€/m²'den başlar, montaj dahil. Fiyat cam tipine (çift veya üç katlı), açılım mekanizmasına ve kaplamaya göre değişir. Enerji primleri yatırımınızı önemli ölçüde azaltabilir."
+        },
+        {
+          "question": "Alüminyum mu PVC mi: hangi pencereyi seçmeli?",
+          "answer": "PVC, çok iyi yalıtım ve neredeyse sıfır bakım ile mükemmel fiyat-performans sunar. Alüminyum, daha fazla ışık için daha ince profiller, üstün dayanıklılık ve daha çağdaş tasarım sunar. Avantajları birleştirmek için karma alüminyum-PVC çözümler de sunuyoruz."
+        },
+        {
+          "question": "Belçika'da pencere değişimi için hangi primler var?",
+          "answer": "Valonya'da Konut Primi maliyetlerin %70'ine kadarını karşılayabilir. Brüksel'de RENOLUTION primleri mevcuttur. Flanders'ta Mijn VerbouwPremie geçerlidir. Primlerinizi maksimize etmek için başvuru sürecinde size eşlik ediyoruz."
+        },
+        {
+          "question": "Pencere kurulumu ne kadar sürer?",
+          "answer": "Pencere değişimi genellikle sayıya bağlı olarak 1 ila 3 gün sürer. Temiz çalışıyoruz ve çalışmalar boyunca evinizin güvenli ve yalıtımlı kalmasını sağlıyoruz."
+        },
+        {
+          "question": "PVC pencereler zamanla sararır mı?",
+          "answer": "Modern PVC pencereler UV işlemlidir ve artık sararmazlar. PVC kasalarımız tüm kullanım ömrü boyunca (30+ yıl) renklerini korur. Beyaz, antrasit gri ve birçok farklı renkte mevcuttur."
+        }
       ]
     }
   },
@@ -270,8 +296,8 @@
       "description": "Belçika'da özel üretim alüminyum carport. Araç koruması, korozyona dayanıklı, güneş paneli uyumlu. Ücretsiz teklif."
     },
     "window": {
-      "title": "Alüminyum Pencereler Belçika | Yüksek Yalıtım",
-      "description": "Belçika'da yüksek kaliteli alüminyum pencereler. Termal kesme, çift/üçlü cam, enerji tasarrufu. Profesyonel kurulum."
+      "title": "Alüminyum & PVC Pencereler Belçika | Çift Üç Katlı Cam",
+      "description": "Özel üretim alüminyum ve PVC pencereler. Üst kalite kasalar, çift ve üç katlı cam, vasistas. Rekabetçi fiyatlar, enerji primleri, ücretsiz teklif."
     },
     "shutter": {
       "title": "Panjurlar Belçika | Elektrikli & Manuel",
