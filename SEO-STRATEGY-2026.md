@@ -447,5 +447,5 @@ Aşağıdaki görevler için senin emrini bekliyorum:
 ---
 
 **Son Güncelleme:** Ocak 2026
-**Hazırlayan:** Claude AI
+**Hazırlayan:** DMC Kreatif
 **Onay Bekliyor:** ✅
