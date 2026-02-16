@@ -180,12 +180,20 @@ export function Footer() {
             <p className="text-sm text-gray-400">
               {t('footer.copyright', { year: currentYear })}
             </p>
-            <div className="flex gap-6 text-sm">
+            <div className="flex items-center gap-6 text-sm">
               <a
                 href={localizedPath('/privacy')}
                 className="hover:text-primary-400 transition-colors"
               >
                 {t('footer.privacy')}
+              </a>
+              <a
+                href="https://dmckreatif.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-gray-300 transition-colors text-xs"
+              >
+                {t('footer.designedBy')}
               </a>
             </div>
           </div>
