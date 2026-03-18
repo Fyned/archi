@@ -175,18 +175,27 @@ export default function BlogPostPage() {
         <meta property="article:published_time" content={post.date} />
         <link rel="canonical" href={shareUrl} />
 
-        {/* Article Schema */}
+        {/* BlogPosting Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
+            "@type": "BlogPosting",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": shareUrl
+            },
             "headline": t(`blog:posts.${slug}.title`),
             "description": t(`blog:posts.${slug}.excerpt`),
-            "image": `https://archi.constructionveranda.com${post.heroImage}`,
+            "image": {
+              "@type": "ImageObject",
+              "url": `https://archi.constructionveranda.com${post.heroImage}`
+            },
             "datePublished": post.date,
+            "dateModified": post.date,
             "author": {
               "@type": "Organization",
-              "name": "Archi Construction & Veranda"
+              "name": "Archi Construction & Veranda",
+              "url": "https://archi.constructionveranda.com"
             },
             "publisher": {
               "@type": "Organization",
@@ -195,7 +204,8 @@ export default function BlogPostPage() {
                 "@type": "ImageObject",
                 "url": "https://archi.constructionveranda.com/logo-horizontal.png"
               }
-            }
+            },
+            "inLanguage": locale
           })}
         </script>
       </Helmet>

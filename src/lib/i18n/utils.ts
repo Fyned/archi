@@ -8,7 +8,7 @@ export function getLocaleFromUrl(url: string): SupportedLanguage {
     return firstPart
   }
 
-  return 'nl' // Default language
+  return 'fr'
 }
 
 export function getLocalizedPath(path: string, locale: SupportedLanguage): string {
@@ -21,12 +21,7 @@ export function getLocalizedPath(path: string, locale: SupportedLanguage): strin
     }
   }
 
-  // For default language (nl), we can use root or /nl/
-  if (locale === 'nl') {
-    return cleanPath
-  }
-
-  // For other languages, add the locale prefix
+  // Add the locale prefix for all languages
   if (cleanPath === '/') {
     return `/${locale}`
   }
@@ -49,10 +44,10 @@ export function getHreflangLinks(currentPath: string, baseUrl: string): Array<{ 
     href: `${baseUrl}${paths[locale]}`
   }))
 
-  // Add x-default pointing to Dutch (primary market)
+  // Add x-default pointing to French (primary market — Wallonie/Belgium)
   links.push({
     hreflang: 'x-default',
-    href: `${baseUrl}${paths.nl}`
+    href: `${baseUrl}${paths.fr}`
   })
 
   return links

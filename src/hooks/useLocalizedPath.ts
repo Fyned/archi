@@ -18,7 +18,7 @@ export function useLocalizedPath() {
     if (supportedLanguages.includes(firstPart)) {
       return firstPart
     }
-    return 'nl' // Default language
+    return 'fr'
   }
 
   const currentLocale = getCurrentLocale()

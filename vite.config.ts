@@ -20,10 +20,19 @@ export default defineConfig({
     sourcemap: false,
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router-dom'],
-          i18n: ['i18next', 'react-i18next'],
-          animations: ['framer-motion'],
+        manualChunks(id) {
+          if (id.includes('node_modules/react') || id.includes('node_modules/react-dom') || id.includes('node_modules/react-router-dom')) {
+            return 'vendor'
+          }
+          if (id.includes('node_modules/i18next') || id.includes('node_modules/react-i18next')) {
+            return 'i18n'
+          }
+          if (id.includes('node_modules/framer-motion')) {
+            return 'animations'
+          }
+          if (id.includes('node_modules/lucide-react')) {
+            return 'icons'
+          }
         }
       }
     }

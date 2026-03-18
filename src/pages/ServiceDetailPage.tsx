@@ -359,20 +359,6 @@ export default function ServiceDetailPage() {
   const faqItems = t(`services:${service}.faq.items`, { returnObjects: true, defaultValue: [] }) as { question: string; answer: string }[]
   const hasFaq = Array.isArray(faqItems) && faqItems.length > 0
 
-  // Generate FAQ Schema for SEO
-  const faqSchema = hasFaq ? {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqItems.map(item => ({
-      "@type": "Question",
-      "name": item.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": item.answer
-      }
-    }))
-  } : null
-
   const openLightbox = (index: number) => {
     setCurrentImageIndex(index)
     setLightboxOpen(true)
@@ -396,11 +382,6 @@ export default function ServiceDetailPage() {
         <meta property="og:image" content={`https://archi.constructionveranda.com${images[0]}`} />
         <meta property="og:type" content="website" />
         <link rel="canonical" href={`https://archi.constructionveranda.com/${currentLang}/services/${service}`} />
-        {faqSchema && (
-          <script type="application/ld+json">
-            {JSON.stringify(faqSchema)}
-          </script>
-        )}
       </Helmet>
 
       {/* Hero Section */}
