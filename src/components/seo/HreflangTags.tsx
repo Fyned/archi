@@ -21,7 +21,7 @@ export function HreflangTags() {
     <Helmet>
       <link rel="canonical" href={canonicalUrl} />
       {links.map(({ hreflang, href }) => (
-        <link key={hreflang} rel="alternate" hreflang={hreflang} href={href} />
+        <link key={hreflang} rel="alternate" hrefLang={hreflang} href={href} />
       ))}
     </Helmet>
   )
