@@ -26,11 +26,13 @@
 
 ## 🔴 HAFTA 1 — 19–22 Mart 2026 (Teknik Temel)
 
-### 19 Mart (Perşembe) — react-snap ~4 saat
-- [ ] `npm install --save-dev react-snap`
-- [ ] `package.json` → `"postbuild": "react-snap"` ekle
-- [ ] `npm run build` çalıştır, dist/ klasöründe .html dosyaları oluştu mu kontrol et
-- [ ] `curl -s https://archi.constructionveranda.com/fr/services/pergola | grep hreflang` → hreflang görünüyor mu?
+### 19 Mart (Perşembe) — react-snap ~4 saat ✅
+- [x] `npm install --save-dev react-snap`
+- [x] `package.json` → `"postbuild": "react-snap"` + `reactSnap` konfigürasyonu
+- [x] `src/main.tsx` → `hydrateRoot` + `createRoot` React 18 uyumu
+- [x] `npm run build` → 153 sayfa pre-render edildi (5 dil × tüm sayfalar)
+- [x] `dist/fr/services/pergola/index.html` → hreflang tag'leri statik HTML'de doğrulandı
+- [ ] `curl -s https://archi.constructionveranda.com/fr/services/pergola | grep hreflang` → deploy sonrası doğrula
 - [ ] Deploy et (Hostinger / GitHub Actions)
 
 ### 20 Mart (Cuma) — Hero WebP ~2 saat
