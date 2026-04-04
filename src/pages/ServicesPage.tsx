@@ -7,27 +7,27 @@ import { Card, CardImage, CardContent } from '@/components/ui'
 const services = [
   {
     id: 'pergola',
-    image: '/images/pergola/pergola-hero.jpg',
+    image: '/images/pergola/pergola-hero.webp',
   },
   {
     id: 'veranda',
-    image: '/images/veranda/veranda-hero.jpg',
+    image: '/images/veranda/veranda-hero.webp',
   },
   {
     id: 'carport',
-    image: '/images/carport/carport-hero.jpg',
+    image: '/images/carport/carport-hero.webp',
   },
   {
     id: 'window',
-    image: '/images/window/window-hero.jpg',
+    image: '/images/window/window-hero.webp',
   },
   {
     id: 'shutter',
-    image: '/images/shutter/shutter-hero.jpg',
+    image: '/images/shutter/shutter-hero.webp',
   },
   {
     id: 'garage',
-    image: '/images/garage/garage-hero.jpg',
+    image: '/images/garage/garage-hero.webp',
   },
 ]
 
@@ -48,7 +48,7 @@ export default function ServicesPage() {
         <meta name="description" content={t('services:meta.description')} />
         <meta property="og:title" content={`${t('nav.services')} | Archi Construction & Veranda`} />
         <meta property="og:description" content={t('services:meta.description')} />
-        <meta property="og:image" content="https://archi.constructionveranda.com/images/pergola/pergola-hero.jpg" />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/pergola/pergola-hero.webp" />
         <meta property="og:type" content="website" />
       </Helmet>
 
@@ -57,7 +57,7 @@ export default function ServicesPage() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
-            backgroundImage: 'url(/images/general/hero-main.jpg)'
+            backgroundImage: 'url(/images/general/hero-main.webp)'
           }}
         />
         <div className="container-custom relative z-10">

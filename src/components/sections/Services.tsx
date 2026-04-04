@@ -8,32 +8,32 @@ const services = [
   {
     key: 'pergola',
     href: '/services/pergola',
-    image: '/images/pergola/pergola-hero.jpg'
+    image: '/images/pergola/pergola-hero.webp'
   },
   {
     key: 'veranda',
     href: '/services/veranda',
-    image: '/images/veranda/veranda-hero.jpg'
+    image: '/images/veranda/veranda-hero.webp'
   },
   {
     key: 'carport',
     href: '/services/carport',
-    image: '/images/carport/carport-hero.jpg'
+    image: '/images/carport/carport-hero.webp'
   },
   {
     key: 'window',
     href: '/services/window',
-    image: '/images/window/window-hero.jpg'
+    image: '/images/window/window-hero.webp'
   },
   {
     key: 'shutter',
     href: '/services/shutter',
-    image: '/images/shutter/shutter-hero.jpg'
+    image: '/images/shutter/shutter-hero.webp'
   },
   {
     key: 'garage',
     href: '/services/garage',
-    image: '/images/garage/garage-hero.jpg'
+    image: '/images/garage/garage-hero.webp'
   }
 ]
 

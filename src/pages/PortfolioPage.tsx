@@ -11,67 +11,67 @@ const portfolioData = [
     id: '1',
     titleKey: 'projects.veranda_glass_roof_led',
     category: 'veranda',
-    image: '/images/portfolio/veranda-glass-roof-led.jpg',
+    image: '/images/portfolio/veranda-glass-roof-led.webp',
   },
   {
     id: '2',
     titleKey: 'projects.veranda_rooftop_terrace',
     category: 'veranda',
-    image: '/images/portfolio/veranda-rooftop-terrace.jpg',
+    image: '/images/portfolio/veranda-rooftop-terrace.webp',
   },
   {
     id: '3',
     titleKey: 'projects.veranda_newbuild',
     category: 'veranda',
-    image: '/images/portfolio/veranda-newbuild-installation.jpg',
+    image: '/images/portfolio/veranda-newbuild-installation.webp',
   },
   {
     id: '4',
     titleKey: 'projects.veranda_showroom',
     category: 'veranda',
-    image: '/images/portfolio/veranda-showroom-display.jpg',
+    image: '/images/portfolio/veranda-showroom-display.webp',
   },
   {
     id: '5',
     titleKey: 'projects.veranda_3d_design',
     category: 'veranda',
-    image: '/images/portfolio/veranda-3d-design-render.jpg',
+    image: '/images/portfolio/veranda-3d-design-render.webp',
   },
   {
     id: '6',
     titleKey: 'projects.poolhouse_modern',
     category: 'poolhouse',
-    image: '/images/portfolio/poolhouse-pool-cover.jpg',
+    image: '/images/portfolio/poolhouse-pool-cover.webp',
   },
   {
     id: '7',
     titleKey: 'projects.veranda_villa_luxury',
     category: 'veranda',
-    image: '/images/portfolio/veranda-villa-cream-roof.jpg',
+    image: '/images/portfolio/veranda-villa-cream-roof.webp',
   },
   {
     id: '8',
     titleKey: 'projects.poolhouse_urban',
     category: 'poolhouse',
-    image: '/images/portfolio/poolhouse-urban-apartment.jpg',
+    image: '/images/portfolio/poolhouse-urban-apartment.webp',
   },
   {
     id: '9',
     titleKey: 'projects.pergola_veranda_combo',
     category: 'pergola',
-    image: '/images/portfolio/pergola-veranda-lamella.jpg',
+    image: '/images/portfolio/pergola-veranda-lamella.webp',
   },
   {
     id: '10',
     titleKey: 'projects.veranda_compact',
     category: 'veranda',
-    image: '/images/portfolio/veranda-compact-townhouse.jpg',
+    image: '/images/portfolio/veranda-compact-townhouse.webp',
   },
   {
     id: '11',
     titleKey: 'projects.pergola_poolside',
     category: 'pergola',
-    image: '/images/portfolio/pergola-lounge-poolside.jpg',
+    image: '/images/portfolio/pergola-lounge-poolside.webp',
   },
 ]
 
@@ -105,7 +105,7 @@ export default function PortfolioPage() {
         <meta name="description" content={t('meta.description')} />
         <meta property="og:title" content={`${t('meta.title')} | Archi Construction & Veranda`} />
         <meta property="og:description" content={t('meta.description')} />
-        <meta property="og:image" content="https://archi.constructionveranda.com/images/portfolio/veranda-villa-cream-roof.jpg" />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/portfolio/veranda-villa-cream-roof.webp" />
         <meta property="og:type" content="website" />
       </Helmet>
 

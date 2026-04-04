@@ -13,7 +13,7 @@ export default function QuotePage() {
         <meta name="description" content={t('meta.description')} />
         <meta property="og:title" content={`${t('meta.title')} | Archi Construction & Veranda`} />
         <meta property="og:description" content={t('meta.description')} />
-        <meta property="og:image" content="https://archi.constructionveranda.com/images/general/cta-background.jpg" />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/general/cta-background.webp" />
         <meta property="og:type" content="website" />
       </Helmet>
 

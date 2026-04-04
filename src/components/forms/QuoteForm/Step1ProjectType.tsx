@@ -12,10 +12,10 @@ interface Step1Props {
 const projectTypeIds = ['pergola', 'veranda', 'carport', 'other'] as const
 
 const projectImages: Record<string, string> = {
-  pergola: '/images/pergola/pergola-hero.jpg',
-  veranda: '/images/veranda/veranda-hero.jpg',
-  carport: '/images/carport/carport-hero.jpg',
-  other: '/images/general/hero-main.jpg'
+  pergola: '/images/pergola/pergola-hero.webp',
+  veranda: '/images/veranda/veranda-hero.webp',
+  carport: '/images/carport/carport-hero.webp',
+  other: '/images/general/hero-main.webp'
 }
 
 export default function Step1ProjectType({ formData, updateFormData, onNext }: Step1Props) {

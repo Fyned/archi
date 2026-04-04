@@ -12,7 +12,7 @@ export default function HomePage() {
         <meta name="description" content={t('meta.description')} />
         <meta property="og:title" content={`${t('meta.title')} | Archi Construction & Veranda`} />
         <meta property="og:description" content={t('meta.description')} />
-        <meta property="og:image" content="https://archi.constructionveranda.com/images/general/hero-main.jpg" />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/general/hero-main.webp" />
         <meta property="og:type" content="website" />
       </Helmet>
 

@@ -18,7 +18,7 @@ export function Hero() {
         className="absolute inset-0"
       >
         <img
-          src="/images/general/hero-main.jpg"
+          src="/images/general/hero-main.webp"
           alt="Archi Construction Veranda - Premium outdoor living spaces"
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"

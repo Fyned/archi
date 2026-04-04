@@ -13,84 +13,84 @@ const projectsData = [
     titleKey: 'projects.veranda_led',
     category: 'veranda',
     locationKey: 'projects.location_brussels',
-    image: '/images/veranda/veranda-interior-living.jpg',
+    image: '/images/veranda/veranda-interior-living.webp',
   },
   {
     id: '2',
     titleKey: 'projects.veranda_rooftop',
     category: 'veranda',
     locationKey: 'projects.location_antwerp',
-    image: '/images/veranda/veranda-pool-house.jpg',
+    image: '/images/veranda/veranda-pool-house.webp',
   },
   {
     id: '3',
     titleKey: 'projects.veranda_garden',
     category: 'veranda',
     locationKey: 'projects.location_ghent',
-    image: '/images/veranda/veranda-garden-view.jpg',
+    image: '/images/veranda/veranda-garden-view.webp',
   },
   {
     id: '4',
     titleKey: 'projects.pergola_showroom',
     category: 'pergola',
     locationKey: 'projects.location_bruges',
-    image: '/images/pergola/pergola-terrace-view.jpg',
+    image: '/images/pergola/pergola-terrace-view.webp',
   },
   {
     id: '5',
     titleKey: 'projects.pergola_deck',
     category: 'pergola',
     locationKey: 'projects.location_leuven',
-    image: '/images/pergola/pergola-freestanding.jpg',
+    image: '/images/pergola/pergola-freestanding.webp',
   },
   {
     id: '6',
     titleKey: 'projects.pergola_modern',
     category: 'pergola',
     locationKey: 'projects.location_liege',
-    image: '/images/pergola/pergola-attached-house.jpg',
+    image: '/images/pergola/pergola-attached-house.webp',
   },
   {
     id: '7',
     titleKey: 'projects.veranda_glass',
     category: 'veranda',
     locationKey: 'projects.location_mechelen',
-    image: '/images/veranda/veranda-glass-roof-detail.jpg',
+    image: '/images/veranda/veranda-glass-roof-detail.webp',
   },
   {
     id: '8',
     titleKey: 'projects.veranda_showroom',
     category: 'veranda',
     locationKey: 'projects.location_hasselt',
-    image: '/images/veranda/veranda-exterior-classic.jpg',
+    image: '/images/veranda/veranda-exterior-classic.webp',
   },
   {
     id: '9',
     titleKey: 'projects.pergola_led',
     category: 'pergola',
     locationKey: 'projects.location_kortrijk',
-    image: '/images/pergola/pergola-night-led.jpg',
+    image: '/images/pergola/pergola-night-led.webp',
   },
   {
     id: '10',
     titleKey: 'projects.veranda_interior',
     category: 'veranda',
     locationKey: 'projects.location_brussels',
-    image: '/images/veranda/veranda-interior-dining.jpg',
+    image: '/images/veranda/veranda-interior-dining.webp',
   },
   {
     id: '11',
     titleKey: 'projects.garage_modern',
     category: 'garage',
     locationKey: 'projects.location_antwerp',
-    image: '/images/garage/garage-double-modern.jpg',
+    image: '/images/garage/garage-double-modern.webp',
   },
   {
     id: '12',
     titleKey: 'projects.garage_classic',
     category: 'garage',
     locationKey: 'projects.location_ghent',
-    image: '/images/garage/garage-sectional-white.jpg',
+    image: '/images/garage/garage-sectional-white.webp',
   },
 ]
 
@@ -131,7 +131,7 @@ export default function ProjectsPage() {
         <meta name="description" content={t('meta.description')} />
         <meta property="og:title" content={`${t('title')} | Archi Construction & Veranda`} />
         <meta property="og:description" content={t('meta.description')} />
-        <meta property="og:image" content="https://archi.constructionveranda.com/images/veranda/veranda-hero.jpg" />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/veranda/veranda-hero.webp" />
         <meta property="og:type" content="website" />
       </Helmet>
 

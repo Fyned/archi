@@ -16,28 +16,28 @@ const videos: Video[] = [
   {
     id: '1',
     titleKey: 'videos.showroom_tour',
-    thumbnail: '/images/veranda/veranda-hero.jpg',
+    thumbnail: '/images/veranda/veranda-hero.webp',
     src: '/videos/showroom-tour.mp4',
     category: 'showroom',
   },
   {
     id: '2',
     titleKey: 'videos.product_showcase',
-    thumbnail: '/images/pergola/pergola-hero.jpg',
+    thumbnail: '/images/pergola/pergola-hero.webp',
     src: '/videos/product-showcase.mp4',
     category: 'showroom',
   },
   {
     id: '3',
     titleKey: 'videos.construction_demo',
-    thumbnail: '/images/pergola/pergola-louvers-open.jpg',
+    thumbnail: '/images/pergola/pergola-louvers-open.webp',
     src: '/videos/construction-demo.mp4',
     category: 'showroom',
   },
   {
     id: '4',
     titleKey: 'videos.project_video',
-    thumbnail: '/images/veranda/veranda-exterior-modern.jpg',
+    thumbnail: '/images/veranda/veranda-exterior-modern.webp',
     src: '/videos/project-video.mp4',
     category: 'project',
   },
@@ -60,7 +60,7 @@ export default function VideoGalleryPage() {
         <meta name="description" content={t('videos:meta.description')} />
         <meta property="og:title" content={`${t('videos:meta.title')} | Archi Construction & Veranda`} />
         <meta property="og:description" content={t('videos:meta.description')} />
-        <meta property="og:image" content="https://archi.constructionveranda.com/images/veranda/veranda-hero.jpg" />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/veranda/veranda-hero.webp" />
         <meta property="og:type" content="website" />
       </Helmet>
 

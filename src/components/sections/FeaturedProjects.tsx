@@ -9,28 +9,28 @@ const projects = [
     title: 'Modern Bioclimatic Pergola',
     location: 'Brussels, Belgium',
     category: 'pergola',
-    image: '/images/pergola/pergola-terrace-view.jpg'
+    image: '/images/pergola/pergola-terrace-view.webp'
   },
   {
     id: '2',
     title: 'Elegant Glass Veranda',
     location: 'Antwerp, Belgium',
     category: 'veranda',
-    image: '/images/veranda/veranda-exterior-modern.jpg'
+    image: '/images/veranda/veranda-exterior-modern.webp'
   },
   {
     id: '3',
     title: 'Luxury Double Carport',
     location: 'Ghent, Belgium',
     category: 'carport',
-    image: '/images/carport/carport-double.jpg'
+    image: '/images/carport/carport-double.webp'
   },
   {
     id: '4',
     title: 'Modern Garage Door',
     location: 'Leuven, Belgium',
     category: 'garage',
-    image: '/images/garage/garage-double-modern.jpg'
+    image: '/images/garage/garage-double-modern.webp'
   }
 ]
 

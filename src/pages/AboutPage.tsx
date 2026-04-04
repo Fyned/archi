@@ -19,7 +19,7 @@ export default function AboutPage() {
         <meta name="description" content={t('about:meta.description')} />
         <meta property="og:title" content={`${t('about:meta.title')} | Archi Construction & Veranda`} />
         <meta property="og:description" content={t('about:meta.description')} />
-        <meta property="og:image" content="https://archi.constructionveranda.com/images/general/about-showroom.jpg" />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/general/about-showroom.webp" />
         <meta property="og:type" content="website" />
       </Helmet>
 
@@ -28,7 +28,7 @@ export default function AboutPage() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
-            backgroundImage: 'url(/images/general/hero-main.jpg)'
+            backgroundImage: 'url(/images/general/hero-main.webp)'
           }}
         />
         <div className="container-custom relative z-10">
@@ -59,7 +59,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <img
-                src="/images/general/about-team.jpg"
+                src="/images/general/about-team.webp"
                 alt="Our team at work"
                 className="rounded-xl shadow-lg"
               />

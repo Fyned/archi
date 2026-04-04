@@ -9,7 +9,7 @@ const blogPosts = [
   {
     id: 'pergola-bioclimatique-guide-complet',
     slug: 'pergola-bioclimatique-guide-complet',
-    image: '/images/pergola/pergola-hero.jpg',
+    image: '/images/pergola/pergola-hero.webp',
     category: 'pergola',
     date: '2026-01-10',
     readTime: 8,
@@ -17,7 +17,7 @@ const blogPosts = [
   {
     id: 'veranda-aluminium-vs-pvc',
     slug: 'veranda-aluminium-vs-pvc',
-    image: '/images/veranda/veranda-hero.jpg',
+    image: '/images/veranda/veranda-hero.webp',
     category: 'veranda',
     date: '2026-01-08',
     readTime: 6,
@@ -25,7 +25,7 @@ const blogPosts = [
   {
     id: 'carport-solaire-belgique',
     slug: 'carport-solaire-belgique',
-    image: '/images/carport/carport-hero.jpg',
+    image: '/images/carport/carport-hero.webp',
     category: 'carport',
     date: '2026-01-05',
     readTime: 5,
@@ -33,7 +33,7 @@ const blogPosts = [
   {
     id: 'entretien-pergola-aluminium',
     slug: 'entretien-pergola-aluminium',
-    image: '/images/pergola/pergola-night-led.jpg',
+    image: '/images/pergola/pergola-night-led.webp',
     category: 'pergola',
     date: '2026-01-03',
     readTime: 4,
@@ -41,7 +41,7 @@ const blogPosts = [
   {
     id: 'permis-urbanisme-belgique',
     slug: 'permis-urbanisme-belgique',
-    image: '/images/veranda/veranda-garden-view.jpg',
+    image: '/images/veranda/veranda-garden-view.webp',
     category: 'general',
     date: '2025-12-28',
     readTime: 7,
@@ -49,10 +49,42 @@ const blogPosts = [
   {
     id: 'tendances-outdoor-2026',
     slug: 'tendances-outdoor-2026',
-    image: '/images/general/hero-main.jpg',
+    image: '/images/general/hero-main.webp',
     category: 'general',
     date: '2025-12-20',
     readTime: 6,
+  },
+  {
+    id: 'pergola-bioclimatique-charleroi',
+    slug: 'pergola-bioclimatique-charleroi',
+    image: '/images/pergola/pergola-attached-house.webp',
+    category: 'pergola',
+    date: '2026-03-18',
+    readTime: 7,
+  },
+  {
+    id: 'veranda-aluminium-bruxelles',
+    slug: 'veranda-aluminium-bruxelles',
+    image: '/images/veranda/veranda-exterior-modern.webp',
+    category: 'veranda',
+    date: '2026-03-18',
+    readTime: 6,
+  },
+  {
+    id: 'carport-aluminium-namur',
+    slug: 'carport-aluminium-namur',
+    image: '/images/carport/carport-single-modern.webp',
+    category: 'carport',
+    date: '2026-03-18',
+    readTime: 5,
+  },
+  {
+    id: 'pergola-prix-m2-belgique-2026',
+    slug: 'pergola-prix-m2-belgique-2026',
+    image: '/images/pergola/pergola-terrace-view.webp',
+    category: 'pergola',
+    date: '2026-03-18',
+    readTime: 8,
   },
 ]
 
