@@ -11,7 +11,7 @@ const blogPosts = [
     slug: 'pergola-bioclimatique-guide-complet',
     image: '/images/pergola/pergola-hero.webp',
     category: 'pergola',
-    date: '2026-01-10',
+    date: '2026-04-06',
     readTime: 8,
   },
   {
@@ -19,7 +19,7 @@ const blogPosts = [
     slug: 'veranda-aluminium-vs-pvc',
     image: '/images/veranda/veranda-hero.webp',
     category: 'veranda',
-    date: '2026-01-08',
+    date: '2026-04-06',
     readTime: 6,
   },
   {
@@ -27,7 +27,7 @@ const blogPosts = [
     slug: 'carport-solaire-belgique',
     image: '/images/carport/carport-hero.webp',
     category: 'carport',
-    date: '2026-01-05',
+    date: '2026-04-06',
     readTime: 5,
   },
   {
@@ -35,7 +35,7 @@ const blogPosts = [
     slug: 'entretien-pergola-aluminium',
     image: '/images/pergola/pergola-night-led.webp',
     category: 'pergola',
-    date: '2026-01-03',
+    date: '2026-04-06',
     readTime: 4,
   },
   {
@@ -43,7 +43,7 @@ const blogPosts = [
     slug: 'permis-urbanisme-belgique',
     image: '/images/veranda/veranda-garden-view.webp',
     category: 'general',
-    date: '2025-12-28',
+    date: '2026-04-06',
     readTime: 7,
   },
   {
@@ -51,7 +51,7 @@ const blogPosts = [
     slug: 'tendances-outdoor-2026',
     image: '/images/general/hero-main.webp',
     category: 'general',
-    date: '2025-12-20',
+    date: '2026-04-06',
     readTime: 6,
   },
   {

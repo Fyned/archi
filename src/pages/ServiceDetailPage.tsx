@@ -382,6 +382,17 @@ export default function ServiceDetailPage() {
         <meta property="og:image" content={`https://archi.constructionveranda.com${images[0]}`} />
         <meta property="og:type" content="website" />
         <link rel="canonical" href={`https://archi.constructionveranda.com/${currentLang}/services/${service}`} />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": t('common:nav.home'), "item": `https://archi.constructionveranda.com/${currentLang}` },
+              { "@type": "ListItem", "position": 2, "name": t('common:nav.services'), "item": `https://archi.constructionveranda.com/${currentLang}/services` },
+              { "@type": "ListItem", "position": 3, "name": serviceTitle, "item": `https://archi.constructionveranda.com/${currentLang}/services/${service}` }
+            ]
+          })}
+        </script>
       </Helmet>
 
       {/* Hero Section */}

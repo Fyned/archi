@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async'
 import { Link, useParams, Navigate } from 'react-router-dom'
 import { useTranslation } from '@/hooks/useTranslation'
 import { useLocalizedPath } from '@/hooks/useLocalizedPath'
-import { Calendar, Clock, ArrowLeft, Share2, ChevronRight } from 'lucide-react'
+import { Calendar, Clock, ArrowLeft, ArrowRight, Share2, ChevronRight } from 'lucide-react'
 
 // Blog post data with images
 const blogPostsData: Record<string, {
@@ -14,13 +14,14 @@ const blogPostsData: Record<string, {
   readTime: number
   gallery: string[]
   relatedPosts: string[]
+  serviceLink?: string
 }> = {
   'pergola-bioclimatique-guide-complet': {
     slug: 'pergola-bioclimatique-guide-complet',
     image: '/images/pergola/pergola-hero.webp',
     heroImage: '/images/pergola/pergola-terrace-view.webp',
     category: 'pergola',
-    date: '2026-01-10',
+    date: '2026-04-06',
     readTime: 8,
     gallery: [
       '/images/pergola/pergola-louvers-open.webp',
@@ -29,13 +30,14 @@ const blogPostsData: Record<string, {
       '/images/pergola/pergola-pool-area.webp',
     ],
     relatedPosts: ['entretien-pergola-aluminium', 'tendances-outdoor-2026'],
+    serviceLink: '/services/pergola',
   },
   'veranda-aluminium-vs-pvc': {
     slug: 'veranda-aluminium-vs-pvc',
     image: '/images/veranda/veranda-hero.webp',
     heroImage: '/images/veranda/veranda-exterior-modern.webp',
     category: 'veranda',
-    date: '2026-01-08',
+    date: '2026-04-06',
     readTime: 6,
     gallery: [
       '/images/veranda/veranda-interior-living.webp',
@@ -44,13 +46,14 @@ const blogPostsData: Record<string, {
       '/images/veranda/veranda-winter-cozy.webp',
     ],
     relatedPosts: ['permis-urbanisme-belgique', 'tendances-outdoor-2026'],
+    serviceLink: '/services/veranda',
   },
   'carport-solaire-belgique': {
     slug: 'carport-solaire-belgique',
     image: '/images/carport/carport-hero.webp',
     heroImage: '/images/carport/carport-solar-panels.webp',
     category: 'carport',
-    date: '2026-01-05',
+    date: '2026-04-06',
     readTime: 5,
     gallery: [
       '/images/carport/carport-double.webp',
@@ -59,13 +62,14 @@ const blogPostsData: Record<string, {
       '/images/carport/carport-integrated-storage.webp',
     ],
     relatedPosts: ['tendances-outdoor-2026', 'permis-urbanisme-belgique'],
+    serviceLink: '/services/carport',
   },
   'entretien-pergola-aluminium': {
     slug: 'entretien-pergola-aluminium',
     image: '/images/pergola/pergola-night-led.webp',
     heroImage: '/images/pergola/pergola-attached-house.webp',
     category: 'pergola',
-    date: '2026-01-03',
+    date: '2026-04-06',
     readTime: 4,
     gallery: [
       '/images/pergola/pergola-detail-motor.webp',
@@ -73,13 +77,14 @@ const blogPostsData: Record<string, {
       '/images/pergola/pergola-winter-rain.webp',
     ],
     relatedPosts: ['pergola-bioclimatique-guide-complet', 'tendances-outdoor-2026'],
+    serviceLink: '/services/pergola',
   },
   'permis-urbanisme-belgique': {
     slug: 'permis-urbanisme-belgique',
     image: '/images/veranda/veranda-garden-view.webp',
     heroImage: '/images/veranda/veranda-exterior-classic.webp',
     category: 'general',
-    date: '2025-12-28',
+    date: '2026-04-06',
     readTime: 7,
     gallery: [
       '/images/veranda/veranda-pool-house.webp',
@@ -93,7 +98,7 @@ const blogPostsData: Record<string, {
     image: '/images/general/hero-main.webp',
     heroImage: '/images/pergola/pergola-terrace-view.webp',
     category: 'general',
-    date: '2025-12-20',
+    date: '2026-04-06',
     readTime: 6,
     gallery: [
       '/images/veranda/veranda-interior-dining.webp',
@@ -115,6 +120,7 @@ const blogPostsData: Record<string, {
       '/images/pergola/pergola-terrace-view.webp',
     ],
     relatedPosts: ['pergola-bioclimatique-guide-complet', 'pergola-prix-m2-belgique-2026'],
+    serviceLink: '/services/pergola',
   },
   'veranda-aluminium-bruxelles': {
     slug: 'veranda-aluminium-bruxelles',
@@ -129,6 +135,7 @@ const blogPostsData: Record<string, {
       '/images/veranda/veranda-garden-view.webp',
     ],
     relatedPosts: ['veranda-aluminium-vs-pvc', 'permis-urbanisme-belgique'],
+    serviceLink: '/services/veranda',
   },
   'carport-aluminium-namur': {
     slug: 'carport-aluminium-namur',
@@ -143,6 +150,7 @@ const blogPostsData: Record<string, {
       '/images/carport/carport-snow-protection.webp',
     ],
     relatedPosts: ['carport-solaire-belgique', 'permis-urbanisme-belgique'],
+    serviceLink: '/services/carport',
   },
   'pergola-prix-m2-belgique-2026': {
     slug: 'pergola-prix-m2-belgique-2026',
@@ -157,6 +165,7 @@ const blogPostsData: Record<string, {
       '/images/pergola/pergola-winter-rain.webp',
     ],
     relatedPosts: ['pergola-bioclimatique-guide-complet', 'pergola-bioclimatique-charleroi'],
+    serviceLink: '/services/pergola',
   },
 }
 
@@ -169,7 +178,7 @@ const categoryColors: Record<string, string> = {
 
 export default function BlogPostPage() {
   const { slug } = useParams<{ slug: string }>()
-  const { t, locale } = useTranslation(['blog', 'common'])
+  const { t, locale } = useTranslation(['blog', 'common', 'services'])
   const { localizedPath } = useLocalizedPath()
 
   // Check if post exists
@@ -262,6 +271,17 @@ export default function BlogPostPage() {
               }
             },
             "inLanguage": locale
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": t('common:nav.home'), "item": `https://archi.constructionveranda.com/${locale}` },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": `https://archi.constructionveranda.com/${locale}/blog` },
+              { "@type": "ListItem", "position": 3, "name": t(`blog:posts.${slug}.title`), "item": shareUrl }
+            ]
           })}
         </script>
       </Helmet>
@@ -417,6 +437,25 @@ export default function BlogPostPage() {
                 {t('common:cta.get_quote')}
               </Link>
             </div>
+
+            {/* Service Cross-Link */}
+            {post.serviceLink && (
+              <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-12 flex items-center justify-between">
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">{t('blog:service_link_label', 'Découvrez notre service')}</p>
+                  <p className="text-lg font-heading font-semibold text-gray-900">
+                    {t(`services:${post.category}.title`)}
+                  </p>
+                </div>
+                <Link
+                  to={localizedPath(post.serviceLink)}
+                  className="btn btn-primary text-sm px-6 py-2 flex items-center gap-2"
+                >
+                  {t('common:cta.learn_more', 'En savoir plus')}
+                  <ArrowRight size={16} />
+                </Link>
+              </div>
+            )}
 
             {/* Related Posts */}
             {post.relatedPosts.length > 0 && (
