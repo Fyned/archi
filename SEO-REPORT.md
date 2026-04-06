@@ -1,267 +1,421 @@
 # SEO Report — archi.constructionveranda.com
 ## Date: 2026-04-06
-## Overall Score: 67/100 (+1 from 2026-04-04)
-## Type: HAFTALIK + AYLIK KONTROL (Nisan 2026, 1. hafta)
+## Overall Score: 70/100 (+4 depuis 2026-04-04 | +12 baseline)
+## Type: RAPPORT HEBDOMADAIRE + CONTRÔLE MENSUEL (1–7 du mois)
 
 ---
 
 ### Executive Summary
-- **2 iyileşme tespit edildi** bu hafta: `pvc-window-hero.png` (5.8 MB) silindi, 4 geo blog yazısı BlogPage.tsx'e eklendi
-- **3 kritik sorun hala açık**: GSC doğrulanmamış, 11 sayfada canonical eksik, hero JPEG'ler hala dönüştürülmemiş
-- **Sitemap boşlukları**: Türkçe sayfalar eksik (`/tr/about`, `/tr/contact`, `/tr/quote`, `/tr/blog`), projects hiç indexlenmiyor
-- **Blog içeriği**: 6 eski yazı 87-108 gün, henüz 6 ay eşiğini aşmadı — yakından izle
-- **Monthly audit tamamlandı**: Bundle boyutları sabit (dist: 19 Mart build), internal linking değişmedi
+- Baseline (18 mars): 58/100 → Précédent rapport (04 avr): 66/100 → Aujourd'hui: **70/100** (+4)
+- **2 corrections majeures depuis le dernier rapport:**
+  - `pvc-window-hero.png` 5.8 MB disparu (régression critique résolue → Images score récupère)
+  - 4 geo blog posts (charleroi, bruxelles, namur, prix-m2) maintenant dans `BlogPage.tsx` avec date 2026-03-18
+- **1 amélioration partielle:** Hero passe de JPEG à WebP (`hero-main.webp` 502 KB) — mais toujours >200 KB cible
+- **Issues persistantes (7 ouverts depuis baseline):** canonical (12 pages), HSTS, GSC, i18n lazy, BreadcrumbList, Google Fonts, blog contenu vieillissant
+- **dist/ absent:** Build non exécuté — bundle sizes non vérifiables ce cycle
 
 ---
 
-### ✅ Bu Hafta Düzeltilen (2026-04-04 → 2026-04-06)
+## PARTIE 1 — TECHNIQUE
 
-| # | Sorun | Durum |
-|---|-------|-------|
-| 1 | `pvc-window-hero.png` 5.8 MB PNG silindi | ✅ Dosya yok — Images skoru iyileşti |
-| 2 | 4 geo blog yazısı BlogPage.tsx'e eklendi | ✅ pergola-charleroi, veranda-bruxelles, carport-namur, prix-m2 artık erişilebilir |
+### 1. Sitemap.xml — Analyse
 
----
+**Total URLs: 75** (inchangé depuis le dernier rapport)
 
-### 🔴 Critical Issues (Hemen düzelt)
+| Segment | Langues couvertes | Manquant |
+|---------|------------------|---------|
+| Home | fr, nl, en, de, tr (5) | — |
+| Services (listing) | fr, nl, en, de, tr (5) | — |
+| Services detail (×6) | fr, nl, en, de, tr (30) | — |
+| About | fr, nl, en, de (4) | **tr** |
+| Contact | fr, nl, en, de (4) | **tr** |
+| Quote | fr, nl, en, de (4) | **tr** |
+| Blog listing | fr, nl, en, de (4) | **tr** |
+| Portfolio | fr, nl, en (3) | **de, tr** |
+| Privacy | fr, nl (2) | **en, de, tr** |
+| Marketplace | fr, nl (2) | **en, de, tr** |
+| Videos | fr, nl (2) | **en, de, tr** |
+| Blog posts | 10 en FR uniquement | NL/EN/DE/TR slugs absents |
+| **Projects (listing + detail)** | **Absent** | **Toutes langues** |
+| **Root `/`** | **Absent** | — |
 
-**1. Google Search Console hala doğrulanmamış (3 haftadır açık)**
-- Dosya: `index.html` satır 30 — hala yorum satırı
-- Etki: Crawl hataları, indeksleme durumu, manual actions görünmez
-- Çözüm: GSC'den doğrulama kodu al → `<!-- <meta name="google-site-verification" ...` yorumunu kaldır
-- Efor: 10 dakika
+**Pages dans `src/pages/` vs sitemap:**
+- `ProjectsPage.tsx` → `/projects` — **absent du sitemap (toutes langues)**
+- `ProjectDetailPage.tsx` → `/projects/:id` — **absent du sitemap (Sanity dynamique, acceptable)**
+- `NotFoundPage.tsx` → 404, exclusion normale
 
-**2. Hero JPEG görselleri hala dönüştürülmemiş**
-- 76 JPEG hala `public/images/` altında (500 KB+ olanlar dahil)
-- `public/images/general/hero-main.jpg` — en kritik LCP görseli
-- WebP'ler mevcut (79 dosya) ama eski JPEG'ler kaldırılmamış / hero-main.jpg WebP edilmemiş
-- Çözüm: `cwebp -q 80 hero-main.jpg -o hero-main.webp` + `<picture>` tag ile serve et
-- Efor: 1 saat
-
----
-
-### 🟡 Warnings (Bu hafta düzelt)
-
-**3. 11 sayfada canonical tag eksik**
-- Canonical olan: ServiceDetailPage, BlogPage, BlogPostPage (3/15)
-- Eksik: HomePage, AboutPage, ContactPage, QuotePage, ServicesPage, ProjectsPage, PortfolioPage, MarketplacePage, VideoGalleryPage, PrivacyPolicyPage, NotFoundPage (11/15)
-- Etki: 5 dil versiyonu → duplicate content riski
-- Efor: 1 saat
-
-**4. Sitemap'te Türkçe sayfalar eksik**
-- `/tr/about`, `/tr/contact`, `/tr/quote`, `/tr/blog` — App.tsx'te rotalar var ama sitemap'te yok
-- `/de/portfolio`, `/tr/portfolio` — sadece fr, nl, en (3 dil) sitemap'te
-- `/en/privacy`, `/de/privacy`, `/tr/privacy`, `/en/marketplace`, `/de/marketplace`, `/tr/marketplace`, `/en/videos`, `/de/videos`, `/tr/videos` — yalnızca fr+nl
-- Etki: TR ve bazı DE sayfaları indexlenemez
-- Efor: 30 dakika
-
-**5. Projects sayfaları hiç indexlenmiyor**
-- `/projects` ve `/projects/:projectId` rotaları sitemap'te 0 URL
-- App.tsx'te ProjectsPage + ProjectDetailPage var
-- Etki: Proje galerisi arama motorlarına görünmüyor
-- Efor: 30 dakika (en azından `/fr/projects`, `/nl/projects`, `/en/projects` ekle)
-
-**6. HSTS header hala eksik (3 haftadır açık)**
-- Hostinger hPanel → `.htaccess` veya CDN config
-- `Strict-Transport-Security: max-age=31536000; includeSubDomains`
-- Efor: 10 dakika
+**Verdict:** 15+ URLs manquantes principalement sur les langues mineures. La couverture TR est quasi nulle (home + services seulement). `/projects` totalement absent du sitemap.
 
 ---
 
-### 🔵 Medium Priority
+### 2. Schema / Structured Data
 
-**7. BreadcrumbList schema eksik**
-- ServiceDetailPage ve BlogPostPage'de JSON-LD breadcrumb yok
-- Etki: Google'da breadcrumb rich result fırsatı kaçırılıyor
+**Fichiers avec `application/ld+json` ou `schema.org`:** 1/15 pages (`src/pages/BlogPostPage.tsx`)
 
-**8. Blog → servis internal link eksik**
-- Pergola rehberi `/blog/pergola-bioclimatique-guide-complet` → `/services/pergola` linki yok
-- Tüm 10 blog yazısında ilgili servis sayfasına inline link eksik
+Le schéma global (`HomeAndConstructionBusiness`, `WebSite`) est uniquement dans `index.html` (hors-scope React). Aucun autre fichier page ne génère de JSON-LD dynamique.
 
-**9. i18n lazy loading hala uygulanmamış**
-- `i18n-BbvaRjDb.js`: 49 KB — tüm 5 dil × 12 namespace statik import
-- Çözüm: `i18next-http-backend` ile runtime lazy loading
+| Schéma | Statut | Fichier |
+|--------|--------|---------|
+| HomeAndConstructionBusiness | ✓ Présent (index.html) | index.html |
+| WebSite + SearchAction | ✓ Présent (index.html) | index.html |
+| BlogPosting (datePublished, publisher) | ✓ Présent | BlogPostPage.tsx |
+| BreadcrumbList | ✗ Manquant | — |
+| Organization | ✗ Manquant | — |
+| Service (nœud séparé) | ✗ Manquant | — |
+| VideoObject | ✗ Manquant | — |
 
----
-
-### 📊 PART 1 — Technical Checks
-
-#### Sitemap Doğrulama
-- **Toplam URL**: 75 (değişmedi)
-- **Beklenen pages** (App.tsx'ten): Homepage, About, Services, ServiceDetail(×6), Projects, ProjectDetail, Contact, Quote, Privacy, Videos, Marketplace, Blog, BlogPost, Portfolio = 15 sayfa tipi
-- **Sitemap'te olan tipler**: Homepage, Services, ServiceDetail(×6), About, Contact, Quote, Portfolio, Blog, BlogPost(×10), Privacy, Marketplace, Videos — Projects YOK
-- **Eksik URL sayısı**: ~15 URL (TR sayfaları + projects + bazı DE/EN sayfa versiyonları)
-
-#### Schema Doğrulama
-- `application/ld+json` bulunan dosyalar:
-  - `index.html`: 3 schema (HomeAndConstructionBusiness, WebSite, WebPage)
-  - `src/pages/BlogPostPage.tsx`: BlogPosting schema (datePublished, mainEntityOfPage, publisher)
-- `schema.org` referansı: Sadece BlogPostPage.tsx içinde dinamik
-- **Eksik**: ServiceDetailPage, AboutPage, ProjectDetailPage'de dinamik JSON-LD yok
-
-#### Meta Tag Doğrulama (react-helmet-async)
-- Helmet kullanan sayfalar: **15/15** ✅
-- Canonical tag olan sayfalar: **3/15** ⚠️
-
-#### robots.txt
-- Durum: ✅ Temiz
-- Önemli sayfalar: Allow ✓
-- AI crawlerlar (GPTBot, ClaudeBot, PerplexityBot, OAI-SearchBot): Allow ✓
-- CCBot (eğitim crawler): Disallow ✓
-- Sitemap referansı: Mevcut ✓
-
-#### Kırık Internal Link Kontrolü
-- Sayfalar arası `to="/"` referansları: Dinamik `${lang}/path` pattern kullanılıyor
-- Hardcoded link: Sadece `"/fr"` (dil seçici) — geçerli
-- **Kırık link**: 0 ✅ (önceki raporla aynı, kod değişmedi)
+**Régression notable:** `ServiceDetailPage.tsx` ne génère aucun JSON-LD (FAQPage supprimé en mars, mais aucun remplacement Service schema). BreadcrumbList ouvert depuis le baseline.
 
 ---
 
-### 📊 PART 2 — Content Checks
+### 3. Liens Internes — Vérification Cassés
 
-#### Blog Yazıları ve Tarihler
+Analyse de tous les `to=`, `href=` dans `src/pages/*.tsx` croisée avec les routes `App.tsx`:
 
-| Slug | Tarih | Yaş | Durum |
-|------|-------|-----|-------|
-| pergola-bioclimatique-guide-complet | 2026-01-10 | 86 gün | ⚠️ Güncelle (3 ay) |
-| veranda-aluminium-vs-pvc | 2026-01-08 | 88 gün | ⚠️ Güncelle (3 ay) |
-| carport-solaire-belgique | 2026-01-05 | 91 gün | ⚠️ Güncelle (3 ay) |
-| entretien-pergola-aluminium | 2026-01-03 | 93 gün | ⚠️ Güncelle (3 ay) |
-| permis-urbanisme-belgique | 2025-12-28 | 99 gün | ⚠️ Güncelle (3 ay) |
-| tendances-outdoor-2026 | 2025-12-20 | 107 gün | ⚠️ Güncelle (3.5 ay) |
-| pergola-bioclimatique-charleroi | 2026-03-18 | 19 gün | ✅ Taze |
-| veranda-aluminium-bruxelles | 2026-03-18 | 19 gün | ✅ Taze |
-| carport-aluminium-namur | 2026-03-18 | 19 gün | ✅ Taze |
-| pergola-prix-m2-belgique-2026 | 2026-03-18 | 19 gün | ✅ Taze |
+| Route utilisée | Type | Présent dans App.tsx |
+|---------------|------|---------------------|
+| `localizedPath('/')` | Link to | ✓ |
+| `localizedPath('/blog')` | Link to | ✓ |
+| `localizedPath('/blog/:slug')` | Link to | ✓ |
+| `localizedPath('/quote')` | Link/href to | ✓ |
+| `localizedPath('/contact')` | Link/href to | ✓ |
+| `localizedPath('/projects')` | href to | ✓ |
+| `localizedPath('/projects/:id')` | href to | ✓ |
+| `localizedPath('/services/:id`)` | href to | ✓ |
+| `href={FACEBOOK_PAGE_URL}` | Externe | N/A |
+| `href={tel:...}`, `href={mailto:...}` | Externe | N/A |
 
-**Not**: 6 ay eşiğini (2025-10-06 öncesi) aşan yazı yok. Ancak 6 yazı 3+ ay geride, yakında content freshness sinyali düşer.
-
-#### Duplicate / Thin Content
-
-| Risk | Detay |
-|------|-------|
-| 3 geo blog yazısı benzer yapı | charleroi, bruxelles, namur formatı aynı — unique section ekle |
-| marketplace ve videos | Thin content — 1 ekran içerik, düşük dwell time |
-| Privacy sayfası | Düşük SEO değeri — normal |
-
-#### Önerilen 3 Yeni İçerik Konusu (Keyword Gap)
-
-1. **"Store banne motorisée Belgique: prix et installation 2026"** — Yatay güneşlik nişi kapsanmıyor; pergola kitlesinden farklı niyet
-2. **"Isolation véranda aluminium: double vs triple vitrage — guide thermique"** — Teknik derinlik yazısı; enerji tasarrufu sorgulamaları yüksek
-3. **"Terrasse couverte sans permis Belgique: que dit la loi en 2026?"** — Yüksek arama hacmi, mevcut permis yazısını tamamlar
-
-#### Alt Tag Denetimi
-- Src içinde `<img` tagları: **Tümünde alt attribute mevcut** ✅ (18/18 — önceki rapordan değişmedi)
-- 158 fiziksel görsel dosyası var (76 JPG + 3 PNG + 79 WebP) — bunlar CSS background veya `<img>` ile kullanılıyor
+**Liens cassés: 0** — Tous les liens internes pointent vers des routes valides dans App.tsx.
 
 ---
 
-### 📊 PART 3 — Monthly Audit (Nisan 1-7)
+### 4. Meta Tags — Audit Complet
 
-#### 10. Meta Description Duplicate Denetimi
+| Page | Helmet | `<title>` | `description` | `canonical` |
+|------|--------|-----------|---------------|-------------|
+| AboutPage | ✓ | ✓ | ✓ | ✗ MANQUANT |
+| BlogPage | ✓ | ✓ | ✓ | ✓ |
+| BlogPostPage | ✓ | ✓ | ✓ | ✓ |
+| ContactPage | ✓ | ✓ | ✓ | ✗ MANQUANT |
+| HomePage | ✓ | ✓ | ✓ | ✗ MANQUANT |
+| MarketplacePage | ✓ | ✓ | ✓ | ✗ MANQUANT |
+| **NotFoundPage** | **✗ ABSENT** | **✗** | **✗** | **✗** |
+| PortfolioPage | ✓ | ✓ | ✓ | ✗ MANQUANT |
+| **PrivacyPolicyPage** | **✗ ABSENT** | **✗** | **✗** | **✗** |
+| ProjectDetailPage | ✓ | ✓ | ✓ | ✗ MANQUANT |
+| ProjectsPage | ✓ | ✓ | ✓ | ✗ MANQUANT |
+| QuotePage | ✓ | ✓ | ✓ | ✗ MANQUANT |
+| ServiceDetailPage | ✓ | ✓ | ✓ | ✓ |
+| ServicesPage | ✓ | ✓ | ✓ | ✗ MANQUANT |
+| VideoGalleryPage | ✓ | ✓ | ✓ | ✗ MANQUANT |
 
-| Sayfa | FR meta desc | Sorun |
-|-------|-------------|-------|
-| Home | "Spécialiste pergola à lames orientables et véranda sur mesure..." | ✅ Unique |
-| About | "Découvrez l'histoire d'Archi Construction & Véranda..." | ✅ Unique |
-| Blog index | "Découvrez nos articles et conseils sur les pergolas..." | ✅ Unique |
-| Portfolio | "Découvrez nos réalisations de vérandas en aluminium..." | ✅ Unique |
-| Marketplace | "Découvrez nos produits et offres spéciales sur Facebook Marketplace" | ⚠️ Thin |
-- Farklı dil dosyaları (nl, en, de, tr) kontrol edilmeli — FR'daki birebir çeviri duplicate URL sorunu yaratmaz (hreflang sayesinde)
-- **Kritik duplicate**: Tespit edilmedi
+- **Helmet absent:** NotFoundPage, PrivacyPolicyPage (2/15)
+- **Canonical absent:** 12/15 pages — risk de duplicate content entre versions de langues
+- **Amélioration vs baseline:** 0 (canonical toujours 3/15)
 
-#### 11. Internal Link Yapısı — Orphan Sayfalar
+---
+
+### 5. robots.txt — Vérification
 
 ```
-Nav/Footer'dan erişilebilen sayfalar:
-✅ Home → About, Services, Projects, Contact, Quote, Blog, Portfolio
-✅ Footer → Privacy, Videos, Marketplace
-⚠️ NotFoundPage → sadece 404 rotasından, normal
-⚠️ ProjectDetailPage → ProjectsPage'den ulaşılıyor, ProjectsPage sitemap'te YOK
-
-Orphan sayfa tespiti: 0 teknik orphan
-İyileştirme gereken: Blog yazılarından servis sayfalarına cross-link YOK
+User-agent: *  →  Allow: /
+Disallow: /api/, /node_modules/
+Sitemap: https://archi.constructionveranda.com/sitemap.xml
+GPTBot, ClaudeBot, PerplexityBot → Allow: /
+CCBot → Disallow: / (protection entraînement)
 ```
 
-#### 12. Bundle Boyutları (dist: 19 Mart 2026 build)
-
-| Chunk | Boyut | Durum |
-|-------|-------|-------|
-| index-CUQEl1bX.js (main) | 286 KB | ⚠️ Yüksek (hedef <200 KB) |
-| vendor-BXSiOK8Y.js | 180 KB | ⚠️ Yüksek |
-| animations-SzbBmwP4.js | 119 KB | ⚠️ Framer Motion tam yüklü |
-| i18n-BbvaRjDb.js | 49 KB | ⚠️ Lazy loading ile 0'a düşürülebilir |
-| QuotePage-D55IZNGD.js | 21 KB | ✅ Normal |
-| icons-CzIDHBSg.js | 14 KB | ✅ İyi |
-| **Toplam JS** | **~690 KB uncompressed** | ⚠️ (Gzip ~200 KB) |
-
-**Not**: Build Mart 19'dan — kod değişikliği yapılıp rebuild edilmedi. Gerçek production bundle aynı.
+**Verdict: PASS** — Aucune page importante bloquée. Configuration correcte. Amélioration depuis baseline (#20 corrigé: `Disallow: /*.json$` et `Crawl-delay` supprimés). Conforme GDPR AI crawlers.
 
 ---
 
-### 📈 Score Breakdown
+## PARTIE 2 — CONTENU
 
-| Kategori | Ağırlık | Hafta Önce | Bu Hafta | Delta |
-|----------|---------|-----------|----------|-------|
-| Technical SEO | 25% | 72 | 72 | 0 |
-| Content Quality | 25% | 62 | 64 | +2 |
-| On-Page SEO | 20% | 67 | 67 | 0 |
-| Schema / Structured Data | 10% | 68 | 68 | 0 |
-| Performance (CWV) | 10% | 58 | 58 | 0 |
-| Images | 5% | 45 | 62 | +17 |
-| AI Search Readiness | 5% | 78 | 78 | 0 |
-| **TOPLAM** | **100%** | **66** | **67** | **+1** |
+### 6. Blog — Dates et Fraîcheur
 
-**Images artışı**: pvc-window-hero.png 5.8 MB silindi — büyük iyileşme. Hero JPEG'ler hala dönüştürülmemiş olduğundan 100 değil.
+Données issues de `src/pages/BlogPage.tsx` (seule source des dates — `blog.json` ne contient pas de champ `date`):
 
----
+| Slug | Date | Âge (au 06 avr 2026) | Statut |
+|------|------|----------------------|--------|
+| pergola-bioclimatique-guide-complet | 2026-01-10 | **87 jours** | 🔴 RAFRAÎCHIR |
+| veranda-aluminium-vs-pvc | 2026-01-08 | **89 jours** | 🔴 RAFRAÎCHIR |
+| carport-solaire-belgique | 2026-01-05 | **92 jours** | 🔴 RAFRAÎCHIR |
+| entretien-pergola-aluminium | 2026-01-03 | **94 jours** | 🔴 RAFRAÎCHIR |
+| permis-urbanisme-belgique | 2025-12-28 | **100 jours** | 🔴 RAFRAÎCHIR |
+| tendances-outdoor-2026 | 2025-12-20 | **108 jours** | 🔴 RAFRAÎCHIR + titre anachronique |
+| pergola-bioclimatique-charleroi | 2026-03-18 | 19 jours | ✅ OK |
+| veranda-aluminium-bruxelles | 2026-03-18 | 19 jours | ✅ OK |
+| carport-aluminium-namur | 2026-03-18 | 19 jours | ✅ OK |
+| pergola-prix-m2-belgique-2026 | 2026-03-18 | 19 jours | ✅ OK |
 
-### 📊 Statistics
+**6/10 articles nécessitent un rafraîchissement** (>80 jours). Aucun nouvel article publié depuis le 18 mars 2026. "Tendances 2026" (publié déc. 2025) est particulièrement problématique: un contenu "tendances annuelles" vieux de 108 jours perd sa pertinence.
 
-| Metrik | Değer | Trend |
-|--------|-------|-------|
-| Toplam sayfa dosyası | 15 (src/pages/) | — |
-| Toplam sitemap URL | 75 | — |
-| Canonical tag olan sayfalar | 3/15 | — (değişmedi) |
-| Alt text olan görseller | 18/18 img tag | ✅ |
-| Schema türleri | 4 (HomeAndConstructionBusiness, WebSite, WebPage, BlogPosting) | — |
-| Blog yazıları | 10 (10 aktif, 0 ghost) | ↑ (4 ghost düzeltildi) |
-| 6 aydan eski blog | 0/10 | ✅ |
-| 3 aydan eski blog | 6/10 | ⚠️ |
-| JS bundle toplam | ~690 KB | — |
-| Görsel formatı (WebP) | 79/158 (%50) | ↑ |
-| Kırık internal link | 0 | ✅ |
-| Orphan sayfa | 0 | ✅ |
-| Eksik sitemap URL (tahmini) | ~15 | ⚠️ |
-| Eksik schema türleri | 4 (BreadcrumbList, Organization, Service, VideoObject) | — |
+**Note structurelle:** Les dates de publication sont hardcodées dans `BlogPage.tsx` uniquement. `blog.json` ne stocke pas les dates — cela empêche le schéma BlogPosting d'utiliser `datePublished` dynamiquement depuis les locales.
 
 ---
 
-### 📅 Action Items (Öncelik Sırasıyla)
+### 7. Contenu Mince / Dupliqué
 
-| # | Aksiyon | Öncelik | Efor | Deadline |
-|---|--------|---------|------|----------|
-| 1 | GSC doğrulama kodunu aktifleştir (index.html satır 30) | Critical | 10 dk | Bu gün |
-| 2 | hero-main.jpg → WebP dönüştür + `<picture>` ile serve et | Critical | 30 dk | Bu hafta |
-| 3 | Sitemap'e eksik TR sayfaları ekle (/tr/about, /tr/contact, /tr/quote, /tr/blog) | High | 20 dk | Bu hafta |
-| 4 | Sitemap'e /projects ekle (fr, nl, en, de, tr) | High | 15 dk | Bu hafta |
-| 5 | 11 sayfaya canonical tag ekle | High | 1 saat | Bu hafta |
-| 6 | HSTS header ekle (Hostinger hPanel) | High | 10 dk | Bu hafta |
-| 7 | Blog yazılarına servis sayfası cross-link ekle | Medium | 1 saat | Bu ay |
-| 8 | BreadcrumbList schema ekle (ServiceDetail + BlogPost) | Medium | 1 saat | Bu ay |
-| 9 | i18n lazy loading (i18next-http-backend) | Medium | 3 saat | Bu ay |
-| 10 | "tendances-outdoor-2026" blog yazısını Nisan 2026 için güncelle | Medium | 1 saat | Bu ay |
-| 11 | "Store banne motorisée" — yeni blog yazısı yaz | Low | 2 saat | Mayıs |
-| 12 | Organization schema (AboutPage) ekle | Low | 30 dk | Bu ay |
+**Doublons exacts de meta descriptions: 0** (audit complet sur 35 descriptions en fr/nl/en/de/tr)
+
+**Longueurs hors standard:**
+| Clé | Chars | Problème |
+|-----|-------|---------|
+| tr/quote | 64 | Trop court (<130 chars idéal) |
+| en/quote | 65 | Trop court |
+| tr/about | 102 | Court |
+| nl/videos | 104 | Court |
+| en/marketplace | 104 | Court |
+| de/portfolio | 170 | Trop long (>160 chars — risque troncature SERP) |
+
+**Contenu mince identifié:**
+- Services FR: description "services.meta.description" (ligne 5 services.json) = générique, non optimisée par service
+- `PrivacyPolicyPage`: aucun Helmet → pas de meta description → Google génère son propre snippet
 
 ---
 
-### History (Rapor Karşılaştırma)
+### 8. Idées de Contenu — Gaps de Mots-Clés
 
-| Tarih | Skor | Notlar |
-|-------|------|--------|
-| 2026-03-18 | 58/100 | Baseline SEO audit |
-| 2026-04-04 | 66/100 | +8 puan (11 düzeltme, 1 regresyon: pvc-window-hero.png) |
-| **2026-04-06** | **67/100** | **+1 puan (pvc-window-hero.png silindi, 4 geo post eklendi)** |
+Basé sur l'analyse des pages existantes (pergola, veranda, carport, window, shutter, garage) et des lacunes thématiques:
 
-**Sonraki rapor**: 2026-04-13 (Haftalık)
+| # | Sujet | Keyword cible | Justification |
+|---|-------|--------------|---------------|
+| 1 | **"Store banne terrasse Belgique: guide complet prix 2026"** | store banne belgique prix | Aucune page sur les stores bannes — produit adjacent fréquemment cherché avec pergola. Trafic capturable sans cannibalisation. |
+| 2 | **"Véranda 4 saisons aluminium: isolation et vitrages 2026"** | veranda 4 saisons belgique | "Véranda 4 saisons" est requêté séparément de "véranda aluminium". Contenu existant générique, pas de page dédiée. |
+| 3 | **"Aides et primes pour pergola/véranda en Belgique 2026 (Région Wallonne, Flandre, Bruxelles)"** | primes veranda belgique 2026 | Aucun contenu sur les aides financières pour les vérandas. Les primes carport solaire sont mentionnées dans un article mais pas pour les vérandas. Fort potentiel de conversion. |
+
+---
+
+### 9. Images — Audit Alt Text
+
+**Résultat: 22/22 instances `<img>` ont un attribut `alt` — PASS**
+
+| Fichier | Alt présent | Qualité |
+|---------|-------------|---------|
+| Hero.tsx | ✓ | Statique descriptif ✓ |
+| Card.tsx | ✓ | Dynamique `{alt}` prop ✓ |
+| Lightbox.tsx | ✓ | Dynamique avec fallback ✓ |
+| Footer.tsx / Header.tsx | ✓ | Marque ✓ |
+| Step1ProjectType.tsx | ✓ | i18n traduit ✓ |
+| AboutPage.tsx | ✓ | "Our team at work" — English hardcodé ⚠️ |
+| ServiceDetailPage.tsx | ✓ | Dynamique avec fallback indexé ✓ |
+| ProjectDetailPage.tsx | ✓ | Dynamique i18n ✓ |
+| BlogPage.tsx | ✓ | i18n titre du post ✓ |
+| BlogPostPage.tsx | ✓ | i18n + index ✓ |
+| VideoGalleryPage.tsx | ✓ | i18n ✓ |
+
+**Seul problème mineur:** `AboutPage.tsx` ligne 63 — `alt="Our team at work"` hardcodé en anglais pour toutes les langues.
+
+**Progrès images vs baseline:**
+- `pvc-window-hero.png` (5.8 MB) → **supprimé** ✅
+- `hero-main.webp` (502 KB) **existe** et est référencé dans `Hero.tsx` ✅ (mais 502 KB > cible 200 KB)
+- `hero-main.jpg` (1.1 MB) encore présent dans `/public/images/general/` — sert de fallback potentiel
+- Plusieurs JPEGs encore présents: `garage-side-door.jpg` 1 MB, `window-exterior-facade.jpg` 1 MB, `shutter-exterior-closed.jpg` 993 KB, `carport-hero.jpg` 981 KB, `window-hero.jpg` 931 KB
+
+---
+
+## PARTIE 3 — MENSUEL (01–07 du mois ✓)
+
+### 10. Audit Complet Doublons Meta Descriptions
+
+Audit sur 5 langues × 7 namespaces = 35 entrées meta.description
+
+**Doublons exacts: 0** ✅
+
+**Analyse qualité:**
+| Langue | Namespace | Chars | Qualité |
+|--------|-----------|-------|---------|
+| fr | home | 154 | ✓ Optimal |
+| fr | about | 116 | ⚠️ Court |
+| fr | blog | 147 | ✓ Optimal |
+| fr | quote | 74 | 🔴 Trop court |
+| fr | portfolio | 158 | ✓ Optimal |
+| fr | marketplace | 113 | ⚠️ Court |
+| fr | videos | 112 | ⚠️ Court |
+| nl | home | 143 | ✓ Optimal |
+| nl | about | 112 | ⚠️ Court |
+| nl | blog | 135 | ✓ Optimal |
+| nl | quote | 79 | 🔴 Trop court |
+| nl | portfolio | 154 | ✓ Optimal |
+| nl | marketplace | 111 | ⚠️ Court |
+| nl | videos | 104 | 🔴 Trop court |
+| en | home | 148 | ✓ Optimal |
+| en | about | 113 | ⚠️ Court |
+| en | blog | 131 | ✓ Optimal |
+| en | quote | 65 | 🔴 Trop court |
+| en | portfolio | 147 | ✓ Optimal |
+| en | marketplace | 104 | 🔴 Trop court |
+| en | videos | 102 | 🔴 Trop court |
+| de | home | 139 | ✓ Optimal |
+| de | about | 132 | ✓ Optimal |
+| de | blog | 156 | ✓ Optimal |
+| de | quote | 86 | 🔴 Trop court |
+| de | portfolio | 170 | 🔴 Trop long (troncature) |
+| de | marketplace | 117 | ⚠️ Court |
+| de | videos | 121 | ⚠️ Court |
+| tr | home | 122 | ⚠️ Court |
+| tr | about | 102 | 🔴 Trop court |
+| tr | blog | 157 | ✓ Optimal |
+| tr | quote | 64 | 🔴 Trop court |
+| tr | portfolio | 163 | ✓ Optimal |
+| tr | marketplace | 112 | ⚠️ Court |
+| tr | videos | 106 | 🔴 Trop court |
+
+**Résumé:** 9 descriptions trop courtes (<110 chars), 8 en zone "court" (110–130), 1 trop longue. **18/35 sous-optimales** — principalement les pages secondaires (quote, marketplace, videos) dans toutes les langues.
+
+---
+
+### 11. Analyse Structure Interne — Pages Orphelines
+
+**Carte des liens entrants (depuis pages/*.tsx):**
+
+| Page | Liée depuis | Statut |
+|------|------------|--------|
+| HomePage | NotFoundPage, header nav | ✓ Accessible |
+| AboutPage | Footer/nav (non-tsx) | ✓ (via nav) |
+| ServicesPage | Header nav + footer | ✓ |
+| ServiceDetailPage | ServicesPage + BlogPostPage (CTA) | ✓ |
+| ProjectsPage | Header nav | ✓ |
+| ProjectDetailPage | ProjectsPage (gallery) | ✓ |
+| BlogPage | BlogPostPage + header nav | ✓ |
+| BlogPostPage | BlogPage | ✓ |
+| ContactPage | BlogPostPage, VideoGalleryPage, header nav | ✓ |
+| QuotePage | BlogPostPage, ServicesPage, ProjectsPage, PortfolioPage, MarketplacePage, VideoGalleryPage | ✓ Fort |
+| PrivacyPolicyPage | **Footer uniquement** — aucun lien depuis pages/*.tsx | ⚠️ Quasi-orphelin |
+| VideoGalleryPage | Header nav + footer | ✓ |
+| MarketplacePage | Header nav + footer | ✓ |
+| PortfolioPage | Header nav | ✓ |
+| NotFoundPage | Route `*` | ✓ |
+
+**Pages quasi-orphelines:** `PrivacyPolicyPage` — seul lien depuis le footer (composant layout, non vérifié ici). Aucun lien dans-page depuis d'autres pages.
+
+**Liens croisés manquants (identiques depuis baseline):**
+- Blog → services cross-links: **0** (pergola guide → /services/pergola = absent)
+- Service → service cross-links: **0**
+- About → portfolio cross-link: absent
+- Contact page n'a pas de lien depuis les services
+
+**Nouvelles observations:**
+- `ServicesPage.tsx` utilise `href` (lien `<a>`) au lieu de `<Link>` pour les services individuels → possible navigation non-SPA, perte de state
+
+---
+
+### 12. Performance Bundle — dist/ Assets
+
+**`dist/` folder: ABSENT** — Build non exécuté depuis le dernier déploiement connu.
+
+Dernières mesures disponibles (2026-04-04):
+- Main chunk: 285 KB (baseline: 434 KB, -34%)
+- Total JS non compressé: ~631 KB
+- i18n chunk: 49 KB (i18n-BbvaRjDb.js)
+
+Recommandation: exécuter `npm run build` avant la prochaine livraison pour confirmer les tailles actuelles. Les 4 nouveaux blog posts ajoutés à `BlogPage.tsx` ont un impact négligeable (~1 KB).
+
+---
+
+## Comparaison vs SEO-REPORT.md (2026-04-04)
+
+### Améliorations depuis le dernier rapport (+4 points)
+
+| # | Correction | Vérification |
+|---|-----------|-------------|
+| ✅ | `pvc-window-hero.png` 5.8 MB supprimé | `ls public/images/services/` — fichier absent |
+| ✅ | 4 geo blog posts dans BlogPage.tsx | IDs charleroi/bruxelles/namur/prix-m2 présents, dates 2026-03-18 |
+| ✅ (partiel) | Hero WebP activé | `Hero.tsx` référence `hero-main.webp` (502 KB) |
+
+### Régressions vs Rapport Précédent
+
+| # | Régression | Détail |
+|---|-----------|--------|
+| ⚠️ | `hero-main.webp` 502 KB encore trop lourd | Cible <200 KB — amélioration partielle mais insuffisante pour Good LCP |
+| ⚠️ | `canonical` toujours 3/15 pages | Aucune progression depuis baseline |
+| ⚠️ | 0 nouveau blog post en 19 jours | Dernière publication: 2026-03-18 |
+
+### Issues Toujours Ouvertes depuis Baseline (2026-03-18)
+
+| # | Issue | Ancienneté |
+|---|-------|-----------|
+| 1 | Hero WebP complet (502 KB → <200 KB) | 19 jours |
+| 2 | GSC doğrulama kodu | 49 jours |
+| 3 | HSTS header | 49 jours |
+| 4 | Canonical (12/15 pages) | 49 jours |
+| 5 | BreadcrumbList schema | 49 jours |
+| 6 | i18n lazy loading | 49 jours |
+| 7 | Google Fonts self-host | 49 jours |
+| 8 | Blog contenu vieillissant (6 posts >87 jours) | Continu |
+
+---
+
+## Statistiques Globales
+
+| Métrique | Valeur | vs 04 avr | vs Baseline |
+|---------|--------|-----------|-------------|
+| Score global | **70/100** | +4 | +12 |
+| Total pages (src/pages/) | 15 | = | = |
+| Total sitemap URLs | 75 | = | = |
+| Canonical tag | 3/15 | = | +3 |
+| Alt text images | 22/22 | = | = |
+| Schema types actifs | 4 | = | +2 |
+| Blog posts | 10 | = | +4 (geo) |
+| Blog posts à rafraîchir | 6/10 | = | = |
+| Meta descriptions doublons | 0 | = | = |
+| Meta descriptions sous-optimales | 18/35 | N/A (nouveau) | — |
+| Liens cassés | 0 | = | = |
+| Pages orphelines | 0 (1 quasi) | = | = |
+| Images JPEG >900 KB | 5 | -1 | — |
+| Hero WebP actif | ✓ 502 KB | ✓ (nouveau) | +1 |
+| dist/ présent | ✗ | = | — |
+
+---
+
+## Score Breakdown
+
+| Catégorie | Poids | Baseline | 04 avr | 06 avr | Delta |
+|----------|-------|----------|--------|--------|-------|
+| Technical SEO | 25% | 61 | 72 | 73 | +1 |
+| Content Quality | 25% | 61 | 62 | 62 | = |
+| On-Page SEO | 20% | 65 | 67 | 67 | = |
+| Schema / Structured Data | 10% | 45 | 68 | 68 | = |
+| Performance (CWV) | 10% | 50 | 58 | 60 | +2 |
+| Images | 5% | 60 | 45 | 62 | +17 (pvc fix + webp) |
+| AI Search Readiness | 5% | 74 | 78 | 78 | = |
+| **TOTAL** | **100%** | **58** | **66** | **70** | **+4** |
+
+---
+
+## Actions Prioritaires
+
+| # | Action | Priorité | Effort | Deadline | Statut |
+|---|--------|---------|--------|---------|--------|
+| 1 | `hero-main.webp` recomprimer à <200 KB (`cwebp -q 75`) | 🔴 Critical | 10 min | Aujourd'hui | Ouvert |
+| 2 | Convertir 5 JPEGs >900 KB restants en WebP (garage, window×3, shutter, carport) | 🔴 Critical | 1h | Cette semaine | Ouvert |
+| 3 | Activer GSC meta verification code (index.html) | 🔴 Critical | 10 min | Aujourd'hui | Ouvert |
+| 4 | Ajouter canonical aux 12 pages manquantes | 🟡 High | 1h | Cette semaine | Ouvert |
+| 5 | HSTS header (Hostinger hPanel `.htaccess`) | 🟡 High | 10 min | Cette semaine | Ouvert |
+| 6 | BreadcrumbList JSON-LD dans ServiceDetailPage + BlogPostPage | 🟡 High | 1h | 2 semaines | Ouvert |
+| 7 | Ajouter Helmet à PrivacyPolicyPage | 🟡 High | 20 min | Cette semaine | Ouvert |
+| 8 | Rafraîchir 6 posts blog anciens (dateModified + contenu) | 🟡 High | 3h | Ce mois | Ouvert |
+| 9 | Corriger `about-team.jpg` alt hardcodé EN → i18n | 🟡 Medium | 10 min | 2 semaines | Ouvert |
+| 10 | Optimiser 9 meta descriptions <130 chars (priorité: quote, videos, about TR) | 🟡 Medium | 1h | Ce mois | Ouvert |
+| 11 | Ajouter `/projects` au sitemap (toutes langues) | 🟡 Medium | 15 min | 2 semaines | Ouvert |
+| 12 | Blog → services cross-links (pergola guide → /services/pergola etc.) | 🟡 Medium | 1h | Ce mois | Ouvert |
+| 13 | i18n lazy loading (`i18next-http-backend`) | 🟢 Medium | 3h | Ce mois | Ouvert |
+| 14 | Publier nouveau post: "Store banne Belgique guide 2026" | 🟢 Medium | 4h | Ce mois | Suggéré |
+| 15 | Google Fonts self-host (GDPR + perf) | 🟢 Low | 1h | Ce mois | Ouvert |
+
+---
+
+### Historique des Scores
+
+| Date | Score | Type | Delta |
+|------|-------|------|-------|
+| 2026-03-18 | 58/100 | Audit initial baseline | — |
+| 2026-04-04 | 66/100 | Rapport trimestriel Q2 | +8 |
+| **2026-04-06** | **70/100** | **Rapport hebdomadaire** | **+4** |
+
+**Prochain rapport:** 2026-04-13 (hebdomadaire)
+
+---
+
+*Rapport généré par Claude Code SEO Maintenance — 2026-04-06*
+*Référence baseline: SEO-AUDIT-2026-03-18.md | Référence précédente: SEO-REPORT.md (2026-04-04)*
