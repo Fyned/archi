@@ -21,28 +21,6 @@ export default function AboutPage() {
         <meta property="og:description" content={t('about:meta.description')} />
         <meta property="og:image" content="https://archi.constructionveranda.com/images/general/about-showroom.webp" />
         <meta property="og:type" content="website" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "@id": "https://archi.constructionveranda.com/#organization",
-            "name": "Archi Construction & Veranda",
-            "url": "https://archi.constructionveranda.com",
-            "logo": "https://archi.constructionveranda.com/logo-horizontal.png",
-            "foundingDate": "2020",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Charleroi",
-              "postalCode": "6000",
-              "addressRegion": "Hainaut",
-              "addressCountry": "BE"
-            },
-            "sameAs": [
-              "https://www.facebook.com/profile.php?id=61585420874238",
-              "https://www.instagram.com/archiconstructionveranda"
-            ]
-          })}
-        </script>
       </Helmet>
 
       {/* Hero Section */}
