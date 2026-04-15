@@ -116,7 +116,7 @@ export default function BlogPage() {
         <meta property="og:title" content={`${t('blog:meta.title')} | Archi Construction & Veranda`} />
         <meta property="og:description" content={t('blog:meta.description')} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href={`https://archi.constructionveranda.com/${locale}/blog`} />
+        <link rel="canonical" href={`https://archi.constructionveranda.com/${locale}/blog/`} />
       </Helmet>
 
       {/* Hero Section */}

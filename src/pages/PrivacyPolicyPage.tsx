@@ -28,9 +28,9 @@ export default function PrivacyPolicyPage() {
         <meta property="og:title" content={`${t('title')} | Archi Construction & Veranda`} />
         <meta property="og:description" content={t('intro')} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={`https://archi.constructionveranda.com/${locale}/privacy`} />
+        <meta property="og:url" content={`https://archi.constructionveranda.com/${locale}/privacy/`} />
         <meta property="og:image" content="https://archi.constructionveranda.com/images/general/hero-main.webp" />
-        <link rel="canonical" href={`https://archi.constructionveranda.com/${locale}/privacy`} />
+        <link rel="canonical" href={`https://archi.constructionveranda.com/${locale}/privacy/`} />
       </Helmet>
 
       {/* Hero Section */}

@@ -384,15 +384,15 @@ export default function ServiceDetailPage() {
         <meta name="twitter:title" content={`${serviceTitle} | Archi Construction & Veranda`} />
         <meta name="twitter:description" content={t(`services:meta.${service}.description`)} />
         <meta name="twitter:image" content={`https://archi.constructionveranda.com${images[0]}`} />
-        <link rel="canonical" href={`https://archi.constructionveranda.com/${currentLang}/services/${service}`} />
+        <link rel="canonical" href={`https://archi.constructionveranda.com/${currentLang}/services/${service}/`} />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": t('common:nav.home'), "item": `https://archi.constructionveranda.com/${currentLang}` },
-              { "@type": "ListItem", "position": 2, "name": t('common:nav.services'), "item": `https://archi.constructionveranda.com/${currentLang}/services` },
-              { "@type": "ListItem", "position": 3, "name": serviceTitle, "item": `https://archi.constructionveranda.com/${currentLang}/services/${service}` }
+              { "@type": "ListItem", "position": 1, "name": t('common:nav.home'), "item": `https://archi.constructionveranda.com/${currentLang}/` },
+              { "@type": "ListItem", "position": 2, "name": t('common:nav.services'), "item": `https://archi.constructionveranda.com/${currentLang}/services/` },
+              { "@type": "ListItem", "position": 3, "name": serviceTitle, "item": `https://archi.constructionveranda.com/${currentLang}/services/${service}/` }
             ]
           })}
         </script>
@@ -400,7 +400,7 @@ export default function ServiceDetailPage() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "@id": `https://archi.constructionveranda.com/${currentLang}/services/${service}#service`,
+            "@id": `https://archi.constructionveranda.com/${currentLang}/services/${service}/#service`,
             "name": serviceTitle,
             "description": t(`services:meta.${service}.description`),
             "serviceType": serviceTitle,
@@ -410,7 +410,7 @@ export default function ServiceDetailPage() {
               { "@type": "Country", "name": "Luxembourg" },
               { "@type": "Country", "name": "Netherlands" }
             ],
-            "url": `https://archi.constructionveranda.com/${currentLang}/services/${service}`,
+            "url": `https://archi.constructionveranda.com/${currentLang}/services/${service}/`,
             "image": `https://archi.constructionveranda.com${images[0]}`
           })}
         </script>

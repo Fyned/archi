@@ -200,7 +200,7 @@ export default function BlogPostPage() {
     )
   }
 
-  const shareUrl = `https://archi.constructionveranda.com/${locale}/blog/${slug}`
+  const shareUrl = `https://archi.constructionveranda.com/${locale}/blog/${slug}/`
 
   const handleShare = async () => {
     if (navigator.share) {
@@ -274,8 +274,8 @@ export default function BlogPostPage() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": t('common:nav.home'), "item": `https://archi.constructionveranda.com/${locale}` },
-              { "@type": "ListItem", "position": 2, "name": "Blog", "item": `https://archi.constructionveranda.com/${locale}/blog` },
+              { "@type": "ListItem", "position": 1, "name": t('common:nav.home'), "item": `https://archi.constructionveranda.com/${locale}/` },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": `https://archi.constructionveranda.com/${locale}/blog/` },
               { "@type": "ListItem", "position": 3, "name": t(`blog:posts.${slug}.title`), "item": shareUrl }
             ]
           })}
