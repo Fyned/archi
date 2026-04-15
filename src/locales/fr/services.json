@@ -53,6 +53,25 @@
           "answer": "Oui, nos pergolas peuvent être installées sur tout type de sol: terrasse carrelée, bois, béton ou directement sur plots. Nous adaptons la fixation selon votre situation. Une visite technique gratuite nous permet d'évaluer les meilleures solutions."
         }
       ]
+    },
+    "materials": {
+      "title": "Matériaux et marques de qualité européenne",
+      "description": "Nous utilisons exclusivement des profilés aluminium fournis par les grandes marques européennes Reynaers, Aliplast et Cortizo. Ces profilés à rupture de pont thermique garantissent une durabilité de 25 à 30 ans, une résistance aux chocs et aux intempéries du climat belge, et un revêtement thermolaqué disponible en plus de 200 couleurs RAL. Les lames orientables sont en aluminium extrudé épaisseur 3mm, motorisées par des systèmes Somfy ou Nice avec garantie 5 ans. Les fixations sont en inox A2 ou A4 pour résister à la corrosion."
+    },
+    "whyChooseUs": {
+      "title": "Pourquoi choisir Archi pour votre pergola bioclimatique",
+      "items": [
+        "Étude personnalisée gratuite sur site avec rendu 3D dans les 48 heures",
+        "Fabrication sur mesure dans nos ateliers en Belgique, contrôle qualité rigoureux",
+        "Installation par nos propres techniciens agréés, sans sous-traitance",
+        "Gestion complète des permis d'urbanisme si nécessaire (Wallonie, Bruxelles, Flandre)",
+        "TVA réduite à 6% pour les logements de plus de 10 ans",
+        "Garantie constructeur 10 ans sur la structure, 5 ans sur la motorisation"
+      ]
+    },
+    "warranty": {
+      "title": "Garanties spécifiques",
+      "description": "Nos pergolas bioclimatiques bénéficient d'une garantie constructeur de 10 ans sur la structure aluminium et les soudures, 5 ans sur la motorisation Somfy/Nice et 2 ans sur les accessoires (LED, capteurs vent/pluie). Service après-vente réactif basé à Charleroi avec intervention sous 48 heures."
     }
   },
   "veranda": {
@@ -104,6 +123,25 @@
           "answer": "Après validation du projet et obtention du permis, comptez 6 à 10 semaines pour la fabrication et 1 à 2 semaines pour l'installation selon la complexité. Nous planifions les travaux pour minimiser les nuisances et garantir une finition impeccable."
         }
       ]
+    },
+    "materials": {
+      "title": "Matériaux et marques de qualité européenne",
+      "description": "Nos vérandas sont fabriquées avec des profilés aluminium à rupture de pont thermique Reynaers, Aliplast ou Cortizo. Le double vitrage standard offre un Ug de 1.1, le triple vitrage descend à 0.6 W/m²K. Les profilés sont thermolaqués en plus de 200 couleurs RAL avec garantie 10 ans contre la corrosion. Le toit peut être en verre, polycarbonate alvéolaire ou panneaux isolants sandwich. Les charnières et serrures multipoints sont en inox A4 marine grade."
+    },
+    "whyChooseUs": {
+      "title": "Pourquoi choisir Archi pour votre veranda",
+      "items": [
+        "Étude personnalisée gratuite sur site avec rendu 3D dans les 48 heures",
+        "Fabrication sur mesure dans nos ateliers en Belgique, contrôle qualité rigoureux",
+        "Installation par nos propres techniciens agréés, sans sous-traitance",
+        "Gestion complète des permis d'urbanisme si nécessaire (Wallonie, Bruxelles, Flandre)",
+        "TVA réduite à 6% pour les logements de plus de 10 ans",
+        "Garantie constructeur 10 ans sur la structure, 5 ans sur la motorisation"
+      ]
+    },
+    "warranty": {
+      "title": "Garanties spécifiques",
+      "description": "Garantie constructeur 10 ans sur la structure aluminium et les soudures, 10 ans sur le double vitrage (perte d'étanchéité), 5 ans sur les accessoires de motorisation (Somfy, ouvrants automatiques). Service après-vente sous 48h à Charleroi."
     }
   },
   "carport": {
@@ -151,6 +189,25 @@
           "answer": "Oui, nos carports sont conçus pour supporter des panneaux photovoltaïques. C'est une excellente solution pour produire de l'électricité tout en protégeant votre véhicule. Nous travaillons avec des partenaires pour l'installation solaire."
         }
       ]
+    },
+    "materials": {
+      "title": "Matériaux et marques de qualité européenne",
+      "description": "Nos carports sont fabriqués avec des profilés aluminium structurels Reynaers ou Aliplast, capables de supporter des charges de neige jusqu'à 200 kg/m² (norme EN 1991). Les poteaux sont scellés sur dalles béton avec ancrages chimiques. La couverture peut être en panneaux sandwich isolés, polycarbonate alvéolaire 16mm ou prête pour panneaux solaires (production estimée 850-950 kWh/kWc/an en Belgique). Tous les composants sont thermolaqués en plus de 200 couleurs RAL."
+    },
+    "whyChooseUs": {
+      "title": "Pourquoi choisir Archi pour votre carport",
+      "items": [
+        "Étude personnalisée gratuite sur site avec rendu 3D dans les 48 heures",
+        "Fabrication sur mesure dans nos ateliers en Belgique, contrôle qualité rigoureux",
+        "Installation par nos propres techniciens agréés, sans sous-traitance",
+        "Gestion complète des permis d'urbanisme si nécessaire (Wallonie, Bruxelles, Flandre)",
+        "TVA réduite à 6% pour les logements de plus de 10 ans",
+        "Garantie constructeur 10 ans sur la structure, 5 ans sur la motorisation"
+      ]
+    },
+    "warranty": {
+      "title": "Garanties spécifiques",
+      "description": "Garantie constructeur 10 ans sur la structure aluminium et les soudures, 10 ans sur la couverture polycarbonate ou panneaux sandwich, 25 ans sur les panneaux solaires (si installés). Service après-vente sous 48h à Charleroi."
     }
   },
   "window": {
@@ -203,6 +260,25 @@
           "answer": "Les fenêtres PVC modernes sont traitées anti-UV et ne jaunissent plus. Nos châssis PVC conservent leur couleur pendant toute leur durée de vie (30+ ans). Disponibles en blanc, gris anthracite, et de nombreuses autres couleurs."
         }
       ]
+    },
+    "materials": {
+      "title": "Matériaux et performances thermiques",
+      "description": "Nos fenêtres aluminium sont équipées de profilés à rupture de pont thermique Reynaers ou Cortizo, atteignant un Uw de 0.8 W/m²K avec triple vitrage à gaz argon. Les profils PVC haut de gamme proposent un Uw entre 1.1 et 1.5 W/m²K. Tous nos vitrages sont conformes à la norme EN 14351-1 et certifiés PEB pour la Wallonie. Les ferrures multipoints Roto ou Maco offrent une sécurité anti-effraction RC2."
+    },
+    "whyChooseUs": {
+      "title": "Pourquoi choisir Archi pour votre window",
+      "items": [
+        "Étude personnalisée gratuite sur site avec rendu 3D dans les 48 heures",
+        "Fabrication sur mesure dans nos ateliers en Belgique, contrôle qualité rigoureux",
+        "Installation par nos propres techniciens agréés, sans sous-traitance",
+        "Gestion complète des permis d'urbanisme si nécessaire (Wallonie, Bruxelles, Flandre)",
+        "TVA réduite à 6% pour les logements de plus de 10 ans",
+        "Garantie constructeur 10 ans sur la structure, 5 ans sur la motorisation"
+      ]
+    },
+    "warranty": {
+      "title": "Garanties spécifiques",
+      "description": "Garantie constructeur 10 ans sur les profilés et le vitrage (perte d'étanchéité), 5 ans sur les ferrures et mécanismes d'ouverture, 2 ans sur les joints d'étanchéité. Service après-vente réactif sous 48h."
     }
   },
   "shutter": {
@@ -254,6 +330,25 @@
           "answer": "Pour une maison classique de 10 fenêtres, l'installation prend généralement 1 à 2 journées selon le type (rénovation en applique ou tunnel intégré dans la maçonnerie). La fabrication sur mesure nécessite 4 à 6 semaines après validation du devis. Nos techniciens agréés s'occupent du câblage électrique, du raccordement domotique et de la mise en service avant de vous former à l'utilisation de votre installation."
         }
       ]
+    },
+    "materials": {
+      "title": "Matériaux et systèmes domotiques",
+      "description": "Nos volets roulants sont fabriqués avec des lames aluminium double paroi remplies de mousse polyuréthane pour une isolation thermique et acoustique optimale. Le coffre peut être en applique (rénovation) ou tunnel (intégré dans la maçonnerie). Les motorisations Somfy, Nice ou Bubendorff offrent une garantie 5 ans et sont compatibles avec les systèmes domotiques iO-homecontrol, Google Home, Alexa et Apple HomeKit. Disponibles en plus de 200 couleurs RAL."
+    },
+    "whyChooseUs": {
+      "title": "Pourquoi choisir Archi pour votre shutter",
+      "items": [
+        "Étude personnalisée gratuite sur site avec rendu 3D dans les 48 heures",
+        "Fabrication sur mesure dans nos ateliers en Belgique, contrôle qualité rigoureux",
+        "Installation par nos propres techniciens agréés, sans sous-traitance",
+        "Gestion complète des permis d'urbanisme si nécessaire (Wallonie, Bruxelles, Flandre)",
+        "TVA réduite à 6% pour les logements de plus de 10 ans",
+        "Garantie constructeur 10 ans sur la structure, 5 ans sur la motorisation"
+      ]
+    },
+    "warranty": {
+      "title": "Garanties spécifiques",
+      "description": "Garantie constructeur 10 ans sur les lames aluminium et le coffre, 5 ans sur la motorisation Somfy/Nice/Bubendorff, 2 ans sur les accessoires électroniques. Service après-vente sous 48h à Charleroi."
     }
   },
   "garage": {
@@ -305,6 +400,25 @@
           "answer": "Le remplacement d'une porte de garage existante prend généralement 1 journée pour la pose et le raccordement électrique. La fabrication sur mesure nécessite 3 à 5 semaines après validation du devis. L'installation comprend: dépose de l'ancienne porte, pose des rails, montage des panneaux, installation du moteur, réglages, programmation des télécommandes et formation à l'utilisation. Une garantie constructeur de 10 ans sur la structure et 5 ans sur la motorisation est standard."
         }
       ]
+    },
+    "materials": {
+      "title": "Matériaux et motorisations de qualité",
+      "description": "Nos portes de garage sectionnelles sont fabriquées avec des panneaux acier double paroi 40mm remplis de mousse polyuréthane, atteignant un coefficient U=1.4 W/m²K. Les motorisations Hörmann, Somfy, Nice ou Marantec offrent des garanties de 5 à 10 ans avec moteurs 800N (portes jusqu'à 10m²) ou 1000N (portes plus grandes). Compatibilité domotique WiFi, télécommande 433MHz, détection d'obstacle et éclairage LED intégré. Disponibles en plus de 200 couleurs RAL."
+    },
+    "whyChooseUs": {
+      "title": "Pourquoi choisir Archi pour votre garage",
+      "items": [
+        "Étude personnalisée gratuite sur site avec rendu 3D dans les 48 heures",
+        "Fabrication sur mesure dans nos ateliers en Belgique, contrôle qualité rigoureux",
+        "Installation par nos propres techniciens agréés, sans sous-traitance",
+        "Gestion complète des permis d'urbanisme si nécessaire (Wallonie, Bruxelles, Flandre)",
+        "TVA réduite à 6% pour les logements de plus de 10 ans",
+        "Garantie constructeur 10 ans sur la structure, 5 ans sur la motorisation"
+      ]
+    },
+    "warranty": {
+      "title": "Garanties spécifiques",
+      "description": "Garantie constructeur 10 ans sur la structure et les panneaux acier, 5 ans sur la motorisation Hörmann/Somfy/Nice, 2 ans sur les télécommandes et accessoires électroniques. Service après-vente sous 48h à Charleroi."
     }
   },
   "process": {

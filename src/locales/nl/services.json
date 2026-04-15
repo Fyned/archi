@@ -53,6 +53,25 @@
           "answer": "Ja, onze pergola's kunnen op elk type ondergrond worden geplaatst: tegels, hout, beton of direct op plots. Wij passen de bevestiging aan uw situatie aan. Een gratis technisch bezoek stelt ons in staat de beste oplossingen te evalueren."
         }
       ]
+    },
+    "materials": {
+      "title": "Materialen en Europese kwaliteitsmerken",
+      "description": "Wij gebruiken uitsluitend aluminium profielen van de grote Europese merken Reynaers, Aliplast en Cortizo. Deze profielen met thermische onderbreking garanderen een duurzaamheid van 25 tot 30 jaar, weerstand tegen schokken en het Belgische klimaat, en een poedercoating beschikbaar in meer dan 200 RAL-kleuren. De verstelbare lamellen zijn van geëxtrudeerd aluminium 3mm dik, gemotoriseerd met Somfy of Nice systemen met 5 jaar garantie. De bevestigingen zijn in roestvrij staal A2 of A4 voor corrosiebestendigheid."
+    },
+    "whyChooseUs": {
+      "title": "Waarom Archi kiezen voor uw bioclimatische pergola",
+      "items": [
+        "Gratis gepersonaliseerde studie ter plaatse met 3D-rendering binnen 48 uur",
+        "Maatfabricage in onze werkplaatsen in België, rigoureuze kwaliteitscontrole",
+        "Installatie door onze eigen erkende technici, zonder onderaanneming",
+        "Volledig beheer van stedenbouwkundige vergunningen indien nodig",
+        "Verlaagde BTW 6% voor woningen ouder dan 10 jaar",
+        "10 jaar fabrieksgarantie op de structuur, 5 jaar op de motorisatie"
+      ]
+    },
+    "warranty": {
+      "title": "Specifieke garanties",
+      "description": "Onze bioclimatische pergola's profiteren van een fabrieksgarantie van 10 jaar op de aluminium structuur en lassen, 5 jaar op de Somfy/Nice motorisatie en 2 jaar op accessoires (LED, wind/regensensoren). Responsieve aftersales service in Charleroi met interventie binnen 48 uur."
     }
   },
   "veranda": {
@@ -104,6 +123,25 @@
           "answer": "Na goedkeuring van het project en verkrijging van de vergunning rekent u op 6 tot 10 weken voor productie en 1 tot 2 weken voor installatie afhankelijk van de complexiteit. Wij plannen de werkzaamheden om overlast te minimaliseren."
         }
       ]
+    },
+    "materials": {
+      "title": "Materialen en Europese kwaliteitsmerken",
+      "description": "Onze veranda's zijn vervaardigd met thermisch onderbroken aluminium profielen van Reynaers, Aliplast of Cortizo. Standaard dubbel glas biedt een Ug van 1.1, drievoudig glas daalt tot 0.6 W/m²K. De profielen zijn poedergecoat in meer dan 200 RAL-kleuren met 10 jaar garantie tegen corrosie. Het dak kan van glas, alveolair polycarbonaat of geïsoleerde sandwichpanelen zijn."
+    },
+    "whyChooseUs": {
+      "title": "Waarom Archi kiezen voor uw veranda",
+      "items": [
+        "Gratis gepersonaliseerde studie ter plaatse met 3D-rendering binnen 48 uur",
+        "Maatfabricage in onze werkplaatsen in België, rigoureuze kwaliteitscontrole",
+        "Installatie door onze eigen erkende technici, zonder onderaanneming",
+        "Volledig beheer van stedenbouwkundige vergunningen indien nodig",
+        "Verlaagde BTW 6% voor woningen ouder dan 10 jaar",
+        "10 jaar fabrieksgarantie op de structuur, 5 jaar op de motorisatie"
+      ]
+    },
+    "warranty": {
+      "title": "Specifieke garanties",
+      "description": "10 jaar fabrieksgarantie op de aluminium structuur en lassen, 10 jaar op het dubbel glas (verlies van afdichting), 5 jaar op motorisatie-accessoires (Somfy). Aftersales service binnen 48 uur in Charleroi."
     }
   },
   "carport": {
@@ -151,6 +189,25 @@
           "answer": "Ja, onze carports zijn ontworpen om fotovoltaïsche panelen te dragen. Het is een uitstekende oplossing om elektriciteit te produceren terwijl u uw voertuig beschermt. Wij werken samen met partners voor de zonne-installatie."
         }
       ]
+    },
+    "materials": {
+      "title": "Materialen en Europese kwaliteitsmerken",
+      "description": "Onze carports zijn vervaardigd met structurele aluminium profielen van Reynaers of Aliplast, in staat om sneeuwlasten tot 200 kg/m² (norm EN 1991) te dragen. De palen zijn verzegeld op betonplaten met chemische ankers. De dakbedekking kan bestaan uit geïsoleerde sandwichpanelen, alveolair polycarbonaat 16mm of klaar voor zonnepanelen (geschatte productie 850-950 kWh/kWp/jaar in België)."
+    },
+    "whyChooseUs": {
+      "title": "Waarom Archi kiezen voor uw carport",
+      "items": [
+        "Gratis gepersonaliseerde studie ter plaatse met 3D-rendering binnen 48 uur",
+        "Maatfabricage in onze werkplaatsen in België, rigoureuze kwaliteitscontrole",
+        "Installatie door onze eigen erkende technici, zonder onderaanneming",
+        "Volledig beheer van stedenbouwkundige vergunningen indien nodig",
+        "Verlaagde BTW 6% voor woningen ouder dan 10 jaar",
+        "10 jaar fabrieksgarantie op de structuur, 5 jaar op de motorisatie"
+      ]
+    },
+    "warranty": {
+      "title": "Specifieke garanties",
+      "description": "10 jaar fabrieksgarantie op de aluminium structuur en lassen, 10 jaar op de polycarbonaat dakbedekking of sandwichpanelen, 25 jaar op zonnepanelen (indien geïnstalleerd). Aftersales service binnen 48 uur in Charleroi."
     }
   },
   "window": {
@@ -203,6 +260,25 @@
           "answer": "Moderne PVC ramen zijn UV-behandeld en verkleuren niet meer. Onze PVC kozijnen behouden hun kleur gedurende hun volledige levensduur (30+ jaar). Beschikbaar in wit, antracietgrijs en vele andere kleuren."
         }
       ]
+    },
+    "materials": {
+      "title": "Materialen en thermische prestaties",
+      "description": "Onze aluminium ramen zijn uitgerust met thermisch onderbroken profielen van Reynaers of Cortizo, met een Uw-waarde van 0.8 W/m²K met drievoudig glas en argongas. PVC-profielen van topkwaliteit bieden een Uw tussen 1.1 en 1.5 W/m²K. Al ons glas voldoet aan de EN 14351-1 norm en is PEB-gecertificeerd voor Wallonië. Roto of Maco meerpuntsbeslag biedt RC2 inbraakbeveiliging."
+    },
+    "whyChooseUs": {
+      "title": "Waarom Archi kiezen voor uw window",
+      "items": [
+        "Gratis gepersonaliseerde studie ter plaatse met 3D-rendering binnen 48 uur",
+        "Maatfabricage in onze werkplaatsen in België, rigoureuze kwaliteitscontrole",
+        "Installatie door onze eigen erkende technici, zonder onderaanneming",
+        "Volledig beheer van stedenbouwkundige vergunningen indien nodig",
+        "Verlaagde BTW 6% voor woningen ouder dan 10 jaar",
+        "10 jaar fabrieksgarantie op de structuur, 5 jaar op de motorisatie"
+      ]
+    },
+    "warranty": {
+      "title": "Specifieke garanties",
+      "description": "10 jaar fabrieksgarantie op profielen en glas (verlies van afdichting), 5 jaar op beslag en openingsmechanismen, 2 jaar op afdichtingen. Responsieve aftersales service binnen 48 uur."
     }
   },
   "shutter": {
@@ -254,6 +330,25 @@
           "answer": "Voor een klassieke woning met 10 ramen duurt de installatie meestal 1 tot 2 dagen, afhankelijk van het type (opbouw renovatie of tunnel geïntegreerd in het metselwerk). Fabricage op maat vereist 4 tot 6 weken na goedkeuring van de offerte. Onze erkende technici verzorgen de elektrische bekabeling, domotica-aansluiting en inbedrijfstelling voordat ze u opleiden in het gebruik van uw installatie."
         }
       ]
+    },
+    "materials": {
+      "title": "Materialen en domoticasystemen",
+      "description": "Onze rolluiken zijn vervaardigd met dubbelwandige aluminium lamellen gevuld met polyurethaanschuim voor optimale thermische en akoestische isolatie. De kast kan aanbouw (renovatie) of tunnel (geïntegreerd in het metselwerk) zijn. Somfy, Nice of Bubendorff motoren bieden 5 jaar garantie en zijn compatibel met iO-homecontrol, Google Home, Alexa en Apple HomeKit domoticasystemen. Beschikbaar in meer dan 200 RAL-kleuren."
+    },
+    "whyChooseUs": {
+      "title": "Waarom Archi kiezen voor uw shutter",
+      "items": [
+        "Gratis gepersonaliseerde studie ter plaatse met 3D-rendering binnen 48 uur",
+        "Maatfabricage in onze werkplaatsen in België, rigoureuze kwaliteitscontrole",
+        "Installatie door onze eigen erkende technici, zonder onderaanneming",
+        "Volledig beheer van stedenbouwkundige vergunningen indien nodig",
+        "Verlaagde BTW 6% voor woningen ouder dan 10 jaar",
+        "10 jaar fabrieksgarantie op de structuur, 5 jaar op de motorisatie"
+      ]
+    },
+    "warranty": {
+      "title": "Specifieke garanties",
+      "description": "10 jaar fabrieksgarantie op aluminium lamellen en kast, 5 jaar op Somfy/Nice/Bubendorff motorisatie, 2 jaar op elektronische accessoires. Aftersales service binnen 48 uur in Charleroi."
     }
   },
   "garage": {
@@ -305,6 +400,25 @@
           "answer": "Het vervangen van een bestaande garagepoort duurt meestal 1 dag voor plaatsing en elektrische aansluiting. Fabricage op maat vereist 3 tot 5 weken na goedkeuring van de offerte. De installatie omvat: verwijdering van de oude poort, plaatsing van de rails, montage van de panelen, installatie van de motor, afstellingen, programmering van de afstandsbedieningen en gebruikstraining. Een fabrieksgarantie van 10 jaar op de structuur en 5 jaar op de motorisatie is standaard."
         }
       ]
+    },
+    "materials": {
+      "title": "Kwaliteitsmaterialen en motoren",
+      "description": "Onze sectionale garagepoorten zijn vervaardigd met dubbelwandige stalen panelen van 40mm gevuld met polyurethaanschuim, met een coëfficiënt U=1.4 W/m²K. Hörmann, Somfy, Nice of Marantec motoren bieden 5 tot 10 jaar garantie met 800N motoren (poorten tot 10m²) of 1000N (grotere poorten). WiFi domotica-compatibiliteit, 433MHz afstandsbediening, obstakeldetectie en geïntegreerde LED-verlichting."
+    },
+    "whyChooseUs": {
+      "title": "Waarom Archi kiezen voor uw garage",
+      "items": [
+        "Gratis gepersonaliseerde studie ter plaatse met 3D-rendering binnen 48 uur",
+        "Maatfabricage in onze werkplaatsen in België, rigoureuze kwaliteitscontrole",
+        "Installatie door onze eigen erkende technici, zonder onderaanneming",
+        "Volledig beheer van stedenbouwkundige vergunningen indien nodig",
+        "Verlaagde BTW 6% voor woningen ouder dan 10 jaar",
+        "10 jaar fabrieksgarantie op de structuur, 5 jaar op de motorisatie"
+      ]
+    },
+    "warranty": {
+      "title": "Specifieke garanties",
+      "description": "10 jaar fabrieksgarantie op de structuur en stalen panelen, 5 jaar op Hörmann/Somfy/Nice motorisatie, 2 jaar op afstandsbedieningen en elektronische accessoires. Aftersales service binnen 48 uur in Charleroi."
     }
   },
   "process": {

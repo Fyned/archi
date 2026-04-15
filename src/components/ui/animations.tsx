@@ -1,5 +1,5 @@
 import { motion, type HTMLMotionProps, type Transition } from 'framer-motion'
-import { type ReactNode } from 'react'
+import { type ReactNode, type HTMLAttributes } from 'react'
 
 // Animation variants
 export const fadeInUp = {
@@ -239,25 +239,17 @@ export function CountUp({
   )
 }
 
-// Pulse animation for CTAs
-export function PulseGlow({ children, ...props }: MotionDivProps) {
+// Pulse animation for CTAs — uses CSS @keyframes (filter: drop-shadow)
+// instead of Framer Motion box-shadow which triggers main-thread paints.
+// GPU-composited, zero JS animation cost, better INP.
+interface PulseGlowProps extends HTMLAttributes<HTMLDivElement> {
+  children: ReactNode
+}
+
+export function PulseGlow({ children, className = '', ...rest }: PulseGlowProps) {
   return (
-    <motion.div
-      animate={{
-        boxShadow: [
-          '0 0 0 0 rgba(230, 126, 34, 0.4)',
-          '0 0 0 10px rgba(230, 126, 34, 0)',
-          '0 0 0 0 rgba(230, 126, 34, 0)'
-        ]
-      }}
-      transition={{
-        duration: 2,
-        repeat: Infinity,
-        repeatType: 'loop'
-      }}
-      {...props}
-    >
+    <div className={`pulse-glow ${className}`} {...rest}>
       {children}
-    </motion.div>
+    </div>
   )
 }

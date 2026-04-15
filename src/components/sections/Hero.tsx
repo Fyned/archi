@@ -10,22 +10,19 @@ export function Hero() {
 
   return (
     <section className="relative min-h-[90vh] flex items-center bg-gradient-to-br from-gray-900 via-gray-800 to-primary-900 overflow-hidden">
-      {/* Background image with subtle zoom animation */}
-      <motion.div
-        initial={{ scale: 1.1 }}
-        animate={{ scale: 1 }}
-        transition={{ duration: 20, ease: 'linear', repeat: Infinity, repeatType: 'reverse' }}
-        className="absolute inset-0"
-      >
+      {/* Background image with subtle zoom animation (CSS-only, GPU-composited, no Framer Motion = better LCP) */}
+      <div className="absolute inset-0 hero-bg-zoom">
         <img
           src="/images/general/hero-main.webp"
           alt="Archi Construction Veranda - Premium outdoor living spaces"
+          width={1920}
+          height={1071}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/70 to-gray-900/50" />
-      </motion.div>
+      </div>
 
       {/* Content */}
       <div className="container-custom relative z-10 py-20">

@@ -485,6 +485,49 @@ export default function ServiceDetailPage() {
         </div>
       </section>
 
+      {/* Materials & Brands */}
+      <section className="section bg-gray-50">
+        <div className="container-custom max-w-4xl">
+          <h2 className="text-2xl md:text-3xl font-heading font-bold mb-6 text-center">
+            {t(`services:${service}.materials.title`)}
+          </h2>
+          <p className="text-lg text-gray-700 leading-relaxed text-center">
+            {t(`services:${service}.materials.description`)}
+          </p>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="section bg-white">
+        <div className="container-custom max-w-4xl">
+          <h2 className="text-2xl md:text-3xl font-heading font-bold mb-8 text-center">
+            {t(`services:${service}.whyChooseUs.title`)}
+          </h2>
+          <ul className="space-y-4 max-w-3xl mx-auto">
+            {((t(`services:${service}.whyChooseUs.items`, { returnObjects: true }) as string[]) || []).map((item, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <div className="w-7 h-7 rounded-full bg-primary-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <Check size={16} className="text-primary-600" />
+                </div>
+                <span className="text-gray-700 text-lg">{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* Warranty */}
+      <section className="section bg-gradient-to-br from-primary-50 to-white border-y border-primary-100">
+        <div className="container-custom max-w-3xl text-center">
+          <h2 className="text-2xl md:text-3xl font-heading font-bold mb-4">
+            {t(`services:${service}.warranty.title`)}
+          </h2>
+          <p className="text-lg text-gray-700 leading-relaxed">
+            {t(`services:${service}.warranty.description`)}
+          </p>
+        </div>
+      </section>
+
       {/* Gallery */}
       <section className="section bg-gray-50">
         <div className="container-custom">

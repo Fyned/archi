@@ -114,11 +114,43 @@
   }
 }
 
+/* Hero subtle zoom - GPU composited (no JS), better LCP than Framer Motion */
+@keyframes hero-zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.hero-bg-zoom {
+  animation: hero-zoom 20s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+/* Pulse glow ring effect - GPU composited via filter (replaces box-shadow which triggers paint) */
+@keyframes pulse-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 0 rgba(249, 115, 22, 0));
+  }
+  50% {
+    filter: drop-shadow(0 0 24px rgba(249, 115, 22, 0.6));
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+  will-change: filter;
+}
+
 /* Reduce animation for users who prefer reduced motion */
 @media (prefers-reduced-motion: reduce) {
   .gradient-flow,
   .gradient-flow-text,
-  .btn-gradient {
+  .btn-gradient,
+  .hero-bg-zoom,
+  .pulse-glow {
     animation: none;
     background-position: 50% 50%;
   }

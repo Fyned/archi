@@ -53,6 +53,25 @@
           "answer": "Yes, our pergolas can be installed on any type of surface: tiled terrace, wood, concrete or directly on pedestals. We adapt the fixings to your situation. A free technical visit allows us to evaluate the best solutions."
         }
       ]
+    },
+    "materials": {
+      "title": "European quality materials and brands",
+      "description": "We exclusively use aluminium profiles from major European brands Reynaers, Aliplast and Cortizo. These thermal break profiles guarantee 25 to 30 years of durability, resistance to impact and the Belgian climate, and powder coating available in over 200 RAL colors. The adjustable louvres are 3mm extruded aluminium, motorized with Somfy or Nice systems with 5-year warranty. Fixings are in A2 or A4 stainless steel for corrosion resistance."
+    },
+    "whyChooseUs": {
+      "title": "Why choose Archi for your bioclimatic pergola",
+      "items": [
+        "Free personalized on-site study with 3D rendering within 48 hours",
+        "Custom manufacturing in our workshops in Belgium, rigorous quality control",
+        "Installation by our own certified technicians, no subcontracting",
+        "Complete management of urban planning permits if necessary",
+        "Reduced VAT 6% for homes over 10 years old",
+        "10-year manufacturer's warranty on structure, 5 years on motorization"
+      ]
+    },
+    "warranty": {
+      "title": "Specific warranties",
+      "description": "Our bioclimatic pergolas benefit from a 10-year manufacturer's warranty on the aluminium structure and welds, 5 years on Somfy/Nice motorization and 2 years on accessories (LED, wind/rain sensors). Responsive after-sales service based in Charleroi with intervention within 48 hours."
     }
   },
   "veranda": {
@@ -104,6 +123,25 @@
           "answer": "After project approval and obtaining the permit, allow 6 to 10 weeks for manufacturing and 1 to 2 weeks for installation depending on complexity. We plan the work to minimise disruption and ensure impeccable finishing."
         }
       ]
+    },
+    "materials": {
+      "title": "European quality materials and brands",
+      "description": "Our verandas are manufactured with thermal break aluminium profiles from Reynaers, Aliplast or Cortizo. Standard double glazing offers a Ug of 1.1, triple glazing drops to 0.6 W/m²K. Profiles are powder-coated in over 200 RAL colors with 10-year warranty against corrosion. The roof can be glass, alveolar polycarbonate or insulated sandwich panels."
+    },
+    "whyChooseUs": {
+      "title": "Why choose Archi for your veranda",
+      "items": [
+        "Free personalized on-site study with 3D rendering within 48 hours",
+        "Custom manufacturing in our workshops in Belgium, rigorous quality control",
+        "Installation by our own certified technicians, no subcontracting",
+        "Complete management of urban planning permits if necessary",
+        "Reduced VAT 6% for homes over 10 years old",
+        "10-year manufacturer's warranty on structure, 5 years on motorization"
+      ]
+    },
+    "warranty": {
+      "title": "Specific warranties",
+      "description": "10-year manufacturer's warranty on the aluminium structure and welds, 10 years on double glazing (loss of seal), 5 years on motorization accessories (Somfy). After-sales service within 48 hours in Charleroi."
     }
   },
   "carport": {
@@ -151,6 +189,25 @@
           "answer": "Yes, our carports are designed to support photovoltaic panels. It's an excellent solution to produce electricity while protecting your vehicle. We work with partners for solar installation."
         }
       ]
+    },
+    "materials": {
+      "title": "European quality materials and brands",
+      "description": "Our carports are manufactured with structural aluminium profiles from Reynaers or Aliplast, capable of supporting snow loads up to 200 kg/m² (EN 1991 standard). The posts are sealed on concrete slabs with chemical anchors. The roof can be insulated sandwich panels, 16mm alveolar polycarbonate or ready for solar panels (estimated production 850-950 kWh/kWp/year in Belgium)."
+    },
+    "whyChooseUs": {
+      "title": "Why choose Archi for your carport",
+      "items": [
+        "Free personalized on-site study with 3D rendering within 48 hours",
+        "Custom manufacturing in our workshops in Belgium, rigorous quality control",
+        "Installation by our own certified technicians, no subcontracting",
+        "Complete management of urban planning permits if necessary",
+        "Reduced VAT 6% for homes over 10 years old",
+        "10-year manufacturer's warranty on structure, 5 years on motorization"
+      ]
+    },
+    "warranty": {
+      "title": "Specific warranties",
+      "description": "10-year manufacturer's warranty on the aluminium structure and welds, 10 years on polycarbonate roofing or sandwich panels, 25 years on solar panels (if installed). After-sales service within 48 hours in Charleroi."
     }
   },
   "window": {
@@ -203,6 +260,25 @@
           "answer": "Modern PVC windows are UV-treated and no longer yellow. Our PVC frames retain their colour throughout their lifespan (30+ years). Available in white, anthracite grey, and many other colours."
         }
       ]
+    },
+    "materials": {
+      "title": "Materials and thermal performance",
+      "description": "Our aluminium windows are equipped with thermal break profiles from Reynaers or Cortizo, achieving a Uw of 0.8 W/m²K with triple glazing and argon gas. Premium PVC profiles offer a Uw between 1.1 and 1.5 W/m²K. All our glazing complies with the EN 14351-1 standard and is PEB certified for Wallonia. Roto or Maco multi-point fittings offer RC2 anti-burglary security."
+    },
+    "whyChooseUs": {
+      "title": "Why choose Archi for your window",
+      "items": [
+        "Free personalized on-site study with 3D rendering within 48 hours",
+        "Custom manufacturing in our workshops in Belgium, rigorous quality control",
+        "Installation by our own certified technicians, no subcontracting",
+        "Complete management of urban planning permits if necessary",
+        "Reduced VAT 6% for homes over 10 years old",
+        "10-year manufacturer's warranty on structure, 5 years on motorization"
+      ]
+    },
+    "warranty": {
+      "title": "Specific warranties",
+      "description": "10-year manufacturer's warranty on profiles and glazing (loss of seal), 5 years on fittings and opening mechanisms, 2 years on seals. Responsive after-sales service within 48 hours."
     }
   },
   "shutter": {
@@ -254,6 +330,25 @@
           "answer": "For a classic 10-window home, installation typically takes 1 to 2 days depending on type (surface-mounted renovation or tunnel integrated in masonry). Custom manufacturing requires 4 to 6 weeks after quote approval. Our certified technicians handle electrical wiring, home automation connection and commissioning before training you on your installation's use."
         }
       ]
+    },
+    "materials": {
+      "title": "Materials and home automation systems",
+      "description": "Our roller shutters are made with double-wall aluminium slats filled with polyurethane foam for optimal thermal and acoustic insulation. The box can be surface-mounted (renovation) or tunnel (integrated in masonry). Somfy, Nice or Bubendorff motors offer 5-year warranty and are compatible with iO-homecontrol, Google Home, Alexa and Apple HomeKit home automation systems. Available in over 200 RAL colors."
+    },
+    "whyChooseUs": {
+      "title": "Why choose Archi for your shutter",
+      "items": [
+        "Free personalized on-site study with 3D rendering within 48 hours",
+        "Custom manufacturing in our workshops in Belgium, rigorous quality control",
+        "Installation by our own certified technicians, no subcontracting",
+        "Complete management of urban planning permits if necessary",
+        "Reduced VAT 6% for homes over 10 years old",
+        "10-year manufacturer's warranty on structure, 5 years on motorization"
+      ]
+    },
+    "warranty": {
+      "title": "Specific warranties",
+      "description": "10-year manufacturer's warranty on aluminium slats and box, 5 years on Somfy/Nice/Bubendorff motorization, 2 years on electronic accessories. After-sales service within 48 hours in Charleroi."
     }
   },
   "garage": {
@@ -305,6 +400,25 @@
           "answer": "Replacing an existing garage door typically takes 1 day for installation and electrical connection. Custom manufacturing requires 3 to 5 weeks after quote approval. Installation includes: removal of the old door, rail installation, panel assembly, motor installation, adjustments, remote programming and user training. A manufacturer's warranty of 10 years on the structure and 5 years on the motorization is standard."
         }
       ]
+    },
+    "materials": {
+      "title": "Quality materials and motorization",
+      "description": "Our sectional garage doors are manufactured with 40mm double-wall steel panels filled with polyurethane foam, achieving a coefficient U=1.4 W/m²K. Hörmann, Somfy, Nice or Marantec motors offer 5 to 10 year warranties with 800N motors (doors up to 10m²) or 1000N (larger doors). WiFi home automation compatibility, 433MHz remote control, obstacle detection and integrated LED lighting."
+    },
+    "whyChooseUs": {
+      "title": "Why choose Archi for your garage",
+      "items": [
+        "Free personalized on-site study with 3D rendering within 48 hours",
+        "Custom manufacturing in our workshops in Belgium, rigorous quality control",
+        "Installation by our own certified technicians, no subcontracting",
+        "Complete management of urban planning permits if necessary",
+        "Reduced VAT 6% for homes over 10 years old",
+        "10-year manufacturer's warranty on structure, 5 years on motorization"
+      ]
+    },
+    "warranty": {
+      "title": "Specific warranties",
+      "description": "10-year manufacturer's warranty on structure and steel panels, 5 years on Hörmann/Somfy/Nice motorization, 2 years on remotes and electronic accessories. After-sales service within 48 hours in Charleroi."
     }
   },
   "process": {

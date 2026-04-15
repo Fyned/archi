@@ -53,6 +53,25 @@
           "answer": "Evet, pergolalarımız her türlü zemine kurulabilir: seramik teras, ahşap, beton veya doğrudan ayaklar üzerine. Sabitlemeyi durumunuza göre uyarlarız. Ücretsiz teknik ziyaret, en iyi çözümleri değerlendirmemizi sağlar."
         }
       ]
+    },
+    "materials": {
+      "title": "Avrupa kaliteli malzemeler ve markalar",
+      "description": "Yalnızca büyük Avrupa markaları Reynaers, Aliplast ve Cortizo'dan alüminyum profiller kullanıyoruz. Bu termal bariyerli profiller, 25 ila 30 yıllık dayanıklılık, darbeye ve Belçika iklimine karşı direnç ve 200'den fazla RAL renginde toz boyalı kaplama garantisi sunar. Ayarlanabilir lameller 3mm ekstrüde alüminyumdur, 5 yıl garantili Somfy veya Nice sistemleriyle motorize edilmiştir. Bağlantı elemanları korozyon direnci için A2 veya A4 paslanmaz çeliktir."
+    },
+    "whyChooseUs": {
+      "title": "Biyoklimatik pergolanız için neden Archi'yi seçmelisiniz",
+      "items": [
+        "48 saat içinde 3D render ile ücretsiz kişiselleştirilmiş yerinde etüt",
+        "Belçika'daki atölyelerimizde özel üretim, titiz kalite kontrolü",
+        "Kendi sertifikalı teknisyenlerimiz tarafından kurulum, alt yüklenici yok",
+        "Gerekirse imar izinlerinin tam yönetimi",
+        "10 yıldan eski konutlar için indirimli %6 KDV",
+        "Yapıda 10 yıl üretici garantisi, motorizasyonda 5 yıl"
+      ]
+    },
+    "warranty": {
+      "title": "Özel garantiler",
+      "description": "Biyoklimatik pergolalarımız alüminyum yapı ve kaynaklarda 10 yıl üretici garantisi, Somfy/Nice motorizasyonunda 5 yıl ve aksesuarlarda (LED, rüzgar/yağmur sensörleri) 2 yıl garanti içerir. Charleroi merkezli hızlı satış sonrası hizmet 48 saat içinde müdahale eder."
     }
   },
   "veranda": {
@@ -104,6 +123,25 @@
           "answer": "Proje onayı ve izin alındıktan sonra, karmaşıklığa bağlı olarak üretim için 6 ila 10 hafta ve kurulum için 1 ila 2 hafta bekleyebilirsiniz. Rahatsızlığı en aza indirmek ve kusursuz bir bitiş sağlamak için işleri planlıyoruz."
         }
       ]
+    },
+    "materials": {
+      "title": "Avrupa kaliteli malzemeler ve markalar",
+      "description": "Verandalarımız Reynaers, Aliplast veya Cortizo'dan termal bariyerli alüminyum profillerle üretilir. Standart çift cam 1.1 Ug değeri sunar, üçlü cam 0.6 W/m²K'ya düşer. Profiller 200'den fazla RAL renginde toz boyalıdır, 10 yıl korozyon garantilidir. Çatı cam, alveoler polikarbonat veya yalıtımlı sandviç panellerden olabilir."
+    },
+    "whyChooseUs": {
+      "title": "Biyoklimatik pergolanız için neden Archi'yi seçmelisiniz",
+      "items": [
+        "48 saat içinde 3D render ile ücretsiz kişiselleştirilmiş yerinde etüt",
+        "Belçika'daki atölyelerimizde özel üretim, titiz kalite kontrolü",
+        "Kendi sertifikalı teknisyenlerimiz tarafından kurulum, alt yüklenici yok",
+        "Gerekirse imar izinlerinin tam yönetimi",
+        "10 yıldan eski konutlar için indirimli %6 KDV",
+        "Yapıda 10 yıl üretici garantisi, motorizasyonda 5 yıl"
+      ]
+    },
+    "warranty": {
+      "title": "Özel garantiler",
+      "description": "Alüminyum yapı ve kaynaklarda 10 yıl üretici garantisi, çift camda (sızdırmazlık kaybı) 10 yıl, motorizasyon aksesuarlarında (Somfy) 5 yıl. Charleroi'de 48 saat içinde satış sonrası hizmet."
     }
   },
   "carport": {
@@ -151,6 +189,25 @@
           "answer": "Evet, carport'larımız fotovoltaik panelleri taşıyacak şekilde tasarlanmıştır. Aracınızı korurken elektrik üretmek için mükemmel bir çözümdür. Güneş kurulumu için ortaklarımızla çalışıyoruz."
         }
       ]
+    },
+    "materials": {
+      "title": "Avrupa kaliteli malzemeler ve markalar",
+      "description": "Carportlarımız Reynaers veya Aliplast'tan yapısal alüminyum profillerle üretilir, 200 kg/m²'ye kadar kar yüklerini (EN 1991 standardı) taşıyabilir. Direkler kimyasal ankrajlarla beton plakalara sabitlenir. Çatı yalıtımlı sandviç paneller, 16mm alveoler polikarbonat veya güneş panelleri için hazır olabilir (Belçika'da tahmini üretim 850-950 kWh/kWp/yıl)."
+    },
+    "whyChooseUs": {
+      "title": "Biyoklimatik pergolanız için neden Archi'yi seçmelisiniz",
+      "items": [
+        "48 saat içinde 3D render ile ücretsiz kişiselleştirilmiş yerinde etüt",
+        "Belçika'daki atölyelerimizde özel üretim, titiz kalite kontrolü",
+        "Kendi sertifikalı teknisyenlerimiz tarafından kurulum, alt yüklenici yok",
+        "Gerekirse imar izinlerinin tam yönetimi",
+        "10 yıldan eski konutlar için indirimli %6 KDV",
+        "Yapıda 10 yıl üretici garantisi, motorizasyonda 5 yıl"
+      ]
+    },
+    "warranty": {
+      "title": "Özel garantiler",
+      "description": "Alüminyum yapı ve kaynaklarda 10 yıl üretici garantisi, polikarbonat çatı veya sandviç panellerde 10 yıl, güneş panellerinde 25 yıl. Charleroi'de 48 saat içinde satış sonrası hizmet."
     }
   },
   "window": {
@@ -203,6 +260,25 @@
           "answer": "Modern PVC pencereler UV işlemlidir ve artık sararmazlar. PVC kasalarımız tüm kullanım ömrü boyunca (30+ yıl) renklerini korur. Beyaz, antrasit gri ve birçok farklı renkte mevcuttur."
         }
       ]
+    },
+    "materials": {
+      "title": "Malzemeler ve termal performans",
+      "description": "Alüminyum pencerelerimiz Reynaers veya Cortizo'dan termal bariyerli profillerle donatılmıştır, üçlü cam ve argon gazı ile 0.8 W/m²K Uw değerine ulaşır. Premium PVC profiller 1.1 ila 1.5 W/m²K arasında Uw sunar. Tüm camlarımız EN 14351-1 standardına uygundur ve Valonya için PEB sertifikalıdır. Roto veya Maco çoklu nokta donanımları RC2 hırsızlık önleyici güvenlik sunar."
+    },
+    "whyChooseUs": {
+      "title": "Biyoklimatik pergolanız için neden Archi'yi seçmelisiniz",
+      "items": [
+        "48 saat içinde 3D render ile ücretsiz kişiselleştirilmiş yerinde etüt",
+        "Belçika'daki atölyelerimizde özel üretim, titiz kalite kontrolü",
+        "Kendi sertifikalı teknisyenlerimiz tarafından kurulum, alt yüklenici yok",
+        "Gerekirse imar izinlerinin tam yönetimi",
+        "10 yıldan eski konutlar için indirimli %6 KDV",
+        "Yapıda 10 yıl üretici garantisi, motorizasyonda 5 yıl"
+      ]
+    },
+    "warranty": {
+      "title": "Özel garantiler",
+      "description": "Profil ve camlarda (sızdırmazlık kaybı) 10 yıl üretici garantisi, donanım ve açma mekanizmalarında 5 yıl, contalarda 2 yıl. 48 saat içinde hızlı satış sonrası hizmet."
     }
   },
   "shutter": {
@@ -254,6 +330,25 @@
           "answer": "10 pencereli klasik bir ev için kurulum, tipine (yüzey montajlı tadilat veya duvar örgüsüne entegre tünel) bağlı olarak genellikle 1 ila 2 gün sürer. Özel üretim, teklif onayından sonra 4 ila 6 hafta gerektirir. Sertifikalı teknisyenlerimiz elektrik kablolama, akıllı ev bağlantısı ve işletmeye alma işlemlerini gerçekleştirdikten sonra size kurulumunuzun kullanımı hakkında eğitim verir."
         }
       ]
+    },
+    "materials": {
+      "title": "Malzemeler ve akıllı ev sistemleri",
+      "description": "Panjurlarımız optimum termal ve akustik izolasyon için poliüretan köpükle doldurulmuş çift cidarlı alüminyum lamellerle yapılmıştır. Kutu yüzey montajlı (tadilat) veya tünel (duvar örgüsüne entegre) olabilir. Somfy, Nice veya Bubendorff motorlar 5 yıl garanti sunar ve iO-homecontrol, Google Home, Alexa ve Apple HomeKit akıllı ev sistemleriyle uyumludur. 200'den fazla RAL renginde mevcuttur."
+    },
+    "whyChooseUs": {
+      "title": "Biyoklimatik pergolanız için neden Archi'yi seçmelisiniz",
+      "items": [
+        "48 saat içinde 3D render ile ücretsiz kişiselleştirilmiş yerinde etüt",
+        "Belçika'daki atölyelerimizde özel üretim, titiz kalite kontrolü",
+        "Kendi sertifikalı teknisyenlerimiz tarafından kurulum, alt yüklenici yok",
+        "Gerekirse imar izinlerinin tam yönetimi",
+        "10 yıldan eski konutlar için indirimli %6 KDV",
+        "Yapıda 10 yıl üretici garantisi, motorizasyonda 5 yıl"
+      ]
+    },
+    "warranty": {
+      "title": "Özel garantiler",
+      "description": "Alüminyum lameller ve kutuda 10 yıl üretici garantisi, Somfy/Nice/Bubendorff motorizasyonunda 5 yıl, elektronik aksesuarlarda 2 yıl. Charleroi'de 48 saat içinde satış sonrası hizmet."
     }
   },
   "garage": {
@@ -305,6 +400,25 @@
           "answer": "Mevcut bir garaj kapısını değiştirmek genellikle montaj ve elektrik bağlantısı için 1 gün sürer. Özel üretim, teklif onayından sonra 3 ila 5 hafta gerektirir. Kurulum şunları içerir: eski kapının sökülmesi, ray montajı, panel montajı, motor kurulumu, ayarlamalar, uzaktan kumanda programlaması ve kullanıcı eğitimi. Yapıda 10 yıl ve motorizasyonda 5 yıl üretici garantisi standarttır."
         }
       ]
+    },
+    "materials": {
+      "title": "Kaliteli malzemeler ve motorizasyon",
+      "description": "Seksiyonel garaj kapılarımız 40mm çift cidarlı poliüretan köpük dolu çelik panellerle üretilir ve U=1.4 W/m²K katsayısına ulaşır. Hörmann, Somfy, Nice veya Marantec motorlar 5 ila 10 yıl garanti sunar, 800N motorlar (10m²'ye kadar kapılar) veya 1000N (daha büyük kapılar). WiFi akıllı ev uyumluluğu, 433MHz uzaktan kumanda, engel algılama ve entegre LED aydınlatma."
+    },
+    "whyChooseUs": {
+      "title": "Biyoklimatik pergolanız için neden Archi'yi seçmelisiniz",
+      "items": [
+        "48 saat içinde 3D render ile ücretsiz kişiselleştirilmiş yerinde etüt",
+        "Belçika'daki atölyelerimizde özel üretim, titiz kalite kontrolü",
+        "Kendi sertifikalı teknisyenlerimiz tarafından kurulum, alt yüklenici yok",
+        "Gerekirse imar izinlerinin tam yönetimi",
+        "10 yıldan eski konutlar için indirimli %6 KDV",
+        "Yapıda 10 yıl üretici garantisi, motorizasyonda 5 yıl"
+      ]
+    },
+    "warranty": {
+      "title": "Özel garantiler",
+      "description": "Yapı ve çelik panellerde 10 yıl üretici garantisi, Hörmann/Somfy/Nice motorizasyonunda 5 yıl, uzaktan kumandalar ve elektronik aksesuarlarda 2 yıl. Charleroi'de 48 saat içinde satış sonrası hizmet."
     }
   },
   "process": {
