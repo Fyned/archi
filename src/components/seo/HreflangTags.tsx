@@ -21,9 +21,14 @@ export function HreflangTags() {
   const firstPart = pathParts[0] as SupportedLanguage
   const isLangPrefixed = supportedLanguages.includes(firstPart)
   const currentLang: SupportedLanguage = isLangPrefixed ? firstPart : 'fr'
-  const canonicalPath = isLangPrefixed
+  const rawCanonicalPath = isLangPrefixed
     ? location.pathname
     : `/fr${location.pathname === '/' ? '' : location.pathname}`
+  // Always end with trailing slash to match react-snap SSG folder structure
+  // and Apache mod_dir behavior. Prevents canonical/Google mismatch.
+  const canonicalPath = rawCanonicalPath.endsWith('/')
+    ? rawCanonicalPath
+    : `${rawCanonicalPath}/`
   const canonicalUrl = `${BASE_URL}${canonicalPath}`
 
   const ogLocale = OG_LOCALE_MAP[currentLang]

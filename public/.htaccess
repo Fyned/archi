@@ -1,6 +1,7 @@
 # ===========================================
 # ARCHI CONSTRUCTION VERANDA - HTACCESS
 # Single Page Application (SPA) Configuration
+# Updated: 2026-04-15 — Trailing slash strategy + security headers + cache
 # ===========================================
 
 # Enable RewriteEngine
@@ -21,12 +22,15 @@
   RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
   # ===========================================
-  # 3. REMOVE TRAILING SLASH (CRITICAL FOR SPA)
-  # This prevents 403 errors on routes like /services/carport/
+  # 3. ADD TRAILING SLASH FOR DIRECTORY PATHS (CRITICAL FOR SPA)
+  # Aligns with react-snap SSG folder structure (dist/fr/services/garage/index.html)
+  # Prevents Apache mod_dir auto-append + .htaccess strip redirect loop
+  # Skip files (CSS, JS, images, etc.) and paths already ending with /
   # ===========================================
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_URI} (.+)/$
-  RewriteRule ^ %1 [R=301,L]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteCond %{REQUEST_URI} !\.
+  RewriteRule ^(.+)$ /$1/ [R=301,L]
 
   # ===========================================
   # 4. LANGUAGE PREFIX REDIRECT (SEO FIX)
@@ -36,10 +40,14 @@
   RewriteCond %{REQUEST_URI} !^/assets
   RewriteCond %{REQUEST_URI} !^/images
   RewriteCond %{REQUEST_URI} !^/videos
+  RewriteCond %{REQUEST_URI} !^/fonts
+  RewriteCond %{REQUEST_URI} !^/locales
   RewriteCond %{REQUEST_URI} !^/sitemap\.xml$
   RewriteCond %{REQUEST_URI} !^/robots\.txt$
   RewriteCond %{REQUEST_URI} !^/favicon
   RewriteCond %{REQUEST_URI} !^/index\.html$
+  RewriteCond %{REQUEST_URI} !^/200\.html$
+  RewriteCond %{REQUEST_URI} !^/404\.html$
   RewriteCond %{REQUEST_URI} !^/$
   RewriteCond %{REQUEST_URI} !\.
   RewriteRule ^(.+)$ /fr/$1 [R=301,L]
@@ -84,6 +92,7 @@ ErrorDocument 403 /index.html
   AddOutputFilterByType DEFLATE application/javascript
   AddOutputFilterByType DEFLATE application/x-javascript
   AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE image/svg+xml
 </IfModule>
 
 # ===========================================
@@ -104,9 +113,9 @@ ErrorDocument 403 /index.html
   ExpiresByType video/mp4 "access plus 1 year"
   ExpiresByType video/webm "access plus 1 year"
 
-  # CSS, JavaScript - 1 month
-  ExpiresByType text/css "access plus 1 month"
-  ExpiresByType application/javascript "access plus 1 month"
+  # CSS, JavaScript - 1 year (Vite hashes filenames, automatic cache busting)
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
 
   # Fonts - 1 year
   ExpiresByType font/woff "access plus 1 year"
@@ -116,17 +125,39 @@ ErrorDocument 403 /index.html
 
   # HTML - no cache (always fresh)
   ExpiresByType text/html "access plus 0 seconds"
+
+  # XML (sitemap) - 1 day
+  ExpiresByType application/xml "access plus 1 day"
+  ExpiresByType text/xml "access plus 1 day"
+</IfModule>
+
+# ===========================================
+# CACHE-CONTROL HEADERS (immutable for hashed assets)
+# ===========================================
+<IfModule mod_headers.c>
+  <FilesMatch "\.(webp|jpg|jpeg|png|gif|ico|svg|woff|woff2|ttf|eot|mp4|webm)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(css|js|mjs)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "^sitemap\.xml$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
 </IfModule>
 
 # ===========================================
 # SECURITY HEADERS
 # ===========================================
 <IfModule mod_headers.c>
+  # HSTS — force HTTPS for 1 year (includes subdomains, preload-ready)
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
   # Prevent MIME type sniffing
   Header always set X-Content-Type-Options "nosniff"
-
-  # Enable XSS filtering
-  Header always set X-XSS-Protection "1; mode=block"
 
   # Prevent clickjacking
   Header always set X-Frame-Options "SAMEORIGIN"
@@ -134,10 +165,24 @@ ErrorDocument 403 /index.html
   # Referrer policy
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
 
+  # Permissions policy — disable unused browser APIs
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(self), interest-cohort=(), payment=()"
+
+  # Content Security Policy — allows GA4, Meta Pixel, Google Fonts, Sanity CMS
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https: blob:; connect-src 'self' https://www.google-analytics.com https://connect.facebook.net https://*.sanity.io https://*.apicdn.sanity.io; frame-src 'self' https://www.facebook.com https://www.youtube.com https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'self';"
+
   # Remove server signature
   Header unset Server
   Header unset X-Powered-By
 </IfModule>
+
+# ===========================================
+# BLOCK SENSITIVE FILES
+# ===========================================
+<FilesMatch "(^\.env|^\.git|^package\.json$|^package-lock\.json$|^tsconfig|^vite\.config|^\.htaccess$)">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
 
 # ===========================================
 # DIRECTORY OPTIONS

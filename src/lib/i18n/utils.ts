@@ -21,12 +21,21 @@ export function getLocalizedPath(path: string, locale: SupportedLanguage): strin
     }
   }
 
-  // Add the locale prefix for all languages
+  // Build the path with locale prefix
+  let result: string
   if (cleanPath === '/') {
-    return `/${locale}`
+    result = `/${locale}`
+  } else {
+    result = `/${locale}${cleanPath}`
   }
 
-  return `/${locale}${cleanPath}`
+  // Always end with trailing slash to match react-snap SSG folder structure
+  // and Apache mod_dir behavior. Prevents canonical/Google mismatch.
+  if (!result.endsWith('/')) {
+    result += '/'
+  }
+
+  return result
 }
 
 export function getAllLocalizedPaths(path: string): Record<SupportedLanguage, string> {
