@@ -1,8 +1,8 @@
 # Dependencies
 node_modules/
 
-# Build output
-dist/
+# Build output (committed for Hostinger auto-deploy via GitHub pull)
+# dist/
 
 # Environment files
 .env
