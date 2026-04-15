@@ -6,6 +6,14 @@
     "cta_primary": "Kostenloses Angebot online",
     "cta_secondary": "Unsere Referenzen ansehen"
   },
+  "intro": {
+    "title": "Ihr Spezialist für Pergolen und Wintergärten in Belgien seit 2020",
+    "paragraphs": [
+      "Archi Construction & Veranda ist ein belgisches Unternehmen, das auf die Planung, Herstellung und Installation von bioklimatischen Pergolen, Aluminium-Wintergärten, Carports, Fenstern, Rollläden und maßgefertigten Garagentoren spezialisiert ist. Mit Sitz in Charleroi sind wir in ganz Wallonien, Brüssel, Flandern, Luxemburg, den Niederlanden und Nordfrankreich tätig.",
+      "Mit mehr als 500 abgeschlossenen Projekten und einer Kundenzufriedenheit von 98% stellen wir unsere technische Expertise und unser handwerkliches Können in den Dienst Ihrer Außenanlagen. Unsere bioklimatischen Pergolen mit verstellbaren Lamellen, unsere Aluminium-Wintergärten mit thermisch getrennten Profilen und unsere maßgefertigten Carports entsprechen den anspruchsvollsten Standards des belgischen Marktes, mit Materialien von großen europäischen Marken (Reynaers, Aliplast, Cortizo).",
+      "Jedes Projekt beginnt mit einer kostenlosen persönlichen Vor-Ort-Studie, gefolgt von einem detaillierten Angebot innerhalb von 48 Stunden. Unser Team verwaltet den gesamten Prozess: 3D-Design, Baugenehmigungen bei Bedarf, Maßfertigung in Belgien, Installation durch unsere zertifizierten Techniker und reaktionsschnellen Kundendienst mit 10 Jahren Herstellergarantie auf die Struktur."
+    ]
+  },
   "services": {
     "title": "Unsere Leistungen in NRW und Belgien",
     "subtitle": "Terrassendach, Wintergarten, Carport - Professionelle Montage",
@@ -61,7 +69,27 @@
   },
   "testimonials": {
     "title": "Was unsere Kunden sagen",
-    "subtitle": "Entdecken Sie die Erfahrungen zufriedener Kunden"
+    "subtitle": "Entdecken Sie die Erfahrungen zufriedener Kunden",
+    "items": [
+      {
+        "name": "Marie L.",
+        "location": "Charleroi",
+        "project": "Bioklimatische Pergola 4x3m",
+        "text": "Einwandfreie Installation unserer bioklimatischen Pergola. Das Team war vom ersten Kontakt bis zur Lieferung professionell. Die Qualität des Aluminiums und die Leichtgängigkeit der verstellbaren Lamellen übertreffen unsere Erwartungen. Wir genießen unsere Terrasse das ganze Jahr über."
+      },
+      {
+        "name": "Jean-Pierre D.",
+        "location": "Namur",
+        "project": "Aluminium-Wintergarten 18m²",
+        "text": "Wintergarten wie versprochen in 6 Wochen geliefert. Die Dreifachverglasung und die thermisch getrennten Profile garantieren außergewöhnlichen Komfort auch im Winter. Reaktionsschneller Kundendienst und aufmerksames Team. Ich kann es sehr empfehlen."
+      },
+      {
+        "name": "Sophie V.",
+        "location": "Brüssel",
+        "project": "Doppelcarport mit Solarmodulen",
+        "text": "Aluminium-Carport bereit für die Installation von Solarmodulen, genau das, wonach wir gesucht haben. Sorgfältige Verarbeitung und Einhaltung der Fristen. Das Angebot war klar und ohne Überraschungen. Vielen Dank an das gesamte Archi-Team für ihre Begleitung."
+      }
+    ]
   },
   "cta_section": {
     "title": "Bereit, Ihr Projekt zu starten?",

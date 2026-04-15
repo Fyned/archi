@@ -10,9 +10,12 @@
   "story": {
     "title": "Our Story",
     "paragraphs": [
-      "Archi Construction & Veranda was founded with a clear mission: to deliver high-quality outdoor constructions that enrich the lives of our customers.",
-      "What started as a small family business has grown into a renowned specialist in bioclimatic pergolas, aluminium verandas and carports. With over 500 successful projects in Belgium and neighbouring countries, we have built a solid reputation.",
-      "Our strength lies in the combination of Belgian craftsmanship, premium materials and personal service. Every project is executed with the same dedication and attention to detail, regardless of size."
+      "Archi Construction & Veranda was founded in 2020 in Charleroi with a clear mission: to deliver custom-made bioclimatic pergolas, aluminium verandas and carports of the highest quality to enrich the outdoor living spaces of our clients in Belgium, Luxembourg, the Netherlands and northern France.",
+      "What began as a small family business quickly became a recognized specialist thanks to our artisanal approach and technical mastery of thermal break aluminium profiles. Our founders, with more than 15 years of experience in industrial joinery, built the company around a simple conviction: every project deserves the same attention, whether it's a 9m² pergola or a 40m² veranda.",
+      "With more than 500 completed projects and a 98% customer satisfaction rate, we have built a solid reputation in Charleroi, Brussels, Namur, Liège, Mons, Tournai and throughout Wallonia. Our clients appreciate our transparency on deadlines, our detailed quotes without surprises, and our ability to manage administrative procedures (urban planning permits, declarations in protected zones) from end to end.",
+      "Our manufacturing workshops exclusively use aluminium profiles supplied by major European brands Reynaers, Aliplast and Cortizo, guaranteeing consistent quality and thermal performance meeting the most stringent requirements of the Belgian market. Each installation is carried out by our own teams of certified technicians, without subcontracting, allowing us to maintain rigorous quality control from start to finish.",
+      "We place particular importance on client relationships: every project begins with a free on-site visit to understand your needs and architectural constraints. Our design office then produces a personalized 3D rendering, followed by a detailed quote within 48 hours with a firm final price. Our team supports you until commissioning and beyond, with a 10-year manufacturer's warranty on the structure and responsive after-sales service based in Charleroi.",
+      "Our commitment to the future: continue to offer sustainable, energy-efficient outdoor solutions adapted to the Belgian climate. We regularly invest in training our teams on new home automation technologies (Somfy, Nice, iO-homecontrol), low-carbon materials and installation techniques optimized for low-energy buildings."
     ],
     "team": "Professional Team"
   },
@@ -47,6 +50,25 @@
     "subtitle": "Meet the people behind Archi Construction"
   },
   "certifications": {
-    "title": "Certificates & Partners"
+    "title": "Certifications & Warranties",
+    "subtitle": "Concrete commitments for your peace of mind",
+    "items": [
+      {
+        "name": "10-year Manufacturer's Warranty",
+        "description": "Structure, welds and aluminium profiles guaranteed for 10 years after installation. All our interventions result in a signed acceptance report."
+      },
+      {
+        "name": "Reynaers & Aliplast Materials",
+        "description": "We work exclusively with certified European aluminium profiles, guaranteeing thermal performance compliant with EN 14351-1 standards."
+      },
+      {
+        "name": "Certified Technicians",
+        "description": "Our installation team is continuously trained in the latest installation standards and certified for Somfy, Nice and iO-homecontrol home automation motors."
+      },
+      {
+        "name": "6% VAT Renovation",
+        "description": "For homes over 10 years old in Belgium, we apply the reduced 6% VAT rate in accordance with current legislation, documented in every quote."
+      }
+    ]
   }
 }

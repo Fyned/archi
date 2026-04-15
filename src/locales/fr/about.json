@@ -10,9 +10,12 @@
   "story": {
     "title": "Notre Histoire",
     "paragraphs": [
-      "Archi Construction & Véranda a été fondée avec une mission claire : fournir des constructions extérieures de haute qualité qui enrichissent la vie de nos clients.",
-      "Ce qui a commencé comme une petite entreprise familiale est devenu un spécialiste renommé en pergolas bioclimatiques, vérandas en aluminium et carports. Avec plus de 500 projets réussis en Belgique et dans les pays voisins, nous avons bâti une solide réputation.",
-      "Notre force réside dans la combinaison de l'artisanat belge, de matériaux premium et d'un service personnalisé. Chaque projet est réalisé avec le même dévouement et le même souci du détail, quelle que soit son envergure."
+      "Archi Construction & Véranda a été fondée en 2020 à Charleroi avec une mission claire : fournir des pergolas bioclimatiques, vérandas aluminium et carports sur mesure de la plus haute qualité pour enrichir les espaces de vie extérieurs de nos clients en Belgique, au Luxembourg, aux Pays-Bas et dans le nord de la France.",
+      "Ce qui a commencé comme une petite entreprise familiale est rapidement devenu un spécialiste reconnu grâce à notre approche artisanale et notre maîtrise technique des profilés aluminium à rupture de pont thermique. Nos fondateurs, issus du secteur de la menuiserie industrielle depuis plus de 15 ans, ont bâti l'entreprise autour d'une conviction simple : chaque projet mérite la même attention, qu'il s'agisse d'une pergola de 9m² ou d'une véranda de 40m².",
+      "Avec plus de 500 projets réalisés et un taux de satisfaction client de 98%, nous avons construit une solide réputation à Charleroi, Bruxelles, Namur, Liège, Mons, Tournai et dans toute la Wallonie. Nos clients apprécient notre transparence sur les délais, notre devis détaillé sans surprise, et notre capacité à gérer les démarches administratives (permis d'urbanisme, déclarations en zones classées) de bout en bout.",
+      "Nos ateliers de fabrication utilisent exclusivement des profilés aluminium fournis par les grandes marques européennes Reynaers, Aliplast et Cortizo, garantissant une qualité constante et des performances thermiques conformes aux exigences les plus strictes du marché belge. Chaque installation est réalisée par nos propres équipes de techniciens agréés, sans sous-traitance, ce qui nous permet de maintenir un contrôle qualité rigoureux du début à la fin du chantier.",
+      "Nous accordons une importance particulière à la relation client : chaque projet commence par une visite gratuite sur site pour comprendre vos besoins et contraintes architecturales. Notre bureau d'études réalise ensuite un rendu 3D personnalisé, puis un devis détaillé sous 48 heures avec un prix final ferme. Notre équipe vous accompagne jusqu'à la mise en service et au-delà, avec une garantie constructeur 10 ans sur la structure et un service après-vente réactif basé à Charleroi.",
+      "Notre engagement pour l'avenir : continuer à proposer des solutions extérieures durables, écoénergétiques et adaptées au climat belge. Nous investissons régulièrement dans la formation de nos équipes sur les nouvelles technologies domotiques (Somfy, Nice, iO-homecontrol), les matériaux à faible empreinte carbone et les techniques d'installation optimisées pour les bâtiments basse consommation."
     ],
     "team": "Équipe professionnelle"
   },
@@ -47,6 +50,25 @@
     "subtitle": "Découvrez les personnes derrière Archi Construction"
   },
   "certifications": {
-    "title": "Certificats & Partenaires"
+    "title": "Certifications & Garanties",
+    "subtitle": "Des engagements concrets pour votre tranquillité d'esprit",
+    "items": [
+      {
+        "name": "Garantie Constructeur 10 ans",
+        "description": "Structure, soudures et profilés aluminium garantis pendant 10 ans après installation. Toutes nos interventions donnent lieu à un procès-verbal de réception signé."
+      },
+      {
+        "name": "Matériaux Reynaers & Aliplast",
+        "description": "Nous travaillons exclusivement avec des profilés aluminium européens certifiés, garantissant des performances thermiques conformes aux normes EN 14351-1."
+      },
+      {
+        "name": "Techniciens Agréés",
+        "description": "Notre équipe d'installateurs est formée en continu aux dernières normes de pose et certifiée pour les moteurs domotiques Somfy, Nice et iO-homecontrol."
+      },
+      {
+        "name": "TVA 6% Rénovation",
+        "description": "Pour les logements de plus de 10 ans en Belgique, nous appliquons le taux de TVA réduit à 6% conformément à la législation en vigueur, documenté dans chaque devis."
+      }
+    ]
   }
 }

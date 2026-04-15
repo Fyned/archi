@@ -6,6 +6,14 @@
     "cta_primary": "Devis gratuit en ligne",
     "cta_secondary": "Voir nos réalisations"
   },
+  "intro": {
+    "title": "Votre spécialiste pergola et véranda en Belgique depuis 2020",
+    "paragraphs": [
+      "Archi Construction & Véranda est une entreprise belge spécialisée dans la conception, la fabrication et l'installation de pergolas bioclimatiques, vérandas aluminium, carports, fenêtres, volets roulants et portes de garage sur mesure. Basée à Charleroi, nous intervenons dans toute la Wallonie, Bruxelles, la Flandre, le Luxembourg, les Pays-Bas et le nord de la France.",
+      "Avec plus de 500 projets réalisés et un taux de satisfaction client de 98%, nous mettons notre expertise technique et notre savoir-faire artisanal au service de vos aménagements extérieurs. Nos pergolas bioclimatiques à lames orientables, nos vérandas aluminium à rupture de pont thermique et nos carports sur mesure répondent aux normes les plus exigeantes du marché belge, avec des matériaux fournis par les grandes marques européennes (Reynaers, Aliplast, Cortizo).",
+      "Chaque projet commence par une étude personnalisée gratuite sur site, suivie d'un devis détaillé sous 48 heures. Notre équipe gère l'intégralité du processus : conception 3D, permis d'urbanisme si nécessaire, fabrication sur mesure en Belgique, installation par nos techniciens agréés, et service après-vente réactif avec garantie constructeur 10 ans sur la structure."
+    ]
+  },
   "services": {
     "title": "Nos Services en Belgique et Luxembourg",
     "subtitle": "Pergola bioclimatique, véranda aluminium, carport - Installation professionnelle",
@@ -61,7 +69,27 @@
   },
   "testimonials": {
     "title": "Ce Que Disent Nos Clients",
-    "subtitle": "Découvrez les expériences de nos clients satisfaits"
+    "subtitle": "Découvrez les expériences de nos clients satisfaits",
+    "items": [
+      {
+        "name": "Marie L.",
+        "location": "Charleroi",
+        "project": "Pergola bioclimatique 4x3m",
+        "text": "Installation impeccable de notre pergola bioclimatique. L'équipe a été professionnelle du premier contact jusqu'à la livraison. La qualité de l'aluminium et la fluidité des lames orientables dépassent nos attentes. Nous profitons de notre terrasse toute l'année."
+      },
+      {
+        "name": "Jean-Pierre D.",
+        "location": "Namur",
+        "project": "Véranda aluminium 18m²",
+        "text": "Véranda livrée en 6 semaines comme promis. Le triple vitrage et les profils à rupture thermique garantissent un confort exceptionnel même en hiver. Service après-vente réactif et équipe à l'écoute. Je recommande vivement."
+      },
+      {
+        "name": "Sophie V.",
+        "location": "Bruxelles",
+        "project": "Carport double avec panneaux solaires",
+        "text": "Carport aluminium prêt pour l'installation de panneaux solaires, exactement ce que nous cherchions. Finitions soignées et respect des délais. Le devis était clair et sans surprise. Merci à toute l'équipe Archi pour leur accompagnement."
+      }
+    ]
   },
   "cta_section": {
     "title": "Prêt à démarrer votre projet?",

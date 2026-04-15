@@ -10,9 +10,12 @@
   "story": {
     "title": "Ons Verhaal",
     "paragraphs": [
-      "Archi Construction & Veranda werd opgericht met een duidelijke missie: het leveren van hoogwaardige buitenconstructies die het leven van onze klanten verrijken.",
-      "Wat begon als een klein familiebedrijf is uitgegroeid tot een gerenommeerde specialist in bioklimatische pergola's, aluminium veranda's en carports. Met meer dan 500 succesvolle projecten in België en omliggende landen, hebben we een solide reputatie opgebouwd.",
-      "Onze kracht ligt in de combinatie van Belgisch vakmanschap, premium materialen en persoonlijke service. Elk project wordt met dezelfde toewijding en aandacht voor detail uitgevoerd, ongeacht de omvang."
+      "Archi Construction & Veranda werd in 2020 opgericht in Charleroi met een duidelijke missie: het leveren van bioclimatische pergola's, aluminium veranda's en carports op maat van de hoogste kwaliteit om de buitenleefruimtes van onze klanten in België, Luxemburg, Nederland en Noord-Frankrijk te verrijken.",
+      "Wat begon als een klein familiebedrijf is snel uitgegroeid tot een erkende specialist dankzij onze ambachtelijke aanpak en onze technische beheersing van aluminium profielen met thermische onderbreking. Onze oprichters, afkomstig uit de industriële schrijnwerkerij met meer dan 15 jaar ervaring, hebben het bedrijf opgebouwd rond een eenvoudige overtuiging: elk project verdient dezelfde aandacht, of het nu gaat om een pergola van 9m² of een veranda van 40m².",
+      "Met meer dan 500 gerealiseerde projecten en een klanttevredenheid van 98% hebben wij een solide reputatie opgebouwd in Charleroi, Brussel, Namen, Luik, Bergen, Doornik en in heel Wallonië. Onze klanten waarderen onze transparantie over deadlines, onze gedetailleerde offerte zonder verrassingen en ons vermogen om administratieve formaliteiten (stedenbouwkundige vergunningen, meldingen in beschermde zones) van begin tot eind te beheren.",
+      "Onze productieworkshops gebruiken uitsluitend aluminium profielen geleverd door de grote Europese merken Reynaers, Aliplast en Cortizo, wat een constante kwaliteit en thermische prestaties garandeert die voldoen aan de strengste eisen van de Belgische markt. Elke installatie wordt uitgevoerd door onze eigen teams van erkende technici, zonder onderaanneming, waardoor we een rigoureuze kwaliteitscontrole kunnen handhaven van begin tot eind van het project.",
+      "Wij hechten bijzonder belang aan de klantrelatie: elk project begint met een gratis bezoek ter plaatse om uw behoeften en architectonische beperkingen te begrijpen. Ons studiebureau maakt vervolgens een gepersonaliseerde 3D-rendering, gevolgd door een gedetailleerde offerte binnen 48 uur met een vaste eindprijs. Ons team begeleidt u tot de ingebruikname en daarna, met 10 jaar fabrieksgarantie op de structuur en een responsieve aftersales service in Charleroi.",
+      "Onze toekomstvisie: blijven duurzame, energiezuinige buitenoplossingen aanbieden die aangepast zijn aan het Belgische klimaat. Wij investeren regelmatig in de opleiding van onze teams op het gebied van nieuwe domoticatechnologieën (Somfy, Nice, iO-homecontrol), materialen met lage koolstofvoetafdruk en geoptimaliseerde installatietechnieken voor laagenergiegebouwen."
     ],
     "team": "Professioneel team"
   },
@@ -47,6 +50,25 @@
     "subtitle": "Maak kennis met de mensen achter Archi Construction"
   },
   "certifications": {
-    "title": "Certificaten & Partners"
+    "title": "Certificeringen & Garanties",
+    "subtitle": "Concrete verbintenissen voor uw gemoedsrust",
+    "items": [
+      {
+        "name": "10 jaar fabrieksgarantie",
+        "description": "Structuur, lassen en aluminium profielen gegarandeerd voor 10 jaar na installatie. Al onze interventies worden afgesloten met een ondertekend opleveringsrapport."
+      },
+      {
+        "name": "Reynaers & Aliplast materialen",
+        "description": "Wij werken uitsluitend met gecertificeerde Europese aluminium profielen, die thermische prestaties garanderen conform de EN 14351-1 normen."
+      },
+      {
+        "name": "Erkende technici",
+        "description": "Ons installatieteam wordt voortdurend opgeleid in de nieuwste plaatsingsnormen en is gecertificeerd voor Somfy, Nice en iO-homecontrol domoticamotoren."
+      },
+      {
+        "name": "6% BTW renovatie",
+        "description": "Voor woningen ouder dan 10 jaar in België passen wij het verlaagde BTW-tarief van 6% toe volgens de geldende wetgeving, gedocumenteerd in elke offerte."
+      }
+    ]
   }
 }

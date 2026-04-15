@@ -229,6 +229,31 @@
         "Protection against weather",
         "Property value increase"
       ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Roller Shutters",
+      "items": [
+        {
+          "question": "How much does an electric roller shutter cost in Belgium?",
+          "answer": "The price of a motorized aluminium roller shutter ranges from €350 to €750 per window depending on size, motorization, color and box type (renovation or tunnel). For a complete house with 8 to 12 windows, expect between €4,500 and €9,500 installed. Double-wall aluminium with insulating foam offers the best value for the Belgian climate and saves up to 8% on your heating bill."
+        },
+        {
+          "question": "Aluminium or PVC roller shutter: which to choose?",
+          "answer": "Aluminium is recommended for its durability (25-30 years), impact resistance, weather resistance and slim profiles. PVC is cheaper to purchase but deforms under high heat and yellows over time. For Belgium we systematically recommend aluminium with polyurethane foam for thermal and acoustic insulation. Aluminium also allows custom RAL colors and larger dimensions."
+        },
+        {
+          "question": "Is a permit required for roller shutters in Belgium?",
+          "answer": "For a classic installation on an existing home, no urban planning permit is required in Wallonia, Brussels or Flanders if the shutters are identical in color and style. However, in listed districts, protected buildings or Natura 2000 zones, a declaration or permit may be necessary. We systematically verify your property's situation before installation and handle the procedures if needed."
+        },
+        {
+          "question": "Can roller shutters be integrated with home automation?",
+          "answer": "Yes, all our motorized roller shutters are compatible with Somfy, Nice, Bubendorff and iO-homecontrol home automation systems. You can control your shutters from your smartphone, program automatic scenarios (morning opening, night closing, sun detection), and integrate with Google Home, Alexa or Apple HomeKit. Solar-powered shutters without wiring also exist, ideal for renovation."
+        },
+        {
+          "question": "How long does roller shutter installation take?",
+          "answer": "For a classic 10-window home, installation typically takes 1 to 2 days depending on type (surface-mounted renovation or tunnel integrated in masonry). Custom manufacturing requires 4 to 6 weeks after quote approval. Our certified technicians handle electrical wiring, home automation connection and commissioning before training you on your installation's use."
+        }
+      ]
     }
   },
   "garage": {
@@ -254,6 +279,31 @@
         "Excellent insulation",
         "Quiet and reliable",
         "Long lifespan"
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Garage Doors",
+      "items": [
+        {
+          "question": "How much does a sectional garage door cost in Belgium?",
+          "answer": "The price of a motorized sectional garage door ranges from €1,800 to €4,500 depending on dimensions, motorization type, insulation and options (windows, wicket door, RAL color). For a standard 2.50m × 2.00m door with a Hörmann or Somfy motor, expect around €2,400 installed. Double-wall 40mm doors offer the best compromise between thermal insulation (up to U=1.4 W/m²K) and budget."
+        },
+        {
+          "question": "Sectional or up-and-over door: which to choose?",
+          "answer": "The sectional door is the recommended modern choice: it opens vertically along the ceiling, requires no space in front of the garage, offers better insulation and enhanced security. The up-and-over door, more economical, requires outward clearance and offers less weatherproofing. For recent homes and renovations, the sectional is preferred in 90% of cases due to its thermal performance and user comfort."
+        },
+        {
+          "question": "Which motorization to choose for a garage door?",
+          "answer": "Hörmann, Somfy, Nice and Marantec dominate the Belgian market with 5 to 10 year warranties. Choose an 800N motor for doors up to 10m², 1000N for larger or double doors. Essential features include: 433 MHz remote control, obstacle detection, partial opening (ventilation), integrated LED lighting and home automation compatibility. WiFi motors enable smartphone control and remote opening."
+        },
+        {
+          "question": "Is a planning permit required to change a garage door?",
+          "answer": "Identical replacement of a garage door requires no permit in Wallonia, Brussels and Flanders. However, if you modify the opening dimension (widening, raising), an urban planning declaration is required. In protected zones or for listed buildings, we recommend consulting your municipality's planning department. We handle all administrative formalities if needed."
+        },
+        {
+          "question": "How long does garage door installation take?",
+          "answer": "Replacing an existing garage door typically takes 1 day for installation and electrical connection. Custom manufacturing requires 3 to 5 weeks after quote approval. Installation includes: removal of the old door, rail installation, panel assembly, motor installation, adjustments, remote programming and user training. A manufacturer's warranty of 10 years on the structure and 5 years on the motorization is standard."
+        }
       ]
     }
   },

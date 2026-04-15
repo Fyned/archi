@@ -229,6 +229,31 @@
         "Hava koşullarından koruma",
         "Mülk değerinde artış"
       ]
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular - Panjurlar",
+      "items": [
+        {
+          "question": "Belçika'da elektrikli panjur fiyatı nedir?",
+          "answer": "Motorlu alüminyum panjur fiyatı, boyut, motorizasyon, renk ve kutu tipine (tadilat veya tünel) göre pencere başına 350€ ile 750€ arasında değişir. 8 ila 12 pencereli komple bir ev için montaj dahil 4.500€ ile 9.500€ arası bir bütçe öngörün. İzolasyon köpüklü çift cidarlı alüminyum, Belçika iklimi için en iyi fiyat-kalite oranını sunar ve ısıtma faturanızda %8'e varan tasarruf sağlar."
+        },
+        {
+          "question": "Alüminyum mu PVC panjur mu: hangisini seçmeli?",
+          "answer": "Alüminyum dayanıklılığı (25-30 yıl), darbe direnci, hava koşullarına dayanıklılığı ve ince profilleri nedeniyle önerilir. PVC satın alma fiyatı daha ucuzdur ancak yüksek sıcaklıkta deforme olur ve zamanla sararır. Belçika için sistematik olarak termal ve akustik izolasyon için poliüretan köpüklü alüminyum öneriyoruz. Alüminyum ayrıca özel RAL renkleri ve daha büyük boyutlara da izin verir."
+        },
+        {
+          "question": "Belçika'da panjur için izin gerekli mi?",
+          "answer": "Mevcut bir eve klasik bir kurulum için, panjurlar renk ve stil olarak özdeşse Valonya, Brüksel veya Flanders'da şehir planlama izni gerekli değildir. Ancak, korunan mahallelerde, anıtsal binalarda veya Natura 2000 bölgelerinde bir bildirim veya izin gerekli olabilir. Kurulumdan önce mülkünüzün durumunu sistematik olarak kontrol ediyor ve gerektiğinde işlemleri yönetiyoruz."
+        },
+        {
+          "question": "Panjurlar akıllı ev sistemlerine entegre edilebilir mi?",
+          "answer": "Evet, tüm motorlu panjurlarımız Somfy, Nice, Bubendorff ve iO-homecontrol akıllı ev sistemleriyle uyumludur. Panjurlarınızı akıllı telefonunuzdan kontrol edebilir, otomatik senaryolar programlayabilir (sabah açılışı, gece kapanışı, güneş algılama) ve Google Home, Alexa veya Apple HomeKit ile entegre edebilirsiniz. Tadilat için ideal olan kablosuz güneş enerjili panjurlar da mevcuttur."
+        },
+        {
+          "question": "Panjur kurulumu ne kadar sürer?",
+          "answer": "10 pencereli klasik bir ev için kurulum, tipine (yüzey montajlı tadilat veya duvar örgüsüne entegre tünel) bağlı olarak genellikle 1 ila 2 gün sürer. Özel üretim, teklif onayından sonra 4 ila 6 hafta gerektirir. Sertifikalı teknisyenlerimiz elektrik kablolama, akıllı ev bağlantısı ve işletmeye alma işlemlerini gerçekleştirdikten sonra size kurulumunuzun kullanımı hakkında eğitim verir."
+        }
+      ]
     }
   },
   "garage": {
@@ -254,6 +279,31 @@
         "Mükemmel yalıtım",
         "Sessiz ve güvenilir çalışma",
         "Uzun ömür"
+      ]
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular - Garaj Kapıları",
+      "items": [
+        {
+          "question": "Belçika'da seksiyonel garaj kapısı fiyatı nedir?",
+          "answer": "Motorlu seksiyonel garaj kapısının fiyatı, boyutlara, motor tipine, yalıtıma ve seçeneklere (pencere, yan kapı, RAL rengi) bağlı olarak 1.800€ ile 4.500€ arasında değişir. Hörmann veya Somfy motorlu standart bir 2,50m × 2,00m kapı için montaj dahil yaklaşık 2.400€ öngörün. 40mm çift cidarlı kapılar, termal yalıtım (U=1,4 W/m²K'ye kadar) ve bütçe arasında en iyi uzlaşmayı sunar."
+        },
+        {
+          "question": "Seksiyonel mi yoksa tilt kapı mı: hangisini seçmeli?",
+          "answer": "Seksiyonel kapı, önerilen modern seçimdir: Tavana paralel olarak dikey açılır, garajın önünde boşluk gerektirmez, daha iyi yalıtım ve gelişmiş güvenlik sunar. Tilt kapı daha ekonomiktir ancak dışarıda açılma alanı gerektirir ve daha az sızdırmazlık sunar. Yeni evler ve yenilemelerde, termal performans ve kullanım konforu nedeniyle seksiyonel %90 oranında tercih edilir."
+        },
+        {
+          "question": "Garaj kapısı için hangi motor seçilmeli?",
+          "answer": "Hörmann, Somfy, Nice ve Marantec markaları 5 ila 10 yıl garantiyle Belçika pazarına hakimdir. 10m²'ye kadar kapılar için 800N motor, daha büyük veya çift kapılar için 1000N seçin. Temel özellikler şunları içerir: 433 MHz uzaktan kumanda, engel algılama, kısmi açılma (havalandırma), entegre LED aydınlatma ve akıllı ev uyumluluğu. WiFi motorlar akıllı telefon kontrolü ve uzaktan açılış sağlar."
+        },
+        {
+          "question": "Garaj kapısı değiştirmek için imar izni gerekli mi?",
+          "answer": "Garaj kapısının özdeş şekilde değiştirilmesi Valonya, Brüksel ve Flanders'da izin gerektirmez. Ancak, açıklık boyutunu değiştirirseniz (genişletme, yükseltme), şehir planlama bildirimi gereklidir. Korunan bölgelerde veya anıtsal binalar için belediyenizin imar departmanına danışmanızı öneririz. Gerektiğinde tüm idari işlemleri biz yönetiyoruz."
+        },
+        {
+          "question": "Garaj kapısı kurulumu ne kadar sürer?",
+          "answer": "Mevcut bir garaj kapısını değiştirmek genellikle montaj ve elektrik bağlantısı için 1 gün sürer. Özel üretim, teklif onayından sonra 3 ila 5 hafta gerektirir. Kurulum şunları içerir: eski kapının sökülmesi, ray montajı, panel montajı, motor kurulumu, ayarlamalar, uzaktan kumanda programlaması ve kullanıcı eğitimi. Yapıda 10 yıl ve motorizasyonda 5 yıl üretici garantisi standarttır."
+        }
       ]
     }
   },

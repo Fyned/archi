@@ -6,6 +6,14 @@
     "cta_primary": "Ücretsiz Teklif Al",
     "cta_secondary": "Projelerimizi Görün"
   },
+  "intro": {
+    "title": "2020'den beri Belçika'da pergola ve veranda uzmanınız",
+    "paragraphs": [
+      "Archi Construction & Veranda, biyoklimatik pergolaların, alüminyum verandaların, carportların, pencerelerin, panjurların ve özel garaj kapılarının tasarımı, üretimi ve kurulumu konusunda uzmanlaşmış Belçikalı bir şirkettir. Charleroi'de bulunan merkezimizle Valonya, Brüksel, Flanders, Lüksemburg, Hollanda ve Kuzey Fransa genelinde hizmet veriyoruz.",
+      "500'den fazla tamamlanmış proje ve %98 müşteri memnuniyet oranıyla, teknik uzmanlığımızı ve el işçiliğimizi dış mekan uygulamalarınızın hizmetine sunuyoruz. Ayarlanabilir lamelli biyoklimatik pergolalarımız, termal bariyer profilli alüminyum verandalarımız ve özel carportlarımız, büyük Avrupa markaları (Reynaers, Aliplast, Cortizo) tarafından tedarik edilen malzemelerle Belçika pazarının en zorlu standartlarını karşılar.",
+      "Her proje, ücretsiz kişiselleştirilmiş yerinde etüt ile başlar ve ardından 48 saat içinde detaylı bir teklif gelir. Ekibimiz tüm süreci yönetir: 3D tasarım, gerekirse imar izinleri, Belçika'da özel üretim, sertifikalı teknisyenlerimiz tarafından kurulum ve yapı üzerinde 10 yıllık üretici garantisi ile hızlı satış sonrası hizmet."
+    ]
+  },
   "services": {
     "title": "Hizmetlerimiz",
     "subtitle": "Dış mekan yapılarımızın tüm seçeneklerini keşfedin",
@@ -61,7 +69,27 @@
   },
   "testimonials": {
     "title": "Müşterilerimiz Ne Diyor",
-    "subtitle": "Memnun müşterilerimizin deneyimlerini okuyun"
+    "subtitle": "Memnun müşterilerimizin deneyimlerini okuyun",
+    "items": [
+      {
+        "name": "Marie L.",
+        "location": "Charleroi",
+        "project": "Biyoklimatik pergola 4x3m",
+        "text": "Biyoklimatik pergolamızın kusursuz kurulumu. Ekip, ilk temastan teslimata kadar profesyoneldi. Alüminyumun kalitesi ve ayarlanabilir lamellerin akıcılığı beklentilerimizi aşıyor. Terasımızın tadını yıl boyunca çıkarıyoruz."
+      },
+      {
+        "name": "Jean-Pierre D.",
+        "location": "Namur",
+        "project": "Alüminyum veranda 18m²",
+        "text": "Veranda söz verildiği gibi 6 haftada teslim edildi. Üçlü cam ve termal bariyer profilleri kışın bile olağanüstü konfor sağlar. Hızlı satış sonrası hizmet ve dikkatli ekip. Kesinlikle tavsiye ederim."
+      },
+      {
+        "name": "Sophie V.",
+        "location": "Brüksel",
+        "project": "Güneş panelli çift carport",
+        "text": "Güneş paneli kurulumuna hazır alüminyum carport, tam aradığımız şey. Özenli işçilik ve son tarihlere saygı. Teklif net ve sürprizsizdi. Destekleri için tüm Archi ekibine teşekkürler."
+      }
+    ]
   },
   "cta_section": {
     "title": "Projenize Başlamaya Hazır mısınız?",

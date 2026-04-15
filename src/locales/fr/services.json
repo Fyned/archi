@@ -229,6 +229,31 @@
         "Protection contre les intempéries",
         "Plus-value pour votre propriété"
       ]
+    },
+    "faq": {
+      "title": "Questions Fréquentes - Volets Roulants",
+      "items": [
+        {
+          "question": "Quel est le prix d'un volet roulant électrique en Belgique?",
+          "answer": "Le prix d'un volet roulant aluminium motorisé varie entre 350€ et 750€ par fenêtre selon la taille, la motorisation, la couleur et le type de coffre (rénovation ou tunnel). Pour une maison complète avec 8 à 12 fenêtres, comptez entre 4.500€ et 9.500€ installation comprise. L'aluminium double paroi avec mousse isolante offre le meilleur rapport qualité-prix pour le climat belge et permet d'économiser jusqu'à 8% sur votre facture de chauffage."
+        },
+        {
+          "question": "Volet roulant aluminium ou PVC: lequel choisir?",
+          "answer": "L'aluminium est recommandé pour sa durabilité (25-30 ans), sa résistance aux chocs, aux intempéries et sa finesse des profils. Le PVC est moins cher à l'achat mais se déforme sous forte chaleur et jaunit avec le temps. Pour la Belgique, nous recommandons systématiquement l'aluminium avec mousse polyuréthane pour l'isolation thermique et acoustique. L'aluminium permet également des couleurs RAL sur mesure et des dimensions plus grandes."
+        },
+        {
+          "question": "Faut-il un permis pour installer des volets roulants en Belgique?",
+          "answer": "Pour une installation classique sur une maison existante, aucun permis d'urbanisme n'est requis en Wallonie, Bruxelles ou Flandre si les volets sont identiques en couleur et style. Cependant, dans les quartiers classés, les bâtiments protégés ou les zones Natura 2000, une déclaration ou un permis peut être nécessaire. Nous vérifions systématiquement la situation de votre bien avant installation et gérons les démarches si besoin."
+        },
+        {
+          "question": "Les volets roulants peuvent-ils être intégrés à la domotique?",
+          "answer": "Oui, tous nos volets roulants motorisés sont compatibles avec les systèmes domotiques Somfy, Nice, Bubendorff et iO-homecontrol. Vous pouvez contrôler vos volets depuis votre smartphone, programmer des scénarios automatiques (ouverture matinale, fermeture nocturne, détection soleil), et les intégrer à Google Home, Alexa ou Apple HomeKit. Les volets solaires sans câblage existent aussi, idéaux pour la rénovation."
+        },
+        {
+          "question": "Combien de temps dure l'installation de volets roulants?",
+          "answer": "Pour une maison classique de 10 fenêtres, l'installation prend généralement 1 à 2 journées selon le type (rénovation en applique ou tunnel intégré dans la maçonnerie). La fabrication sur mesure nécessite 4 à 6 semaines après validation du devis. Nos techniciens agréés s'occupent du câblage électrique, du raccordement domotique et de la mise en service avant de vous former à l'utilisation de votre installation."
+        }
+      ]
     }
   },
   "garage": {
@@ -254,6 +279,31 @@
         "Excellente isolation",
         "Silencieuse et fiable",
         "Longue durée de vie"
+      ]
+    },
+    "faq": {
+      "title": "Questions Fréquentes - Portes de Garage",
+      "items": [
+        {
+          "question": "Quel est le prix d'une porte de garage sectionnelle en Belgique?",
+          "answer": "Le prix d'une porte de garage sectionnelle motorisée varie entre 1.800€ et 4.500€ selon la dimension, le type de motorisation, l'isolation et les options (hublots, portillon, couleur RAL). Pour une porte standard de 2,50m × 2,00m avec moteur Hörmann ou Somfy, comptez environ 2.400€ installation comprise. Les portes à double paroi 40mm offrent le meilleur compromis entre isolation thermique (jusqu'à U=1,4 W/m²K) et budget."
+        },
+        {
+          "question": "Porte sectionnelle ou porte basculante: que choisir?",
+          "answer": "La porte sectionnelle est le choix moderne recommandé: elle s'ouvre verticalement le long du plafond, ne nécessite aucun espace devant le garage, offre une meilleure isolation et une sécurité renforcée. La porte basculante, plus économique, nécessite un débattement extérieur et offre moins d'étanchéité. Pour les maisons récentes et les rénovations, la sectionnelle est privilégiée dans 90% des cas en raison de ses performances thermiques et de son confort d'utilisation."
+        },
+        {
+          "question": "Quelle motorisation choisir pour sa porte de garage?",
+          "answer": "Les marques Hörmann, Somfy, Nice et Marantec dominent le marché belge avec des garanties 5 à 10 ans. Choisissez un moteur 800N pour les portes jusqu'à 10m², 1000N pour les portes plus grandes ou doubles. Les fonctions essentielles incluent: télécommande 433 MHz, détection d'obstacle, ouverture partielle (ventilation), éclairage LED intégré et compatibilité domotique. Les moteurs WiFi permettent le contrôle via smartphone et l'ouverture à distance."
+        },
+        {
+          "question": "Faut-il un permis d'urbanisme pour changer une porte de garage?",
+          "answer": "Le remplacement à l'identique d'une porte de garage ne nécessite aucun permis en Wallonie, Bruxelles et Flandre. Cependant, si vous modifiez la dimension de l'ouverture (élargissement, rehaussement), une déclaration urbanistique est requise. Dans les zones protégées ou pour les bâtiments classés, nous recommandons de consulter le service urbanisme de votre commune. Nous nous chargeons de toutes les démarches administratives si nécessaire."
+        },
+        {
+          "question": "Combien de temps dure l'installation d'une porte de garage?",
+          "answer": "Le remplacement d'une porte de garage existante prend généralement 1 journée pour la pose et le raccordement électrique. La fabrication sur mesure nécessite 3 à 5 semaines après validation du devis. L'installation comprend: dépose de l'ancienne porte, pose des rails, montage des panneaux, installation du moteur, réglages, programmation des télécommandes et formation à l'utilisation. Une garantie constructeur de 10 ans sur la structure et 5 ans sur la motorisation est standard."
+        }
       ]
     }
   },

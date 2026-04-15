@@ -136,12 +136,32 @@ export default function AboutPage() {
             <h2 className="text-3xl font-heading font-bold mb-4">
               {t('about:certifications.title')}
             </h2>
+            <p className="text-lg text-gray-600">
+              {t('about:certifications.subtitle')}
+            </p>
           </div>
 
-          <div className="flex flex-wrap justify-center items-center gap-12 opacity-60">
-            <div className="text-2xl font-bold text-gray-400">ISO 9001</div>
-            <div className="text-2xl font-bold text-gray-400">CE Certified</div>
-            <div className="text-2xl font-bold text-gray-400">Belgian Quality</div>
+          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            {((t('about:certifications.items', { returnObjects: true }) as Array<{ name: string; description: string }>) || []).map((item, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100"
+              >
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center flex-shrink-0">
+                    <Award className="w-6 h-6 text-primary-600" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-heading font-bold text-gray-900 mb-2">
+                      {item.name}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed text-sm">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

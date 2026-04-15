@@ -10,9 +10,12 @@
   "story": {
     "title": "Unsere Geschichte",
     "paragraphs": [
-      "Archi Construction & Veranda wurde mit einer klaren Mission gegründet: hochwertige Außenkonstruktionen zu liefern, die das Leben unserer Kunden bereichern.",
-      "Was als kleines Familienunternehmen begann, ist zu einem renommierten Spezialisten für bioklimatische Pergolen, Aluminium-Wintergärten und Carports gewachsen. Mit über 500 erfolgreichen Projekten in Belgien und den Nachbarländern haben wir einen soliden Ruf aufgebaut.",
-      "Unsere Stärke liegt in der Kombination aus belgischer Handwerkskunst, Premium-Materialien und persönlichem Service. Jedes Projekt wird mit derselben Hingabe und Liebe zum Detail ausgeführt, unabhängig von seiner Größe."
+      "Archi Construction & Veranda wurde 2020 in Charleroi mit einer klaren Mission gegründet: maßgefertigte bioklimatische Pergolen, Aluminium-Wintergärten und Carports höchster Qualität zu liefern, um die Außenwohnräume unserer Kunden in Belgien, Luxemburg, den Niederlanden und Nordfrankreich zu bereichern.",
+      "Was als kleines Familienunternehmen begann, wurde dank unseres handwerklichen Ansatzes und unserer technischen Beherrschung von Aluminiumprofilen mit thermischer Trennung schnell zu einem anerkannten Spezialisten. Unsere Gründer mit mehr als 15 Jahren Erfahrung in der industriellen Schreinerei haben das Unternehmen auf einer einfachen Überzeugung aufgebaut: Jedes Projekt verdient die gleiche Aufmerksamkeit, egal ob es sich um eine 9m²-Pergola oder einen 40m²-Wintergarten handelt.",
+      "Mit mehr als 500 abgeschlossenen Projekten und einer Kundenzufriedenheit von 98% haben wir uns einen soliden Ruf in Charleroi, Brüssel, Namur, Lüttich, Mons, Tournai und in ganz Wallonien aufgebaut. Unsere Kunden schätzen unsere Transparenz bei Fristen, unsere detaillierten Angebote ohne Überraschungen und unsere Fähigkeit, Verwaltungsverfahren (Baugenehmigungen, Meldungen in Schutzzonen) von A bis Z zu verwalten.",
+      "Unsere Produktionsstätten verwenden ausschließlich Aluminiumprofile der großen europäischen Marken Reynaers, Aliplast und Cortizo und garantieren damit gleichbleibende Qualität und thermische Leistungen, die den strengsten Anforderungen des belgischen Marktes entsprechen. Jede Installation wird von unseren eigenen Teams zertifizierter Techniker durchgeführt, ohne Unterauftragsvergabe, was uns ermöglicht, eine rigorose Qualitätskontrolle von Anfang bis Ende der Baustelle aufrechtzuerhalten.",
+      "Wir legen besonderen Wert auf die Kundenbeziehung: Jedes Projekt beginnt mit einem kostenlosen Vor-Ort-Besuch, um Ihre Bedürfnisse und architektonischen Einschränkungen zu verstehen. Unser Planungsbüro erstellt dann ein personalisiertes 3D-Rendering, gefolgt von einem detaillierten Angebot innerhalb von 48 Stunden mit einem festen Endpreis. Unser Team begleitet Sie bis zur Inbetriebnahme und darüber hinaus, mit 10 Jahren Herstellergarantie auf die Struktur und reaktionsschnellem Kundendienst mit Sitz in Charleroi.",
+      "Unser Engagement für die Zukunft: Weiterhin nachhaltige, energieeffiziente Außenlösungen anbieten, die an das belgische Klima angepasst sind. Wir investieren regelmäßig in die Schulung unserer Teams in neuen Smart-Home-Technologien (Somfy, Nice, iO-homecontrol), Materialien mit geringem CO2-Fußabdruck und optimierten Installationstechniken für Niedrigenergiegebäude."
     ],
     "team": "Professionelles Team"
   },
@@ -47,6 +50,25 @@
     "subtitle": "Lernen Sie die Menschen hinter Archi Construction kennen"
   },
   "certifications": {
-    "title": "Zertifikate & Partner"
+    "title": "Zertifizierungen & Garantien",
+    "subtitle": "Konkrete Verpflichtungen für Ihre Sicherheit",
+    "items": [
+      {
+        "name": "10 Jahre Herstellergarantie",
+        "description": "Struktur, Schweißnähte und Aluminiumprofile für 10 Jahre nach der Installation garantiert. Alle unsere Einsätze führen zu einem unterzeichneten Abnahmebericht."
+      },
+      {
+        "name": "Reynaers & Aliplast Materialien",
+        "description": "Wir arbeiten ausschließlich mit zertifizierten europäischen Aluminiumprofilen und garantieren thermische Leistungen gemäß den Normen EN 14351-1."
+      },
+      {
+        "name": "Zertifizierte Techniker",
+        "description": "Unser Installationsteam wird kontinuierlich in den neuesten Installationsstandards geschult und ist für Somfy, Nice und iO-homecontrol Smart-Home-Motoren zertifiziert."
+      },
+      {
+        "name": "6% MwSt. Renovierung",
+        "description": "Für Häuser, die älter als 10 Jahre sind, wenden wir in Belgien den reduzierten MwSt.-Satz von 6% gemäß geltender Gesetzgebung an, dokumentiert in jedem Angebot."
+      }
+    ]
   }
 }

@@ -229,6 +229,31 @@
         "Wetterschutz",
         "Wertsteigerung Ihrer Immobilie"
       ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen - Rollläden",
+      "items": [
+        {
+          "question": "Was kostet ein elektrischer Rollladen in Belgien?",
+          "answer": "Der Preis eines motorisierten Aluminium-Rollladens liegt zwischen 350€ und 750€ pro Fenster, abhängig von Größe, Motorisierung, Farbe und Kastentyp (Aufsatz oder Tunnel). Für ein komplettes Haus mit 8 bis 12 Fenstern rechnen Sie mit 4.500€ bis 9.500€ inklusive Installation. Doppelwandiges Aluminium mit Isolierschaum bietet das beste Preis-Leistungs-Verhältnis für das belgische Klima und spart bis zu 8% Heizkosten."
+        },
+        {
+          "question": "Aluminium oder PVC Rollladen: was wählen?",
+          "answer": "Aluminium wird wegen seiner Langlebigkeit (25-30 Jahre), Stoßfestigkeit, Wetterbeständigkeit und schlanken Profile empfohlen. PVC ist in der Anschaffung günstiger, verformt sich jedoch bei Hitze und vergilbt mit der Zeit. Für Belgien empfehlen wir grundsätzlich Aluminium mit Polyurethanschaum für thermische und akustische Isolierung. Aluminium ermöglicht auch kundenspezifische RAL-Farben und größere Abmessungen."
+        },
+        {
+          "question": "Braucht man eine Genehmigung für Rollläden in Belgien?",
+          "answer": "Für eine klassische Installation an einem bestehenden Haus ist in Wallonien, Brüssel oder Flandern keine Baugenehmigung erforderlich, wenn die Rollläden in Farbe und Stil identisch sind. In denkmalgeschützten Vierteln, geschützten Gebäuden oder Natura-2000-Zonen kann jedoch eine Meldung oder Genehmigung erforderlich sein. Wir überprüfen systematisch die Situation Ihrer Immobilie vor der Installation und übernehmen bei Bedarf die Formalitäten."
+        },
+        {
+          "question": "Können Rollläden in Smart-Home-Systeme integriert werden?",
+          "answer": "Ja, alle unsere motorisierten Rollläden sind mit Somfy, Nice, Bubendorff und iO-homecontrol Smart-Home-Systemen kompatibel. Sie können Ihre Rollläden per Smartphone steuern, automatische Szenarien programmieren (Morgenöffnung, Nachtschließung, Sonnenerkennung) und mit Google Home, Alexa oder Apple HomeKit integrieren. Solar-Rollläden ohne Verkabelung gibt es ebenfalls, ideal für die Renovierung."
+        },
+        {
+          "question": "Wie lange dauert die Installation von Rollläden?",
+          "answer": "Für ein klassisches Haus mit 10 Fenstern dauert die Installation in der Regel 1 bis 2 Tage, je nach Typ (Aufsatzrollladen für Renovierung oder Tunnel in das Mauerwerk integriert). Die Maßanfertigung erfordert 4 bis 6 Wochen nach Genehmigung des Angebots. Unsere zertifizierten Techniker kümmern sich um die Elektroverkabelung, den Smart-Home-Anschluss und die Inbetriebnahme, bevor sie Sie in der Bedienung Ihrer Anlage schulen."
+        }
+      ]
     }
   },
   "garage": {
@@ -254,6 +279,31 @@
         "Ausgezeichnete Isolierung",
         "Leise und zuverlässig",
         "Lange Lebensdauer"
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen - Garagentore",
+      "items": [
+        {
+          "question": "Was kostet ein Sektionaltor für die Garage in Belgien?",
+          "answer": "Der Preis eines motorisierten Sektionaltors liegt zwischen 1.800€ und 4.500€, abhängig von Abmessungen, Antriebstyp, Isolierung und Optionen (Fenster, Schlupftür, RAL-Farbe). Für ein Standardtor 2,50m × 2,00m mit Hörmann- oder Somfy-Antrieb rechnen Sie mit rund 2.400€ inklusive Installation. Doppelwandige 40mm-Tore bieten den besten Kompromiss zwischen Wärmedämmung (bis U=1,4 W/m²K) und Budget."
+        },
+        {
+          "question": "Sektionaltor oder Schwingtor: was wählen?",
+          "answer": "Das Sektionaltor ist die empfohlene moderne Wahl: Es öffnet vertikal entlang der Decke, benötigt keinen Platz vor der Garage, bietet bessere Isolierung und erhöhte Sicherheit. Das Schwingtor ist günstiger, benötigt aber Außenausschwenkbereich und bietet weniger Dichtheit. Für neuere Häuser und Renovierungen wird das Sektionaltor in 90% der Fälle bevorzugt, aufgrund seiner thermischen Leistung und seines Nutzungskomforts."
+        },
+        {
+          "question": "Welchen Antrieb für ein Garagentor wählen?",
+          "answer": "Hörmann, Somfy, Nice und Marantec dominieren den belgischen Markt mit 5 bis 10 Jahren Garantie. Wählen Sie einen 800N-Antrieb für Tore bis 10m², 1000N für größere oder Doppeltore. Wesentliche Funktionen umfassen: 433 MHz Fernbedienung, Hinderniserkennung, Teilöffnung (Belüftung), integrierte LED-Beleuchtung und Smart-Home-Kompatibilität. WiFi-Antriebe ermöglichen Smartphone-Steuerung und Fernöffnung."
+        },
+        {
+          "question": "Braucht man eine Baugenehmigung zum Austausch eines Garagentors?",
+          "answer": "Der identische Austausch eines Garagentors erfordert in Wallonien, Brüssel und Flandern keine Genehmigung. Wenn Sie jedoch die Abmessung der Öffnung ändern (Verbreiterung, Erhöhung), ist eine städtebauliche Meldung erforderlich. In Schutzzonen oder bei denkmalgeschützten Gebäuden empfehlen wir, die Bauabteilung Ihrer Gemeinde zu konsultieren. Wir übernehmen bei Bedarf alle Verwaltungsformalitäten."
+        },
+        {
+          "question": "Wie lange dauert die Installation eines Garagentors?",
+          "answer": "Der Austausch eines bestehenden Garagentors dauert in der Regel 1 Tag für Montage und elektrischen Anschluss. Die Maßanfertigung erfordert 3 bis 5 Wochen nach Angebotsgenehmigung. Die Installation umfasst: Entfernung des alten Tors, Schienenmontage, Panelmontage, Motorinstallation, Einstellungen, Programmierung der Fernbedienungen und Benutzerschulung. Eine Herstellergarantie von 10 Jahren auf die Struktur und 5 Jahren auf den Antrieb ist Standard."
+        }
       ]
     }
   },

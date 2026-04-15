@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import { useTranslation } from '@/hooks/useTranslation'
 import { fadeInUp, staggerContainer } from '@/components/ui'
@@ -7,7 +8,7 @@ const PHONE_CALL = '+32 487 72 06 29'
 const EMAIL = 'info@archiconstructionveranda.be'
 
 export default function PrivacyPolicyPage() {
-  const { t } = useTranslation('privacy')
+  const { t, locale } = useTranslation('privacy')
 
   const sections = [
     { key: 'collection', icon: '📋' },
@@ -20,6 +21,18 @@ export default function PrivacyPolicyPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Helmet>
+        <title>{`${t('title')} | Archi Construction & Veranda`}</title>
+        <meta name="description" content={t('intro')} />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content={`${t('title')} | Archi Construction & Veranda`} />
+        <meta property="og:description" content={t('intro')} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={`https://archi.constructionveranda.com/${locale}/privacy`} />
+        <meta property="og:image" content="https://archi.constructionveranda.com/images/general/hero-main.webp" />
+        <link rel="canonical" href={`https://archi.constructionveranda.com/${locale}/privacy`} />
+      </Helmet>
+
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-primary-900 py-20">
         <div className="container-custom">

@@ -10,9 +10,12 @@
   "story": {
     "title": "Hikayemiz",
     "paragraphs": [
-      "Archi Construction & Veranda, net bir misyonla kuruldu: müşterilerimizin yaşamlarını zenginleştiren yüksek kaliteli dış mekan yapıları sunmak.",
-      "Küçük bir aile şirketi olarak başlayan işimiz, biyoklimatik pergolalar, alüminyum verandalar ve carport'larda uzmanlaşmış saygın bir markaya dönüştü. Belçika ve komşu ülkelerde 500'ü aşkın başarılı proje ile sağlam bir itibar oluşturduk.",
-      "Gücümüz, Belçika işçiliği, premium malzemeler ve kişisel hizmet kombinasyonunda yatıyor. Her proje, boyutuna bakılmaksızın aynı özveri ve detaya gösterilen özenle yürütülür."
+      "Archi Construction & Veranda, 2020 yılında Charleroi'de net bir misyonla kuruldu: Belçika, Lüksemburg, Hollanda ve Kuzey Fransa'daki müşterilerimizin dış yaşam alanlarını zenginleştirmek için en yüksek kalitede özel üretim biyoklimatik pergolalar, alüminyum verandalar ve carportlar sunmak.",
+      "Küçük bir aile işletmesi olarak başlayan şirket, el işçiliğimiz ve termal bariyerli alüminyum profillerdeki teknik hakimiyetimiz sayesinde hızla tanınmış bir uzman haline geldi. 15 yılı aşkın endüstriyel doğramacılık deneyimine sahip kurucularımız, şirketi basit bir inanç etrafında kurdu: ister 9m²'lik bir pergola ister 40m²'lik bir veranda olsun, her proje aynı özeni hak eder.",
+      "500'den fazla tamamlanmış proje ve %98 müşteri memnuniyet oranıyla, Charleroi, Brüksel, Namur, Liège, Mons, Tournai ve tüm Valonya genelinde sağlam bir itibar oluşturduk. Müşterilerimiz teslim tarihlerindeki şeffaflığımızı, sürprizsiz detaylı teklifimizi ve idari prosedürleri (imar izinleri, korunan bölgelerdeki bildirimler) baştan sona yönetme yeteneğimizi takdir ediyor.",
+      "Üretim atölyelerimiz yalnızca büyük Avrupa markaları Reynaers, Aliplast ve Cortizo tarafından tedarik edilen alüminyum profiller kullanıyor ve Belçika pazarının en katı gereksinimlerine uygun tutarlı kalite ve termal performans garanti ediyor. Her kurulum, alt yüklenici olmadan, kendi sertifikalı teknisyen ekiplerimiz tarafından gerçekleştiriliyor ve bu da şantiyenin başından sonuna kadar titiz bir kalite kontrolü sürdürmemizi sağlıyor.",
+      "Müşteri ilişkisine özel önem veriyoruz: her proje, ihtiyaçlarınızı ve mimari kısıtlamalarınızı anlamak için ücretsiz bir yerinde ziyaretle başlıyor. Tasarım ofisimiz daha sonra kişiselleştirilmiş bir 3D render oluşturuyor, ardından 48 saat içinde kesin nihai fiyatlı detaylı bir teklif geliyor. Ekibimiz size işletmeye alma ve sonrasında, yapı üzerinde 10 yıllık üretici garantisi ve Charleroi merkezli hızlı satış sonrası hizmetle eşlik ediyor.",
+      "Geleceğe bağlılığımız: Belçika iklimine uygun sürdürülebilir, enerji tasarruflu dış mekan çözümleri sunmaya devam etmek. Ekiplerimizi yeni akıllı ev teknolojileri (Somfy, Nice, iO-homecontrol), düşük karbon ayak izine sahip malzemeler ve düşük enerjili binalar için optimize edilmiş kurulum teknikleri konusunda düzenli olarak eğitiyoruz."
     ],
     "team": "Profesyonel Ekip"
   },
@@ -47,6 +50,25 @@
     "subtitle": "Archi Construction'ın arkasındaki insanlarla tanışın"
   },
   "certifications": {
-    "title": "Sertifikalar & Ortaklar"
+    "title": "Sertifikalar & Garantiler",
+    "subtitle": "İç huzurunuz için somut taahhütler",
+    "items": [
+      {
+        "name": "10 Yıl Üretici Garantisi",
+        "description": "Yapı, kaynaklar ve alüminyum profiller kurulumdan sonra 10 yıl garantilidir. Tüm müdahalelerimiz imzalı bir kabul tutanağı ile sonuçlanır."
+      },
+      {
+        "name": "Reynaers & Aliplast Malzemeler",
+        "description": "EN 14351-1 standartlarına uygun termal performansı garanti eden, yalnızca sertifikalı Avrupa alüminyum profilleri ile çalışıyoruz."
+      },
+      {
+        "name": "Sertifikalı Teknisyenler",
+        "description": "Kurulum ekibimiz en son montaj standartları konusunda sürekli eğitilmektedir ve Somfy, Nice ve iO-homecontrol akıllı ev motorları için sertifikalıdır."
+      },
+      {
+        "name": "%6 KDV Yenileme",
+        "description": "Belçika'da 10 yıldan eski konutlar için, yürürlükteki mevzuata uygun olarak düşük %6 KDV oranını uyguluyoruz ve her teklifte belgeliyoruz."
+      }
+    ]
   }
 }

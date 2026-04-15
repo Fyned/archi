@@ -229,6 +229,31 @@
         "Bescherming tegen weer en wind",
         "Waardestijging van uw woning"
       ]
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen - Rolluiken",
+      "items": [
+        {
+          "question": "Wat kost een elektrisch rolluik in België?",
+          "answer": "De prijs van een gemotoriseerd aluminium rolluik varieert tussen 350€ en 750€ per raam, afhankelijk van afmetingen, motorisatie, kleur en type kast (renovatie of tunnel). Voor een volledig huis met 8 tot 12 ramen rekent u tussen 4.500€ en 9.500€ inclusief installatie. Dubbelwandig aluminium met isolerend schuim biedt de beste prijs-kwaliteit voor het Belgische klimaat en bespaart tot 8% op uw verwarmingskosten."
+        },
+        {
+          "question": "Aluminium of PVC rolluik: welke kiezen?",
+          "answer": "Aluminium wordt aanbevolen voor zijn duurzaamheid (25-30 jaar), stootvastheid, weerbestendigheid en slanke profielen. PVC is goedkoper bij aanschaf maar vervormt bij hitte en vergeelt na verloop van tijd. Voor België raden we systematisch aluminium aan met polyurethaanschuim voor thermische en akoestische isolatie. Aluminium biedt ook RAL-kleuren op maat en grotere afmetingen."
+        },
+        {
+          "question": "Is een vergunning nodig voor rolluiken in België?",
+          "answer": "Voor een klassieke installatie op een bestaande woning is geen stedenbouwkundige vergunning vereist in Wallonië, Brussel of Vlaanderen als de rolluiken identiek zijn in kleur en stijl. In beschermde wijken, monumentale panden of Natura 2000-gebieden kan echter een melding of vergunning nodig zijn. Wij controleren systematisch de situatie van uw pand vóór installatie en regelen de procedures indien nodig."
+        },
+        {
+          "question": "Kunnen rolluiken worden geïntegreerd in domotica?",
+          "answer": "Ja, al onze gemotoriseerde rolluiken zijn compatibel met Somfy, Nice, Bubendorff en iO-homecontrol domotica-systemen. U kunt uw rolluiken bedienen via smartphone, automatische scenario's programmeren (ochtendopening, nachtsluiting, zondetectie) en integreren met Google Home, Alexa of Apple HomeKit. Zonne-rolluiken zonder bedrading bestaan ook, ideaal voor renovatie."
+        },
+        {
+          "question": "Hoelang duurt de installatie van rolluiken?",
+          "answer": "Voor een klassieke woning met 10 ramen duurt de installatie meestal 1 tot 2 dagen, afhankelijk van het type (opbouw renovatie of tunnel geïntegreerd in het metselwerk). Fabricage op maat vereist 4 tot 6 weken na goedkeuring van de offerte. Onze erkende technici verzorgen de elektrische bekabeling, domotica-aansluiting en inbedrijfstelling voordat ze u opleiden in het gebruik van uw installatie."
+        }
+      ]
     }
   },
   "garage": {
@@ -254,6 +279,31 @@
         "Uitstekende isolatie",
         "Stil en betrouwbaar",
         "Lange levensduur"
+      ]
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen - Garagepoorten",
+      "items": [
+        {
+          "question": "Wat kost een sectionale garagepoort in België?",
+          "answer": "De prijs van een gemotoriseerde sectionale garagepoort varieert tussen 1.800€ en 4.500€ afhankelijk van afmeting, type motorisatie, isolatie en opties (ramen, loopdeur, RAL-kleur). Voor een standaardpoort van 2,50m × 2,00m met Hörmann of Somfy motor rekent u ongeveer 2.400€ inclusief installatie. Dubbelwandige poorten van 40mm bieden het beste compromis tussen thermische isolatie (tot U=1,4 W/m²K) en budget."
+        },
+        {
+          "question": "Sectionale of kantelpoort: welke kiezen?",
+          "answer": "De sectionale poort is de aanbevolen moderne keuze: hij opent verticaal langs het plafond, vereist geen ruimte vóór de garage, biedt betere isolatie en verhoogde veiligheid. De kantelpoort, voordeliger, vereist een externe uitzwaairuimte en biedt minder luchtdichtheid. Voor recente woningen en renovaties wordt de sectionale in 90% van de gevallen gekozen vanwege zijn thermische prestaties en gebruikscomfort."
+        },
+        {
+          "question": "Welke motorisatie kiezen voor een garagepoort?",
+          "answer": "De merken Hörmann, Somfy, Nice en Marantec domineren de Belgische markt met 5 tot 10 jaar garantie. Kies een 800N motor voor poorten tot 10m², 1000N voor grotere of dubbele poorten. Essentiële functies omvatten: 433 MHz afstandsbediening, obstakeldetectie, gedeeltelijke opening (ventilatie), geïntegreerde LED-verlichting en domotica-compatibiliteit. WiFi-motoren maken smartphonebediening en afstandsopening mogelijk."
+        },
+        {
+          "question": "Is een stedenbouwkundige vergunning nodig om een garagepoort te vervangen?",
+          "answer": "Identieke vervanging van een garagepoort vereist geen vergunning in Wallonië, Brussel en Vlaanderen. Als u echter de afmeting van de opening wijzigt (vergroting, verhoging), is een stedenbouwkundige melding vereist. In beschermde zones of voor beschermde gebouwen raden wij aan de stedenbouwkundige dienst van uw gemeente te raadplegen. Wij verzorgen indien nodig alle administratieve formaliteiten."
+        },
+        {
+          "question": "Hoelang duurt de installatie van een garagepoort?",
+          "answer": "Het vervangen van een bestaande garagepoort duurt meestal 1 dag voor plaatsing en elektrische aansluiting. Fabricage op maat vereist 3 tot 5 weken na goedkeuring van de offerte. De installatie omvat: verwijdering van de oude poort, plaatsing van de rails, montage van de panelen, installatie van de motor, afstellingen, programmering van de afstandsbedieningen en gebruikstraining. Een fabrieksgarantie van 10 jaar op de structuur en 5 jaar op de motorisatie is standaard."
+        }
       ]
     }
   },

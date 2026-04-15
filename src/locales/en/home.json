@@ -6,6 +6,14 @@
     "cta_primary": "Request Free Quote",
     "cta_secondary": "View Our Projects"
   },
+  "intro": {
+    "title": "Your pergola and veranda specialist in Belgium since 2020",
+    "paragraphs": [
+      "Archi Construction & Veranda is a Belgian company specialized in the design, manufacturing and installation of bioclimatic pergolas, aluminium verandas, carports, windows, roller shutters and custom garage doors. Based in Charleroi, we operate throughout Wallonia, Brussels, Flanders, Luxembourg, the Netherlands and northern France.",
+      "With more than 500 completed projects and a 98% customer satisfaction rate, we put our technical expertise and craftsmanship at the service of your outdoor installations. Our bioclimatic pergolas with adjustable louvres, our aluminium verandas with thermal break profiles and our custom carports meet the most demanding standards of the Belgian market, using materials supplied by major European brands (Reynaers, Aliplast, Cortizo).",
+      "Every project begins with a free personalized on-site study, followed by a detailed quote within 48 hours. Our team handles the entire process: 3D design, urban planning permits if necessary, custom manufacturing in Belgium, installation by our certified technicians, and responsive after-sales service with a 10-year manufacturer's warranty on the structure."
+    ]
+  },
   "services": {
     "title": "Our Services",
     "subtitle": "Discover our complete range of outdoor constructions",
@@ -61,7 +69,27 @@
   },
   "testimonials": {
     "title": "What Our Clients Say",
-    "subtitle": "Discover the experiences of satisfied customers"
+    "subtitle": "Discover the experiences of satisfied customers",
+    "items": [
+      {
+        "name": "Marie L.",
+        "location": "Charleroi",
+        "project": "Bioclimatic pergola 4x3m",
+        "text": "Flawless installation of our bioclimatic pergola. The team was professional from first contact to delivery. The quality of the aluminium and the smoothness of the adjustable louvres exceed our expectations. We enjoy our terrace all year round."
+      },
+      {
+        "name": "Jean-Pierre D.",
+        "location": "Namur",
+        "project": "Aluminium veranda 18m²",
+        "text": "Veranda delivered in 6 weeks as promised. The triple glazing and thermal break profiles guarantee exceptional comfort even in winter. Responsive after-sales service and attentive team. I highly recommend."
+      },
+      {
+        "name": "Sophie V.",
+        "location": "Brussels",
+        "project": "Double carport with solar panels",
+        "text": "Aluminium carport ready for solar panel installation, exactly what we were looking for. Careful finishing and respect for deadlines. The quote was clear and without surprises. Thanks to the entire Archi team for their support."
+      }
+    ]
   },
   "cta_section": {
     "title": "Ready to Start Your Project?",

@@ -6,6 +6,14 @@
     "cta_primary": "Gratis offerte online",
     "cta_secondary": "Bekijk onze realisaties"
   },
+  "intro": {
+    "title": "Uw specialist in pergola's en veranda's in België sinds 2020",
+    "paragraphs": [
+      "Archi Construction & Veranda is een Belgisch bedrijf gespecialiseerd in het ontwerp, de productie en de installatie van bioclimatische pergola's, aluminium veranda's, carports, ramen, rolluiken en garagepoorten op maat. Gevestigd in Charleroi, zijn wij actief in heel Wallonië, Brussel, Vlaanderen, Luxemburg, Nederland en Noord-Frankrijk.",
+      "Met meer dan 500 gerealiseerde projecten en een klanttevredenheid van 98% stellen wij onze technische expertise en ons ambachtelijk vakmanschap ter beschikking voor uw buitenrealisaties. Onze bioclimatische pergola's met verstelbare lamellen, onze aluminium veranda's met thermische onderbreking en onze carports op maat voldoen aan de strengste normen van de Belgische markt, met materialen geleverd door grote Europese merken (Reynaers, Aliplast, Cortizo).",
+      "Elk project begint met een gratis gepersonaliseerde studie ter plaatse, gevolgd door een gedetailleerde offerte binnen 48 uur. Ons team beheert het volledige proces: 3D-ontwerp, stedenbouwkundige vergunning indien nodig, maatfabricage in België, installatie door onze erkende technici, en responsieve aftersales met 10 jaar fabrieksgarantie op de structuur."
+    ]
+  },
   "services": {
     "title": "Onze Diensten in België en Nederland",
     "subtitle": "Bioklimatische pergola, aluminium veranda, carport - Vakkundige installatie",
@@ -61,7 +69,27 @@
   },
   "testimonials": {
     "title": "Wat Onze Klanten Zeggen",
-    "subtitle": "Ontdek de ervaringen van tevreden klanten"
+    "subtitle": "Ontdek de ervaringen van tevreden klanten",
+    "items": [
+      {
+        "name": "Marie L.",
+        "location": "Charleroi",
+        "project": "Bioclimatische pergola 4x3m",
+        "text": "Onberispelijke installatie van onze bioclimatische pergola. Het team was professioneel vanaf het eerste contact tot de levering. De kwaliteit van het aluminium en de soepelheid van de verstelbare lamellen overtreffen onze verwachtingen. We genieten het hele jaar door van ons terras."
+      },
+      {
+        "name": "Jean-Pierre D.",
+        "location": "Namen",
+        "project": "Aluminium veranda 18m²",
+        "text": "Veranda geleverd in 6 weken zoals beloofd. De driedubbele beglazing en thermisch onderbroken profielen garanderen uitzonderlijk comfort zelfs in de winter. Responsieve aftersales service en luisterend team. Ik beveel het ten zeerste aan."
+      },
+      {
+        "name": "Sophie V.",
+        "location": "Brussel",
+        "project": "Dubbele carport met zonnepanelen",
+        "text": "Aluminium carport klaar voor installatie van zonnepanelen, precies wat we zochten. Verzorgde afwerking en respect voor de deadlines. De offerte was duidelijk en zonder verrassingen. Bedankt aan het hele Archi-team voor hun begeleiding."
+      }
+    ]
   },
   "cta_section": {
     "title": "Klaar om uw project te starten?",

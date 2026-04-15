@@ -1,6 +1,8 @@
 export { Hero } from './Hero'
+export { Intro } from './Intro'
 export { Services } from './Services'
 export { WhyUs } from './WhyUs'
 export { TrustBadges } from './TrustBadges'
 export { FeaturedProjects } from './FeaturedProjects'
+export { Testimonials } from './Testimonials'
 export { CTASection } from './CTASection'
