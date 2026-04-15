@@ -60,8 +60,11 @@ export default function AboutPage() {
             <div className="relative">
               <img
                 src="/images/general/about-team.webp"
-                alt="Our team at work"
+                alt={t('about:story.team')}
+                width="800"
+                height="600"
                 className="rounded-xl shadow-lg"
+                loading="lazy"
               />
               <div className="absolute -bottom-6 -left-6 bg-primary-600 text-white p-6 rounded-xl">
                 <div className="text-4xl font-bold">✓</div>

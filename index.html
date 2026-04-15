@@ -68,6 +68,12 @@
       "@type": "HomeAndConstructionBusiness",
       "name": "Archi Construction & Veranda",
       "image": "https://archi.constructionveranda.com/logo-horizontal.png",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://archi.constructionveranda.com/logo-horizontal.png",
+        "width": 600,
+        "height": 200
+      },
       "description": "Specialist in bioclimatic pergolas, aluminium verandas, carports, windows, roller shutters and garage doors in Belgium, Luxembourg, Netherlands and surrounding regions. Professional custom installation.",
       "@id": "https://archi.constructionveranda.com/#business",
       "url": "https://archi.constructionveranda.com/",
@@ -216,13 +222,17 @@
     }
     </script>
 
-    <!-- WebPage Creator Schema -->
+    <!-- WebPage Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
+      "@id": "https://archi.constructionveranda.com/#webpage",
       "name": "Archi Construction & Véranda — Pergola & Véranda Belgique",
       "url": "https://archi.constructionveranda.com",
+      "isPartOf": { "@id": "https://archi.constructionveranda.com/#website" },
+      "about": { "@id": "https://archi.constructionveranda.com/#business" },
+      "inLanguage": "fr",
       "creator": {
         "@type": "Organization",
         "name": "DMC Kreatif",

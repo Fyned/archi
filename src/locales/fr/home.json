@@ -65,7 +65,25 @@
   "projects": {
     "title": "Projets Récents",
     "subtitle": "Découvrez quelques-unes de nos réalisations les plus récentes",
-    "view_all": "Voir tous les projets"
+    "view_all": "Voir tous les projets",
+    "featured": {
+      "pergola_brussels": {
+        "title": "Pergola bioclimatique moderne",
+        "location": "Bruxelles, Belgique"
+      },
+      "veranda_antwerp": {
+        "title": "Véranda en verre élégante",
+        "location": "Anvers, Belgique"
+      },
+      "carport_ghent": {
+        "title": "Carport double de luxe",
+        "location": "Gand, Belgique"
+      },
+      "garage_leuven": {
+        "title": "Porte de garage moderne",
+        "location": "Louvain, Belgique"
+      }
+    }
   },
   "testimonials": {
     "title": "Ce Que Disent Nos Clients",

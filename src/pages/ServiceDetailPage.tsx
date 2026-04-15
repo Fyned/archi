@@ -381,6 +381,9 @@ export default function ServiceDetailPage() {
         <meta property="og:description" content={t(`services:meta.${service}.description`)} />
         <meta property="og:image" content={`https://archi.constructionveranda.com${images[0]}`} />
         <meta property="og:type" content="website" />
+        <meta name="twitter:title" content={`${serviceTitle} | Archi Construction & Veranda`} />
+        <meta name="twitter:description" content={t(`services:meta.${service}.description`)} />
+        <meta name="twitter:image" content={`https://archi.constructionveranda.com${images[0]}`} />
         <link rel="canonical" href={`https://archi.constructionveranda.com/${currentLang}/services/${service}`} />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -391,6 +394,24 @@ export default function ServiceDetailPage() {
               { "@type": "ListItem", "position": 2, "name": t('common:nav.services'), "item": `https://archi.constructionveranda.com/${currentLang}/services` },
               { "@type": "ListItem", "position": 3, "name": serviceTitle, "item": `https://archi.constructionveranda.com/${currentLang}/services/${service}` }
             ]
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "@id": `https://archi.constructionveranda.com/${currentLang}/services/${service}#service`,
+            "name": serviceTitle,
+            "description": t(`services:meta.${service}.description`),
+            "serviceType": serviceTitle,
+            "provider": { "@id": "https://archi.constructionveranda.com/#business" },
+            "areaServed": [
+              { "@type": "Country", "name": "Belgium" },
+              { "@type": "Country", "name": "Luxembourg" },
+              { "@type": "Country", "name": "Netherlands" }
+            ],
+            "url": `https://archi.constructionveranda.com/${currentLang}/services/${service}`,
+            "image": `https://archi.constructionveranda.com${images[0]}`
           })}
         </script>
       </Helmet>

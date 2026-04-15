@@ -27,6 +27,12 @@ function LangGuard({ children }: { children: React.ReactNode }) {
   return <>{children}</>
 }
 
+function RootToFrRedirect({ path, paramKey = 'serviceId' }: { path: string; paramKey?: string }) {
+  const params = useParams<Record<string, string>>()
+  const value = params[paramKey]
+  return <Navigate to={`/fr/${path}/${value ?? ''}`} replace />
+}
+
 const PageLoader = () => (
   <div className="min-h-screen flex items-center justify-center">
     <div className="w-8 h-8 border-4 border-primary-600 border-t-transparent rounded-full animate-spin" />
@@ -37,21 +43,21 @@ export default function App() {
   return (
     <Suspense fallback={<PageLoader />}>
       <Routes>
-        {/* Root routes */}
-        <Route path="/" element={<Layout><HomePage /></Layout>} />
-        <Route path="/about" element={<Layout><AboutPage /></Layout>} />
-        <Route path="/services" element={<Layout><ServicesPage /></Layout>} />
-        <Route path="/services/:serviceId" element={<Layout><ServiceDetailPage /></Layout>} />
-        <Route path="/projects" element={<Layout><ProjectsPage /></Layout>} />
-        <Route path="/projects/:projectId" element={<Layout><ProjectDetailPage /></Layout>} />
-        <Route path="/contact" element={<Layout><ContactPage /></Layout>} />
-        <Route path="/quote" element={<Layout><QuotePage /></Layout>} />
-        <Route path="/privacy" element={<Layout><PrivacyPolicyPage /></Layout>} />
-        <Route path="/videos" element={<Layout><VideoGalleryPage /></Layout>} />
-        <Route path="/marketplace" element={<Layout><MarketplacePage /></Layout>} />
-        <Route path="/blog" element={<Layout><BlogPage /></Layout>} />
-        <Route path="/blog/:slug" element={<Layout><BlogPostPage /></Layout>} />
-        <Route path="/portfolio" element={<Layout><PortfolioPage /></Layout>} />
+        {/* Root routes — redirect to /fr for canonical consistency */}
+        <Route path="/" element={<Navigate to="/fr" replace />} />
+        <Route path="/about" element={<Navigate to="/fr/about" replace />} />
+        <Route path="/services" element={<Navigate to="/fr/services" replace />} />
+        <Route path="/services/:serviceId" element={<RootToFrRedirect path="services" paramKey="serviceId" />} />
+        <Route path="/projects" element={<Navigate to="/fr/projects" replace />} />
+        <Route path="/projects/:projectId" element={<RootToFrRedirect path="projects" paramKey="projectId" />} />
+        <Route path="/contact" element={<Navigate to="/fr/contact" replace />} />
+        <Route path="/quote" element={<Navigate to="/fr/quote" replace />} />
+        <Route path="/privacy" element={<Navigate to="/fr/privacy" replace />} />
+        <Route path="/videos" element={<Navigate to="/fr/videos" replace />} />
+        <Route path="/marketplace" element={<Navigate to="/fr/marketplace" replace />} />
+        <Route path="/blog" element={<Navigate to="/fr/blog" replace />} />
+        <Route path="/blog/:slug" element={<RootToFrRedirect path="blog" paramKey="slug" />} />
+        <Route path="/portfolio" element={<Navigate to="/fr/portfolio" replace />} />
 
         {/* Localized routes */}
         <Route path="/:lang" element={<LangGuard><Layout><HomePage /></Layout></LangGuard>} />

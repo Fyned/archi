@@ -14,6 +14,9 @@ export default function HomePage() {
         <meta property="og:description" content={t('meta.description')} />
         <meta property="og:image" content="https://archi.constructionveranda.com/images/general/hero-main.webp" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:title" content={`${t('meta.title')} | Archi Construction & Veranda`} />
+        <meta name="twitter:description" content={t('meta.description')} />
+        <meta name="twitter:image" content="https://archi.constructionveranda.com/images/general/hero-main.webp" />
       </Helmet>
 
       <Hero />

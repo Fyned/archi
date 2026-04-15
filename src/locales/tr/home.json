@@ -65,7 +65,25 @@
   "projects": {
     "title": "Son Projeler",
     "subtitle": "En son tamamladığımız projelerden örnekler",
-    "view_all": "Tüm Projeleri Görün"
+    "view_all": "Tüm Projeleri Görün",
+    "featured": {
+      "pergola_brussels": {
+        "title": "Modern biyoklimatik pergola",
+        "location": "Brüksel, Belçika"
+      },
+      "veranda_antwerp": {
+        "title": "Zarif cam veranda",
+        "location": "Antwerp, Belçika"
+      },
+      "carport_ghent": {
+        "title": "Lüks çift carport",
+        "location": "Gent, Belçika"
+      },
+      "garage_leuven": {
+        "title": "Modern garaj kapısı",
+        "location": "Leuven, Belçika"
+      }
+    }
   },
   "testimonials": {
     "title": "Müşterilerimiz Ne Diyor",

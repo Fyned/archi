@@ -65,7 +65,25 @@
   "projects": {
     "title": "Recent Projects",
     "subtitle": "Discover some of our most recent realisations",
-    "view_all": "View All Projects"
+    "view_all": "View All Projects",
+    "featured": {
+      "pergola_brussels": {
+        "title": "Modern Bioclimatic Pergola",
+        "location": "Brussels, Belgium"
+      },
+      "veranda_antwerp": {
+        "title": "Elegant Glass Veranda",
+        "location": "Antwerp, Belgium"
+      },
+      "carport_ghent": {
+        "title": "Luxury Double Carport",
+        "location": "Ghent, Belgium"
+      },
+      "garage_leuven": {
+        "title": "Modern Garage Door",
+        "location": "Leuven, Belgium"
+      }
+    }
   },
   "testimonials": {
     "title": "What Our Clients Say",

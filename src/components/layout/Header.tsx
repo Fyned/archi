@@ -108,7 +108,7 @@ export function Header() {
           </a>
 
           {/* Desktop Navigation - xl breakpoint for more space */}
-          <nav className="hidden xl:flex items-center gap-4 2xl:gap-6">
+          <nav aria-label="Main navigation" className="hidden xl:flex items-center gap-4 2xl:gap-6">
             {navItems.map((item) => (
               <div key={item.key} className="relative group">
                 {item.children ? (
@@ -188,7 +188,7 @@ export function Header() {
         )}
         style={{ top: headerHeight }}
       >
-        <nav className="container-custom py-4 sm:py-6">
+        <nav aria-label="Mobile navigation" className="container-custom py-4 sm:py-6">
           <div className="flex flex-col gap-1">
             {navItems.map((item) => (
               <div key={item.key}>

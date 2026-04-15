@@ -238,6 +238,10 @@ export default function BlogPostPage() {
         <meta property="og:image" content={`https://archi.constructionveranda.com${post.heroImage}`} />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content={post.date} />
+        <meta property="article:section" content={post.category} />
+        <meta name="twitter:title" content={t(`blog:posts.${slug}.title`)} />
+        <meta name="twitter:description" content={t(`blog:posts.${slug}.excerpt`)} />
+        <meta name="twitter:image" content={`https://archi.constructionveranda.com${post.heroImage}`} />
         <link rel="canonical" href={shareUrl} />
 
         {/* BlogPosting Schema */}
@@ -253,23 +257,15 @@ export default function BlogPostPage() {
             "description": t(`blog:posts.${slug}.excerpt`),
             "image": {
               "@type": "ImageObject",
-              "url": `https://archi.constructionveranda.com${post.heroImage}`
+              "url": `https://archi.constructionveranda.com${post.heroImage}`,
+              "width": 1920,
+              "height": 1080
             },
             "datePublished": post.date,
             "dateModified": post.date,
-            "author": {
-              "@type": "Organization",
-              "name": "Archi Construction & Veranda",
-              "url": "https://archi.constructionveranda.com"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "Archi Construction & Veranda",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://archi.constructionveranda.com/logo-horizontal.png"
-              }
-            },
+            "articleSection": post.category,
+            "author": { "@id": "https://archi.constructionveranda.com/#business" },
+            "publisher": { "@id": "https://archi.constructionveranda.com/#business" },
             "inLanguage": locale
           })}
         </script>

@@ -6,29 +6,29 @@ import { Card, CardImage, CardContent } from '@/components/ui/Card'
 const projects = [
   {
     id: '1',
-    title: 'Modern Bioclimatic Pergola',
-    location: 'Brussels, Belgium',
+    titleKey: 'projects.featured.pergola_brussels.title',
+    locationKey: 'projects.featured.pergola_brussels.location',
     category: 'pergola',
     image: '/images/pergola/pergola-terrace-view.webp'
   },
   {
     id: '2',
-    title: 'Elegant Glass Veranda',
-    location: 'Antwerp, Belgium',
+    titleKey: 'projects.featured.veranda_antwerp.title',
+    locationKey: 'projects.featured.veranda_antwerp.location',
     category: 'veranda',
     image: '/images/veranda/veranda-exterior-modern.webp'
   },
   {
     id: '3',
-    title: 'Luxury Double Carport',
-    location: 'Ghent, Belgium',
+    titleKey: 'projects.featured.carport_ghent.title',
+    locationKey: 'projects.featured.carport_ghent.location',
     category: 'carport',
     image: '/images/carport/carport-double.webp'
   },
   {
     id: '4',
-    title: 'Modern Garage Door',
-    location: 'Leuven, Belgium',
+    titleKey: 'projects.featured.garage_leuven.title',
+    locationKey: 'projects.featured.garage_leuven.location',
     category: 'garage',
     image: '/images/garage/garage-double-modern.webp'
   }
@@ -70,7 +70,7 @@ export function FeaturedProjects() {
             >
               <Card hover>
                 <div className="relative overflow-hidden">
-                  <CardImage src={project.image} alt={project.title} />
+                  <CardImage src={project.image} alt={t(project.titleKey)} />
                   <div className="absolute top-4 left-4">
                     <span className="px-3 py-1 bg-white/90 rounded-full text-sm font-medium capitalize">
                       {project.category}
@@ -79,10 +79,10 @@ export function FeaturedProjects() {
                 </div>
                 <CardContent>
                   <h3 className="text-lg font-heading font-semibold mb-2 group-hover:text-primary-600 transition-colors">
-                    {project.title}
+                    {t(project.titleKey)}
                   </h3>
                   <p className="text-gray-500 text-sm">
-                    {project.location}
+                    {t(project.locationKey)}
                   </p>
                 </CardContent>
               </Card>

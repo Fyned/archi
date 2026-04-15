@@ -65,7 +65,25 @@
   "projects": {
     "title": "Aktuelle Projekte",
     "subtitle": "Entdecken Sie einige unserer neuesten Realisierungen",
-    "view_all": "Alle Projekte ansehen"
+    "view_all": "Alle Projekte ansehen",
+    "featured": {
+      "pergola_brussels": {
+        "title": "Moderne bioklimatische Pergola",
+        "location": "Brüssel, Belgien"
+      },
+      "veranda_antwerp": {
+        "title": "Eleganter Glas-Wintergarten",
+        "location": "Antwerpen, Belgien"
+      },
+      "carport_ghent": {
+        "title": "Luxus-Doppelcarport",
+        "location": "Gent, Belgien"
+      },
+      "garage_leuven": {
+        "title": "Modernes Garagentor",
+        "location": "Löwen, Belgien"
+      }
+    }
   },
   "testimonials": {
     "title": "Was unsere Kunden sagen",
