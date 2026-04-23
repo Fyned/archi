@@ -34,7 +34,7 @@
       "title": "Guide Complet: Pergola Bioclimatique en Belgique",
       "excerpt": "Tout ce que vous devez savoir sur les pergolas bioclimatiques: fonctionnement, prix, installation et avantages. Le guide ultime pour faire le bon choix.",
       "content": {
-        "intro": "La pergola bioclimatique est devenue l'aménagement extérieur par excellence en Belgique. Avec ses lames orientables, elle offre une protection optimale contre le soleil, la pluie et le vent, tout en vous permettant de profiter de votre terrasse toute l'année. Dans ce guide complet, nous vous expliquons tout ce que vous devez savoir avant d'investir dans une pergola bioclimatique.",
+        "intro": "La pergola bioclimatique s’est imposée comme l’aménagement extérieur incontournable en Belgique. Avec ses lames orientables en aluminium, elle offre une protection optimale contre le soleil, la pluie et le vent, tout en vous permettant de profiter de votre terrasse 365 jours par an. En 2026, de plus en plus de propriétaires belges investissent dans cette solution polyvalente qui allie confort, esthétique et valorisation immobilière. Que vous habitiez en Wallonie, à Bruxelles ou en Flandre, ce guide complet vous explique tout : fonctionnement technique, gammes de prix actualisées, réglementation par région, marques recommandées et conseils d’experts pour faire le meilleur choix.",
         "sections": [
           {
             "title": "Qu'est-ce qu'une pergola bioclimatique?",
@@ -79,16 +79,88 @@
               "Respect des normes de stabilité et sécurité",
               "Nous gérons les démarches administratives"
             ]
+          },
+          {
+            "title": "Comment fonctionne une pergola bioclimatique ?",
+            "content": "Le principe bioclimatique repose sur la gestion naturelle du climat sous la structure. Les lames orientables en aluminium, généralement de 137 mm ou 150 mm de largeur, pivotent de 0° (fermé — étanche) à 135° (ouvert — ventilation maximale). Un moteur Somfy io-homecontrol assure la motorisation silencieuse via télécommande, capteur pluie ou application smartphone. En position fermée, un joint EPDM entre chaque lame garantit une étanchéité totale. L’eau de pluie est collectée dans les gouttières intégrées aux poteaux porteurs et évacuée discrètement. Ce système régule la température sous la pergola de 5 à 8 °C par rapport à une terrasse exposée, sans aucune consommation d’énergie.",
+            "list": [
+              "Lames en aluminium extrudé, épaisseur 1,5 à 2 mm selon le modèle",
+              "Motorisation Somfy io-homecontrol avec capteur pluie et vent intégré",
+              "Joint EPDM entre les lames pour étanchéité totale en position fermée",
+              "Gouttières intégrées dans les poteaux — évacuation invisible",
+              "Régulation thermique naturelle : -5 à -8 °C sous la pergola en été",
+              "Compatible domotique : TaHoma, Google Home, Alexa"
+            ]
+          },
+          {
+            "title": "Les différents types de pergolas bioclimatiques",
+            "content": "Le marché belge propose plusieurs configurations. La pergola adossée, fixée à la façade de votre maison, est la plus courante : elle prolonge naturellement votre pièce de vie vers l’extérieur. La pergola autoportante, installée librement dans le jardin, crée un espace de détente indépendant, idéal autour d’une piscine. La pergola en îlot, variante avec quatre poteaux, convient aux terrasses de restaurant ou espaces professionnels. Enfin, la pergola en angle épouse les configurations architecturales complexes. Chaque type est disponible en dimensions standard ou sur mesure, de 9 m² à plus de 60 m².",
+            "list": [
+              "Adossée : fixée à la façade, extension naturelle de la maison",
+              "Autoportante : indépendante, idéale pour jardin ou piscine",
+              "En îlot : 4 poteaux, parfaite pour espaces professionnels (horeca)",
+              "En angle : épouse les formes architecturales complexes",
+              "Dimensions : de 3x3 m (9 m²) à 7x9 m (63 m²) et plus en sur mesure",
+              "Profondeur de projection jusqu’à 7 mètres sans poteau intermédiaire"
+            ]
+          },
+          {
+            "title": "Quelles marques de pergola choisir en Belgique ?",
+            "content": "Le choix de la marque est déterminant pour la qualité et la longévité de votre pergola bioclimatique. Renson, le leader belge basé à Waregem, propose la gamme Camargue — la référence du marché avec une résistance au vent jusqu’à 130 km/h et des finitions haut de gamme. Brustor, autre fabricant belge (Menin), offre un excellent rapport qualité-prix avec la gamme B-600. Pour les budgets intermédiaires, les fabricants turcs comme Palmiye proposent des modèles certifiés CE avec motorisation Somfy à des prix compétitifs. Nous recommandons systématiquement des lames en aluminium extrudé et une motorisation Somfy pour garantir la pérennité de votre investissement.",
+            "list": [
+              "Renson Camargue : leader belge, résistance vent 130 km/h, premium",
+              "Brustor B-600 : fabrication belge, excellent rapport qualité-prix",
+              "Palmiye : fabricant turc, certifié CE, prix compétitifs",
+              "Motorisation Somfy io-homecontrol : standard recommandé",
+              "Aluminium extrudé obligatoire — éviter l’acier laqué",
+              "Garantie structure 10 ans, motorisation 5 ans minimum"
+            ]
+          },
+          {
+            "title": "Options et accessoires pour personnaliser votre pergola",
+            "content": "Une pergola bioclimatique moderne offre de nombreuses possibilités de personnalisation. L’éclairage LED intégré dans les lames ou les poteaux crée une ambiance chaleureuse en soirée. Les parois latérales — vitrage fixe, coulissant ou stores zip — protègent du vent et offrent une intimité accrue. Un système de chauffage infrarouge suspendu permet de profiter de votre pergola dès les premières fraîcheurs d’automne. Les haut-parleurs Bluetooth encastrés ajoutent du confort supplémentaire. Côté coloris, la laque RAL offre plus de 200 teintes, bien que le gris anthracite (RAL 7016), le blanc (RAL 9010) et le noir (RAL 9005) restent les plus demandés en Belgique.",
+            "list": [
+              "Éclairage LED dimmable intégré : spots ou rubans LED, 500 à 1 500 €",
+              "Parois vitrées coulissantes : à partir de 150 €/m², baies 2 à 5 m",
+              "Stores zip latéraux : protection vent et soleil, toile Soltis 92",
+              "Chauffage infrarouge : 1 500 W par appareil, encastrable dans la structure",
+              "Coloris RAL : plus de 200 teintes, délai 3-4 semaines pour teintes spéciales",
+              "Haut-parleurs Bluetooth encastrés et prises électriques intégrées"
+            ]
+          },
+          {
+            "title": "Réglementation urbanistique par région belge",
+            "content": "La réglementation diffère sensiblement entre les trois régions belges. En Wallonie, une pergola de moins de 40 m² et 3,5 m de hauteur nécessite une simple déclaration préalable (pas un permis complet) si elle respecte les reculs réglementaires. En Région de Bruxelles-Capitale, un permis d’urbanisme est généralement requis pour toute construction couverte en zone résidentielle. En Flandre, une pergola bioclimatique de moins de 40 m² dans la zone de construction arrière peut bénéficier d’une dispense de permis sous certaines conditions (vergunningsvrij). Dans tous les cas, nous effectuons une analyse réglementaire gratuite avant chaque projet.",
+            "list": [
+              "Wallonie : déclaration préalable pour moins de 40 m² et 3,5 m de haut",
+              "Bruxelles : permis d’urbanisme requis dans la plupart des cas",
+              "Flandre : possible exemption (vergunningsvrij) si <40 m² en zone arrière",
+              "Recul minimum : généralement 1 à 3 m selon commune",
+              "Analyse réglementaire gratuite incluse dans notre devis",
+              "Délai moyen d’obtention du permis : 30 à 75 jours"
+            ]
+          },
+          {
+            "title": "Entretien et durée de vie",
+            "content": "L’un des grands avantages de l’aluminium est son entretien minimal. Un nettoyage à l’eau savonneuse deux fois par an suffit pour maintenir votre pergola en parfait état. Les lames orientables se nettoient facilement avec un jet d’eau basse pression en position ouverte. La motorisation Somfy nécessite un contrôle annuel : vérification du capteur pluie, test des fins de course, graissage éventuel des joints. Les gouttières intégrées doivent être débarrassées des feuilles mortes avant l’hiver. Avec cet entretien simple, une pergola bioclimatique en aluminium dure 25 à 40 ans sans altération de ses performances.",
+            "list": [
+              "Nettoyage structure : eau savonneuse + éponge douce, 2 fois par an",
+              "Lames : jet d’eau basse pression en position ouverte",
+              "Motorisation : contrôle annuel du capteur pluie et des fins de course",
+              "Gouttières : nettoyage des feuilles avant chaque hiver",
+              "Durée de vie : 25 à 40 ans pour la structure aluminium",
+              "Motorisation Somfy : durée de vie moyenne 15 à 20 ans"
+            ]
           }
         ],
-        "conclusion": "La pergola bioclimatique est un investissement durable qui transforme votre terrasse en un véritable espace de vie. Chez Archi Construction & Veranda, nous vous proposons des solutions sur mesure, installées par nos équipes expertes. Contactez-nous pour un devis gratuit et découvrez comment nous pouvons concrétiser votre projet."
+        "conclusion": "La pergola bioclimatique représente bien plus qu’un simple aménagement extérieur : c’est un véritable investissement dans votre qualité de vie et la valeur de votre bien immobilier. Avec des prix allant de 350 à 950 €/m² selon les options, elle s’adapte à tous les budgets et configurations. Chez Archi Construction & Veranda, nos équipes vous accompagnent de l’étude technique à l’installation finale, en passant par les démarches urbanistiques. Nous intervenons dans toute la Belgique — Charleroi, Bruxelles, Namur, Liège, et au-delà — avec une garantie de 10 ans sur la structure. Contactez-nous pour une visite technique gratuite et un devis personnalisé sous 48 heures."
       }
     },
     "veranda-aluminium-vs-pvc": {
       "title": "Véranda Aluminium vs PVC: Quel Matériau Choisir?",
       "excerpt": "Comparaison détaillée entre les vérandas en aluminium et en PVC. Découvrez les avantages, inconvénients et prix de chaque solution.",
       "content": {
-        "intro": "Vous envisagez d'agrandir votre maison avec une véranda? Le choix du matériau est crucial pour la durabilité, l'esthétique et les performances thermiques de votre extension. Dans cet article, nous comparons en détail les vérandas en aluminium et en PVC pour vous aider à faire le meilleur choix.",
+        "intro": "Agrandir sa maison avec une véranda est un projet qui séduit de plus en plus de propriétaires belges. Mais face au choix du matériau — aluminium ou PVC — la décision n’est pas toujours évidente. Chaque option présente des avantages spécifiques en termes de performances thermiques, esthétique, durabilité et budget. Dans cet article approfondi, nous comparons en détail ces deux matériaux sur tous les critères essentiels, avec des données chiffrées et des retours de terrain issus de nos installations en Belgique.",
         "sections": [
           {
             "title": "Véranda en aluminium: élégance et performance",
@@ -133,16 +205,76 @@
               "Devis comparatif gratuit disponible",
               "Conseil personnalisé selon votre projet"
             ]
+          },
+          {
+            "title": "Performances thermiques détaillées : coefficients et normes",
+            "content": "La performance thermique est mesurée par le coefficient Uw (transmission thermique de la fenêtre entière, cadre + vitrage). En 2026, les vérandas en aluminium à rupture de pont thermique (RPT) atteignent des valeurs Uw de 1,0 à 1,4 W/m²K avec du double vitrage performant, et descendent à 0,8-1,0 W/m²K en triple vitrage. Les profils PVC offrent naturellement un Uw légèrement meilleur (0,9 à 1,3 W/m²K) grâce à la structure multichambre du plastique. Cependant, cette différence devient négligeable avec les profils aluminium RPT de dernière génération (Reynaers MasterLine 8, Aliplast Imperial).",
+            "list": [
+              "Aluminium RPT double vitrage : Uw 1,0-1,4 W/m²K",
+              "Aluminium RPT triple vitrage : Uw 0,8-1,0 W/m²K",
+              "PVC multichambre double vitrage : Uw 0,9-1,3 W/m²K",
+              "Norme PEB Belgique : Uw ≤ 1,5 W/m²K pour extensions",
+              "Profils recommandés : Reynaers MasterLine 8, Aliplast Imperial",
+              "Le vitrage compte pour 70 % de la performance thermique totale"
+            ]
+          },
+          {
+            "title": "Esthétique et design architectural",
+            "content": "C’est ici que l’aluminium prend un avantage décisif. Les profils aluminium, d’une finesse de 50 à 65 mm, maximisent la surface vitrée et l’apport de lumière naturelle — un critère essentiel en Belgique où l’ensoleillement est limité. Les profils PVC, plus épais (70 à 85 mm), réduisent cette surface vitrée de 15 à 20 %. L’aluminium offre également une liberté de design supérieure : grandes baies coulissantes jusqu’à 6 mètres de portée, toitures en pente variable, formes arrondies. Côté coloris, la laque thermolaquée RAL propose plus de 200 teintes (dont le bicolore), contre 10 à 15 coloris standard en PVC.",
+            "list": [
+              "Profil aluminium : 50-65 mm de largeur visible",
+              "Profil PVC : 70-85 mm — 15-20 % de surface vitrée en moins",
+              "Aluminium : baies coulissantes jusqu’à 6 m de portée",
+              "Plus de 200 teintes RAL, option bicolore disponible",
+              "PVC : 10-15 coloris standard (blanc, gris, effet bois)",
+              "Aluminium recommandé par les architectes pour l’habitat contemporain"
+            ]
+          },
+          {
+            "title": "Durabilité et résistance : comparatif sur 30 ans",
+            "content": "L’aluminium est imbattable en termes de durabilité. Sa résistance naturelle à la corrosion, renforcée par le thermolaquage selon la norme Qualicoat/Qualanod, lui garantit une durée de vie de 40 à 60 ans sans aucune dégradation. Pas de jaunissement, pas de déformation, pas de fissure. Le PVC vieillit moins bien : après 15 à 20 ans, les profils blancs ont tendance à jaunir sous l’effet des UV, les joints de soudure peuvent se fragiliser et les renforts métalliques internes peuvent rouiller dans les régions côtières.",
+            "list": [
+              "Aluminium : durée de vie 40-60 ans, aucun jaunissement",
+              "PVC : durée de vie 20-30 ans, jaunissement possible après 15 ans",
+              "Thermolaquage Qualicoat : garantie 25 ans contre l’écaillage",
+              "PVC : risque de fissures de soudure avec les écarts thermiques",
+              "Aluminium résiste aux pluies acides belges sans altération",
+              "Coût sur 30 ans : aluminium souvent plus économique (pas de remplacement)"
+            ]
+          },
+          {
+            "title": "Comparatif de prix en Belgique (2026)",
+            "content": "Le budget est souvent le facteur décisif. En 2026, une véranda en PVC de 15 m² coûte entre 12 000 et 18 000 € tout compris. La même surface en aluminium RPT revient entre 18 000 et 30 000 €, soit 40 à 60 % de plus. Cet écart s’explique par le coût de la matière première et la complexité de fabrication des profils à rupture de pont thermique. Toutefois, rapporté à la durée de vie (40 ans alu vs 25 ans PVC), le coût annualisé est quasi identique.",
+            "list": [
+              "PVC 15 m² : 12 000-18 000 € (800-1 200 €/m²)",
+              "Aluminium RPT 15 m² : 18 000-30 000 € (1 200-2 000 €/m²)",
+              "Toiture verre vs polycarbonate : +30 % environ",
+              "Fondations et dalle : 2 000-5 000 € selon terrain",
+              "Permis d’urbanisme : 50-200 € (frais administratifs)",
+              "TVA : 21 % pour construction neuve, 6 % pour rénovation (>10 ans)"
+            ]
+          },
+          {
+            "title": "Critères de choix selon votre projet",
+            "content": "Pour faire le bon choix, posez-vous les bonnes questions. Si votre budget est limité et que l’esthétique n’est pas prioritaire, le PVC reste une option valable, surtout pour un sas d’entrée. Si vous souhaitez une extension de pièce de vie à part entière, avec de grandes ouvertures et un design moderne, l’aluminium s’impose. Pour une maison de caractère, le PVC en finition effet bois peut être un compromis intéressant. Enfin, si vous prévoyez de revendre votre bien dans les 10 ans, sachez qu’une véranda en aluminium valorise davantage le bien (+5 à 8 % de la valeur) qu’une véranda en PVC (+2 à 4 %).",
+            "list": [
+              "Budget serré + fonctionnel → PVC (économie de 40-60 %)",
+              "Extension de vie + design → Aluminium RPT (investissement durable)",
+              "Maison classique → PVC effet bois ou aluminium bicolore",
+              "Revente à court terme → Aluminium (valorisation +5-8 %)",
+              "Zone côtière/humide → Aluminium (résistance corrosion supérieure)",
+              "Grande surface (>25 m²) → Aluminium (portée sans poteau intermédiaire)"
+            ]
           }
         ],
-        "conclusion": "Que vous choisissiez l'aluminium ou le PVC, l'essentiel est de travailler avec un installateur expérimenté qui saura vous conseiller selon vos besoins spécifiques. Contactez Archi Construction & Veranda pour une étude personnalisée de votre projet de véranda."
+        "conclusion": "Le choix entre aluminium et PVC dépend de votre budget, de vos priorités esthétiques et de votre vision à long terme. Chez Archi Construction & Veranda, nous installons exclusivement des vérandas en aluminium à rupture de pont thermique, car c’est la solution qui offre le meilleur équilibre entre performance, durabilité et esthétique. Nous utilisons les profils Reynaers et Aliplast, avec une garantie de 10 ans sur la structure. Contactez-nous pour un devis comparatif gratuit."
       }
     },
     "carport-solaire-belgique": {
       "title": "Carport Solaire: Produire de l'Électricité en Belgique",
       "excerpt": "Comment transformer votre carport en source d'énergie verte? Guide complet sur les carports photovoltaïques en Belgique.",
       "content": {
-        "intro": "Le carport solaire combine deux fonctions essentielles: protéger votre véhicule des intempéries et produire de l'électricité verte. En Belgique, où les primes à l'énergie renouvelable sont attractives, c'est un investissement doublement rentable. Découvrez tout ce qu'il faut savoir sur les carports photovoltaïques.",
+        "intro": "Le carport solaire combine protection de votre véhicule et production d’énergie verte — un double investissement particulièrement pertinent en Belgique où les primes à l’énergie renouvelable restent attractives en 2026. Contrairement aux panneaux posés sur toiture, le carport solaire offre une orientation optimale (sud/sud-ouest) et un angle d’inclinaison idéal pour maximiser le rendement photovoltaïque. Dans ce guide complet, nous détaillons les aspects techniques, les rendements attendus, les primes par région et les coûts d’installation.",
         "sections": [
           {
             "title": "Qu'est-ce qu'un carport solaire?",
@@ -187,16 +319,64 @@
               "Compatible tous véhicules électriques",
               "Installation conforme aux normes RGIE"
             ]
+          },
+          {
+            "title": "Comment fonctionne un carport solaire ?",
+            "content": "Un carport solaire se compose d’une structure en aluminium dont la toiture est recouverte de panneaux photovoltaïques monocristallins. L’onduleur convertit le courant continu en courant alternatif 230V utilisable dans votre habitation. L’excédent est injecté dans le réseau ou stocké dans une batterie domestique. La structure aluminium est conçue pour supporter le poids des panneaux (15 à 20 kg/m²) plus les charges climatiques. L’inclinaison de la toiture (10 à 30°) est optimisée pour le rendement solaire en Belgique.",
+            "list": [
+              "Panneaux monocristallins : rendement 20-22 % en 2026",
+              "Onduleur string ou micro-onduleurs selon configuration",
+              "Inclinaison optimale pour la Belgique : 15-30° orientation sud",
+              "Structure aluminium dimensionnée pour le poids des panneaux + neige",
+              "Raccordement au tableau électrique existant",
+              "Compatible batterie domestique (Tesla Powerwall, BYD, Huawei)"
+            ]
+          },
+          {
+            "title": "Rendement et production en Belgique par région",
+            "content": "Le rendement d’un carport solaire en Belgique varie selon la région et l’orientation. En moyenne, 1 kWc installé produit entre 850 et 950 kWh par an. Un carport simple (15 m², 8-10 panneaux, 3-4 kWc) produit 2 700 à 3 800 kWh/an — suffisant pour couvrir 30 à 50 % de la consommation d’un ménage moyen. Un carport double (30 m², 16-20 panneaux, 6-8 kWc) atteint 5 400 à 7 600 kWh/an.",
+            "list": [
+              "Production moyenne Belgique : 850-950 kWh/kWc/an",
+              "Carport simple (3-4 kWc) : 2 700-3 800 kWh/an",
+              "Carport double (6-8 kWc) : 5 400-7 600 kWh/an",
+              "Autoconsommation optimale : 30-50 % sans batterie, 60-80 % avec",
+              "Amortissement moyen : 6-10 ans selon primes et autoconsommation",
+              "Durée de vie panneaux : 25-30 ans (garantie rendement 25 ans)"
+            ]
+          },
+          {
+            "title": "Primes et incitants par région en 2026",
+            "content": "Les mécanismes de soutien diffèrent entre les trois régions. En Wallonie, le système de certificats verts (CV) attribue 1 CV par tranche de production, valorisé entre 65 et 85 € pendant 10 ans. En Flandre, la prime pour petites installations a été remplacée par un tarif d’injection avantageux et une déduction fiscale fédérale. En Région bruxelloise, des primes à l’investissement de 1 500 à 3 000 € s’ajoutent au tarif d’injection Sibelga. Dans les trois régions, la TVA réduite à 6 % s’applique si l’habitation a plus de 10 ans.",
+            "list": [
+              "Wallonie : certificats verts — 65-85 €/CV pendant 10 ans",
+              "Flandre : déduction fiscale fédérale + tarif d’injection",
+              "Bruxelles : prime investissement 1 500-3 000 € + tarif Sibelga",
+              "TVA 6 % si habitation >10 ans (toutes régions)",
+              "Prêt vert à taux préférentiel disponible via certaines banques",
+              "Amortissement réduit à 5-7 ans avec primes maximales"
+            ]
+          },
+          {
+            "title": "Intégration d’une borne de recharge véhicule électrique",
+            "content": "L’association carport solaire + borne de recharge est la combinaison idéale pour les propriétaires de véhicules électriques. Une borne de recharge 7 kW (monophasé) ou 11-22 kW (triphasé) s’intègre directement dans un poteau du carport. La production solaire du carport couvre une grande partie de la consommation du véhicule : un carport double produit environ 5 500 kWh/an, tandis qu’une voiture électrique parcourant 15 000 km/an consomme environ 2 500 kWh.",
+            "list": [
+              "Borne 7 kW monophasé : recharge complète en 6-8 heures",
+              "Borne 11-22 kW triphasé : recharge complète en 2-4 heures",
+              "Coût borne + installation : 800-2 500 € selon puissance",
+              "Production carport double : ±5 500 kWh/an > consommation VE ±2 500 kWh/an",
+              "Smart charging : priorité à l’autoconsommation solaire",
+              "Compatibilité universelle : Tesla, Volkswagen, Peugeot, Hyundai..."
+            ]
           }
         ],
-        "conclusion": "Le carport solaire est une solution d'avenir qui allie protection automobile et production d'énergie renouvelable. Archi Construction & Veranda vous propose des carports photovoltaïques clés en main, avec installation professionnelle et raccordement réseau. Demandez votre étude de rentabilité gratuite."
+        "conclusion": "Le carport solaire en aluminium est un investissement doublement rentable en Belgique : il protège votre véhicule tout en produisant de l’énergie verte qui réduit votre facture électrique de 40 à 70 %. Avec les primes régionales et la TVA à 6 % pour les rénovations, l’amortissement se fait en 6 à 10 ans pour un équipement qui dure plus de 25 ans. Contactez-nous pour une étude de rendement personnalisée et un devis gratuit."
       }
     },
     "entretien-pergola-aluminium": {
       "title": "Comment Entretenir Votre Pergola Aluminium?",
       "excerpt": "Conseils pratiques pour l'entretien de votre pergola bioclimatique. Nettoyage, maintenance et protection pour une longue durée de vie.",
       "content": {
-        "intro": "Une pergola en aluminium est conçue pour durer des décennies avec un minimum d'entretien. Cependant, quelques gestes simples permettent de maintenir son aspect neuf et d'assurer le bon fonctionnement de ses mécanismes. Voici nos conseils d'experts pour l'entretien de votre pergola bioclimatique.",
+        "intro": "L’un des grands avantages d’une pergola en aluminium est son entretien minimal. Contrairement au bois qui nécessite un traitement annuel ou à l’acier qui peut rouiller, l’aluminium est naturellement résistant à la corrosion et aux intempéries. Néanmoins, un entretien régulier — même simple — prolonge la durée de vie de votre pergola et maintient son aspect esthétique d’origine. Dans ce guide pratique, nous détaillons les gestes d’entretien saisonniers, les erreurs à éviter et les solutions aux problèmes courants.",
         "sections": [
           {
             "title": "Nettoyage régulier de la structure",
@@ -241,16 +421,64 @@
               "Mise à jour de la programmation si besoin",
               "Rapport d'inspection détaillé"
             ]
+          },
+          {
+            "title": "Calendrier d’entretien saisonnier",
+            "content": "Un entretien bien planifié se résume à 4 interventions légères par an. Au printemps (mars-avril), nettoyez la structure à l’eau savonneuse et vérifiez le fonctionnement de la motorisation après l’hiver. En été (juin-juillet), inspectez les joints EPDM des lames et nettoyez les gouttières. À l’automne (octobre), dégagez les feuilles mortes et testez le capteur pluie. En hiver, vérifiez que les lames sont bien en position fermée par grand froid et dégagez la neige si la charge dépasse 50 kg/m². Chaque intervention prend 30 à 60 minutes.",
+            "list": [
+              "Printemps : nettoyage structure + test motorisation (30 min)",
+              "Été : inspection joints EPDM + nettoyage gouttières (30 min)",
+              "Automne : dégage feuilles mortes + test capteur pluie (45 min)",
+              "Hiver : vérification position lames + déneigement si >50 kg/m²",
+              "Fréquence : 4 fois par an, 30-60 min par intervention",
+              "Outils : éponge douce, eau savonneuse, jet d’eau basse pression"
+            ]
+          },
+          {
+            "title": "Nettoyage de la structure aluminium",
+            "content": "La structure en aluminium thermolaqué se nettoie simplement à l’eau tiède avec un savon neutre. Utilisez une éponge douce ou un chiffon microfibre — jamais d’éponge abrasive, de brosse métallique ou de nettoyeur haute pression, qui endommageraient la couche de laque. Rincez abondamment à l’eau claire. Pour les taches tenaces (fientes d’oiseaux, résine d’arbre), un mélange d’eau et de vinaigre blanc (50/50) est efficace.",
+            "list": [
+              "Eau tiède + savon neutre : suffisant dans 90 % des cas",
+              "Éponge douce ou chiffon microfibre — JAMAIS d’abrasif",
+              "Vinaigre blanc dilué (50/50) pour taches tenaces",
+              "Rinçage abondant à l’eau claire de haut en bas",
+              "INTERDIT : nettoyeur haute pression (>50 bar), brosse métallique",
+              "INTERDIT : soude, acide chlorhydrique, acétone, solvants"
+            ]
+          },
+          {
+            "title": "Entretien de la motorisation Somfy",
+            "content": "La motorisation est le cœur de votre pergola bioclimatique. Le moteur Somfy io-homecontrol est conçu pour fonctionner 15 à 20 ans sans intervention majeure. Un contrôle annuel est recommandé : testez l’ouverture et la fermeture complètes, vérifiez les fins de course, nettoyez le capteur pluie avec un chiffon sec et testez-le avec quelques gouttes d’eau. Si le moteur émet un bruit inhabituel, contactez un professionnel. N’essayez jamais de démonter le moteur vous-même — cela annule la garantie.",
+            "list": [
+              "Test ouverture/fermeture complète : une fois par mois minimum",
+              "Contrôle fins de course : vérification annuelle",
+              "Capteur pluie : nettoyage au chiffon sec, test avec eau",
+              "Capteur vent : vérification du seuil de déclenchement",
+              "Pile télécommande : remplacement tous les 2 ans",
+              "NE PAS démonter le moteur — garantie annulée"
+            ]
+          },
+          {
+            "title": "Problèmes courants et solutions",
+            "content": "En 10 ans d’installations en Belgique, nous avons identifié les problèmes les plus fréquents et leurs solutions. L’infiltration d’eau entre les lames est souvent due à un joint EPDM usé — remplacement simple en 30 minutes. Le bruit des lames par grand vent peut être résolu en ajustant la tension de fermeture via la programmation Somfy. Les traces de calcaire s’enlèvent avec du vinaigre blanc. La décoloration partielle de la laque (rare avant 15 ans) est couverte par la garantie Qualicoat.",
+            "list": [
+              "Infiltration lames : remplacement joint EPDM (30 min, <50 €)",
+              "Bruit par vent : réglage tension Somfy (intervention technicien)",
+              "Traces calcaire : vinaigre blanc dilué + rinçage",
+              "Gouttière bouchée : fil semi-rigide ou grille anti-feuilles préventive",
+              "Moteur bloqué : reset Somfy (2-8-2 secondes) ou changement condensateur",
+              "Décoloration laque : garantie Qualicoat 25 ans"
+            ]
           }
         ],
-        "conclusion": "Un entretien régulier garantit la longévité de votre pergola bioclimatique et vous permet de profiter pleinement de votre espace extérieur pendant de nombreuses années. Archi Construction & Veranda propose des contrats de maintenance pour une tranquillité d'esprit totale."
+        "conclusion": "L’entretien d’une pergola en aluminium est simple, rapide et peu coûteux. Quatre interventions de 30 à 60 minutes par an suffisent pour maintenir votre pergola en parfait état pendant 25 à 40 ans. Chez Archi Construction & Veranda, nous proposons un contrat d’entretien annuel à 149 €/an comprenant le nettoyage complet, le contrôle de la motorisation et l’inspection des joints. Contactez-nous pour en savoir plus."
       }
     },
     "permis-urbanisme-belgique": {
       "title": "Permis d'Urbanisme en Belgique: Guide 2026",
       "excerpt": "Tout savoir sur les permis d'urbanisme pour pergolas, vérandas et carports en Belgique. Règles par région et démarches administratives.",
       "content": {
-        "intro": "Avant d'installer une pergola, véranda ou carport, il est essentiel de connaître la réglementation urbanistique belge. Les règles varient selon les régions (Wallonie, Flandre, Bruxelles) et le type de construction. Ce guide vous explique les démarches à suivre pour être en conformité.",
+        "intro": "Installer une pergola bioclimatique, une véranda ou un carport en Belgique nécessite dans la plupart des cas une autorisation urbanistique. Mais les règles diffèrent considérablement entre la Wallonie, la Flandre et la Région de Bruxelles-Capitale — ce qui crée une confusion fréquente chez les propriétaires. Ce guide détaillé passe en revue la réglementation 2026 par région, les cas d’exemption, les démarches à effectuer, les délais d’obtention et les sanctions en cas de construction sans permis.",
         "sections": [
           {
             "title": "Réglementation en Wallonie",
@@ -295,16 +523,64 @@
               "Réponse aux questions éventuelles",
               "Garantie de conformité de l'installation"
             ]
+          },
+          {
+            "title": "Wallonie : le CoDT (Code du Développement Territorial)",
+            "content": "En Wallonie, le CoDT distingue trois niveaux d’autorisation. La dispense de permis s’applique aux structures légères démontables de moins de 20 m² sans fondation permanente. La déclaration préalable (formulaire D.IV.11) suffit pour une pergola ou un carport de moins de 40 m² et 3,50 m de haut, installé en zone de cours et jardins, avec un recul minimum de 1,90 m. Le permis d’urbanisme complet est requis pour les vérandas (extensions fermées), les structures de plus de 40 m² ou celles situées en zone protégée.",
+            "list": [
+              "Dispense : structure démontable <20 m² sans fondation permanente",
+              "Déclaration préalable : <40 m², <3,50 m, recul ≥1,90 m (30 jours)",
+              "Permis complet : véranda, >40 m² ou zone protégée (75-115 jours)",
+              "Formulaire D.IV.11 disponible en commune ou en ligne",
+              "Architecte non obligatoire pour les déclarations préalables",
+              "Chaque commune peut avoir des prescriptions supplémentaires"
+            ]
+          },
+          {
+            "title": "Flandre : le VCRO (Vlaamse Codex Ruimtelijke Ordening)",
+            "content": "La Flandre applique le VCRO, souvent considéré comme plus souple pour les petites constructions. L’exemption de permis (vergunningsvrij) s’applique aux constructions de moins de 40 m² dans la zone de construction arrière (achterste bouwstrook), sans modification de la volumétrie principale et à au moins 1 m de la limite de propriété. Les vérandas (extensions fermées) nécessitent toujours un permis d’environnement (omgevingsvergunning). Le dossier est déposé en ligne via omgevingsloket.be.",
+            "list": [
+              "Vergunningsvrij : <40 m² en zone arrière, recul ≥1 m, non fermé",
+              "Pergola/carport : souvent exempt si critères remplis",
+              "Véranda : permis d’environnement toujours requis",
+              "Dépôt en ligne : omgevingsloket.be",
+              "Délai : 30 jours (simplifiée) à 120 jours (avec enquête)",
+              "Architecte obligatoire si surface au sol totale >50 m²"
+            ]
+          },
+          {
+            "title": "Bruxelles : le CoBAT",
+            "content": "La Région de Bruxelles-Capitale est la plus stricte. Le CoBAT exige un permis d’urbanisme pour quasiment toute construction couverte, y compris les pergolas. Seules les structures démontables de moins de 5 m² sont dispensées. En zone protégée ou classée — et Bruxelles en compte beaucoup — l’avis de la Commission Royale des Monuments et Sites (CRMS) peut être requis, ajoutant 30 à 60 jours au délai.",
+            "list": [
+              "Permis requis pour toute construction couverte >5 m²",
+              "Architecte obligatoire si surface totale au sol >50 m²",
+              "Dépôt en ligne : urbanism.brussels",
+              "Délai : 45 jours (simplifié) à 105 jours (avec consultation)",
+              "Zone protégée : avis CRMS obligatoire (+30-60 jours)",
+              "Rapport PEB requis pour toute extension fermée (véranda)"
+            ]
+          },
+          {
+            "title": "Sanctions en cas de construction sans permis",
+            "content": "Construire sans permis expose à des sanctions sérieuses. En Wallonie, le fonctionnaire délégué peut imposer une amende de 500 à 50 000 € et ordonner la démolition. En Flandre, les amendes pénales vont de 26 à 400 000 €. À Bruxelles, l’amende administrative est de 250 à 125 000 € avec obligation de régularisation. De plus, une construction illégale peut bloquer la vente de votre bien immobilier — les notaires vérifient systématiquement la conformité urbanistique.",
+            "list": [
+              "Wallonie : amende 500-50 000 € + démolition possible",
+              "Flandre : amende 26-400 000 € + démolition par tribunal",
+              "Bruxelles : amende 250-125 000 € + régularisation ou démolition",
+              "Blocage de la vente immobilière si construction non conforme",
+              "Régularisation a posteriori : 2-3x plus coûteuse qu’un permis initial",
+              "Prescription : 20 ans en Wallonie, 5 ans en Flandre (variable)"
+            ]
           }
         ],
-        "conclusion": "Ne laissez pas les démarches administratives freiner votre projet. Chez Archi Construction & Veranda, nous vous accompagnons de A à Z pour que votre installation soit parfaitement conforme. Contactez-nous pour une étude de faisabilité gratuite."
+        "conclusion": "La réglementation urbanistique en Belgique est complexe car elle varie d’une région à l’autre et parfois d’une commune à l’autre. Chez Archi Construction & Veranda, nous intégrons systématiquement l’analyse réglementaire dans notre processus. Ne prenez pas le risque de construire sans permis — les sanctions sont réelles. Contactez-nous pour une analyse réglementaire gratuite."
       }
     },
     "tendances-outdoor-2026": {
       "title": "Tendances Aménagement Extérieur 2026",
       "excerpt": "Les dernières tendances en matière de pergolas, vérandas et espaces de vie extérieurs. Design, matériaux et technologies innovantes.",
       "content": {
-        "intro": "L'année 2026 marque un tournant dans l'aménagement extérieur. Les tendances actuelles privilégient le confort, la durabilité et l'intégration technologique. Découvrez les innovations qui transforment nos espaces de vie extérieurs en véritables pièces à vivre.",
+        "intro": "L’aménagement extérieur évolue rapidement en Belgique, porté par de nouvelles technologies, des exigences écologiques croissantes et un mode de vie tourné vers le plein air. En 2026, plusieurs tendances se démarquent nettement sur le marché des pergolas, vérandas et espaces de vie extérieurs. Des lames orientables connectées à la domotique aux matériaux biosourcés, en passant par l’intégration du photovoltaïque et les cuisines outdoor, voici les tendances qui façonnent les terrasses et jardins belges cette année.",
         "sections": [
           {
             "title": "La domotique au service du confort",
@@ -349,16 +625,64 @@
               "Stores et parois rétractables",
               "Éclairage et sono intégrés"
             ]
+          },
+          {
+            "title": "La domotique au cœur de la pergola bioclimatique",
+            "content": "En 2026, la pergola bioclimatique connectée est devenue la norme. Les systèmes Somfy TaHoma et io-homecontrol permettent de piloter les lames orientables, l’éclairage LED, le chauffage infrarouge et les stores zip depuis une seule application smartphone. Les capteurs météo intelligents ajustent automatiquement l’orientation des lames. Certains modèles proposent des scénarios programmables : mode apéritif, mode pluie, mode nuit.",
+            "list": [
+              "Somfy TaHoma : centralisation lames + LED + chauffage + stores",
+              "Capteurs météo intelligents : ajustement automatique en temps réel",
+              "Contrôle vocal : Google Home, Amazon Alexa, Apple HomeKit",
+              "Scénarios programmables : apéritif, pluie, nuit, film...",
+              "Application smartphone : pilotage à distance, notifications",
+              "Consommation moteur : <5 W en veille, impact négligeable"
+            ]
+          },
+          {
+            "title": "L’outdoor living : la terrasse comme pièce à vivre",
+            "content": "La tendance ‘outdoor living’ transforme la terrasse en véritable extension du salon. Les propriétaires belges investissent dans des cuisines extérieures équipées (plancha, barbecue encastré, évier, réfrigérateur), des salons lounge avec mobilier de qualité intérieure et des systèmes audiovisuels extérieurs. La pergola bioclimatique est le socle de cet aménagement : elle offre le confort d’une pièce intérieure tout en conservant le charme du plein air.",
+            "list": [
+              "Cuisine outdoor : plancha, barbecue, évier, réfrigérateur (5 000-15 000 €)",
+              "Salon lounge extérieur : mobilier résistant aux intempéries",
+              "Système audio : haut-parleurs Bluetooth encastrés",
+              "Éclairage scénique : rubans LED RGBW, spots directionnels",
+              "Chauffage infrarouge : prolonge la saison de mars à novembre",
+              "Tapis d’extérieur, rideaux, coussins : touche déco intérieure"
+            ]
+          },
+          {
+            "title": "Durabilité et éco-conception",
+            "content": "L’éco-responsabilité est une tendance forte en 2026. L’aluminium, 100 % recyclable sans perte de qualité, s’impose comme le matériau le plus durable. Les fabricants européens utilisent désormais de l’aluminium à faible empreinte carbone (Hydro CIRCAL, composé de ≥75 % d’aluminium recyclé). Les toitures de pergola intègrent des panneaux photovoltaïques semi-transparents. Les systèmes de récupération d’eau de pluie via les gouttières intégrées alimentent l’arrosage du jardin.",
+            "list": [
+              "Aluminium recyclé : Hydro CIRCAL ≥75 % post-consommation",
+              "Panneaux photovoltaïques semi-transparents en toiture",
+              "Récupération eau de pluie via gouttières intégrées",
+              "LED basse consommation : <10 W pour un éclairage complet",
+              "Capteurs crépusculaires : allumage/extinction automatique",
+              "Bilan carbone pergola alu : amorti en 3-5 ans grâce au recyclage"
+            ]
+          },
+          {
+            "title": "Les micro-vérandas et extensions compactes",
+            "content": "Face à la hausse des prix immobiliers et à la taille réduite des terrains en zone urbaine, les micro-vérandas (8 à 12 m²) connaissent un succès croissant en 2026. Ces extensions compactes en aluminium RPT créent un bureau à domicile, un coin lecture lumineux ou un sas d’entrée design sans nécessiter de gros travaux. Les profils slim (38 à 50 mm de vue) maximisent la lumière dans un espace restreint. Budget : 10 000 à 18 000 € pour 8 à 12 m².",
+            "list": [
+              "Micro-véranda 8-12 m² : 10 000-18 000 € tout compris",
+              "Usages : bureau, coin lecture, sas d’entrée, atelier",
+              "Profils slim 38-50 mm : maximum de lumière en espace réduit",
+              "Toiture plate + lanterneau : discret, moderne, lumineux",
+              "Permis souvent simplifié grâce à la petite surface",
+              "Isolation triple vitrage recommandée pour usage toute l’année"
+            ]
           }
         ],
-        "conclusion": "Les tendances 2026 convergent vers un objectif: créer des espaces extérieurs confortables, connectés et durables. Archi Construction & Veranda intègre ces innovations dans tous ses projets. Contactez-nous pour découvrir comment transformer votre extérieur."
+        "conclusion": "Les tendances outdoor 2026 convergent vers un même objectif : créer des espaces extérieurs aussi confortables et fonctionnels que l’intérieur de la maison. La pergola bioclimatique connectée, la cuisine outdoor, les matériaux éco-responsables et les extensions compactes répondent à des besoins réels des propriétaires belges. Contactez-nous pour discuter de votre projet."
       }
     },
     "pergola-bioclimatique-charleroi": {
       "title": "Pergola Bioclimatique à Charleroi: Prix et Installation",
       "excerpt": "Vous habitez Charleroi ou environs? Découvrez nos pergolas bioclimatiques sur mesure. Prix, délais et installation par des experts locaux.",
       "content": {
-        "intro": "Charleroi et sa région bénéficient d'un climat idéal pour profiter d'une pergola bioclimatique. Que vous soyez à Charleroi-Centre, Marcinelle, Gosselies, Gilly ou dans les communes avoisinantes comme Châtelet, Fleurus ou Fontaine-l'Évêque, notre équipe intervient rapidement pour transformer votre terrasse.",
+        "intro": "Charleroi et sa région offrent un cadre idéal pour l’installation d’une pergola bioclimatique. Avec un ensoleillement moyen de 1 500 heures par an et des précipitations régulières, les habitants du Hainaut cherchent des solutions qui permettent de profiter de leur terrasse par tous les temps. La pergola bioclimatique à lames orientables répond parfaitement à ce besoin. Dans cet article, nous détaillons pourquoi Charleroi est un marché en pleine croissance pour les pergolas bioclimatiques, avec des prix, des exemples de projets et des conseils spécifiques à la région.",
         "sections": [
           {
             "title": "Pourquoi choisir une pergola à Charleroi?",
@@ -403,16 +727,76 @@
               "Respect des distances légales",
               "Installation conforme garantie"
             ]
+          },
+          {
+            "title": "Pourquoi la pergola bioclimatique est idéale pour le climat de Charleroi",
+            "content": "Le climat semi-océanique de Charleroi se caractérise par des étés doux (moyenne 18-22 °C) avec des averses fréquentes et des hivers humides. Une pergola bioclimatique permet de gérer cette variabilité météorologique au quotidien : les lames se ferment automatiquement dès les premières gouttes grâce au capteur pluie, puis s’ouvrent quand le soleil revient. En été, l’orientation des lames à 45° réduit la température sous la pergola de 5 à 8 °C. En mi-saison, la pergola prolonge la saison terrasse de 3 à 4 mois supplémentaires.",
+            "list": [
+              "Capteur pluie intégré : fermeture automatique en 15 secondes",
+              "Réduction de température : -5 à -8 °C sous les lames orientées à 45°",
+              "Saison terrasse prolongée : de mars à novembre",
+              "Résistance au vent : jusqu’à 130 km/h (norme EN 13659)",
+              "Charge neige : 60 à 100 kg/m² — adapté aux hivers hennuyers",
+              "Étanchéité totale en position fermée"
+            ]
+          },
+          {
+            "title": "Prix d’une pergola bioclimatique à Charleroi en 2026",
+            "content": "Les prix à Charleroi sont parmi les plus compétitifs de Belgique grâce à la proximité des fournisseurs et à des coûts de main-d’œuvre inférieurs à Bruxelles. Pour une pergola adossée de 3x4 m (12 m²), comptez entre 4 800 et 7 200 € tout compris. Une pergola de 4x5 m (20 m²) avec éclairage LED se situe entre 8 000 et 14 000 €. Les modèles premium avec parois vitrées et chauffage infrarouge atteignent 15 000 à 25 000 € pour 20-25 m².",
+            "list": [
+              "Pergola 3x4 m (12 m²) : 4 800-7 200 € (400-600 €/m²)",
+              "Pergola 4x5 m (20 m²) + LED : 8 000-14 000 € (400-700 €/m²)",
+              "Pergola premium 20-25 m² + vitrages : 15 000-25 000 €",
+              "TVA 21 % (construction neuve) ou 6 % (rénovation >10 ans)",
+              "Devis gratuit sous 48h avec visite technique incluse",
+              "Possibilité de paiement échelonné"
+            ]
+          },
+          {
+            "title": "Zones d’intervention autour de Charleroi",
+            "content": "Depuis notre base à Charleroi, nous intervenons dans un rayon de 80 km couvrant l’ensemble du Hainaut et les provinces voisines. Nos équipes installent régulièrement des pergolas bioclimatiques à Mons, La Louvière, Binche, Thuin, Fleurus, Châtelet, Courcelles et Fontaine-l’Évêque. Nous couvrons également Namur (40 km), Nivelles (35 km), et la périphérie sud de Bruxelles (50 km). Notre proximité géographique nous permet de réduire les frais de déplacement et d’assurer un service après-vente réactif.",
+            "list": [
+              "Charleroi centre et communes : Marcinelle, Gilly, Montignies, Couillet",
+              "Hainaut : Mons (45 km), La Louvière (30 km), Binche (25 km)",
+              "Sud : Thuin (15 km), Beaumont (30 km), Chimay (50 km)",
+              "Est : Namur (40 km), Sambreville (20 km), Fosses-la-Ville (25 km)",
+              "Nord : Nivelles (35 km), Braine-le-Comte (40 km)",
+              "SAV garanti sous 48h dans notre zone d’intervention"
+            ]
+          },
+          {
+            "title": "Réglementation urbanistique en Wallonie (Hainaut)",
+            "content": "En Wallonie, l’installation d’une pergola bioclimatique relève du Code du Développement Territorial (CoDT). Pour une pergola adossée de moins de 40 m² au sol et de moins de 3,50 m de hauteur, une déclaration urbanistique préalable (formulaire D.IV.11) suffit dans la plupart des cas. Le recul latéral minimum est généralement de 1,90 m par rapport à la limite de propriété. Le délai d’instruction est de 30 jours maximum pour une déclaration préalable. Notre équipe connaît parfaitement les spécificités des communes du Hainaut.",
+            "list": [
+              "Déclaration préalable (D.IV.11) : pour pergola <40 m² et <3,50 m",
+              "Recul latéral : minimum 1,90 m (vérifier auprès de votre commune)",
+              "Délai d’instruction : 30 jours (déclaration) vs 75-115 jours (permis)",
+              "Zone d’habitat : généralement autorisé en zone de cours et jardins",
+              "Lotissement : vérifier les prescriptions spécifiques",
+              "Nous gérons 100 % des démarches administratives"
+            ]
+          },
+          {
+            "title": "Nos projets réalisés dans la région de Charleroi",
+            "content": "Nos installations dans la région de Charleroi témoignent de la satisfaction de nos clients. À Marcinelle, une pergola adossée de 4x5 m avec éclairage LED a été installée en 3 jours, transformant une terrasse peu utilisée en un véritable salon extérieur. À Gilly, un couple a choisi une pergola autoportante de 5x6 m au-dessus de leur piscine, avec parois vitrées coulissantes sur deux côtés — ils l’utilisent désormais d’avril à novembre. Ces projets illustrent la diversité des configurations possibles.",
+            "list": [
+              "Installation moyenne : 2 à 4 jours ouvrables selon la complexité",
+              "Fondations : plots béton ou platines sur dalle existante",
+              "Garantie structure : 10 ans pièces et main-d’œuvre",
+              "SAV local : intervention sous 48h dans le Hainaut",
+              "Financement possible via prêt travaux",
+              "Devis détaillé avec plan 3D offert"
+            ]
           }
         ],
-        "conclusion": "Vous souhaitez installer une pergola bioclimatique à Charleroi ou dans la région? Contactez Archi Construction & Veranda pour un devis gratuit. Notre équipe locale vous répond sous 48h et se déplace gratuitement pour évaluer votre projet."
+        "conclusion": "Charleroi et le Hainaut constituent un terrain idéal pour la pergola bioclimatique : un climat variable qui justifie pleinement cet investissement, des prix compétitifs grâce à notre implantation locale, et une réglementation wallonne relativement souple. En tant qu’installateur basé à Charleroi, Archi Construction & Veranda vous offre la proximité, la réactivité et l’expertise. Contactez-nous pour une visite technique gratuite et un devis personnalisé sous 48 heures."
       }
     },
     "veranda-aluminium-bruxelles": {
       "title": "Véranda Aluminium à Bruxelles: Guide Complet 2026",
       "excerpt": "Agrandissez votre maison bruxelloise avec une véranda aluminium. Prix, permis d'urbanisme et conseils pour votre projet à Bruxelles.",
       "content": {
-        "intro": "À Bruxelles, où l'espace est précieux, la véranda aluminium est la solution idéale pour agrandir votre maison sans déménager. Que vous habitiez Uccle, Woluwe, Ixelles, Schaerbeek ou une autre commune bruxelloise, découvrez comment réaliser votre projet de véranda.",
+        "intro": "Bruxelles, avec son patrimoine architectural varié et son marché immobilier dynamique, est une ville où la véranda en aluminium prend tout son sens. Agrandir sa maison sans déménager, créer une pièce lumineuse ouverte sur le jardin, augmenter la valeur de son bien : les motivations des Bruxellois sont nombreuses. Mais construire une véranda à Bruxelles implique des contraintes spécifiques — réglementation stricte, mitoyenneté fréquente, espaces réduits. Dans ce guide, nous abordons les prix 2026, les démarches de permis, les solutions techniques pour petits espaces et nos conseils pour réussir votre projet.",
         "sections": [
           {
             "title": "Avantages d'une véranda à Bruxelles",
@@ -457,16 +841,76 @@
               "Vérandas toiture plate à Schaerbeek",
               "Solutions sur mesure partout à Bruxelles"
             ]
+          },
+          {
+            "title": "Prix d’une véranda aluminium à Bruxelles en 2026",
+            "content": "Les prix à Bruxelles sont légèrement supérieurs à la moyenne belge en raison des contraintes d’accès et du coût de la main-d’œuvre. Pour une véranda en aluminium RPT de 12 à 15 m², comptez entre 18 000 et 28 000 € tout compris. Une véranda de 20 à 25 m² avec toiture en verre et stores intégrés se situe entre 28 000 et 45 000 €. La TVA réduite à 6 % s’applique si votre habitation a plus de 10 ans.",
+            "list": [
+              "Véranda 12-15 m² alu RPT : 18 000-28 000 € TTC (1 200-1 900 €/m²)",
+              "Véranda 20-25 m² + verre + stores : 28 000-45 000 €",
+              "Véranda premium 30 m² + triple vitrage : 50 000-70 000 €",
+              "TVA 6 % si habitation >10 ans (au lieu de 21 %)",
+              "Fondations : 2 500-6 000 € selon terrain et accès",
+              "Permis d’urbanisme : ±200 € de frais administratifs"
+            ]
+          },
+          {
+            "title": "Permis d’urbanisme en Région bruxelloise",
+            "content": "La Région de Bruxelles-Capitale applique le CoBAT qui est plus strict que le CoDT wallon. Un permis d’urbanisme est requis pour toute véranda, quelle que soit sa surface. Le dossier comprend les plans d’architecte (obligatoire si >50 m² au sol total), des photos de la situation existante, le formulaire de demande et la preuve PEB. Le délai d’instruction est de 45 à 105 jours. En zone protégée, l’avis de la CRMS peut être requis.",
+            "list": [
+              "Permis d’urbanisme obligatoire pour toute véranda à Bruxelles",
+              "Architecte requis si surface au sol totale >50 m²",
+              "Délai : 45 jours (simplifié) à 105 jours (avec consultation)",
+              "Zone protégée : avis CRMS possible (délai +30 jours)",
+              "PEB requis pour l’extension : calcul des performances énergétiques",
+              "Nous préparons le dossier complet et assurons le suivi administratif"
+            ]
+          },
+          {
+            "title": "Solutions techniques pour les maisons bruxelloises",
+            "content": "Les maisons de ville bruxelloises présentent des défis spécifiques : façades arrière étroites (4 à 6 m), cours intérieures exiguës, mitoyenneté des deux côtés. Nos solutions : la véranda à toiture plate avec lanterneau central permet de respecter les droits de vue tout en maximisant la lumière. Les profils slim (Reynaers SlimLine 38) offrent une surface vitrée maximale dans un espace restreint. Pour les extensions en longueur, nous proposons des vérandas modulaires de 2,5 à 3,5 m de profondeur.",
+            "list": [
+              "Toiture plate + lanterneau : maximise lumière tout en respectant les droits de vue",
+              "Profils SlimLine 38 : seulement 38 mm de vue — maximum de lumière",
+              "Profondeur de 2,5 à 3,5 m : adapté aux parcelles étroites bruxelloises",
+              "Coulissant minimal seuil 20 mm : transition intérieur-extérieur fluide",
+              "Isolation acoustique : double vitrage acoustique 44.2/16/4 pour le bruit urbain",
+              "Ventilation intégrée : aérateur de toit discret pour éviter la condensation"
+            ]
+          },
+          {
+            "title": "Valorisation immobilière à Bruxelles",
+            "content": "À Bruxelles, où le prix au m² dépasse régulièrement 3 000 à 4 500 € dans les communes prisées, une véranda bien conçue augmente significativement la valeur de votre bien. Selon les estimations des agents immobiliers bruxellois, une véranda en aluminium de qualité ajoute 5 à 10 % à la valeur de vente, soit 15 000 à 40 000 € pour un bien de 300 000 à 400 000 €. Le retour sur investissement est d’autant plus favorable que la véranda crée des mètres carrés habitables supplémentaires.",
+            "list": [
+              "Plus-value estimée : +5 à 10 % de la valeur du bien",
+              "ROI moyen : 60-80 % du coût de la véranda récupéré à la revente",
+              "Mètres carrés supplémentaires valorisés au prix du quartier",
+              "Critère de choix pour les acheteurs : luminosité et espace",
+              "PEB amélioré si isolation performante",
+              "Argument différenciant sur un marché immobilier compétitif"
+            ]
+          },
+          {
+            "title": "Communes bruxelloises où nous intervenons",
+            "content": "Archi Construction & Veranda intervient dans les 19 communes de la Région de Bruxelles-Capitale. Nos équipes connaissent les spécificités urbanistiques de chaque commune. Nous intervenons également en périphérie bruxelloise — Waterloo, Lasne, Rhode-Saint-Genèse, Overijse, Tervuren — où les terrains plus grands permettent des vérandas de 30 m² et plus.",
+            "list": [
+              "Bruxelles-Ville, Ixelles, Saint-Gilles, Uccle, Forest",
+              "Schaerbeek, Etterbeek, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre",
+              "Auderghem, Watermael-Boitsfort, Jette, Ganshoren, Berchem",
+              "Périphérie : Waterloo, Lasne, Rhode-Saint-Genèse, Overijse",
+              "Brabant wallon : Wavre, Ottignies-LLN, Braine-l’Alleud, Nivelles",
+              "Visite technique gratuite dans toute la zone"
+            ]
           }
         ],
-        "conclusion": "Votre projet de véranda à Bruxelles mérite un accompagnement professionnel. De l'étude de faisabilité au permis d'urbanisme, en passant par l'installation, Archi Construction & Veranda gère tout. Contactez-nous pour une visite gratuite à domicile."
+        "conclusion": "Construire une véranda en aluminium à Bruxelles demande une expertise locale approfondie. Chez Archi Construction & Veranda, nous combinons savoir-faire technique et connaissance du terrain bruxellois. De Uccle à Schaerbeek, de la conception à la livraison, nous vous accompagnons à chaque étape. Demandez votre devis gratuit sous 48 heures."
       }
     },
     "carport-aluminium-namur": {
       "title": "Carport Aluminium à Namur: Protection et Élégance",
       "excerpt": "Protégez vos véhicules avec un carport aluminium à Namur. Découvrez nos solutions sur mesure, prix et installation dans la province de Namur.",
       "content": {
-        "intro": "La province de Namur, avec son patrimoine architectural remarquable, mérite des aménagements extérieurs de qualité. Le carport aluminium allie élégance et fonctionnalité pour protéger vos véhicules à Namur, Jambes, Wépion, Erpent ou dans les communes environnantes.",
+        "intro": "Namur, capitale de la Wallonie, et sa province offrent un environnement propice à l’installation de carports en aluminium. Avec des précipitations annuelles de 800 à 900 mm et des épisodes de grêle de plus en plus fréquents, protéger son véhicule est devenu une priorité pour les propriétaires namurois. Le carport en aluminium représente une alternative moderne, esthétique et durable au garage traditionnel. Dans cet article, nous détaillons les avantages, les prix en province de Namur, la réglementation wallonne et nos recommandations.",
         "sections": [
           {
             "title": "Pourquoi un carport à Namur?",
@@ -511,16 +955,64 @@
               "Borne de recharge VE en option",
               "Amortissement en 7-10 ans"
             ]
+          },
+          {
+            "title": "Avantages du carport aluminium par rapport au garage",
+            "content": "Le carport en aluminium présente plusieurs avantages par rapport au garage traditionnel. Son coût est 3 à 5 fois inférieur : comptez 5 000 à 15 000 € pour un carport double aluminium, contre 20 000 à 50 000 € pour un garage maçonné. L’installation est rapide (2 à 3 jours) et ne nécessite pas de fondations lourdes. Le carport permet une ventilation naturelle qui évite la condensation et la corrosion du véhicule.",
+            "list": [
+              "Coût 3 à 5 fois inférieur au garage maçonné",
+              "Installation rapide : 2-3 jours vs plusieurs semaines",
+              "Pas de fondations lourdes : plots béton ou platines suffisent",
+              "Ventilation naturelle : pas de condensation ni humidité",
+              "Design moderne : structure légère et élégante",
+              "Aucun entretien : aluminium résistant à la corrosion"
+            ]
+          },
+          {
+            "title": "Prix d’un carport aluminium à Namur en 2026",
+            "content": "Les prix d’un carport en aluminium en province de Namur varient selon la taille, le type de toiture et les options choisies. Un carport simple (3x5,5 m, 1 véhicule) avec toiture polycarbonate coûte entre 3 500 et 6 000 €. Un carport double (5,5x5,5 m, 2 véhicules) se situe entre 6 500 et 12 000 €. La toiture en lames bioclimatiques orientables ajoute 3 000 à 5 000 €. Tous nos prix incluent le montage professionnel et la garantie 10 ans.",
+            "list": [
+              "Carport simple 3x5,5 m : 3 500-6 000 € TTC",
+              "Carport double 5,5x5,5 m : 6 500-12 000 € TTC",
+              "Option toiture bioclimatique : +3 000-5 000 €",
+              "Parois latérales : +1 500-4 000 € selon matériau",
+              "Borne de recharge véhicule électrique : +800-2 000 €",
+              "Installation incluse, garantie 10 ans structure"
+            ]
+          },
+          {
+            "title": "Applications multiples du carport aluminium",
+            "content": "Au-delà de la protection automobile, le carport aluminium se prête à de multiples usages. En tant qu’abri de terrasse, il crée un espace couvert pour les repas en plein air. Comme carport solaire, sa toiture peut accueillir des panneaux photovoltaïques — un carport double (30 m²) produit 4 000 à 6 000 kWh/an. Pour les professionnels, il sert d’abri de stockage extérieur, de protection pour bateaux ou camping-cars.",
+            "list": [
+              "Abri véhicule : voiture, moto, vélo, camping-car",
+              "Terrasse couverte : repas et détente en plein air",
+              "Carport solaire : 4 000-6 000 kWh/an pour un double",
+              "Stockage extérieur : bois de chauffage, outillage, vélos",
+              "Usage professionnel : exposition, accueil clients",
+              "Borne de recharge EV intégrable dans les poteaux"
+            ]
+          },
+          {
+            "title": "Zone d’intervention : province de Namur et environs",
+            "content": "Depuis Charleroi, nous intervenons dans toute la province de Namur en 30 à 60 minutes. Nos équipes installent régulièrement des carports à Namur-ville, Jambes, Wépion, Profondeville, Andenne, Ciney, Dinant et Rochefort. Nous couvrons également la vallée de la Meuse jusqu’à Hastière et la région de Couvin au sud. Notre connaissance du terrain namurois — sols argileux, dénivelés, accès parfois étroits — nous permet d’adapter chaque installation.",
+            "list": [
+              "Namur-ville, Jambes, Wépion, Profondeville (15-20 min)",
+              "Andenne, Ciney, Dinant (30-45 min)",
+              "Rochefort, Marche-en-Famenne (50-60 min)",
+              "Vallée de la Meuse : Anhée, Yvoir, Hastière",
+              "Sud : Couvin, Philippeville, Beauraing",
+              "Visite technique gratuite dans toute la province"
+            ]
           }
         ],
-        "conclusion": "Un carport aluminium à Namur est un investissement intelligent pour protéger vos véhicules et embellir votre propriété. Contactez Archi Construction & Veranda pour un devis gratuit et une visite technique sans engagement."
+        "conclusion": "Le carport en aluminium est la solution idéale pour protéger votre véhicule à Namur sans les contraintes d’un garage traditionnel. Avec des prix à partir de 3 500 € et une installation en 2-3 jours, c’est un investissement accessible qui valorise votre propriété. Contactez-nous pour un devis gratuit et une visite technique dans la province de Namur."
       }
     },
     "pergola-prix-m2-belgique-2026": {
       "title": "Prix Pergola au m² en Belgique: Tarifs 2026",
       "excerpt": "Combien coûte une pergola bioclimatique au mètre carré en Belgique? Tous les prix 2026 détaillés selon les options et la qualité.",
       "content": {
-        "intro": "Vous recherchez le prix d'une pergola au mètre carré en Belgique? Ce guide détaille les tarifs 2026 pour tous les types de pergolas, des modèles d'entrée de gamme aux solutions premium. Comparez et choisissez en connaissance de cause.",
+        "intro": "Combien coûte une pergola bioclimatique au mètre carré en Belgique en 2026 ? C’est la question que se posent tous les propriétaires avant de se lancer. Les prix varient considérablement selon le type de pergola, la marque, les options choisies et la région d’installation. Dans ce guide actualisé, nous détaillons les prix au m² par gamme, par marque et par configuration, avec des exemples concrets de budgets pour vous aider à planifier votre investissement.",
         "sections": [
           {
             "title": "Prix moyen pergola bioclimatique au m²",
@@ -565,9 +1057,69 @@
               "Pergola 20m² (5x4m): 8.500 - 14.000 euros",
               "Pergola 25m² (5x5m): 10.000 - 18.000 euros"
             ]
+          },
+          {
+            "title": "Grille tarifaire par gamme et surface (2026)",
+            "content": "Le prix au m² d’une pergola bioclimatique diminue avec la surface : plus la pergola est grande, plus le coût au m² baisse grâce à l’amortissement des coûts fixes (motorisation, gouttières, poteaux). Pour une petite pergola de 9 m² (3x3 m), comptez 500 à 800 €/m². Pour une pergola standard de 16 à 20 m², le prix descend à 400 à 650 €/m². Les grandes pergolas de 30 m² et plus s’affichent entre 350 et 550 €/m².",
+            "list": [
+              "Petite (9 m²) : 500-800 €/m² — coûts fixes élevés par m²",
+              "Standard (16-20 m²) : 400-650 €/m² — le meilleur rapport qualité/m²",
+              "Grande (30+ m²) : 350-550 €/m² — économie d’échelle",
+              "Gamme économique (CE) : 350-500 €/m²",
+              "Gamme intermédiaire : 500-700 €/m²",
+              "Gamme premium (Renson/Brustor) : 700-950 €/m²"
+            ]
+          },
+          {
+            "title": "Ce qui est inclus (et ce qui ne l’est pas) dans le prix au m²",
+            "content": "Pour comparer les devis, il est essentiel de savoir ce qui est inclus dans le prix au m². Un devis sérieux doit inclure : la structure en aluminium complète, la motorisation avec télécommande et capteur pluie, le système d’évacuation d’eau, la visserie inox, la livraison et le montage. Ce qui n’est généralement pas inclus : les fondations (500 à 2 000 €), l’éclairage LED (500 à 1 500 €), les parois vitrées (1 500 à 5 000 €), le chauffage infrarouge (800 à 2 000 €) et le raccordement électrique (300 à 800 €).",
+            "list": [
+              "INCLUS : structure alu, lames, motorisation, capteur pluie, montage",
+              "INCLUS : système d’évacuation d’eau, visserie inox, télécommande",
+              "NON INCLUS : fondations/plots (500-2 000 €)",
+              "NON INCLUS : éclairage LED (500-1 500 €)",
+              "NON INCLUS : parois vitrées/stores (1 500-5 000 €)",
+              "NON INCLUS : raccordement électrique (300-800 €)"
+            ]
+          },
+          {
+            "title": "Comparatif de prix par marque en Belgique",
+            "content": "Renson, avec sa gamme Camargue, se positionne en premium : 700 à 950 €/m². Brustor offre un excellent rapport qualité-prix avec la B-600 (500-700 €/m²) et la B-800 premium (650-850 €/m²). Les fabricants méditerranéens (Palmiye, Biossun, Gibus) se situent entre 400 et 600 €/m². Les marques d’entrée de gamme importées descendent sous 350 €/m² mais sans certification européenne ni SAV local — nous les déconseillons.",
+            "list": [
+              "Renson Camargue (BE) : 700-950 €/m² — référence premium",
+              "Brustor B-600 (BE) : 500-700 €/m² — meilleur rapport qualité-prix belge",
+              "Brustor B-800 (BE) : 650-850 €/m² — premium avec options étendues",
+              "Palmiye (TR) : 400-550 €/m² — certifié CE, motorisation Somfy",
+              "Biossun (FR) : 500-700 €/m² — design français, bonne finition",
+              "Entrée de gamme importée : <350 €/m² — déconseillé (pas de SAV)"
+            ]
+          },
+          {
+            "title": "Facteurs qui influencent le prix final",
+            "content": "Plusieurs facteurs font varier le prix. La hauteur sous poutre au-delà de 3 m nécessite des renforts (+10-15 %). L’accessibilité du chantier joue un rôle majeur (+500-1 500 € en accès difficile). La couleur RAL spéciale ajoute 5 à 10 %. L’ajout de renforts pour charge de neige dans les Ardennes peut aussi augmenter le coût de 10 %. Enfin, la TVA : 21 % pour les constructions neuves mais seulement 6 % pour les habitations de plus de 10 ans — une économie de 15 %.",
+            "list": [
+              "Hauteur >3 m : +10-15 % (renforts structurels)",
+              "Accessibilité difficile : +500-1 500 € (portage manuel)",
+              "Couleur RAL spéciale : +5-10 % et +2-3 semaines de délai",
+              "Renfort neige Ardennes (>100 kg/m²) : +10 %",
+              "TVA 21 % (neuf) vs 6 % (rénovation >10 ans) : économie de 15 %",
+              "Période : +5 % en haute saison (avril-juin) vs basse saison (nov-fév)"
+            ]
+          },
+          {
+            "title": "Exemples de budgets réels en Belgique",
+            "content": "Voici des exemples concrets de budgets pour des pergolas installées en Belgique en 2025-2026. Projet 1 : Pergola adossée 4x4 m (16 m²) à Charleroi, gamme intermédiaire, avec éclairage LED, couleur gris anthracite — budget total 8 900 € HTVA, soit 556 €/m². Projet 2 : Pergola autoportante 5x6 m (30 m²) à Bruxelles, gamme Brustor B-600, avec 2 stores zip latéraux — budget total 19 500 € HTVA, soit 650 €/m². Projet 3 : Pergola adossée 3,5x4 m (14 m²) à Namur, gamme économique certifiée CE — budget total 5 600 € HTVA, soit 400 €/m².",
+            "list": [
+              "Projet Charleroi 16 m² + LED : 8 900 € HTVA (556 €/m²)",
+              "Projet Bruxelles 30 m² + stores : 19 500 € HTVA (650 €/m²)",
+              "Projet Namur 14 m² basique : 5 600 € HTVA (400 €/m²)",
+              "Projet Liège 20 m² premium Renson : 16 000 € HTVA (800 €/m²)",
+              "Projet Mons 25 m² + vitrages : 18 750 € HTVA (750 €/m²)",
+              "Tous les prix excluent fondations et raccordement électrique"
+            ]
           }
         ],
-        "conclusion": "Le prix d'une pergola est un investissement dans votre qualité de vie et la valeur de votre propriété. Chez Archi Construction & Veranda, nous proposons des solutions pour tous les budgets avec un excellent rapport qualité-prix. Demandez votre devis gratuit personnalisé."
+        "conclusion": "Le prix au m² d’une pergola bioclimatique en Belgique en 2026 varie de 350 à 950 € selon la gamme, la marque et les options. Le budget moyen de nos clients se situe autour de 550-650 €/m² pour une installation complète de qualité avec motorisation Somfy et éclairage LED. Contactez-nous pour recevoir votre devis personnalisé sous 48 heures."
       }
     }
   }

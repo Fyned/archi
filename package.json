@@ -24,7 +24,6 @@
       "removeComments": true
     },
     "include": [
-      "/",
       "/fr/",
       "/fr/about/",
       "/fr/services/",

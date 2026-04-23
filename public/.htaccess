@@ -33,7 +33,12 @@
   RewriteRule ^(.+)$ /$1/ [R=301,L]
 
   # ===========================================
-  # 4. LANGUAGE PREFIX REDIRECT (SEO FIX)
+  # 4. ROOT REDIRECT TO DEFAULT LANGUAGE
+  # ===========================================
+  RewriteRule ^$ /fr/ [R=301,L]
+
+  # ===========================================
+  # 5. LANGUAGE PREFIX REDIRECT (SEO FIX)
   # Redirect URLs without language prefix to /fr/ (default)
   # ===========================================
   RewriteCond %{REQUEST_URI} !^/(fr|nl|en|de|tr)(/|$)
@@ -44,11 +49,11 @@
   RewriteCond %{REQUEST_URI} !^/locales
   RewriteCond %{REQUEST_URI} !^/sitemap\.xml$
   RewriteCond %{REQUEST_URI} !^/robots\.txt$
+  RewriteCond %{REQUEST_URI} !^/llms\.txt$
   RewriteCond %{REQUEST_URI} !^/favicon
   RewriteCond %{REQUEST_URI} !^/index\.html$
   RewriteCond %{REQUEST_URI} !^/200\.html$
   RewriteCond %{REQUEST_URI} !^/404\.html$
-  RewriteCond %{REQUEST_URI} !^/$
   RewriteCond %{REQUEST_URI} !\.
   RewriteRule ^(.+)$ /fr/$1 [R=301,L]
 
@@ -142,7 +147,7 @@ ErrorDocument 403 /index.html
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
   <FilesMatch "\.(html|htm)$">
-    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Cache-Control "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400"
   </FilesMatch>
   <FilesMatch "^sitemap\.xml$">
     Header set Cache-Control "public, max-age=86400"
@@ -168,8 +173,8 @@ ErrorDocument 403 /index.html
   # Permissions policy — disable unused browser APIs
   Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(self), interest-cohort=(), payment=()"
 
-  # Content Security Policy — allows GA4, Meta Pixel, Google Fonts, Sanity CMS
-  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https: blob:; connect-src 'self' https://www.google-analytics.com https://connect.facebook.net https://*.sanity.io https://*.apicdn.sanity.io; frame-src 'self' https://www.facebook.com https://www.youtube.com https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'self';"
+  # Content Security Policy — allows GA4, Meta Pixel, Sanity CMS (fonts self-hosted)
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https: blob:; connect-src 'self' https://www.google-analytics.com https://connect.facebook.net https://*.sanity.io https://*.apicdn.sanity.io; frame-src 'self' https://www.facebook.com https://www.youtube.com https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'self';"
 
   # Remove server signature
   Header unset Server
