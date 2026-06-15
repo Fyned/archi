@@ -1,8 +1,8 @@
 # SEO Weekly Report — archi.constructionveranda.com
-## Date: 2026-05-25
+## Date: 2026-06-15
 ## Type: Weekly Check
 ## Baseline: 58/100 (Full audit 2026-03-18 → SEO-AUDIT-2026-03-18.md)
-## Previous Report: 2026-05-18 (~66/100)
+## Previous Report: 2026-05-25 (~66/100)
 
 ---
 
@@ -16,28 +16,31 @@
 | 2026-04-10 | Full 6-Agent Audit | 61/100 | Deep analysis — content/E-E-A-T/hreflang issues |
 | 2026-04-13 | Weekly | ~64/100 | 6 critical fixes applied; content/E-E-A-T gaps remain |
 | 2026-05-18 | Weekly | ~66/100 | PrivacyPage fixed; ServicesPage broken meta key discovered |
-| **2026-05-25** | **Weekly** | **~66/100** | **No commits this week — 0 changes since last report** |
+| 2026-05-25 | Weekly | ~66/100 | No commits this week — 0 changes since last report |
+| **2026-06-15** | **Weekly** | **~66/100** | **No commits since 2026-05-18 — all open bugs persist (4 weeks stale)** |
 
-**Δ vs last report: 0** — No code commits since `32f5f77` (2026-05-18). All open bugs from last week persist unchanged.
+**Δ vs last report (2026-05-25): 0** — No code commits since `32f5f77` (2026-05-18). All open bugs carry forward unchanged for the third consecutive week.
 
 ---
 
-## Comparison vs Previous Report (2026-05-18)
+## Comparison vs Previous Report (2026-05-25)
 
-| Check | 2026-05-18 | 2026-05-25 | Δ |
+| Check | 2026-05-25 | 2026-06-15 | Δ |
 |-------|-----------|-----------|---|
 | Sitemap URL count | 95 | 95 | → |
 | Broken internal links | 0 | 0 | → |
-| Schema types present | 3 files, 5 types | 3 files, 5 types | → |
+| Schema files / types | 3 files, 5 types | 3 files, 5 types | → |
 | Missing schemas | 2 | 2 | → |
 | Meta tag bugs | 1 (ServicesPage) | 1 (ServicesPage) | → |
-| Blog posts needing refresh | 0 | 0 | → |
+| Blog posts needing refresh (>180 days) | 0 | 0 | → |
 | Images without alt | 0 | 0 | → |
 | **Overall score** | **~66/100** | **~66/100** | **→** |
 
 **Improvements this week:** None — no commits.
 **Regressions this week:** None.
-**Open bugs (carry-forward):** ServicesPage meta description (8 days), thin content (45+ days), 2 missing schemas (45+ days), ContactPage weak description (ongoing).
+**Open bugs (carry-forward):** ServicesPage meta description broken (4 weeks), ContactPage weak description (ongoing), 2 missing schemas (9+ weeks), thin content on 5 pages (9+ weeks).
+
+> **⚠️ Plateau alert:** Score has been stuck at ~66/100 for 3 consecutive weekly reports (2026-05-18 → 2026-05-25 → 2026-06-15). No action has been taken on any of the open bugs. Every week of delay costs crawl authority on the ServicesPage (the key conversion page). Critical fix #1 below is a 5-minute change that has now been open for 4 weeks.
 
 ---
 
@@ -54,11 +57,11 @@
 | SearchAction schema (invalid) | ❌ Present | ✅ Removed | Resolved |
 | FAQPage schema (invalid per 2023 guidelines) | ❌ Present | ✅ Removed | Resolved |
 | PrivacyPolicyPage Helmet missing | ❌ | ✅ Fixed | Resolved |
-| VideoObject schema | ❌ Missing | ❌ Still missing | **Open** |
-| ItemList/Service schema on ServicesPage | ❌ Missing | ❌ Still missing | **Open** |
-| ServicesPage meta description key | N/A | ❌ Wrong key | **New bug** |
-| Thin content (HomePage, About, services) | ❌ | ❌ Unchanged | **Open** |
-| **Baseline score** | **58/100** | **~66/100** | **+8** |
+| Video Object schema | ❌ Missing | ❌ Still missing | **Open — 9 weeks** |
+| ItemList/Service schema on ServicesPage | ❌ Missing | ❌ Still missing | **Open — 9 weeks** |
+| ServicesPage meta description key | N/A | ❌ Wrong key | **Open — 4 weeks** |
+| Thin content (HomePage, About, services) | ❌ | ❌ Unchanged | **Open — 9+ weeks** |
+| **Baseline score** | **58/100** | **~66/100** | **+8 pts** |
 
 ---
 
@@ -68,7 +71,7 @@
 
 **Total URLs: 95** ✅
 
-Counted via `grep -c '<url>' public/sitemap.xml` → **95**.
+Counted via `grep -c '<url>' public/sitemap.xml` → **95**. Unchanged from previous report.
 
 | Page Type | Languages | URLs |
 |-----------|-----------|------|
@@ -94,7 +97,7 @@ Counted via `grep -c '<url>' public/sitemap.xml` → **95**.
 
 **Coverage vs App.tsx routes:**
 
-All 15 page types defined in `src/App.tsx` are represented in the sitemap:
+All 15 page types defined in `src/App.tsx` are represented in the sitemap.
 
 | App.tsx Route | In Sitemap | Notes |
 |--------------|-----------|-------|
@@ -122,9 +125,7 @@ All 15 page types defined in `src/App.tsx` are represented in the sitemap:
 | Blog posts batch 2 (6 posts) | 2026-04-06 | ✅ |
 | Blog posts batch 1 (4 posts) | 2026-03-18 | ✅ |
 
-**No new pages or posts added since last report** → sitemap count unchanged at 95. ✅
-
-**⚠️ Note:** Sitemap points to `https://archi.constructionveranda.com/sitemap.xml` in `robots.txt`, but the physical file is at `public/sitemap.xml` (Vite serves this as `/sitemap.xml`). This is correct. ✅
+No new pages or posts since last report → sitemap count unchanged at 95. ✅
 
 ---
 
@@ -134,19 +135,18 @@ All 15 page types defined in `src/App.tsx` are represented in the sitemap:
 
 | File | Schema Type(s) | Status |
 |------|---------------|--------|
-| `index.html` (static, lines 30, 176, 191) | HomeAndConstructionBusiness, WebSite, additional service schemas | ✅ |
-| `src/pages/BlogPostPage.tsx` (lines 248, 272) | BlogPosting, BreadcrumbList | ✅ |
-| `src/pages/ServiceDetailPage.tsx` (lines 388, 399) | BreadcrumbList, Service | ✅ |
+| `index.html` | HomeAndConstructionBusiness, WebSite | ✅ |
+| `src/pages/BlogPostPage.tsx` | BlogPosting, BreadcrumbList | ✅ |
+| `src/pages/ServiceDetailPage.tsx` | BreadcrumbList, Service | ✅ |
 
-**Missing schemas (carry-forward from 2026-04-10):**
+**Missing schemas (carry-forward — open since 2026-04-10, now 9 weeks):**
 
 | Page | Missing Schema | SEO Impact | Priority |
 |------|---------------|-----------|---------|
-| `VideoGalleryPage.tsx` | `VideoObject` | Cannot qualify for video rich results in SERP | High |
-| `ServicesPage.tsx` | `ItemList` or `Service` listing | No service listing rich results | Medium |
+| `VideoGalleryPage.tsx` | `VideoObject` | Cannot qualify for video rich results in SERP | 🔴 High |
+| `ServicesPage.tsx` | `ItemList` or `Service` listing | No service listing rich results | 🟡 Medium |
 
-**Gap vs baseline:** Baseline had 4 missing schemas → now 2 missing → +2 resolved. ✅
-Both remaining gaps have been open since April 10 without action.
+**Gap vs baseline (2026-03-18):** Baseline had 4 missing schemas → now 2 → +2 resolved. ✅ Both remaining gaps open 9 consecutive weeks.
 
 ---
 
@@ -158,9 +158,9 @@ Both remaining gaps have been open since April 10 without action.
 
 **Evidence:**
 
-1. **Navigation (`Header.tsx`):** All nav items use `localizedPath(item.href)` hook which dynamically prepends the current language prefix. No hardcoded `/fr/...` paths. All target hrefs (`/`, `/about`, `/services`, `/services/pergola`, `/services/veranda`, `/services/carport`, `/services/window`, `/services/shutter`, `/services/garage`, `/projects`, `/portfolio`, `/videos`, `/blog`, `/marketplace`, `/contact`, `/quote`) are valid routes in `App.tsx`. ✅
+1. **Navigation (`Header.tsx`):** All nav items use `localizedPath(item.href)` hook for dynamic language-prefix prepending. No hardcoded `/fr/...` paths. All target hrefs (`/`, `/about`, `/services`, `/services/pergola`, `/services/veranda`, `/services/carport`, `/services/window`, `/services/shutter`, `/services/garage`, `/projects`, `/portfolio`, `/videos`, `/blog`, `/marketplace`, `/contact`, `/quote`) are valid routes in `App.tsx`. ✅
 
-2. **Blog post serviceLinks** (verified against App.tsx):
+2. **Blog post serviceLinks** (verified against App.tsx routes):
 
 | Slug | serviceLink | Valid Route? |
 |------|------------|-------------|
@@ -175,7 +175,9 @@ Both remaining gaps have been open since April 10 without action.
 | carport-aluminium-namur | `/services/carport` | ✅ |
 | pergola-prix-m2-belgique-2026 | `/services/pergola` | ✅ |
 
-3. **Root redirects in App.tsx:** All 11 root-level `<Navigate>` redirects (`/`, `/about`, `/services`, `/services/:serviceId`, `/projects`, `/projects/:projectId`, `/contact`, `/quote`, `/privacy`, `/videos`, `/marketplace`, `/blog`, `/blog/:slug`, `/portfolio`) correctly redirect to `/fr/...` equivalents. ✅
+3. **Root redirects in App.tsx:** All root-level `<Navigate>` redirects correctly point to `/fr/...` equivalents. ✅
+
+**Cross-linking opportunity (not a bug, but a gap):** `ServiceDetailPage` pages do not cross-link to related services. For example, the pergola page has no link to the veranda or carport pages. Adding 2-3 related-service links per service detail page would improve crawl depth and topical authority.
 
 ---
 
@@ -187,11 +189,11 @@ Both remaining gaps have been open since April 10 without action.
 |-----------|--------|-------|-------------|-----------|--------|
 | `HomePage.tsx` | ✅ | `t('meta.title')` | `t('meta.description')` | Via HreflangTags | ✅ OK |
 | `AboutPage.tsx` | ✅ | `t('about:meta.title')` | `t('about:meta.description')` | Via HreflangTags | ✅ OK |
-| **`ServicesPage.tsx`** | ✅ | `t('nav.services')` ⚠️ | **`t('services:meta.description')`** ❌ | Via HreflangTags | 🔴 **BUG** |
+| **`ServicesPage.tsx`** | ✅ | `t('nav.services')` | **`t('services:meta.description')`** | Via HreflangTags | 🔴 **BUG** |
 | `ServiceDetailPage.tsx` | ✅ | Dynamic service title | `t('services:meta.${service}.description')` | Inline `<link>` | ✅ OK |
 | `ProjectsPage.tsx` | ✅ | `t('title')` | `t('meta.description')` | Via HreflangTags | ✅ OK |
 | `ProjectDetailPage.tsx` | ✅ | `t('gallery:${project.titleKey}')` | Dynamic title+location | Via HreflangTags | ✅ OK |
-| `ContactPage.tsx` | ✅ | `t('contact:hero.title')` | `t('contact:hero.subtitle')` ⚠️ | Via HreflangTags | 🟡 Weak |
+| `ContactPage.tsx` | ✅ | `t('contact:hero.title')` | `t('contact:hero.subtitle')` | Via HreflangTags | 🟡 Weak |
 | `QuotePage.tsx` | ✅ | `t('meta.title')` | `t('meta.description')` | Via HreflangTags | ✅ OK |
 | `BlogPage.tsx` | ✅ | `t('blog:meta.title')` | `t('blog:meta.description')` | Inline `<link>` | ✅ OK |
 | `BlogPostPage.tsx` | ✅ | `t('blog:posts.${slug}.title')` | `t('blog:posts.${slug}.excerpt')` | Inline `<link>` | ✅ OK |
@@ -200,62 +202,46 @@ Both remaining gaps have been open since April 10 without action.
 | `MarketplacePage.tsx` | ✅ | `t('marketplace:meta.title')` | `t('marketplace:meta.description')` | Via HreflangTags | ✅ OK |
 | `PrivacyPolicyPage.tsx` | ✅ | `t('title')` | `t('intro')` | Inline `<link>` | ✅ OK |
 
-**Canonical strategy:** `src/components/seo/HreflangTags.tsx` injects `<link rel="canonical">` (with trailing-slash enforcement) on every page via the `<Layout>` component. Individual pages may additionally set an inline canonical via Helmet (BlogPage, BlogPostPage, ServiceDetailPage, PrivacyPolicyPage). All pages have canonical coverage. ✅
+**Canonical strategy:** `src/components/seo/HreflangTags.tsx` injects `<link rel="canonical">` (with trailing-slash enforcement) on every page via the `<Layout>` component. All pages have canonical coverage. ✅
 
 ---
 
-#### 🔴 OPEN BUG — ServicesPage meta description (1 week open, priority: HIGH)
+#### 🔴 OPEN BUG — ServicesPage meta description (4 weeks open — HIGH PRIORITY)
 
 **File:** `src/pages/ServicesPage.tsx:48`
 **Code:** `<meta name="description" content={t('services:meta.description')} />`
-**Problem:** Key `meta.description` does NOT exist in `src/locales/fr/services.json`.
+**Problem:** Key `meta.description` does NOT exist in `src/locales/fr/services.json`. The correct structure uses `overview.description`, not `meta.description`. i18next returns the raw key literal `"services:meta.description"` in production.
 
-The actual JSON structure (verified at `src/locales/fr/services.json:1-6`):
-```json
-{
-  "overview": {       ← NOT "meta"
-    "title": "Nos Services",
-    "subtitle": "...",
-    "description": "Des pergolas bioclimatiques aux vérandas en aluminium..."
-  },
-  "pergola": { ... }
-}
-```
-
-i18next returns the key literal `"services:meta.description"` as content — this is the rendered meta description in production.
-
-**Fix (1-line change):**
+**Fix (2-line change):**
 ```tsx
-// ServicesPage.tsx:47-48
+// ServicesPage.tsx lines 47-50 — change two wrong keys:
 <title>{t('services:overview.title')} | Archi Construction & Veranda</title>
 <meta name="description" content={t('services:overview.description')} />
-```
-
-Also fix line 50 (OG description, same wrong key):
-```tsx
+// Also fix OG tag on line ~50:
 <meta property="og:description" content={t('services:overview.description')} />
 ```
 
-> **Note:** The previous report (2026-05-18) listed the correct path as `meta.overview.description` — this was inaccurate. The actual correct path confirmed by reading the source file is `overview.description` (there is no `meta` key at all).
+**Age of bug:** Discovered 2026-05-18. Now open **4 weeks**. This is the key conversion page — every crawl until this is fixed returns a literal key string as the meta description.
 
 ---
 
 #### 🟡 ContactPage description weak (ongoing)
 
-`ContactPage.tsx:80` uses `t('contact:hero.subtitle')` → "Contactez-nous pour un conseil gratuit et sans engagement" (~62 chars). Not keyword-targeted. `contact.json` has no `meta` section.
+`ContactPage.tsx:80` uses `t('contact:hero.subtitle')` → resolves to ~62 chars with no keyword targeting. `contact.json` has no `meta` section.
 
-**Recommended fix:** Add `meta.description` to `src/locales/fr/contact.json`:
+**Recommended fix:** Add `meta.description` to `src/locales/*/contact.json` (all 5 locales):
 ```json
 "meta": {
   "description": "Contactez Archi Construction & Véranda à Charleroi pour vos projets de pergola, véranda et carport. Devis gratuit, réponse sous 48h, intervention dans tout le Hainaut."
 }
 ```
+Then update `ContactPage.tsx:80` to use `t('contact:meta.description')`.
 
 ---
 
 ### 5. robots.txt Audit
 
-**File:** `public/robots.txt` — full analysis:
+**File:** `public/robots.txt`
 
 ```
 User-agent: *              Allow: /          ✅ All crawlers welcome
@@ -268,18 +254,16 @@ User-agent: Bingbot        Allow: /          ✅
 User-agent: facebookexternalhit  Allow: /   ✅
 User-agent: Twitterbot     Allow: /          ✅
 User-agent: GPTBot         Allow: /          ✅ AI search visibility
+User-agent: OAI-SearchBot  Allow: /          ✅
 User-agent: ClaudeBot      Allow: /          ✅
 User-agent: PerplexityBot  Allow: /          ✅
 User-agent: anthropic-ai   Allow: /          ✅
 User-agent: CCBot          Disallow: /       ✅ Training crawler blocked
 
-Sitemap directive          Present           ✅ → /sitemap.xml
+Sitemap: https://archi.constructionveranda.com/sitemap.xml  ✅
 ```
 
-**Sitemap URL in robots.txt:** `https://archi.constructionveranda.com/sitemap.xml`
-**⚠️ Minor discrepancy:** Sitemap is at `/sitemap.xml` in robots.txt, but HTML references would use `public/sitemap.xml` → Vite correctly serves this as `/sitemap.xml`. ✅
-
-**Result: PASS** — No important pages blocked. No public pages excluded. AI search crawlers (ChatGPT, Claude, Perplexity) allowed for AI-generated search result visibility. ✅
+**Result: PASS** — No important pages blocked. All major search and AI crawlers explicitly allowed. `robots.txt` correctly points to production sitemap URL. ✅
 
 ---
 
@@ -287,28 +271,28 @@ Sitemap directive          Present           ✅ → /sitemap.xml
 
 ### 6. Blog Post Freshness Audit
 
-> **Architecture note (carry-forward):** Post publication dates are stored in `src/pages/BlogPostPage.tsx` (`blogPostsData` object), not in the i18n locale files. `blog.json` contains translatable text only (title, excerpt, content sections). This split creates maintenance risk — date/category data may drift from sitemap `<lastmod>` values over time.
+> **Architecture note (carry-forward):** Post dates are stored in `src/pages/BlogPostPage.tsx` (`blogPostsData`), not in locale files. `blog.json` contains translatable text only. This split creates maintenance risk — date data may drift from sitemap `<lastmod>` over time.
 
-**6-month threshold: 2025-11-25** (2026-05-25 minus 180 days)
+**6-month threshold: 2025-12-15** (2026-06-15 minus 180 days)
 
-**All 10 posts verified from sitemap `<lastmod>` dates:**
+**All 10 posts verified:**
 
 | Slug | Published | Age (days) | 6-Month Threshold | Status |
 |------|-----------|-----------|------------------|--------|
-| pergola-bioclimatique-guide-complet | 2026-04-06 | 49 | 2025-11-25 | ✅ Fresh |
-| veranda-aluminium-vs-pvc | 2026-04-06 | 49 | 2025-11-25 | ✅ Fresh |
-| carport-solaire-belgique | 2026-04-06 | 49 | 2025-11-25 | ✅ Fresh |
-| entretien-pergola-aluminium | 2026-04-06 | 49 | 2025-11-25 | ✅ Fresh |
-| permis-urbanisme-belgique | 2026-04-06 | 49 | 2025-11-25 | ✅ Fresh |
-| tendances-outdoor-2026 | 2026-04-06 | 49 | 2025-11-25 | ✅ Fresh |
-| pergola-bioclimatique-charleroi | 2026-03-18 | 68 | 2025-11-25 | ✅ Fresh |
-| veranda-aluminium-bruxelles | 2026-03-18 | 68 | 2025-11-25 | ✅ Fresh |
-| carport-aluminium-namur | 2026-03-18 | 68 | 2025-11-25 | ✅ Fresh |
-| pergola-prix-m2-belgique-2026 | 2026-03-18 | 68 | 2025-11-25 | ✅ Fresh |
+| pergola-bioclimatique-guide-complet | 2026-04-06 | 70 | 2025-12-15 | ✅ Fresh |
+| veranda-aluminium-vs-pvc | 2026-04-06 | 70 | 2025-12-15 | ✅ Fresh |
+| carport-solaire-belgique | 2026-04-06 | 70 | 2025-12-15 | ✅ Fresh |
+| entretien-pergola-aluminium | 2026-04-06 | 70 | 2025-12-15 | ✅ Fresh |
+| permis-urbanisme-belgique | 2026-04-06 | 70 | 2025-12-15 | ✅ Fresh |
+| tendances-outdoor-2026 | 2026-04-06 | 70 | 2025-12-15 | ✅ Fresh |
+| pergola-bioclimatique-charleroi | 2026-03-18 | 89 | 2025-12-15 | ✅ Fresh |
+| veranda-aluminium-bruxelles | 2026-03-18 | 89 | 2025-12-15 | ✅ Fresh |
+| carport-aluminium-namur | 2026-03-18 | 89 | 2025-12-15 | ✅ Fresh |
+| pergola-prix-m2-belgique-2026 | 2026-03-18 | 89 | 2025-12-15 | ✅ Fresh |
 
-**Result: 0 posts flagged for refresh.** Oldest post is 68 days — well below the 180-day threshold. ✅
+**Result: 0 posts flagged for refresh.** Oldest post is 89 days — well below the 180-day threshold. ✅
 
-**⚠️ Content depth concern (open since 2026-04-10):** Blog posts average ~640 words against a target of 1,500+ words. No content expansion commits made since April 13. Recommend prioritizing word count for the 4 oldest posts (March batch) as they approach 2 months.
+**⚠️ Approaching milestone:** The March batch posts will hit 6 months on **2026-09-18**. The April batch will hit 6 months on **2026-10-06**. No content has been expanded since publication — at current word count (~640 avg) these posts are below target depth (1,500+ words). Recommend beginning word count expansion work now rather than waiting until they become stale.
 
 ---
 
@@ -332,9 +316,9 @@ Sitemap directive          Present           ✅ → /sitemap.xml
 | MarketplacePage | `marketplace:meta.description` | ~113 | ✅ | ✅ |
 | PrivacyPolicyPage | `privacy:intro` | ~100 | ✅ | ✅ |
 
-**No duplicate descriptions found** between unique pages. Each has distinct content (where keys resolve correctly). ✅
+**No duplicate descriptions** between distinct pages (where keys resolve correctly). ✅
 
-**Thin page content (unchanged from 2026-04-10 — no content commits in 45 days):**
+**Thin page content (open since 2026-04-10 — no content commits in 9+ weeks):**
 
 | Page | Est. Word Count | Target | Gap | Priority |
 |------|----------------|--------|-----|---------|
@@ -344,7 +328,7 @@ Sitemap directive          Present           ✅ → /sitemap.xml
 | Garage service detail | ~200 | 800+ | ❌ −600w | High |
 | Blog posts (avg) | ~640 | 1,500+ | ❌ −860w | Medium |
 
-**Similar page risk:** `ServicesPage` and individual `ServiceDetailPage` pages target overlapping keywords (e.g., "pergola Belgique"). They are differentiated by intent (overview vs detail), but the gap in `ServicesPage` meta tags (bug above) weakens the distinction. Fix the meta bug to restore differentiation. ⚠️
+**Similar page risk:** `ServicesPage` and individual `ServiceDetailPage` pages target overlapping keywords. They are differentiated by intent (overview vs. detail), but the meta key bug on `ServicesPage` weakens this distinction further. Fixing the meta bug restores differentiation. ⚠️
 
 ---
 
@@ -354,41 +338,42 @@ Based on existing blog post coverage, service page keywords, and identified geo/
 
 ---
 
-**Idea 1 — "Poolhouse aluminium et bois en Belgique: Prix, permis et guide 2026"**
+**Idea 1 — "Poolhouse aluminium en Belgique : prix, permis et guide 2026"**
 - **Keyword gap:** Portfolio page shows poolhouse projects; no service page or blog post targets this cluster.
-- **Target keywords:** `poolhouse belgique prix`, `poolhouse aluminium bois`, `construction poolhouse wallonie`, `poolhouse permis belgique`
-- **Monthly search volume (estimated):** 800–1,500 (Belgique FR), high commercial intent
+- **Target keywords:** `poolhouse belgique prix`, `poolhouse aluminium`, `construction poolhouse wallonie`, `poolhouse permis belgique`
+- **Monthly search volume (est.):** 800–1,500 (Belgium FR), high commercial intent
 - **Suggested URL:** `/fr/blog/poolhouse-belgique-prix-guide-2026`
-- **Why now:** Spring/summer is peak season for outdoor pool-adjacent construction. No content is live to capture this traffic. Directly adjacent to existing pergola/veranda services.
-- **Internal linking:** From HomePage hero → ServicesPage → new post → Quote CTA
+- **Why now:** Summer peak season for outdoor/pool-adjacent construction. No content live to capture this traffic. Directly adjacent to existing pergola and veranda services.
+- **Internal linking:** HomePage hero → ServicesPage → new post → Quote CTA
 
 ---
 
-**Idea 2 — "Pergola bioclimatique à Liège: Installateur local, prix et délais 2026"**
-- **Keyword gap:** Geo-targeted posts cover Charleroi (post exists), Bruxelles (post exists), Namur (post exists) — Liège (Belgium's 4th largest city, 200k+ inhabitants) has no coverage.
-- **Target keywords:** `pergola bioclimatique liège`, `pergola liège prix`, `installateur pergola liège`, `pergola aluminium liège`
-- **Monthly search volume (estimated):** 400–900 (Liège region FR)
+**Idea 2 — "Pergola bioclimatique à Liège : installateur local, prix et délais 2026"** ⭐ Priority 1
+- **Keyword gap:** Geo-targeted posts cover Charleroi, Bruxelles, Namur — Liège (Belgium's 4th city, 200k+ inhabitants) has zero coverage.
+- **Target keywords:** `pergola bioclimatique liège`, `pergola liège prix`, `installateur pergola liège`
+- **Monthly search volume (est.):** 400–900 (Liège region FR)
 - **Suggested URL:** `/fr/blog/pergola-bioclimatique-liege`
-- **Why now:** This was recommended in the 2026-04-13 report and again in 2026-05-18 — now elevated to **Priority 1**. Easy to create by adapting existing Charleroi post with Liège-specific pricing and permit info (PCAR context for Liège region).
-- **Internal linking:** From `pergola-bioclimatique-guide-complet` → new Liège post → `/services/pergola` CTA
+- **Why now:** Recommended in 2026-04-13 and 2026-05-18 reports — now recommended for a 3rd consecutive time. Easy adapt from existing Charleroi post with Liège-specific permit context.
+- **Effort:** ~2 hours
+- **Internal linking:** From `pergola-bioclimatique-guide-complet` → new post → `/services/pergola` CTA
 
 ---
 
-**Idea 3 — "Pergola bioclimatique vs tonnelle vs auvent: quel choix pour votre terrasse?"**
-- **Keyword gap:** No decision-funnel / comparison content exists. Users researching pergola alternatives are served by competitors.
+**Idea 3 — "Pergola bioclimatique vs tonnelle vs auvent : quel choix pour votre terrasse ?"**
+- **Keyword gap:** No decision-funnel / comparison content exists. Users researching pergola alternatives go to competitors.
 - **Target keywords:** `pergola vs tonnelle`, `pergola vs auvent`, `difference pergola bioclimatique`, `quelle structure terrasse belgique`
-- **Monthly search volume (estimated):** 600–1,200 (Belgium + France spill)
+- **Monthly search volume (est.):** 600–1,200 (Belgium + France spill)
 - **Suggested URL:** `/fr/blog/pergola-vs-tonnelle-vs-auvent-terrasse-belgique`
-- **Why now:** High-intent comparison content captures users early in the funnel (Awareness stage) and nurtures toward the pergola page. No existing post covers this angle. Easy to write with existing expertise.
+- **Why now:** Top-of-funnel comparison content captures early-stage users and nurtures toward the pergola service page. No existing post covers this angle.
 - **Internal linking:** Comparison table → `/services/pergola`, `/services/veranda` → Quote CTA
 
 ---
 
 ### 9. Image Alt Tag Audit
 
-**Method:** Grepped all `<img` element occurrences across `src/` TSX files; cross-referenced with `alt=` attribute presence on each element.
+**Method:** Grepped all `<img` elements across `src/` TSX files; checked `alt=` attribute presence.
 
-**Total direct `<img>` elements found: 20+** (exact count: ~20, previous report: 22)
+**Total `<img>` elements found:** ~20+
 
 | File | `<img>` Count | alt= Present | Alt Content Type |
 |------|-------------|-------------|-----------------|
@@ -400,30 +385,23 @@ Based on existing blog post coverage, service page keywords, and identified geo/
 | `components/forms/QuoteForm/Step1ProjectType.tsx:54` | 1 | ✅ | i18n project type title |
 | `pages/AboutPage.tsx:61` | 1 | ✅ | `t('about:story.team')` |
 | `pages/ServiceDetailPage.tsx:544` | 1 | ✅ | Dynamic alt + index fallback |
-| `pages/ProjectDetailPage.tsx:144` | 1 | ✅ | `t('gallery:${project.titleKey}')` |
-| `pages/ProjectDetailPage.tsx:217` | 1 (gallery map) | ✅ | title + index |
-| `pages/ProjectDetailPage.tsx:319` | 1 | ✅ | `t('gallery:${relProject.titleKey}')` |
-| `pages/BlogPage.tsx:149` | 1 | ✅ | `t('blog:posts.${id}.title')` |
-| `pages/BlogPage.tsx:197` | 1 (post list) | ✅ | `t('blog:posts.${post.id}.title')` |
-| `pages/BlogPostPage.tsx:306` | 1 | ✅ | `t('blog:posts.${slug}.title')` |
-| `pages/BlogPostPage.tsx:379` | 1 (gallery 1) | ✅ | title + index |
-| `pages/BlogPostPage.tsx:398` | 1 (gallery 2) | ✅ | title + index |
-| `pages/BlogPostPage.tsx:473` | 1 (related) | ✅ | `t('blog:posts.${relatedSlug}.title')` |
-| _(CardImage wrappers in ProjectsPage, ServicesPage, PortfolioPage, FeaturedProjects)_ | ~3 each | ✅ | alt prop passed through |
+| `pages/ProjectDetailPage.tsx:144,217,319` | 3 | ✅ | `t('gallery:${project.titleKey}')` / title+index |
+| `pages/BlogPage.tsx:149,197` | 2 | ✅ | `t('blog:posts.${id}.title')` |
+| `pages/BlogPostPage.tsx:306,379,398,473` | 4 | ✅ | Post title or title+index |
+| _(CardImage wrappers — ProjectsPage, ServicesPage, PortfolioPage, FeaturedProjects)_ | ~3+ | ✅ | alt prop passed through |
 
-**Elements with empty/decorative alt (`alt=""`):** 0 found — no purely decorative images.
+**Elements with empty/decorative alt (`alt=""`):** 0 found.
+**Elements missing alt entirely:** 0 found.
 
-**Result: All images have descriptive alt text. PASS** ✅
-
-No regressions vs last report (no code changes this week).
+**Result: All images have descriptive alt text. PASS** ✅ No regressions vs previous report.
 
 ---
 
 ## PART 3 — MONTHLY (Skipped)
 
-> **Today is 2026-05-25 (day 25).** Monthly checks (tasks 10–12: meta description duplicate audit across all locales, internal linking structure / orphan page analysis, bundle size performance check) are only run on **days 1–7 of the month**. Skipping.
+> **Today is 2026-06-15 (day 15 of month).** Monthly checks (tasks 10–12: full meta description duplicate audit across all locale files, internal linking structure / orphan page analysis, bundle size performance check in `dist/assets/`) are only run on **days 1–7 of the month**. Skipping.
 >
-> Next monthly check: **2026-06-01 through 2026-06-07**.
+> Next monthly window: **2026-07-01 through 2026-07-07**.
 
 ---
 
@@ -431,29 +409,30 @@ No regressions vs last report (no code changes this week).
 
 ### 🔴 CRITICAL — Fix Before Next Crawl
 
-| # | Issue | File | Fix | Effort |
-|---|-------|------|-----|--------|
-| 1 | ServicesPage meta description returns key literal | `src/pages/ServicesPage.tsx:48,50` | Change `t('services:meta.description')` → `t('services:overview.description')` | 5 min |
+| # | Issue | File | Fix | Effort | Open Since |
+|---|-------|------|-----|--------|-----------|
+| 1 | ServicesPage meta description returns key literal | `src/pages/ServicesPage.tsx:48,50` | Change `t('services:meta.description')` → `t('services:overview.description')` (2 lines) | **5 min** | 2026-05-18 (4 wks) |
 
-### 🟡 HIGH — Fix This Week
+### 🟡 HIGH — Fix This Sprint
 
-| # | Issue | File | Fix | Effort |
-|---|-------|------|-----|--------|
-| 2 | ContactPage description not keyword-targeted | `src/locales/fr/contact.json` + `ContactPage.tsx:80` | Add `meta` section to contact.json, update tsx | 30 min |
-| 3 | Missing VideoObject schema | `src/pages/VideoGalleryPage.tsx` | Add VideoObject JSON-LD for each video | 1 hr |
-| 4 | Publish Liège geo blog post | `src/locales/fr/blog.json` + sitemap | Adapt Charleroi post for Liège | 2 hr |
+| # | Issue | File | Fix | Effort | Open Since |
+|---|-------|------|-----|--------|-----------|
+| 2 | ContactPage description not keyword-targeted | `src/locales/*/contact.json` + `ContactPage.tsx:80` | Add `meta` section to contact.json (all 5 locales), update tsx | 30 min | Ongoing |
+| 3 | Missing VideoObject schema | `src/pages/VideoGalleryPage.tsx` | Add VideoObject JSON-LD for each video | 1 hr | 2026-04-10 (9 wks) |
+| 4 | Publish Liège geo blog post | `src/locales/fr/blog.json` + `public/sitemap.xml` | Adapt Charleroi post for Liège, add sitemap entry | 2 hr | Requested 3× |
 
 ### 🟠 MEDIUM — Backlog
 
 | # | Issue | Fix | Effort |
 |---|-------|-----|--------|
-| 5 | Thin content: HomePage (~310w) | Expand hero + intro copy | 2 hr |
+| 5 | Thin content: HomePage (~310w) | Expand hero + intro copy in home.json | 2 hr |
 | 6 | Thin content: Shutter service (~200w) | Add content sections to services.json | 3 hr |
 | 7 | Thin content: Garage service (~200w) | Add content sections to services.json | 3 hr |
-| 8 | Blog posts word count avg ~640w (target 1,500+) | Expand existing 4 posts | 4 hr |
+| 8 | Blog posts word count avg ~640w → target 1,500+ | Expand existing 4 March posts | 4 hr |
 | 9 | Missing ItemList schema on ServicesPage | `src/pages/ServicesPage.tsx` | 1 hr |
 | 10 | HomePage meta 154c / Portfolio meta 158c (over 155c) | Trim 1-3 chars each | 15 min |
 | 11 | AboutPage thin content (~180w) | Expand story + team section | 2 hr |
+| 12 | Service detail cross-links | Add 2-3 related-service links per ServiceDetailPage | 1 hr |
 
 ---
 
@@ -470,8 +449,8 @@ No regressions vs last report (no code changes this week).
 | AI Search Readiness | 5% | 82 | 4.1 |
 | **TOTAL** | **100%** | | **~67.85 ≈ 66/100** |
 
-**Quick wins available:** Fixing the ServicesPage meta bug (#1) alone recovers ~1-2 points. Publishing the Liège geo post (#4) + ContactPage description fix (#2) together recovers ~2-3 points. Potential score with all critical+high items done: **~70/100**.
+**Quick wins available:** Fixing the ServicesPage meta bug (#1, 5 minutes) recovers ~1-2 points. Publishing the Liège post (#4) + fixing ContactPage description (#2) adds ~2-3 more. **All 4 critical+high items done = ~70/100 achievable within one week.**
 
 ---
 
-*Report generated: 2026-05-25 | Audited by Claude Code | Domain: archi.constructionveranda.com*
+*Report generated: 2026-06-15 | Audited by Claude Code | Domain: archi.constructionveranda.com*
